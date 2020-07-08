@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 34.152197, lng: -83.815049},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-southeast-road-atlanta-club-race-3214',
+title: 'NASA at Road Atlanta'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 34.488343, lng: -80.597828},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-southeast-carolina-motorsports-park-club-race-3212',
+title: 'NASA at Carolina Motorsports Park'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/pca-mardi-gras-nola-motorsports-park-club-race-978354',
+title: 'PCA - Mardi Gras @ NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 35.282902, lng: -89.947386},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-south-memphis-international-raceway-club-race-3246',
+title: 'NASA at Memphis International Raceway'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/proformance-racing-school-pacific-raceways-open-track-232849',
+title: 'ProFormance Racing School @ Pacific Raceways'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 34.8711448938, lng: -118.264001452},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-vara-big-bore-bash-2020-willow-springs-intl-raceway-908727',
+title: 'LUCAS OIL VARA BIG BORE BASH 2020'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 34.089665385, lng: -117.502640265},
+map: map,
+url: 'https://motorsportreg.com/events/arosc-race-tt-auto-club-speedway-dec-8-9-racing-time-trials-hpde-634598',
+title: 'Auto Club Speedway Dec 2027'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/2020-csrg-season-finale-awards-dinner-thunderhill-raceway-park-347928',
+title: '2020 CSRG Season Finale & Awards Dinner'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 42.4897496282, lng: -89.1144206469},
+map: map,
+url: 'https://motorsportreg.com/events/midwestern-council-that-loooong-race-50-blackhawk-farms-raceway-343516',
+title: 'Midwestern Council That Loooong Race #50'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 32.232497, lng: -110.010295},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-arizona-inde-motorsports-ranch-club-race-3301',
+title: 'NASA at Inde Motorsports Ranch'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 32.168209, lng: -81.323791},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-southeast-roebling-road-raceway-club-race-3210',
+title: 'NASA at Roebling Road Raceway'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/challenge-cup-series-pittsburgh-international-race-compl-club-916136',
+title: 'Challenge Cup Series @ Pittsburgh International Race Compl'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 29.185169, lng: -81.070528},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-southeast-daytona-international-speedway-club-race-3211',
+title: 'NASA at Daytona International Speedway'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 42.2079087024, lng: -72.3021763861},
+map: map,
+url: 'https://motorsportreg.com/events/scca-new-england-club-racing-palmer-motorsports-park-race-980157',
+title: 'SCCA - New England Region - Club Racing @ Palmer Motorsports Park'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/gridlife-road-america-club-race-176290',
+title: '#GRIDLIFE @ Road America'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/v8-road-racing-west-buttonwillow-raceway-club-race-080350',
+title: 'V8 Road Racing West @ Buttonwillow Raceway'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 35.490634, lng: -119.54516},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-california-southern-buttonwillow-raceway-park-club-race-3255',
+title: 'NASA at Buttonwillow Raceway Park'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 29.185169, lng: -81.070528},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-florida-daytona-international-speedway-club-race-3199',
+title: 'NASA at Daytona International Speedway'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 38.1576714123, lng: -122.45082545},
+map: map,
+url: 'https://motorsportreg.com/events/v8-road-racing-west-sonoma-raceway-club-race-905903',
+title: 'V8 Road Racing West @ Sonoma Raceway'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-virginia-international-raceway-club-race-3391',
+title: 'NASA at VIRginia International Raceway'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 40.584074, lng: -112.373491},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-utah-motorsports-campus-club-race-3410',
+title: 'NASA at Utah Motorsports Campus'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/marrs-8-labor-day-3-event-scca-dc-summit-point-circuit-washington-club-racing-109738',
+title: 'MARRS 8 Labor Day 3-Day Event SCCA DC Region'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/ridesmart-reserved-paddock-parking-msr-houston-039714',
+title: 'Ridesmart Reserved Paddock Parking'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 40.584074, lng: -112.373491},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-utah-motorsports-campus-club-race-3335',
+title: 'NASA at Utah Motorsports Campus'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/goblins-go-virginia-international-raceway-scca-north-carolina-475255',
+title: 'Goblins Go'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/midwestern-council-double-sprint-race-6-7-road-america-madison-sports-car-club-874786',
+title: 'Midwestern Council Double Sprint Race 6 & 7'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 36.2214630472, lng: -96.5953834091},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-hallett-motor-racing-circuit-bmw-cca-lone-star-052898',
+title: 'Club Race at Hallett'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/ridesmart-reserved-paddock-parking-msr-houston-147845',
+title: 'Ridesmart Reserved Paddock Parking'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/k-n-oktoberfest-oct-4th-5th-2020-buttonwillow-raceway-vara-277717',
+title: 'K&N Oktoberfest Oct 3th -4th 2020  '
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 33.6904476583, lng: -112.156377995},
+map: map,
+url: 'https://motorsportreg.com/events/pkra-club-race-summer-9-october-10-2020-phoenix-kart-racing-association-411936',
+title: 'PKRA Club Race - Summer #9 - October 10, 2020'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/midwestern-council-na-tires-enduro-championship-4-road-america-madison-749407',
+title: 'Midwestern Council NA Tires Enduro Championship #4'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-cca-club-race-at-watkins-glen-international-racing-183629',
+title: 'BMW CCA Club Race at Watkins Glen'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/marrs-9-season-finale-scca-dc-summit-point-circuit-washington-club-racing-423530',
+title: 'MARRS 9 Season Finale SCCA DC Region'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-cca-club-race-at-cota-circuit-of-americas-racing-lone-star-798364',
+title: 'Club Race at COTA'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 39.735079, lng: -103.894894},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-rocky-mountain-high-plains-raceway-club-race-3173',
+title: 'NASA at High Plains Raceway'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/vrg-at-watkins-glen-international-vintage-racer-group-020842',
+title: 'VRG at Watkins Glen'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 38.6791051289, lng: -90.1448161547},
+map: map,
+url: 'https://motorsportreg.com/events/scca-st-louis-club-racing-worldwide-technologies-raceway-race-276905',
+title: 'SCCA - St. Louis Region - Club Racing @ Worldwide Technologies Raceway '
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/scca-south-jersey-sjr-club-racing-njmp-thunderbolt-race-698000',
+title: 'SCCA - South Jersey Region (SJR) - Club Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/scca-houston-msr-club-race-121024',
+title: 'SCCA - Houston Region @ MSR Houston'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 38.925602, lng: -95.674721},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-central-heartland-park-topeka-club-race-3262',
+title: 'NASA at Heartland Park Topeka'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 27.4508, lng: -81.352236},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-florida-sebring-international-raceway-club-race-3198',
+title: 'NASA at Sebring International Raceway'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/challenge-cup-series-summit-point-circuit-club-race-700126',
+title: 'Challenge Cup Series @ Summit Point - Summit Point Circuit'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 40.578771, lng: -98.353428},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-central-motorsports-park-hastings-club-race-3263',
+title: 'NASA at Motorsports Park Hastings'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/worker-registration-aug-7-9-2020-nhms-nerrc-5-new-hampshire-motor-380007',
+title: 'Worker Registration Aug 7-9,2020 NHMS NERRC#5'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/scca-new-england-club-racing-thompson-speedway-motorsports-park-race-240131',
+title: 'SCCA - New England Region - Club Racing @ Thompson Speedway Motorsports Park'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 17.9701047588, lng: -66.2668368218},
+map: map,
+url: 'https://motorsportreg.com/events/cccpr-2da-carrera-campeonato-20-y-track-day-salinas-speedway-club-de-845264',
+title: 'CCCPR 2da Carrera Campeonato 20 y Track Day'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-road-atlanta-michelin-raceway-bmw-cca-racing-peachtree-180121',
+title: 'Club Race at Road Atlanta'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 29.890165, lng: -90.189949},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-nola-motorsports-park-club-race-3289',
+title: 'NASA at NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 42.338281, lng: -76.926358},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-watkins-glen-international-club-race-3284',
+title: 'NASA at Watkins Glen International'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 33.6904476583, lng: -112.156377995},
+map: map,
+url: 'https://motorsportreg.com/events/pkra-club-race-summer-7-september-12-2020-phoenix-kart-racing-association-261603',
+title: 'PKRA Club Race - Summer #7 - September 12, 2020'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+var marker50 = new google.maps.Marker({
+position: {lat: 29.1844967318, lng: -81.0703702594},
+map: map,
+url: 'https://motorsportreg.com/events/daytona-drivers-school-volunteer-registration-intl-speedway-scca-central-167982',
+title: 'Daytona Drivers School Volunteer Registration'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+window.location.href = marker50.url;
+});
+var marker51 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/ridesmart-reserved-paddock-parking-msr-houston-826128',
+title: 'Ridesmart Reserved Paddock Parking'
+});
+google.maps.event.addListener(marker51, 'click', function() {
+window.location.href = marker51.url;
+});
+var marker52 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-virginia-international-raceway-club-race-3272',
+title: 'NASA at VIRginia International Raceway'
+});
+google.maps.event.addListener(marker52, 'click', function() {
+window.location.href = marker52.url;
+});
+var marker53 = new google.maps.Marker({
+position: {lat: 41.454908, lng: -88.118872},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-great-lakes-autobahn-country-club-race-3223',
+title: 'NASA at Autobahn Country Club'
+});
+google.maps.event.addListener(marker53, 'click', function() {
+window.location.href = marker53.url;
+});
+var marker54 = new google.maps.Marker({
+position: {lat: 33.6904476583, lng: -112.156377995},
+map: map,
+url: 'https://motorsportreg.com/events/pkra-club-race-summer-8-september-26-2020-phoenix-kart-racing-association-697672',
+title: 'PKRA Club Race - Summer #8 - September 26, 2020'
+});
+google.maps.event.addListener(marker54, 'click', function() {
+window.location.href = marker54.url;
+});
+var marker55 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/scca-regional-ohio-valley-f-c-mid-sports-car-course-lake-erie-communications-998302',
+title: 'SCCA Regional-Ohio Valley Region-(F&C)'
+});
+google.maps.event.addListener(marker55, 'click', function() {
+window.location.href = marker55.url;
+});
+var marker56 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/45th-annual-cascade-enduro-portland-intl-raceway-sports-car-club-racing-733119',
+title: ' 45th ANNUAL CASCADE ENDURO'
+});
+google.maps.event.addListener(marker56, 'click', function() {
+window.location.href = marker56.url;
+});
+var marker57 = new google.maps.Marker({
+position: {lat: 38.1576714123, lng: -122.45082545},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-sonoma-raceway-bmw-cca-racing-915297',
+title: 'Club Race at Sonoma'
+});
+google.maps.event.addListener(marker57, 'click', function() {
+window.location.href = marker57.url;
+});
+var marker58 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/sfr-championship-regional-13-14-worker-volunteer-weathertech-raceway-001799',
+title: 'SFR Championship Regional 13 & 14 Worker/Volunteer'
+});
+google.maps.event.addListener(marker58, 'click', function() {
+window.location.href = marker58.url;
+});
+var marker59 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/kettle-moraine-double-divisional-chicago-road-america-scca-club-racing-211332',
+title: 'Fall Sprints Double Divisional - Chicago Region'
+});
+google.maps.event.addListener(marker59, 'click', function() {
+window.location.href = marker59.url;
+});
+var marker60 = new google.maps.Marker({
+position: {lat: 43.0177915528, lng: -88.0095146055},
+map: map,
+url: 'https://motorsportreg.com/events/midwestern-council-endurance-championship-race-2-milwaukee-mile-great-650552',
+title: 'Midwestern Council Endurance Championship Race #2'
+});
+google.maps.event.addListener(marker60, 'click', function() {
+window.location.href = marker60.url;
+});
+var marker61 = new google.maps.Marker({
+position: {lat: 40.690189, lng: -82.63749},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-great-lakes-mid-ohio-sports-car-course-club-race-3224',
+title: 'NASA at Mid-Ohio Sports Car Course'
+});
+google.maps.event.addListener(marker61, 'click', function() {
+window.location.href = marker61.url;
+});
+var marker62 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/labor-day-triple-enduro-msr-houston-scca-476007',
+title: 'Labor Day Triple Enduro'
+});
+google.maps.event.addListener(marker62, 'click', function() {
+window.location.href = marker62.url;
+});
+var marker63 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-buttonwillow-raceway-bmw-cca-racing-552620',
+title: 'Club Race at Buttonwillow'
+});
+google.maps.event.addListener(marker63, 'click', function() {
+window.location.href = marker63.url;
+});
+var marker64 = new google.maps.Marker({
+position: {lat: 34.8711448938, lng: -118.264001452},
+map: map,
+url: 'https://motorsportreg.com/events/willow-springs-time-trials-races-intl-raceway-arosc-racing-hpde-253574',
+title: 'Willow Springs Time Trials & Races'
+});
+google.maps.event.addListener(marker64, 'click', function() {
+window.location.href = marker64.url;
+});
+var marker65 = new google.maps.Marker({
+position: {lat: 27.4508, lng: -81.352236},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-florida-sebring-international-raceway-club-race-3200',
+title: 'NASA at Sebring International Raceway'
+});
+google.maps.event.addListener(marker65, 'click', function() {
+window.location.href = marker65.url;
+});
+var marker66 = new google.maps.Marker({
+position: {lat: 33.7133526977, lng: -115.400581247},
+map: map,
+url: 'https://motorsportreg.com/events/v8-road-racing-west-chuckwalla-valley-raceway-club-race-105112',
+title: 'V8 Road Racing West @ Chuckwalla Valley Raceway'
+});
+google.maps.event.addListener(marker66, 'click', function() {
+window.location.href = marker66.url;
+});
+var marker67 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/summer-haze-double-sarrc-vintage-race-roebling-road-raceway-scca-buccaneer-894847',
+title: 'Summer Haze Double SARRC & Vintage Race'
+});
+google.maps.event.addListener(marker67, 'click', function() {
+window.location.href = marker67.url;
+});
+var marker68 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/last-chance-high-plains-raceway-scca-colorado-116255',
+title: 'LAST CHANCE'
+});
+google.maps.event.addListener(marker68, 'click', function() {
+window.location.href = marker68.url;
+});
+var marker69 = new google.maps.Marker({
+position: {lat: 43.0959938037, lng: -85.3890442291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wmr-last-chance-majors-workers-grattan-raceway-scca-western-michigan-660540',
+title: '2020 WMR "Last Chance" Majors (workers)'
+});
+google.maps.event.addListener(marker69, 'click', function() {
+window.location.href = marker69.url;
+});
+var marker70 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/summer-thunder-regional-njmp-thunderbolt-scca-south-jersey-sjr-club-racing-562747',
+title: 'Summer Thunder Regional '
+});
+google.maps.event.addListener(marker70, 'click', function() {
+window.location.href = marker70.url;
+});
+var marker71 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/volunteers-track-day-dash-for-kids-xxxvi-portland-intl-raceway-cascade-608267',
+title: 'Volunteers- Track Day & Dash for Kids XXXVI'
+});
+google.maps.event.addListener(marker71, 'click', function() {
+window.location.href = marker71.url;
+});
+var marker72 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/mcscc-10-hours-of-autobahn-country-club-midwestern-council-sports-car-clubs-412525',
+title: 'MCSCC 10 Hours of Autobahn'
+});
+google.maps.event.addListener(marker72, 'click', function() {
+window.location.href = marker72.url;
+});
+var marker73 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/testing-scca-milwaukee-cat-majors-race-road-america-761496',
+title: 'SCCA Milwaukee & Chicago Region-Cat in the Kettle'
+});
+google.maps.event.addListener(marker73, 'click', function() {
+window.location.href = marker73.url;
+});
+var marker74 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/labor-day-triple-presented-by-houston-scca-msr-926084',
+title: 'Labor Day Triple presented by Houston Region SCCA'
+});
+google.maps.event.addListener(marker74, 'click', function() {
+window.location.href = marker74.url;
+});
+var marker75 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-blind-madness-f-c-mid-ohio-sports-car-course-lake-erie-communications-971229',
+title: 'NASA "Blind Madness"-(F&C)'
+});
+google.maps.event.addListener(marker75, 'click', function() {
+window.location.href = marker75.url;
+});
+var marker76 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/calabogie-cup-race-weekend-motorsports-park-865304',
+title: 'Calabogie Cup Race Weekend'
+});
+google.maps.event.addListener(marker76, 'click', function() {
+window.location.href = marker76.url;
+});
+var marker77 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/jim-rocky-farrar-memorial-regional-pittsburgh-international-race-compl-569450',
+title: '68th Cumberland Classic SCCA Hoosier SuperTour'
+});
+google.maps.event.addListener(marker77, 'click', function() {
+window.location.href = marker77.url;
+});
+var marker78 = new google.maps.Marker({
+position: {lat: 43.0177915528, lng: -88.0095146055},
+map: map,
+url: 'https://motorsportreg.com/events/midwestern-council-race-2-3-4-milwaukee-mile-great-lakes-sports-car-club-807793',
+title: 'Midwestern Council Race 2, 3 and 4'
+});
+google.maps.event.addListener(marker78, 'click', function() {
+window.location.href = marker78.url;
+});
+var marker79 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/vdca-hurricane-in-savannah-2020-roebling-road-raceway-062834',
+title: 'VDCA Hurricane in Savannah 2020'
+});
+google.maps.event.addListener(marker79, 'click', function() {
+window.location.href = marker79.url;
+});
+var marker80 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/scca-regional-ohio-valley-f-c-mid-sports-car-course-lake-erie-communications-427394',
+title: 'SCCA Regional-Ohio Valley Region-(F&C)'
+});
+google.maps.event.addListener(marker80, 'click', function() {
+window.location.href = marker80.url;
+});
+var marker81 = new google.maps.Marker({
+position: {lat: 43.0959938037, lng: -85.3890442291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wmr-last-chance-majors-drivers-grattan-raceway-scca-western-michigan-847384',
+title: '2020 WMR "Last Chance" Majors (drivers)'
+});
+google.maps.event.addListener(marker81, 'click', function() {
+window.location.href = marker81.url;
+});
+var marker82 = new google.maps.Marker({
+position: {lat: 33.6904476583, lng: -112.156377995},
+map: map,
+url: 'https://motorsportreg.com/events/pkra-club-race-summer-6-august-15-2020-phoenix-kart-racing-association-055440',
+title: 'PKRA Club Race - Summer #6 - August 15, 2020'
+});
+google.maps.event.addListener(marker82, 'click', function() {
+window.location.href = marker82.url;
+});
+var marker83 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/u-s-majors-tour-buttonwillow-raceway-scca-california-sports-car-club-calclub-927929',
+title: 'U.S. Majors Tour'
+});
+google.maps.event.addListener(marker83, 'click', function() {
+window.location.href = marker83.url;
+});
+var marker84 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-club-mid-ohio-f-c-sports-car-course-lake-erie-communications-516185',
+title: 'Porsche Club-Mid-Ohio Region-(F&C)'
+});
+google.maps.event.addListener(marker84, 'click', function() {
+window.location.href = marker84.url;
+});
+var marker85 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/double-sarrc-time-trials-barber-motorsports-park-scca-tennessee-valley-918456',
+title: 'Double SARRC and Time Trials'
+});
+google.maps.event.addListener(marker85, 'click', function() {
+window.location.href = marker85.url;
+});
+var marker86 = new google.maps.Marker({
+position: {lat: 42.7048664361, lng: -83.3938845013},
+map: map,
+url: 'https://motorsportreg.com/events/2020-whrri-race-5-waterford-hills-road-racing-709573',
+title: '2020 WHRRI Race #5 " BIG BORE BASH"'
+});
+google.maps.event.addListener(marker86, 'click', function() {
+window.location.href = marker86.url;
+});
+var marker87 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-virginia-international-raceway-club-race-3273',
+title: 'NASA at VIRginia International Raceway'
+});
+google.maps.event.addListener(marker87, 'click', function() {
+window.location.href = marker87.url;
+});
+var marker88 = new google.maps.Marker({
+position: {lat: 32.168209, lng: -81.323791},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-southeast-roebling-road-raceway-hpde-3208',
+title: 'NASA at Roebling Road Raceway'
+});
+google.maps.event.addListener(marker88, 'click', function() {
+window.location.href = marker88.url;
+});
+var marker89 = new google.maps.Marker({
+position: {lat: 38.302247, lng: -104.672885},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-rocky-mountain-pueblo-motorsports-park-club-race-3176',
+title: 'NASA at Pueblo Motorsports Park'
+});
+google.maps.event.addListener(marker89, 'click', function() {
+window.location.href = marker89.url;
+});
+var marker90 = new google.maps.Marker({
+position: {lat: 53.3338155747, lng: -113.590786023},
+map: map,
+url: 'https://motorsportreg.com/events/july-25-26-race-nascc-worker-registration-castrol-raceway-park-northern-756503',
+title: 'July 11/12 Race- NASCC Race Worker Registration'
+});
+google.maps.event.addListener(marker90, 'click', function() {
+window.location.href = marker90.url;
+});
+var marker91 = new google.maps.Marker({
+position: {lat: 41.92835, lng: -73.381392},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-lime-rock-park-main-track-club-race-3280',
+title: 'NASA at Lime Rock Park (Main Track)'
+});
+google.maps.event.addListener(marker91, 'click', function() {
+window.location.href = marker91.url;
+});
+var marker92 = new google.maps.Marker({
+position: {lat: 40.848183, lng: -80.346326},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-great-lakes-pittsburgh-international-race-complex-club-3221',
+title: 'NASA at Pittsburgh International Race Complex'
+});
+google.maps.event.addListener(marker92, 'click', function() {
+window.location.href = marker92.url;
+});
+var marker93 = new google.maps.Marker({
+position: {lat: 39.3589855738, lng: -75.0616137913},
+map: map,
+url: 'https://motorsportreg.com/events/new-jersey-motorsports-park-njmp-us-majors-club-race-481003',
+title: 'New Jersey Motorsports Park @ NJMP US Majors'
+});
+google.maps.event.addListener(marker93, 'click', function() {
+window.location.href = marker93.url;
+});
+var marker94 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/pony-express-bracket-endurance-race-july-11-high-plains-raceway-748304',
+title: 'Pony Express Bracket Endurance Race July 11'
+});
+google.maps.event.addListener(marker94, 'click', function() {
+window.location.href = marker94.url;
+});
+var marker95 = new google.maps.Marker({
+position: {lat: 44.0554680422, lng: -78.6785677862},
+map: map,
+url: 'https://motorsportreg.com/events/challenge-cup-series-canadian-tire-motorsport-park-club-race-646378',
+title: 'Challenge Cup Series @ Canadian Tire Motorsport Park'
+});
+google.maps.event.addListener(marker95, 'click', function() {
+window.location.href = marker95.url;
+});
+var marker96 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/gt-celebration-utah-motorsports-campus-early-479274',
+title: 'GT Celebration Utah Motorsports Campus (Early)'
+});
+google.maps.event.addListener(marker96, 'click', function() {
+window.location.href = marker96.url;
+});
+var marker97 = new google.maps.Marker({
+position: {lat: 50.6320796076, lng: -96.9886725317},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wscc-race-event-1-season-opener-rr-ta-gimli-motorsports-park-370765',
+title: '2020 WSCC Race Event 1 - Season Opener - RR/TA'
+});
+google.maps.event.addListener(marker97, 'click', function() {
+window.location.href = marker97.url;
+});
+var marker98 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/ridesmart-reserved-paddock-parking-msr-houston-620231',
+title: 'Ridesmart Reserved Paddock Parking'
+});
+google.maps.event.addListener(marker98, 'click', function() {
+window.location.href = marker98.url;
+});
+var marker99 = new google.maps.Marker({
+position: {lat: 33.53336, lng: -86.603215},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-south-barber-motorsports-park-club-race-3247',
+title: 'NASA at Barber Motorsports Park'
+});
+google.maps.event.addListener(marker99, 'click', function() {
+window.location.href = marker99.url;
+});
+var marker100 = new google.maps.Marker({
+position: {lat: 42.3742682048, lng: -83.402176351},
+map: map,
+url: 'https://motorsportreg.com/events/roush-world-tour-sprint-series-performance-hq-569548',
+title: 'Roush World Tour Sprint Series'
+});
+google.maps.event.addListener(marker100, 'click', function() {
+window.location.href = marker100.url;
+});
+var marker101 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/scca-south-jersey-sjr-club-racing-njmp-thunderbolt-race-730206',
+title: 'SCCA - South Jersey Region (SJR) - Club Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker101, 'click', function() {
+window.location.href = marker101.url;
+});
+var marker102 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/irdc-50-years-of-racing-volunteer-pacific-raceways-volunteers-604532',
+title: 'IRDC 50 years of Racing - Volunteer '
+});
+google.maps.event.addListener(marker102, 'click', function() {
+window.location.href = marker102.url;
+});
+var marker103 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/hoosier-super-tour-worker-volunteer-sign-up-weathertech-raceway-laguna-683318',
+title: 'SFR Regional 11 & 12 Worker/Volunteer Sign up'
+});
+google.maps.event.addListener(marker103, 'click', function() {
+window.location.href = marker103.url;
+});
+var marker104 = new google.maps.Marker({
+position: {lat: 29.1844967318, lng: -81.0703702594},
+map: map,
+url: 'https://motorsportreg.com/events/daytona-double-sarrc-driver-registration-intl-speedway-scca-central-389890',
+title: 'Daytona Double SARRC and Test day - Driver Reg'
+});
+google.maps.event.addListener(marker104, 'click', function() {
+window.location.href = marker104.url;
+});
+var marker105 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/jefferson-500-summit-point-circuit-vintage-racer-group-451780',
+title: 'Jefferson 500'
+});
+google.maps.event.addListener(marker105, 'click', function() {
+window.location.href = marker105.url;
+});
+var marker106 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/gridlife-mid-ohio-sports-car-course-club-race-687851',
+title: '#GRIDLIFE @ Mid-Ohio Sports Car Course'
+});
+google.maps.event.addListener(marker106, 'click', function() {
+window.location.href = marker106.url;
+});
+var marker107 = new google.maps.Marker({
+position: {lat: 41.3064842416, lng: -81.0176138783},
+map: map,
+url: 'https://motorsportreg.com/events/back-home-at-nelson-2020-ledges-scca-neohio-801854',
+title: 'Back Home at Nelson 2020 '
+});
+google.maps.event.addListener(marker107, 'click', function() {
+window.location.href = marker107.url;
+});
+var marker108 = new google.maps.Marker({
+position: {lat: 29.1844967318, lng: -81.0703702594},
+map: map,
+url: 'https://motorsportreg.com/events/daytona-double-2020-volunteer-registration-intl-speedway-scca-central-235530',
+title: 'Daytona Double 2020 Volunteer Registration'
+});
+google.maps.event.addListener(marker108, 'click', function() {
+window.location.href = marker108.url;
+});
+var marker109 = new google.maps.Marker({
+position: {lat: 41.3064842416, lng: -81.0176138783},
+map: map,
+url: 'https://motorsportreg.com/events/back-home-at-nelson-2020-worker-registration-ledges-scca-neohio-173225',
+title: 'Back Home at Nelson 2020 - WORKER REGISTRATION'
+});
+google.maps.event.addListener(marker109, 'click', function() {
+window.location.href = marker109.url;
+});
+var marker110 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/northern-california-racing-club-weathertech-raceway-laguna-seca-open-track-051141',
+title: 'Northern California Racing Club @ WeatherTech Raceway Laguna Seca'
+});
+google.maps.event.addListener(marker110, 'click', function() {
+window.location.href = marker110.url;
+});
+var marker111 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-virginia-international-raceway-club-race-3360',
+title: 'NASA at VIRginia International Raceway'
+});
+google.maps.event.addListener(marker111, 'click', function() {
+window.location.href = marker111.url;
+});
+var marker112 = new google.maps.Marker({
+position: {lat: 44.0554680422, lng: -78.6785677862},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-canadian-tire-motorsport-park-bmw-cca-racing-trillium-138072',
+title: 'Club Race at Canadian Tire Motorsport Park'
+});
+google.maps.event.addListener(marker112, 'click', function() {
+window.location.href = marker112.url;
+});
+var marker113 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/dash-for-kids-xxxvi-portland-intl-raceway-cascade-sports-car-club-racing-293370',
+title: 'Dash for Kids XXXVI'
+});
+google.maps.event.addListener(marker113, 'click', function() {
+window.location.href = marker113.url;
+});
+var marker114 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-lightning-presented-by-ottos-new-jersey-motorsports-park-464878',
+title: 'Club Race at Lightning by Ottos BMW'
+});
+google.maps.event.addListener(marker114, 'click', function() {
+window.location.href = marker114.url;
+});
+var marker115 = new google.maps.Marker({
+position: {lat: 46.4208410984, lng: -94.287564942},
+map: map,
+url: 'https://motorsportreg.com/events/test-jack-pine-sprints-double-divisional-brainerd-intl-raceway-scca-land-o-lakes-011744',
+title: 'Jack Pine Sprints Double Divisional'
+});
+google.maps.event.addListener(marker115, 'click', function() {
+window.location.href = marker115.url;
+});
+var marker116 = new google.maps.Marker({
+position: {lat: 0, lng: 0},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-palmer-motorsports-park-club-race-3282',
+title: 'NASA at Palmer Motorsports Park'
+});
+google.maps.event.addListener(marker116, 'click', function() {
+window.location.href = marker116.url;
+});
+var marker117 = new google.maps.Marker({
+position: {lat: 39.735079, lng: -103.894894},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-rocky-mountain-high-plains-raceway-club-race-3174',
+title: 'NASA at High Plains Raceway'
+});
+google.maps.event.addListener(marker117, 'click', function() {
+window.location.href = marker117.url;
+});
+var marker118 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/audi-club-na-lonestar-circuit-of-americas-race-653264',
+title: 'Audi Club NA - Lonestar Chapter @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker118, 'click', function() {
+window.location.href = marker118.url;
+});
+var marker119 = new google.maps.Marker({
+position: {lat: 39.35897, lng: -75.061607},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-new-jersey-motorsports-park-thunderbolt-club-race-3283',
+title: 'NASA at New Jersey Motorsports Park - Thunderbolt'
+});
+google.maps.event.addListener(marker119, 'click', function() {
+window.location.href = marker119.url;
+});
+var marker120 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/volunteers-scca-portland-majors-intl-raceway-oregon-033840',
+title: 'VOLUNTEERS, SCCA, PORTLAND MAJORS'
+});
+google.maps.event.addListener(marker120, 'click', function() {
+window.location.href = marker120.url;
+});
+var marker121 = new google.maps.Marker({
+position: {lat: 41.3064842416, lng: -81.0176138783},
+map: map,
+url: 'https://motorsportreg.com/events/scca-neohio-time-trial-f-c-nelson-ledges-lake-erie-communications-775019',
+title: 'SCCA NEOHIO Time Trial-(F&C)'
+});
+google.maps.event.addListener(marker121, 'click', function() {
+window.location.href = marker121.url;
+});
+var marker122 = new google.maps.Marker({
+position: {lat: 40.584074, lng: -112.373491},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-utah-motorsports-campus-club-race-3333',
+title: 'NASA at Utah Motorsports Campus'
+});
+google.maps.event.addListener(marker122, 'click', function() {
+window.location.href = marker122.url;
+});
+var marker123 = new google.maps.Marker({
+position: {lat: 42.4114824905, lng: -86.1419154906},
+map: map,
+url: 'https://motorsportreg.com/events/2020-scca-summer-festival-of-speed-volunteers-gingerman-raceway-south-545222',
+title: '2020 SCCA Summer Festival of Speed - Volunteers'
+});
+google.maps.event.addListener(marker123, 'click', function() {
+window.location.href = marker123.url;
+});
+var marker124 = new google.maps.Marker({
+position: {lat: 40.584074, lng: -112.373491},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-utah-motorsports-campus-club-race-3334',
+title: 'NASA at Utah Motorsports Campus'
+});
+google.maps.event.addListener(marker124, 'click', function() {
+window.location.href = marker124.url;
+});
+var marker125 = new google.maps.Marker({
+position: {lat: 38.9302136185, lng: -95.6761628905},
+map: map,
+url: 'https://motorsportreg.com/events/heartland-spring-majors-hosted-by-kvrg-motorsports-park-scca-kaw-valley-291630',
+title: 'Heartland Summer Majors hosted by KVRG'
+});
+google.maps.event.addListener(marker125, 'click', function() {
+window.location.href = marker125.url;
+});
+var marker126 = new google.maps.Marker({
+position: {lat: 42.4114824905, lng: -86.1419154906},
+map: map,
+url: 'https://motorsportreg.com/events/2020-scca-summer-festival-of-speed-gingerman-raceway-south-bend-club-racing-618433',
+title: '2020 SCCA Summer Festival of Speed'
+});
+google.maps.event.addListener(marker126, 'click', function() {
+window.location.href = marker126.url;
+});
+var marker127 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/racers-portland-majors-intl-raceway-scca-oregon-507421',
+title: 'RACERS - SCCA, PORTLAND MAJORS'
+});
+google.maps.event.addListener(marker127, 'click', function() {
+window.location.href = marker127.url;
+});
+var marker128 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/jersey-devil-us-major-njmp-thunderbolt-scca-south-sjr-club-racing-801821',
+title: 'Jersey Devil US Major'
+});
+google.maps.event.addListener(marker128, 'click', function() {
+window.location.href = marker128.url;
+});
+var marker129 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/worker-registration-july-10-12-ne-majors-tour-thompson-speedway-753232',
+title: 'Worker Registration July 10-12 NE Majors Tour'
+});
+google.maps.event.addListener(marker129, 'click', function() {
+window.location.href = marker129.url;
+});
+var marker130 = new google.maps.Marker({
+position: {lat: 53.3338155747, lng: -113.590786023},
+map: map,
+url: 'https://motorsportreg.com/events/return-of-racing-2020-july-25-26-castrol-raceway-park-northern-alberta-175582',
+title: 'Return of Racing 2020 - July 11 & 12'
+});
+google.maps.event.addListener(marker130, 'click', function() {
+window.location.href = marker130.url;
+});
+var marker131 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/july-racing-school-marrs-regional-race-weekend-summit-point-circuit-scca-966989',
+title: 'July Racing School & MARRS Regional Race Weekend'
+});
+google.maps.event.addListener(marker131, 'click', function() {
+window.location.href = marker131.url;
+});
+var marker132 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/northeast-conference-scca-u-s-majors-tour-thompson-speedway-motorsports-016347',
+title: 'NORTHEAST CONFERENCE SCCA U.S. MAJORS TOUR'
+});
+google.maps.event.addListener(marker132, 'click', function() {
+window.location.href = marker132.url;
+});
+var marker133 = new google.maps.Marker({
+position: {lat: 30.134581, lng: -97.635851},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-texas-circuit-of-americas-club-race-3406',
+title: 'NASA at Circuit of the Americas'
+});
+google.maps.event.addListener(marker133, 'click', function() {
+window.location.href = marker133.url;
+});
+var marker134 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/2020-irdc-summer-classic-pacific-raceways-events-743598',
+title: 'Celebrating 50 Years of IRDC Racing'
+});
+google.maps.event.addListener(marker134, 'click', function() {
+window.location.href = marker134.url;
+});
+var marker135 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-summit-point-6th-g-atkinson-memorial-circuit-bmw-cca-racing-002200',
+title: 'Club Race at Summit Point-6th G Atkinson Memorial'
+});
+google.maps.event.addListener(marker135, 'click', function() {
+window.location.href = marker135.url;
+});
+var marker136 = new google.maps.Marker({
+position: {lat: 33.515208, lng: -112.390485},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-arizona-motorsports-park-club-race-3304',
+title: 'NASA at Arizona Motorsports Park'
+});
+google.maps.event.addListener(marker136, 'click', function() {
+window.location.href = marker136.url;
+});
+var marker137 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/scca-oregon-portland-intl-raceway-club-race-517086',
+title: 'SCCA - Oregon Region @ Portland Intl Raceway'
+});
+google.maps.event.addListener(marker137, 'click', function() {
+window.location.href = marker137.url;
+});
+var marker138 = new google.maps.Marker({
+position: {lat: 0, lng: 0},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-great-lakes-ncm-motorsports-park-club-race-3226',
+title: 'NASA at NCM Motorsports Park'
+});
+google.maps.event.addListener(marker138, 'click', function() {
+window.location.href = marker138.url;
+});
+var marker139 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/scca-south-jersey-sjr-club-racing-njmp-thunderbolt-race-952434',
+title: 'SCCA - South Jersey Region (SJR) - Club Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker139, 'click', function() {
+window.location.href = marker139.url;
+});
+var marker140 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/hoosier-scca-super-tour-majors-ovr-f-c-mid-ohio-sports-car-course-lake-791002',
+title: 'Hoosier SCCA Super Tour [Majors-OVR]-(F&C) '
+});
+google.maps.event.addListener(marker140, 'click', function() {
+window.location.href = marker140.url;
+});
+var marker141 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/scca-oregon-portland-intl-raceway-club-race-848345',
+title: 'SCCA - Oregon Region @ Portland Intl Raceway'
+});
+google.maps.event.addListener(marker141, 'click', function() {
+window.location.href = marker141.url;
+});
+var marker142 = new google.maps.Marker({
+position: {lat: 41.454908, lng: -88.118872},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-great-lakes-autobahn-country-club-race-3225',
+title: 'NASA at Autobahn Country Club'
+});
+google.maps.event.addListener(marker142, 'click', function() {
+window.location.href = marker142.url;
+});
+var marker143 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/scca-new-england-club-racing-thompson-speedway-motorsports-park-race-306262',
+title: 'SCCA - New England Region - Club Racing @ Thompson Speedway Motorsports Park'
+});
+google.maps.event.addListener(marker143, 'click', function() {
+window.location.href = marker143.url;
+});
+var marker144 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/hoosier-scca-super-tour-workers-volunteers-only-mid-ohio-sports-car-801230',
+title: ' Hoosier SCCA Super Tour workers/volunteers ONLY'
+});
+google.maps.event.addListener(marker144, 'click', function() {
+window.location.href = marker144.url;
+});
+var marker145 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/scca-washington-dc-club-racing-njmp-thunderbolt-race-883226',
+title: 'SCCA - Washington DC Region - Club Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker145, 'click', function() {
+window.location.href = marker145.url;
+});
+var marker146 = new google.maps.Marker({
+position: {lat: 29.890165, lng: -90.189949},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-nola-motorsports-park-club-race-3291',
+title: 'NASA at NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker146, 'click', function() {
+window.location.href = marker146.url;
+});
+var marker147 = new google.maps.Marker({
+position: {lat: 46.4208410984, lng: -94.287564942},
+map: map,
+url: 'https://motorsportreg.com/events/jed-copham-memorial-double-divisional-brainerd-intl-raceway-scca-land-o-lakes-411862',
+title: 'Jed Copham Memorial Divisional with TransAm'
+});
+google.maps.event.addListener(marker147, 'click', function() {
+window.location.href = marker147.url;
+});
+var marker148 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/great-lakes-race-of-champions-hoosier-super-tour-mid-ohio-sports-car-496595',
+title: ' Great Lakes Race of Champions Hoosier Super Tour '
+});
+google.maps.event.addListener(marker148, 'click', function() {
+window.location.href = marker148.url;
+});
+var marker149 = new google.maps.Marker({
+position: {lat: 42.4897496282, lng: -89.1144206469},
+map: map,
+url: 'https://motorsportreg.com/events/july-divisionals-open-enduro-chicago-blackhawk-farms-raceway-scca-club-racing-089474',
+title: 'Dog Days Double Divisional - Chicago Region'
+});
+google.maps.event.addListener(marker149, 'click', function() {
+window.location.href = marker149.url;
+});
+var marker150 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/2020-july-atlanta-hst-majors-dbl-sarrc-otde-michelin-raceway-road-scca-005600',
+title: '2020 July Atlanta HST MAJORS/DBL SARRC/OTDE'
+});
+google.maps.event.addListener(marker150, 'click', function() {
+window.location.href = marker150.url;
+});
+var marker151 = new google.maps.Marker({
+position: {lat: 42.7048664361, lng: -83.3938845013},
+map: map,
+url: 'https://motorsportreg.com/events/2020-whrri-race-1-waterford-hills-road-racing-217131',
+title: '2020 WHRRI Race #4 "IT Invitational"'
+});
+google.maps.event.addListener(marker151, 'click', function() {
+window.location.href = marker151.url;
+});
+var marker152 = new google.maps.Marker({
+position: {lat: 33.6904476583, lng: -112.156377995},
+map: map,
+url: 'https://motorsportreg.com/events/pkra-club-race-summer-5-august-1-2020-phoenix-kart-racing-association-457950',
+title: 'PKRA Club Race - Summer #5 - August 1, 2020'
+});
+google.maps.event.addListener(marker152, 'click', function() {
+window.location.href = marker152.url;
+});
+var marker153 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-roebling-road-raceway-bmw-cca-racing-tarheel-927746',
+title: 'Club Race at Roebling Road'
+});
+google.maps.event.addListener(marker153, 'click', function() {
+window.location.href = marker153.url;
+});
+var marker154 = new google.maps.Marker({
+position: {lat: 0, lng: 0},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-arizona-bondurant-school-main-track-club-race-3305',
+title: 'NASA at Bondurant - School/Main Track'
+});
+google.maps.event.addListener(marker154, 'click', function() {
+window.location.href = marker154.url;
+});
+var marker155 = new google.maps.Marker({
+position: {lat: 29.890165, lng: -90.189949},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-nola-motorsports-park-club-race-3290',
+title: 'NASA at NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker155, 'click', function() {
+window.location.href = marker155.url;
+});
+var marker156 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/ridesmart-reserved-paddock-parking-msr-houston-014513',
+title: 'Ridesmart Reserved Paddock Parking'
+});
+google.maps.event.addListener(marker156, 'click', function() {
+window.location.href = marker156.url;
+});
+var marker157 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/cal-club-track-event-buttonwillow-raceway-scca-california-sports-car-calclub-363069',
+title: 'Cal Club Track Event'
+});
+google.maps.event.addListener(marker157, 'click', function() {
+window.location.href = marker157.url;
+});
+var marker158 = new google.maps.Marker({
+position: {lat: 34.4906282251, lng: -80.5974001501},
+map: map,
+url: 'https://motorsportreg.com/events/club-race-at-cmp-sponsored-by-morehead-speed-works-carolina-motorsports-686438',
+title: 'Club Race at CMP-Sponsored By Morehead Speed Works'
+});
+google.maps.event.addListener(marker158, 'click', function() {
+window.location.href = marker158.url;
+});
+var marker159 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/devil-in-dark-njmp-thunderbolt-scca-south-jersey-sjr-club-racing-865584',
+title: ' The Devil in the Dark'
+});
+google.maps.event.addListener(marker159, 'click', function() {
+window.location.href = marker159.url;
+});
+var marker160 = new google.maps.Marker({
+position: {lat: 33.6904476583, lng: -112.156377995},
+map: map,
+url: 'https://motorsportreg.com/events/pkra-club-race-summer-10-october-17-2020-phoenix-kart-racing-association-717872',
+title: 'PKRA Club Race - Summer #10 - October 17, 2020'
+});
+google.maps.event.addListener(marker160, 'click', function() {
+window.location.href = marker160.url;
+});
+var marker161 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/sfr-regional-24-16-17-worker-volunteer-sign-up-thunderhill-raceway-park-124279',
+title: 'SFR Regional 15, 16, 17 Worker/Volunteer sign up'
+});
+google.maps.event.addListener(marker161, 'click', function() {
+window.location.href = marker161.url;
+});
+var marker162 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/2020-runoffs-multi-car-prep-shop-paddock-request-road-america-scca-national-369641',
+title: '2020 Runoffs Multi-Car/Prep Shop Paddock Request'
+});
+google.maps.event.addListener(marker162, 'click', function() {
+window.location.href = marker162.url;
+});
+var marker163 = new google.maps.Marker({
+position: {lat: 38.925602, lng: -95.674721},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-central-heartland-park-topeka-club-race-3264',
+title: 'NASA at Heartland Park Topeka'
+});
+google.maps.event.addListener(marker163, 'click', function() {
+window.location.href = marker163.url;
+});
+var marker164 = new google.maps.Marker({
+position: {lat: 34.089665385, lng: -117.502640265},
+map: map,
+url: 'https://motorsportreg.com/events/pacific-coast-road-racing-championship-auto-club-speedway-scca-california-434882',
+title: 'Pacific Coast Road Racing Championship'
+});
+google.maps.event.addListener(marker164, 'click', function() {
+window.location.href = marker164.url;
+});
+var marker165 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/scca-florida-club-racing-palm-beach-international-raceway-race-993663',
+title: 'SCCA - Florida Region - Club Racing @ Palm Beach International Raceway'
+});
+google.maps.event.addListener(marker165, 'click', function() {
+window.location.href = marker165.url;
+});
+var marker166 = new google.maps.Marker({
+position: {lat: 33.515208, lng: -112.390485},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-arizona-motorsports-park-club-race-3306',
+title: 'NASA at Arizona Motorsports Park'
+});
+google.maps.event.addListener(marker166, 'click', function() {
+window.location.href = marker166.url;
+});
+var marker167 = new google.maps.Marker({
+position: {lat: 39.35897, lng: -75.061607},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-new-jersey-motorsports-park-lightning-hpde-3285',
+title: 'NASA at New Jersey Motorsports Park - Lightning'
+});
+google.maps.event.addListener(marker167, 'click', function() {
+window.location.href = marker167.url;
+});
+var marker168 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/scca-atlanta-club-racing-michelin-raceway-road-race-901419',
+title: 'SCCA - Atlanta Region - Club Racing @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker168, 'click', function() {
+window.location.href = marker168.url;
+});
+var marker169 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/scca-ner-nerrc-5-ral-cre-owde-nhms-new-hampshire-motor-speedway-england-965723',
+title: 'SCCA-NER: NERRC #5 RAL, CRE, OWDE @ NHMS'
+});
+google.maps.event.addListener(marker169, 'click', function() {
+window.location.href = marker169.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

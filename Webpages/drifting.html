@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/drift-south-pro-am-round-2-nola-motorsports-park-417379',
+title: 'Drift South Pro-Am Round 2'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 39.2428826032, lng: -77.9727565281},
+map: map,
+url: 'https://motorsportreg.com/events/drift-nirvana-teams-summit-point-potomac-circuit-894220',
+title: 'Drift Nirvana - Teams'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 37.5923912963, lng: -77.419456564},
+map: map,
+url: 'https://motorsportreg.com/events/night-touge-2-july-18th-2020-3-11pm-richmond-raceway-spirit-jp-drift-series-792571',
+title: 'NIGHT TOUGE #2 - July 18th, 2020: 3-11PM'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 39.1894636937, lng: -75.5348502781},
+map: map,
+url: 'https://motorsportreg.com/events/bmc-fsd-dual-course-3-car-tandem-7-25-dover-intl-speedway-brandywine-280052',
+title: 'BMC / FSD Dual Course 3 Car Tandem 7/25'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/drift-nirvana-drifters-of-december-summit-point-circuit-936239',
+title: 'Drift Nirvana - Drifters of December'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/drift-south-pro-am-round-5-nola-motorsports-park-399605',
+title: 'Drift South Pro-Am Round 5'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/drift-south-pro-am-double-header-nola-motorsports-park-707794',
+title: 'Drift South Pro-Am Double Header'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 39.2423669239, lng: -77.9730707168},
+map: map,
+url: 'https://motorsportreg.com/events/drift-nirvana-hotlapping-summit-point-raceway-washington-947410',
+title: 'Drift Nirvana - Hotlapping'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

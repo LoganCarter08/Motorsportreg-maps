@@ -1,0 +1,4827 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 28.0748215108, lng: -81.950843115},
+map: map,
+url: 'https://motorsportreg.com/events/fast-lakeland-marchant-stadium-autocross-solo-192405',
+title: 'FAST @ Lakeland - Marchant Stadium'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-5-expo-idaho-scca-snake-river-642465',
+title: 'SRRSCCA Event 5'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 34.5974489686, lng: -91.5751055779},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-points-event-7-under-steer-stuttgart-municipal-airport-526650',
+title: 'ARSCCA Solo II Points event 7 “Under steer”'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 41.9328877204, lng: -91.679709925},
+map: map,
+url: 'https://motorsportreg.com/events/ia-2020-autox-1-hawkeye-downs-apr-19-scca-iowa-451723',
+title: 'IA Region 2020 Autox #3 - Hawkeye Downs - Jul 19'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 42.2156131557, lng: -79.834215303},
+map: map,
+url: 'https://motorsportreg.com/events/mbr-scca-2020-points-event-2-lake-erie-speedway-misery-bay-997030',
+title: 'MBR SCCA 2020 Points Event 2'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 41.1729540433, lng: -73.1317575022},
+map: map,
+url: 'https://motorsportreg.com/events/fcscc-practice-pt-3-big-lot-south-482862',
+title: 'FCSCC Practice PT#3 Big Lot'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 41.7285626114, lng: -86.3517047509},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-pca-autocross-1-tire-rack-026854',
+title: 'Michiana PCA Autocross #1'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 22.116082518, lng: -159.502293085},
+map: map,
+url: 'https://motorsportreg.com/events/kauai-autocross-s5-7-vidinha-stadium-parking-lot-scca-905302',
+title: 'Kauai Autocross S5-#7'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/orpca-ax-5-07-19-2020-south-paddock-portland-intl-raceway-pca-oregon-337718',
+title: 'ORPCA AX #5- 07/19/2020 (South Paddock)'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 35.1837421615, lng: -101.928108244},
+map: map,
+url: 'https://motorsportreg.com/events/july-19th-street-volkswagen-autox-day-westgate-mall-scca-west-texas-297535',
+title: 'July 19th Street Volkswagen AutoX - Day'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 40.6600000066, lng: -86.1500024346},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-peru-champ-tour-grissom-aeroplex-national-solo-025026',
+title: '2020 Tire Rack SCCA Peru Champ Tour'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/kyscca-points-event-5-ncm-motorsport-park-scca-kentucky-252907',
+title: 'KYSCCA Points Event 2 \ Border War'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/s2k-takeover-at-pine-view-run-950437',
+title: 'S2K TakeOver at Pine View Run'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/reno-solo-round-6-regional-public-safety-training-cen-scca-068330',
+title: 'Reno Region Solo Round #6'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 40.6566258931, lng: -86.1317316786},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-advantage-driving-school-peru-grissom-aeroplex-scca-national-300869',
+title: 'Starting Line Drivers Edge - Peru'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 43.6760510339, lng: -89.8454216427},
+map: map,
+url: 'https://motorsportreg.com/events/mscc-autocross-4-dells-raceway-park-madison-sports-car-club-parking-lot-237432',
+title: 'MSCC Autocross #4'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 44.2779238884, lng: -78.4249082209},
+map: map,
+url: 'https://motorsportreg.com/events/pmsc-autocross-event-2-peterborough-speedway-motor-sports-club-068982',
+title: 'PMSC Autocross Event #2'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 44.7380771477, lng: -93.0788127044},
+map: map,
+url: 'https://motorsportreg.com/events/mac-members-only-practice-autocross-july-18th-3-dakota-county-technical-317454',
+title: 'MAC Members-Only Practice Autocross July 18th #1'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 42.7525445716, lng: -76.8340410504},
+map: map,
+url: 'https://motorsportreg.com/events/flr-2020-autocross-1-seneca-army-depot-scca-finger-lakes-solo-542603',
+title: 'FLR 2020 Autocross #1'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 42.4220522083, lng: -92.3373137079},
+map: map,
+url: 'https://motorsportreg.com/events/ia-2020-autox-2-hawkeye-tech-jul-12-transportation-center-scca-iowa-600872',
+title: 'IA Region 2020 Autox #2 - Hawkeye Tech - Jul 12'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 41.5067966144, lng: -90.5214805968},
+map: map,
+url: 'https://motorsportreg.com/events/great-river-scca-event-5-taxslayer-center-590643',
+title: 'Great River Region SCCA Event #3'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 46.6181925843, lng: -121.497057834},
+map: map,
+url: 'https://motorsportreg.com/events/canceled-2020-tire-rack-scca-packwood-prosolo-hampton-mills-national-solo-798403',
+title: '2020 Tire Rack SCCA Packwood ProSolo'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 48.4705603773, lng: -123.503316619},
+map: map,
+url: 'https://motorsportreg.com/events/vmsc-autoslalom-2020-summer-series-1-western-speedway-victoria-motor-sports-club-313330',
+title: 'VMSC Autoslalom 2020 - Summer Series #1'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 36.5750141291, lng: -79.3399828148},
+map: map,
+url: 'https://motorsportreg.com/events/tscc-autocross-2-90s-jim-carrey-movie-danville-airport-triad-sports-car-club-427230',
+title: 'TSCC Autocross # 2 - 90s Jim Carrey Movie'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/renegade-miata-club-autocross-1-devens-airfield-475487',
+title: 'Renegade Miata Club Autocross 1'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 38.9302136185, lng: -95.6761628905},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-solo-event-6-july-19th-heartland-motorsports-park-kansas-028279',
+title: 'KS SCCA SOLO Event #6 July 19th'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/milwaukee-pca-july-19th-autocross-road-america-468250',
+title: 'Milwaukee Region PCA July 19th Autocross'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/july-19th-pocono-autocross-nnjr-rtr-cpa-raceway-pca-northern-new-jersey-events-809764',
+title: 'July 19th Pocono Autocross - NNJR, RTR, CPA'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 39.8932395554, lng: -76.6520779807},
+map: map,
+url: 'https://motorsportreg.com/events/susq-20-autocross-event-0-50-dallastown-asd-area-high-school-scca-susquehanna-194102',
+title: 'Susq 20 Autocross Event 0.50 - Dallastown ASD'
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 42.4867238544, lng: -74.7808247146},
+map: map,
+url: 'https://motorsportreg.com/events/s2k-takeover-w-azp-installs-new-york-safety-track-nyst-414672',
+title: 'S2K TakeOver W/AZP Installs'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/steel-cities-solo-event-3-pittsburgh-international-race-compl-scca-402093',
+title: 'Steel Cities - Solo Event #3 (SUPER DUPER TOUR)'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 40.5888670015, lng: -79.9940485597},
+map: map,
+url: 'https://motorsportreg.com/events/nhscc-points-event-2-summer-north-park-swimming-pool-lot-hills-sports-car-club-845328',
+title: 'NHSCC - Points Event #2 (Summer)'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 37.706766229, lng: -122.418805523},
+map: map,
+url: 'https://motorsportreg.com/events/santa-clara-corvettes-auto-x-3-4-cow-palace-western-states-corvette-council-328688',
+title: 'Santa Clara Corvettes -- Auto-X #3 & #4'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 46.5337577858, lng: -121.91789311},
+map: map,
+url: 'https://motorsportreg.com/events/pnwr-autocross-5-hampton-mills-old-lumber-yard-pca-pacific-northwest-320242',
+title: 'PNWR Autocross #5'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 35.3609514195, lng: -80.6872376282},
+map: map,
+url: 'https://motorsportreg.com/events/ccr-autocross-6-zmax-dragway-scca-central-carolinas-514693',
+title: 'CCR Autocross #7'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 39.2167537145, lng: -81.505726517},
+map: map,
+url: 'https://motorsportreg.com/events/great-lakes-divisional-solo-swvr-points-event-4-wvu-parkersburg-scca-830299',
+title: 'Great Lakes Divisional Solo & SWVR Points Event #4'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 45.6184065693, lng: -121.172651169},
+map: map,
+url: 'https://motorsportreg.com/events/bca-autocross-6-dallesport-3-days-4-courses-columbia-gorge-regional-508681',
+title: 'BCA - Autocross #4 - Dallesport (3 Days/4 Courses)'
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 40.2865457534, lng: -76.8830818086},
+map: map,
+url: 'https://motorsportreg.com/events/susq-20-autocross-event-1-2-farm-show-elmerton-harrisburg-lot-scca-susquehanna-283808',
+title: 'Susq 20 Autocross Event 1 & 2 - Farm Show Elmerton'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 46.8218790706, lng: -100.821084844},
+map: map,
+url: 'https://motorsportreg.com/events/badlands-scca-bismarck-2-community-bowl-864702',
+title: 'Badlands SCCA Bismarck # 2'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-pca-ner-autocross-2-devens-airfield-northeast-137851',
+title: '2020 PCA NER Autocross #2'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 34.9270499922, lng: -89.9965259176},
+map: map,
+url: 'https://motorsportreg.com/events/midsouth-2020-event-3-landers-center-se-lot-scca-mid-south-autocross-713728',
+title: 'MidSouth 2020 event #3'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 33.3386280294, lng: -86.8499533904},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-4-hoover-metropolitan-stadium-scca-alabama-441077',
+title: 'ALSCCA Points 4'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 41.7217119317, lng: -86.3173898805},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-bmwcca-autocross-3-tire-rack-bmw-cca-614860',
+title: 'Michiana BMWCCA Autocross #3'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-3-motor-speedway-solo-042225',
+title: '2020 Atlanta Region SCCA Autocross Points 3'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/ner-2020-autox-cone-a-thon-devens-airfield-scca-new-england-solo-422971',
+title: 'NER 2020 AutoX "Cone-A-Thon"'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 34.089665385, lng: -117.502640265},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-holeshot-school-fontana-auto-club-speedway-scca-national-317656',
+title: 'Starting Line ProLaunch - Fontana'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 39.9617292773, lng: -82.4912681725},
+map: map,
+url: 'https://motorsportreg.com/events/ovr-solo-2020-points-event-4-national-trail-raceway-scca-ohio-valley-948188',
+title: 'OVR Solo 2020 Points Event 5'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 41.1128073975, lng: -85.1254399084},
+map: map,
+url: 'https://motorsportreg.com/events/fort-wayne-solo-points-event-5-great-lakes-div-allen-county-war-memorial-094651',
+title: 'Fort Wayne Solo Points Event #5 Great Lakes Div'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 35.6609606485, lng: -95.3592421131},
+map: map,
+url: 'https://motorsportreg.com/events/neokla-2020-autocross-event-davis-field-muskogee-airport-scca-northeast-oklahoma-861308',
+title: 'NeOkla 2020 Autocross Event Davis Field'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/pca-svr-autocross-2-thunderhill-raceway-park-sacramento-valley-157861',
+title: 'PCA-SVR Autocross #2'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+var marker50 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-806473',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+window.location.href = marker50.url;
+});
+var marker51 = new google.maps.Marker({
+position: {lat: 38.9140465608, lng: -76.8778635441},
+map: map,
+url: 'https://motorsportreg.com/events/scca-washington-dc-fedexfield-autocross-solo-174286',
+title: 'SCCA - Washington DC Region @ FedExField'
+});
+google.maps.event.addListener(marker51, 'click', function() {
+window.location.href = marker51.url;
+});
+var marker52 = new google.maps.Marker({
+position: {lat: 38.9140465608, lng: -76.8778635441},
+map: map,
+url: 'https://motorsportreg.com/events/scca-washington-dc-fedexfield-autocross-solo-995149',
+title: 'SCCA - Washington DC Region @ FedExField'
+});
+google.maps.event.addListener(marker52, 'click', function() {
+window.location.href = marker52.url;
+});
+var marker53 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-autocross-vir-kart-track-3294',
+title: 'NASA at VIR Kart Track'
+});
+google.maps.event.addListener(marker53, 'click', function() {
+window.location.href = marker53.url;
+});
+var marker54 = new google.maps.Marker({
+position: {lat: 44.7380771477, lng: -93.0788127044},
+map: map,
+url: 'https://motorsportreg.com/events/mowog-6-autocross-july-19th-dakota-county-technical-college-minnesota-369921',
+title: 'MOWOG #4 Autocross July 19th'
+});
+google.maps.event.addListener(marker54, 'click', function() {
+window.location.href = marker54.url;
+});
+var marker55 = new google.maps.Marker({
+position: {lat: 34.9060881416, lng: -82.1772365651},
+map: map,
+url: 'https://motorsportreg.com/events/sandlapper-autocross-at-performance-center-bmw-cca-363865',
+title: 'Sandlapper Autocross at the Performance Center'
+});
+google.maps.event.addListener(marker55, 'click', function() {
+window.location.href = marker55.url;
+});
+var marker56 = new google.maps.Marker({
+position: {lat: 28.4248704133, lng: -81.4694172314},
+map: map,
+url: 'https://motorsportreg.com/events/cfr-scca-solo-2020-occc-practice-1-orange-county-convention-center-550013',
+title: 'CFR SCCA Solo 2020 OCCC Practice #1'
+});
+google.maps.event.addListener(marker56, 'click', function() {
+window.location.href = marker56.url;
+});
+var marker57 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-arscca-autocross-charity-event-atlanta-motor-speedway-scca-solo-692985',
+title: '2020 ARSCCA Autocross Charity Event '
+});
+google.maps.event.addListener(marker57, 'click', function() {
+window.location.href = marker57.url;
+});
+var marker58 = new google.maps.Marker({
+position: {lat: 36.7318830837, lng: -119.75117952},
+map: map,
+url: 'https://motorsportreg.com/events/2020-fresno-scca-autocross-event-6-fairgrounds-san-francisco-chapter-716319',
+title: '2020 Fresno SCCA Autocross Event 6'
+});
+google.maps.event.addListener(marker58, 'click', function() {
+window.location.href = marker58.url;
+});
+var marker59 = new google.maps.Marker({
+position: {lat: 40.7536521454, lng: -86.0688802778},
+map: map,
+url: 'https://motorsportreg.com/events/indy-solo-points-event-3-4-grissom-aeroplex-scca-indianapolis-870108',
+title: 'Indy Solo Points Event # 3 & # 4'
+});
+google.maps.event.addListener(marker59, 'click', function() {
+window.location.href = marker59.url;
+});
+var marker60 = new google.maps.Marker({
+position: {lat: 38.6507530136, lng: -90.1353563427},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-solo-points-event-6-family-arena-scca-st-louis-998124',
+title: '2020 Stl Solo Points Event #4'
+});
+google.maps.event.addListener(marker60, 'click', function() {
+window.location.href = marker60.url;
+});
+var marker61 = new google.maps.Marker({
+position: {lat: 39.3596515172, lng: -74.461909522},
+map: map,
+url: 'https://motorsportreg.com/events/sjr-scca-2018-solo-event-5-6-battle-at-bay-bader-field-south-jersey-385953',
+title: 'SJR SCCA 2020 Solo Event 5 & 6 (Battle at the Bay)'
+});
+google.maps.event.addListener(marker61, 'click', function() {
+window.location.href = marker61.url;
+});
+var marker62 = new google.maps.Marker({
+position: {lat: 34.089665385, lng: -117.502640265},
+map: map,
+url: 'https://motorsportreg.com/events/pca-rsr-autocross-march-29-2020-auto-club-speedway-riverside-348751',
+title: 'PCA - RsR Autocross JULY 19, 2020'
+});
+google.maps.event.addListener(marker62, 'click', function() {
+window.location.href = marker62.url;
+});
+var marker63 = new google.maps.Marker({
+position: {lat: 39.9013264994, lng: -75.1719145162},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2020-summer-series-event-2-wells-fargo-center-scca-philadelphia-228974',
+title: 'Philly Region 2020 Summer Series Event #2'
+});
+google.maps.event.addListener(marker63, 'click', function() {
+window.location.href = marker63.url;
+});
+var marker64 = new google.maps.Marker({
+position: {lat: 34.089665385, lng: -117.502640265},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-fontana-prosolo-auto-club-speedway-national-solo-965630',
+title: '2020 Tire Rack SCCA Fontana ProSolo'
+});
+google.maps.event.addListener(marker64, 'click', function() {
+window.location.href = marker64.url;
+});
+var marker65 = new google.maps.Marker({
+position: {lat: 41.6403336428, lng: -81.43650938},
+map: map,
+url: 'https://motorsportreg.com/events/neohio-solo-points-event-4-lake-county-captains-lot-scca-932602',
+title: 'NEOHIO Solo Points Event #4'
+});
+google.maps.event.addListener(marker65, 'click', function() {
+window.location.href = marker65.url;
+});
+var marker66 = new google.maps.Marker({
+position: {lat: 35.0186599044, lng: -106.853432785},
+map: map,
+url: 'https://motorsportreg.com/events/2020-rrr-pca-ds-3-sandia-speedway-albuquerque-area-roadrunner-autocross-506280',
+title: '2020 RRR PCA DS #3'
+});
+google.maps.event.addListener(marker66, 'click', function() {
+window.location.href = marker66.url;
+});
+var marker67 = new google.maps.Marker({
+position: {lat: 34.2955853432, lng: -79.9059459496},
+map: map,
+url: 'https://motorsportreg.com/events/2020-scr-autocross-championship-5-georgetown-airport-scca-south-carolina-solo-876258',
+title: '2020 SCR Autocross Championship #2'
+});
+google.maps.event.addListener(marker67, 'click', function() {
+window.location.href = marker67.url;
+});
+var marker68 = new google.maps.Marker({
+position: {lat: 38.0652726132, lng: -84.4789693338},
+map: map,
+url: 'https://motorsportreg.com/events/ckrscca-2020-post-season-fun-event-legends-stadium-scca-central-kentucky-solo-751842',
+title: 'CKRSCCA 2020 Post Season Fun Event'
+});
+google.maps.event.addListener(marker68, 'click', function() {
+window.location.href = marker68.url;
+});
+var marker69 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-342596',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker69, 'click', function() {
+window.location.href = marker69.url;
+});
+var marker70 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-points-event-10-walesboro-airport-scca-columbus-sports-car-club-770050',
+title: 'CSCC Points Event #10'
+});
+google.maps.event.addListener(marker70, 'click', function() {
+window.location.href = marker70.url;
+});
+var marker71 = new google.maps.Marker({
+position: {lat: 48.2083528303, lng: -103.629043913},
+map: map,
+url: 'https://motorsportreg.com/events/badlands-scca-sept-27th-williston-black-magic-harley-davidson-479646',
+title: 'Badlands SCCA Sept 27th Williston'
+});
+google.maps.event.addListener(marker71, 'click', function() {
+window.location.href = marker71.url;
+});
+var marker72 = new google.maps.Marker({
+position: {lat: 40.2958962824, lng: -88.14832454},
+map: map,
+url: 'https://motorsportreg.com/events/champaign-county-sports-car-club-rantoul-aviation-center-autocross-solo-772186',
+title: 'Champaign County Sports Car Club @ Rantoul Aviation Center'
+});
+google.maps.event.addListener(marker72, 'click', function() {
+window.location.href = marker72.url;
+});
+var marker73 = new google.maps.Marker({
+position: {lat: 38.7476563224, lng: -90.5096643695},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-solo-points-event-9-family-arena-scca-st-louis-471222',
+title: '2020 Stl Solo Points Event #7'
+});
+google.maps.event.addListener(marker73, 'click', function() {
+window.location.href = marker73.url;
+});
+var marker74 = new google.maps.Marker({
+position: {lat: 29.9441298806, lng: -82.1098294282},
+map: map,
+url: 'https://motorsportreg.com/events/scca-buccaneer-jax-solo-florida-intl-rally-msport-park-autocross-405156',
+title: 'SCCA - Buccaneer Region - Jax Solo @ Florida Intl Rally & Msport Park'
+});
+google.maps.event.addListener(marker74, 'click', function() {
+window.location.href = marker74.url;
+});
+var marker75 = new google.maps.Marker({
+position: {lat: 38.7292148117, lng: -87.6816928462},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-6-mid-american-air-center-scca-southern-indiana-459377',
+title: 'Autocross #6'
+});
+google.maps.event.addListener(marker75, 'click', function() {
+window.location.href = marker75.url;
+});
+var marker76 = new google.maps.Marker({
+position: {lat: 36.5951051305, lng: -82.1887454339},
+map: map,
+url: 'https://motorsportreg.com/events/etrscca-solo-points-9-bristol-motor-speedway-scca-east-tennessee-032568',
+title: 'ETRSCCA Solo Points #9'
+});
+google.maps.event.addListener(marker76, 'click', function() {
+window.location.href = marker76.url;
+});
+var marker77 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-12-expo-idaho-scca-snake-river-049546',
+title: 'SRRSCCA Event 12'
+});
+google.maps.event.addListener(marker77, 'click', function() {
+window.location.href = marker77.url;
+});
+var marker78 = new google.maps.Marker({
+position: {lat: 34.5974489686, lng: -91.5751055779},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-points-event-12-special-scored-even-stuttgart-municipal-169549',
+title: 'ARSCCA Solo II Points event 12 special scored even'
+});
+google.maps.event.addListener(marker78, 'click', function() {
+window.location.href = marker78.url;
+});
+var marker79 = new google.maps.Marker({
+position: {lat: 40.7536521454, lng: -86.0688802778},
+map: map,
+url: 'https://motorsportreg.com/events/indy-solo-points-event-7-grissom-aeroplex-scca-indianapolis-731684',
+title: 'Indy Solo Points Event #7'
+});
+google.maps.event.addListener(marker79, 'click', function() {
+window.location.href = marker79.url;
+});
+var marker80 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-11-expo-idaho-scca-snake-river-336233',
+title: 'SRRSCCA Event 11'
+});
+google.maps.event.addListener(marker80, 'click', function() {
+window.location.href = marker80.url;
+});
+var marker81 = new google.maps.Marker({
+position: {lat: 38.0652726132, lng: -84.4789693338},
+map: map,
+url: 'https://motorsportreg.com/events/ckrscca-2020-post-season-fun-event-legends-stadium-scca-central-kentucky-solo-989680',
+title: 'CKRSCCA 2020 Post Season Fun Event'
+});
+google.maps.event.addListener(marker81, 'click', function() {
+window.location.href = marker81.url;
+});
+var marker82 = new google.maps.Marker({
+position: {lat: 27.077045279, lng: -82.4318865079},
+map: map,
+url: 'https://motorsportreg.com/events/fast-venice-airport-festival-grounds-autocross-solo-777653',
+title: 'FAST @ Venice Airport Festival Grounds'
+});
+google.maps.event.addListener(marker82, 'click', function() {
+window.location.href = marker82.url;
+});
+var marker83 = new google.maps.Marker({
+position: {lat: 38.7476563224, lng: -90.5096643695},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-solo-points-event-10-family-arena-scca-st-louis-783643',
+title: '2020 Stl Solo Points Event #8'
+});
+google.maps.event.addListener(marker83, 'click', function() {
+window.location.href = marker83.url;
+});
+var marker84 = new google.maps.Marker({
+position: {lat: 34.89953116, lng: -120.44800908},
+map: map,
+url: 'https://motorsportreg.com/events/pca-california-central-coast-santa-maria-ca-airport-autocross-solo-693296',
+title: 'PCA - California Central Coast Region @ Santa Maria, CA Airport'
+});
+google.maps.event.addListener(marker84, 'click', function() {
+window.location.href = marker84.url;
+});
+var marker85 = new google.maps.Marker({
+position: {lat: 37.1651424733, lng: -77.5224899676},
+map: map,
+url: 'https://motorsportreg.com/events/vmsc-autocross-9-brr-challenge-virginia-motorsports-park-motor-sports-club-779596',
+title: 'VMSC Autocross #5 (BRR Challenge)'
+});
+google.maps.event.addListener(marker85, 'click', function() {
+window.location.href = marker85.url;
+});
+var marker86 = new google.maps.Marker({
+position: {lat: 40.2958962824, lng: -88.14832454},
+map: map,
+url: 'https://motorsportreg.com/events/champaign-county-sports-car-club-rantoul-aviation-center-autocross-solo-222627',
+title: 'Champaign County Sports Car Club @ Rantoul Aviation Center'
+});
+google.maps.event.addListener(marker86, 'click', function() {
+window.location.href = marker86.url;
+});
+var marker87 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/savannah-solo-war-at-shore-roebling-road-raceway-scca-buccaneer-coastal-354192',
+title: 'Savannah Solo War at the Shore'
+});
+google.maps.event.addListener(marker87, 'click', function() {
+window.location.href = marker87.url;
+});
+var marker88 = new google.maps.Marker({
+position: {lat: 29.9668095237, lng: -95.3627118492},
+map: map,
+url: 'https://motorsportreg.com/events/houscca-2020-autocross-9-houston-police-academy-scca-solo-332778',
+title: 'HouSCCA 2020 Autocross #9'
+});
+google.maps.event.addListener(marker88, 'click', function() {
+window.location.href = marker88.url;
+});
+var marker89 = new google.maps.Marker({
+position: {lat: 41.9328877204, lng: -91.679709925},
+map: map,
+url: 'https://motorsportreg.com/events/ia-2020-autox-8-hawkeye-downs-oct-4-scca-iowa-625014',
+title: 'IA Region 2020 Autox #7 - Hawkeye Downs - Oct 4'
+});
+google.maps.event.addListener(marker89, 'click', function() {
+window.location.href = marker89.url;
+});
+var marker90 = new google.maps.Marker({
+position: {lat: 35.5965724552, lng: -86.4416651725},
+map: map,
+url: 'https://motorsportreg.com/events/trscca-2020-points-event-7-twin-fountains-raceway-scca-tennessee-285769',
+title: 'TRSCCA 2020 Points Event 7 - Twin Fountains'
+});
+google.maps.event.addListener(marker90, 'click', function() {
+window.location.href = marker90.url;
+});
+var marker91 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-fun-event-3-walesboro-airport-scca-columbus-sports-car-club-546123',
+title: 'CSCC Fun Event #3'
+});
+google.maps.event.addListener(marker91, 'click', function() {
+window.location.href = marker91.url;
+});
+var marker92 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/auto-x-by-ncm-motorsport-park-motorsports-842202',
+title: 'Auto-X by NCM '
+});
+google.maps.event.addListener(marker92, 'click', function() {
+window.location.href = marker92.url;
+});
+var marker93 = new google.maps.Marker({
+position: {lat: 37.9263670561, lng: -97.8869721809},
+map: map,
+url: 'https://motorsportreg.com/events/wichita-autocross-11-november-1-2020-hutchinson-naval-air-station-scca-778898',
+title: 'Wichita Autocross #11 - November 1 2020'
+});
+google.maps.event.addListener(marker93, 'click', function() {
+window.location.href = marker93.url;
+});
+var marker94 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-14-expo-idaho-scca-snake-river-815676',
+title: 'SRRSCCA Event 14'
+});
+google.maps.event.addListener(marker94, 'click', function() {
+window.location.href = marker94.url;
+});
+var marker95 = new google.maps.Marker({
+position: {lat: 30.6174430986, lng: -81.4600667024},
+map: map,
+url: 'https://motorsportreg.com/events/scca-buccaneer-jax-solo-fernandina-beach-municipal-airport-autocross-872641',
+title: 'SCCA - Buccaneer Region - Jax Solo @ Fernandina Beach Municipal Airport'
+});
+google.maps.event.addListener(marker95, 'click', function() {
+window.location.href = marker95.url;
+});
+var marker96 = new google.maps.Marker({
+position: {lat: 41.1729540433, lng: -73.1317575022},
+map: map,
+url: 'https://motorsportreg.com/events/fcscc-non-points-runoff-event-big-south-lot-483447',
+title: 'FCSCC Non Points and Runoff Event'
+});
+google.maps.event.addListener(marker96, 'click', function() {
+window.location.href = marker96.url;
+});
+var marker97 = new google.maps.Marker({
+position: {lat: 28.0748215108, lng: -81.950843115},
+map: map,
+url: 'https://motorsportreg.com/events/fast-lakeland-marchant-stadium-autocross-solo-413352',
+title: 'FAST @ Lakeland - Marchant Stadium'
+});
+google.maps.event.addListener(marker97, 'click', function() {
+window.location.href = marker97.url;
+});
+var marker98 = new google.maps.Marker({
+position: {lat: 34.8605888365, lng: -85.5078212188},
+map: map,
+url: 'https://motorsportreg.com/events/crscca-charity-autocross-dade-county-high-school-scca-chattanooga-973506',
+title: 'CRSCCA Charity Autocross'
+});
+google.maps.event.addListener(marker98, 'click', function() {
+window.location.href = marker98.url;
+});
+var marker99 = new google.maps.Marker({
+position: {lat: 37.4121152834, lng: -121.022045498},
+map: map,
+url: 'https://motorsportreg.com/events/sfr-regional-events-november-7-8-crows-landing-scca-san-francisco-solo-314237',
+title: 'SFR Regional Events  - November 7-8'
+});
+google.maps.event.addListener(marker99, 'click', function() {
+window.location.href = marker99.url;
+});
+var marker100 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-nov-az-pca-amp-arizona-motorsports-park-866018',
+title: 'Autocross Dec AZ PCA AMP'
+});
+google.maps.event.addListener(marker100, 'click', function() {
+window.location.href = marker100.url;
+});
+var marker101 = new google.maps.Marker({
+position: {lat: 41.1729540433, lng: -73.1317575022},
+map: map,
+url: 'https://motorsportreg.com/events/fcscc-non-points-big-south-lot-253613',
+title: 'FCSCC Non Points '
+});
+google.maps.event.addListener(marker101, 'click', function() {
+window.location.href = marker101.url;
+});
+var marker102 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/az-solo-autocross-fall-series-event-3-arizona-motorsports-park-scca-048007',
+title: 'AZ Solo Autocross Fall Series Event 3'
+});
+google.maps.event.addListener(marker102, 'click', function() {
+window.location.href = marker102.url;
+});
+var marker103 = new google.maps.Marker({
+position: {lat: 30.6174430986, lng: -81.4600667024},
+map: map,
+url: 'https://motorsportreg.com/events/scca-buccaneer-jax-solo-fernandina-beach-municipal-airport-autocross-118892',
+title: 'SCCA - Buccaneer Region - Jax Solo @ Fernandina Beach Municipal Airport'
+});
+google.maps.event.addListener(marker103, 'click', function() {
+window.location.href = marker103.url;
+});
+var marker104 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/kyscca-points-event-4-7-ncm-motorsport-park-scca-kentucky-526576',
+title: 'KYSCCA Points Event 4 or 7?'
+});
+google.maps.event.addListener(marker104, 'click', function() {
+window.location.href = marker104.url;
+});
+var marker105 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-champion-of-champions-motor-speedway-solo-548520',
+title: '2020 Atlanta Region SCCA Champion of Champions'
+});
+google.maps.event.addListener(marker105, 'click', function() {
+window.location.href = marker105.url;
+});
+var marker106 = new google.maps.Marker({
+position: {lat: 38.7476563224, lng: -90.5096643695},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-solo-points-event-11-family-arena-scca-st-louis-748860',
+title: '2020 Stl Solo Points Event #9'
+});
+google.maps.event.addListener(marker106, 'click', function() {
+window.location.href = marker106.url;
+});
+var marker107 = new google.maps.Marker({
+position: {lat: 41.1729540433, lng: -73.1317575022},
+map: map,
+url: 'https://motorsportreg.com/events/fcscc-pratice-pt-4-big-lot-south-721815',
+title: 'FCSCC Practice PT#4 Big Lot'
+});
+google.maps.event.addListener(marker107, 'click', function() {
+window.location.href = marker107.url;
+});
+var marker108 = new google.maps.Marker({
+position: {lat: 27.077045279, lng: -82.4318865079},
+map: map,
+url: 'https://motorsportreg.com/events/fast-venice-airport-festival-grounds-autocross-solo-525289',
+title: 'FAST @ Venice Airport Festival Grounds'
+});
+google.maps.event.addListener(marker108, 'click', function() {
+window.location.href = marker108.url;
+});
+var marker109 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/ne-svt-autocross-1-july-26-2020-devens-airfield-091662',
+title: 'NE-SVT Autocross #1, July 26, 2020'
+});
+google.maps.event.addListener(marker109, 'click', function() {
+window.location.href = marker109.url;
+});
+var marker110 = new google.maps.Marker({
+position: {lat: 39.2167537145, lng: -81.505726517},
+map: map,
+url: 'https://motorsportreg.com/events/great-lakes-divisional-solo-swvr-points-event-5-wvu-parkersburg-scca-902432',
+title: 'Great Lakes Divisional Solo & SWVR Points Event #5'
+});
+google.maps.event.addListener(marker110, 'click', function() {
+window.location.href = marker110.url;
+});
+var marker111 = new google.maps.Marker({
+position: {lat: 33.3386280294, lng: -86.8499533904},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-11-hoover-metropolitan-stadium-scca-alabama-275013',
+title: 'ALSCCA Points 11'
+});
+google.maps.event.addListener(marker111, 'click', function() {
+window.location.href = marker111.url;
+});
+var marker112 = new google.maps.Marker({
+position: {lat: 27.8011887648, lng: -82.7009139989},
+map: map,
+url: 'https://motorsportreg.com/events/fast-2019-20-permanent-numbers-970596',
+title: 'FAST 2019-20 Permanent Numbers'
+});
+google.maps.event.addListener(marker112, 'click', function() {
+window.location.href = marker112.url;
+});
+var marker113 = new google.maps.Marker({
+position: {lat: 40.6334339858, lng: -79.1002909863},
+map: map,
+url: 'https://motorsportreg.com/events/ahr-scca-autox-jimmy-stewart-airport-allegheny-highlands-autocross-814880',
+title: 'AHR-SCCA AutoX'
+});
+google.maps.event.addListener(marker113, 'click', function() {
+window.location.href = marker113.url;
+});
+var marker114 = new google.maps.Marker({
+position: {lat: 32.7742494984, lng: -117.141186654},
+map: map,
+url: 'https://motorsportreg.com/events/2020-sdr-solo-card-new-san-diego-scca-804762',
+title: '2020 SDR SOLO CARD NEW'
+});
+google.maps.event.addListener(marker114, 'click', function() {
+window.location.href = marker114.url;
+});
+var marker115 = new google.maps.Marker({
+position: {lat: 39.7900763782, lng: -104.549726092},
+map: map,
+url: 'https://motorsportreg.com/events/rmsolo-championship-series-12-colorado-air-space-port-scca-rocky-mountain-solo-086017',
+title: 'RMSolo Championship Series #12'
+});
+google.maps.event.addListener(marker115, 'click', function() {
+window.location.href = marker115.url;
+});
+var marker116 = new google.maps.Marker({
+position: {lat: 37.9263670561, lng: -97.8869721809},
+map: map,
+url: 'https://motorsportreg.com/events/wichita-autocross-10-september-27-2020-hutchinson-naval-air-station-scca-139962',
+title: 'Wichita Autocross #10 - September 27 2020'
+});
+google.maps.event.addListener(marker116, 'click', function() {
+window.location.href = marker116.url;
+});
+var marker117 = new google.maps.Marker({
+position: {lat: 41.6165201883, lng: -90.5815862614},
+map: map,
+url: 'https://motorsportreg.com/events/great-river-scca-event-10-final-iowa-air-national-guard-343028',
+title: 'Great River Region SCCA Event #8'
+});
+google.maps.event.addListener(marker117, 'click', function() {
+window.location.href = marker117.url;
+});
+var marker118 = new google.maps.Marker({
+position: {lat: 39.5311404918, lng: -76.1862522492},
+map: map,
+url: 'https://motorsportreg.com/events/bmc-autocross-iv-ripken-stadium-brandywine-motorsport-club-364426',
+title: 'BMC Autocross IV'
+});
+google.maps.event.addListener(marker118, 'click', function() {
+window.location.href = marker118.url;
+});
+var marker119 = new google.maps.Marker({
+position: {lat: 37.7068277007, lng: -122.418737221},
+map: map,
+url: 'https://motorsportreg.com/events/lpr-pca-ax-3-zone-7-weekend-w-ggr-kill-a-kone-cow-palace-loma-prieta-autocross-964547',
+title: 'LPR-PCA AX #3  Zone 7 Weekend w/GGR Kill A Kone'
+});
+google.maps.event.addListener(marker119, 'click', function() {
+window.location.href = marker119.url;
+});
+var marker120 = new google.maps.Marker({
+position: {lat: 34.8605888365, lng: -85.5078212188},
+map: map,
+url: 'https://motorsportreg.com/events/crscca-autocross-9-dade-county-high-school-scca-chattanooga-020730',
+title: 'CRSCCA Autocross #9'
+});
+google.maps.event.addListener(marker120, 'click', function() {
+window.location.href = marker120.url;
+});
+var marker121 = new google.maps.Marker({
+position: {lat: 41.6404258504, lng: -87.4314142245},
+map: map,
+url: 'https://motorsportreg.com/events/inr-autocross-6-portage-high-school-scca-indiana-northwest-434130',
+title: 'INR Autocross #6'
+});
+google.maps.event.addListener(marker121, 'click', function() {
+window.location.href = marker121.url;
+});
+var marker122 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/steel-cities-solo-event-10-pittsburgh-international-race-compl-scca-806300',
+title: 'Steel Cities - Solo Event #10'
+});
+google.maps.event.addListener(marker122, 'click', function() {
+window.location.href = marker122.url;
+});
+var marker123 = new google.maps.Marker({
+position: {lat: 40.9870806904, lng: -82.095342597},
+map: map,
+url: 'https://motorsportreg.com/events/ascc-autocross-event-11-dragway-42-akron-sports-car-club-026006',
+title: 'ASCC Autocross: Event 11'
+});
+google.maps.event.addListener(marker123, 'click', function() {
+window.location.href = marker123.url;
+});
+var marker124 = new google.maps.Marker({
+position: {lat: 35.3609514195, lng: -80.6872376282},
+map: map,
+url: 'https://motorsportreg.com/events/ccr-autocross-9-racing-for-heros-charity-event-zmax-dragway-scca-central-615881',
+title: 'CCR Autocross #10- Racing For Heros Charity Event'
+});
+google.maps.event.addListener(marker124, 'click', function() {
+window.location.href = marker124.url;
+});
+var marker125 = new google.maps.Marker({
+position: {lat: 39.2998088148, lng: -81.5526362562},
+map: map,
+url: 'https://motorsportreg.com/events/southern-wv-points-event-9-grand-central-mall-scca-west-virginia-428004',
+title: 'Southern WV Region Points Event #9'
+});
+google.maps.event.addListener(marker125, 'click', function() {
+window.location.href = marker125.url;
+});
+var marker126 = new google.maps.Marker({
+position: {lat: 46.9455908719, lng: -67.8920871646},
+map: map,
+url: 'https://motorsportreg.com/events/sac-racing-2020-loring-commerce-centre-cumberland-motor-club-454623',
+title: 'Loring MEGA Autocross and Test and Tune'
+});
+google.maps.event.addListener(marker126, 'click', function() {
+window.location.href = marker126.url;
+});
+var marker127 = new google.maps.Marker({
+position: {lat: 41.6499983605, lng: -93.4724979779},
+map: map,
+url: 'https://motorsportreg.com/events/2020-solo-points-event-7-adventureland-park-scca-des-moines-valley-336375',
+title: '2020 Solo Points Event #7 - Adventureland'
+});
+google.maps.event.addListener(marker127, 'click', function() {
+window.location.href = marker127.url;
+});
+var marker128 = new google.maps.Marker({
+position: {lat: 33.7051872066, lng: -89.7624416745},
+map: map,
+url: 'https://motorsportreg.com/events/msscca-grenada-autocross-4-municipal-airport-scca-mississippi-657586',
+title: 'MSSCCA Grenada Autocross 4'
+});
+google.maps.event.addListener(marker128, 'click', function() {
+window.location.href = marker128.url;
+});
+var marker129 = new google.maps.Marker({
+position: {lat: 43.0045000047, lng: -88.9366444832},
+map: map,
+url: 'https://motorsportreg.com/events/mscc-autocross-7-jefferson-speedway-madison-sports-car-club-parking-lot-561803',
+title: 'MSCC Autocross #7'
+});
+google.maps.event.addListener(marker129, 'click', function() {
+window.location.href = marker129.url;
+});
+var marker130 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-nov-az-pca-amp-arizona-motorsports-park-748867',
+title: 'Autocross Nov AZ PCA AMP'
+});
+google.maps.event.addListener(marker130, 'click', function() {
+window.location.href = marker130.url;
+});
+var marker131 = new google.maps.Marker({
+position: {lat: 33.6471271835, lng: -88.4549249016},
+map: map,
+url: 'https://motorsportreg.com/events/msscca-columbus-autocross-4-air-force-base-scca-mississippi-696590',
+title: 'MSSCCA Columbus Autocross 4'
+});
+google.maps.event.addListener(marker131, 'click', function() {
+window.location.href = marker131.url;
+});
+var marker132 = new google.maps.Marker({
+position: {lat: 34.8990325562, lng: -120.447763193},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-aug-8-2020-santa-maria-airport-vapor-trail-vettes-nccc-456118',
+title: ' Autocross VTV- Aug 8, 2020'
+});
+google.maps.event.addListener(marker132, 'click', function() {
+window.location.href = marker132.url;
+});
+var marker133 = new google.maps.Marker({
+position: {lat: 34.5974489686, lng: -91.5751055779},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-points-event-9-stuttgart-municipal-airport-scca-arkansas-974157',
+title: 'ARSCCA Solo II Points event 9 '
+});
+google.maps.event.addListener(marker133, 'click', function() {
+window.location.href = marker133.url;
+});
+var marker134 = new google.maps.Marker({
+position: {lat: 22.116082518, lng: -159.502293085},
+map: map,
+url: 'https://motorsportreg.com/events/kauai-autocross-s5-10-vidinha-stadium-parking-lot-scca-334053',
+title: 'Kauai Autocross S5-#10'
+});
+google.maps.event.addListener(marker134, 'click', function() {
+window.location.href = marker134.url;
+});
+var marker135 = new google.maps.Marker({
+position: {lat: 50.0569469438, lng: -97.0302820441},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wscc-winnipeg-autoslalom-autocross-5-st-andrews-airport-sports-car-club-872595',
+title: '2020 WSCC Winnipeg Autoslalom / Autocross 5'
+});
+google.maps.event.addListener(marker135, 'click', function() {
+window.location.href = marker135.url;
+});
+var marker136 = new google.maps.Marker({
+position: {lat: 34.8605888365, lng: -85.5078212188},
+map: map,
+url: 'https://motorsportreg.com/events/crscca-autocross-10-dade-county-high-school-scca-chattanooga-082932',
+title: 'CRSCCA Autocross #10'
+});
+google.maps.event.addListener(marker136, 'click', function() {
+window.location.href = marker136.url;
+});
+var marker137 = new google.maps.Marker({
+position: {lat: 36.1291837764, lng: -95.9488991742},
+map: map,
+url: 'https://motorsportreg.com/events/neokla-2020-autocross-event-7-fair-meadows-tulsa-fairgrounds-meadow-scca-874578',
+title: 'NeOkla 2020 Autocross Event #7 @ Fair Meadows'
+});
+google.maps.event.addListener(marker137, 'click', function() {
+window.location.href = marker137.url;
+});
+var marker138 = new google.maps.Marker({
+position: {lat: 34.750158338, lng: -92.3298688017},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-hangover-event-war-memorial-stadium-scca-arkansas-800592',
+title: 'ARSCCA Solo II hangover event'
+});
+google.maps.event.addListener(marker138, 'click', function() {
+window.location.href = marker138.url;
+});
+var marker139 = new google.maps.Marker({
+position: {lat: 43.5520796854, lng: -96.7719574595},
+map: map,
+url: 'https://motorsportreg.com/events/sports-car-club-of-siouxland-points-weekend-7-sioux-empire-fairgrounds-626242',
+title: 'Sports Car Club of Siouxland Points Weekend #7 '
+});
+google.maps.event.addListener(marker139, 'click', function() {
+window.location.href = marker139.url;
+});
+var marker140 = new google.maps.Marker({
+position: {lat: 39.0955588379, lng: -84.5242398276},
+map: map,
+url: 'https://motorsportreg.com/events/cincyscca-2020-permanent-number-online-scca-cincinnati-solo-712469',
+title: 'CincySCCA Solo 2020 Permanent Number'
+});
+google.maps.event.addListener(marker140, 'click', function() {
+window.location.href = marker140.url;
+});
+var marker141 = new google.maps.Marker({
+position: {lat: 46.5337577858, lng: -121.91789311},
+map: map,
+url: 'https://motorsportreg.com/events/pnwr-autocross-6-hampton-mills-old-lumber-yard-pca-pacific-northwest-399056',
+title: 'PNWR Autocross #6'
+});
+google.maps.event.addListener(marker141, 'click', function() {
+window.location.href = marker141.url;
+});
+var marker142 = new google.maps.Marker({
+position: {lat: 32.0812585053, lng: -81.0809843734},
+map: map,
+url: 'https://motorsportreg.com/events/savannah-solo-event-10-hutchinson-island-paddock-scca-buccaneer-coastal-756073',
+title: 'Savannah Solo Event 10'
+});
+google.maps.event.addListener(marker142, 'click', function() {
+window.location.href = marker142.url;
+});
+var marker143 = new google.maps.Marker({
+position: {lat: 40.3790572506, lng: -79.6060323432},
+map: map,
+url: 'https://motorsportreg.com/events/ahr-scca-auto-x-greensburg-jeannette-airport-allegheny-highlands-autocross-391603',
+title: 'AHR-SCCA Auto X'
+});
+google.maps.event.addListener(marker143, 'click', function() {
+window.location.href = marker143.url;
+});
+var marker144 = new google.maps.Marker({
+position: {lat: 40.8501456428, lng: -96.7700381764},
+map: map,
+url: 'https://motorsportreg.com/events/nrscca-solo-points-event-5-lincoln-air-park-scca-nebraska-997506',
+title: 'NRSCCA Solo Points Event #5'
+});
+google.maps.event.addListener(marker144, 'click', function() {
+window.location.href = marker144.url;
+});
+var marker145 = new google.maps.Marker({
+position: {lat: 37.9263670561, lng: -97.8869721809},
+map: map,
+url: 'https://motorsportreg.com/events/wichita-autox-8-august-2-2020-sunflower-showdown-hutchinson-naval-air-282050',
+title: 'Wichita AutoX 8 - August 2 2020 SUNFLOWER SHOWDOWN'
+});
+google.maps.event.addListener(marker145, 'click', function() {
+window.location.href = marker145.url;
+});
+var marker146 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncr-autocross-4-devens-airfield-pca-north-country-642433',
+title: '2020 NCR Autocross #4'
+});
+google.maps.event.addListener(marker146, 'click', function() {
+window.location.href = marker146.url;
+});
+var marker147 = new google.maps.Marker({
+position: {lat: 29.9668095237, lng: -95.3627118492},
+map: map,
+url: 'https://motorsportreg.com/events/houscca-2020-autocross-8-houston-police-academy-scca-solo-070101',
+title: 'HouSCCA 2020 Autocross #8'
+});
+google.maps.event.addListener(marker147, 'click', function() {
+window.location.href = marker147.url;
+});
+var marker148 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/steel-cities-solo-event-1-pittsburgh-international-race-compl-scca-409232',
+title: 'Steel Cities - Solo Event #1 (RESCHEDULED)'
+});
+google.maps.event.addListener(marker148, 'click', function() {
+window.location.href = marker148.url;
+});
+var marker149 = new google.maps.Marker({
+position: {lat: 47.5011550437, lng: -114.089191756},
+map: map,
+url: 'https://motorsportreg.com/events/big-sky-race-5-6-rocky-mountain-twist-scca-427268',
+title: 'Big Sky Race #5 and #6 @ Rocky Mountain Twist'
+});
+google.maps.event.addListener(marker149, 'click', function() {
+window.location.href = marker149.url;
+});
+var marker150 = new google.maps.Marker({
+position: {lat: 39.7900763782, lng: -104.549726092},
+map: map,
+url: 'https://motorsportreg.com/events/rmsolo-championship-series-10-colorado-air-space-port-scca-rocky-mountain-solo-177751',
+title: 'RMSolo Championship Series #10'
+});
+google.maps.event.addListener(marker150, 'click', function() {
+window.location.href = marker150.url;
+});
+var marker151 = new google.maps.Marker({
+position: {lat: 40.8501456428, lng: -96.7700381764},
+map: map,
+url: 'https://motorsportreg.com/events/nrscca-solo-tnt-2-lincoln-air-park-scca-nebraska-721254',
+title: 'NRSCCA Solo TnT #2 '
+});
+google.maps.event.addListener(marker151, 'click', function() {
+window.location.href = marker151.url;
+});
+var marker152 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-4-motor-speedway-solo-250177',
+title: '2020 Atlanta Region SCCA Autocross Points 4'
+});
+google.maps.event.addListener(marker152, 'click', function() {
+window.location.href = marker152.url;
+});
+var marker153 = new google.maps.Marker({
+position: {lat: 39.7896836424, lng: -104.550265677},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-summer-series-3-front-range-airport-denver-bmw-cca-rocky-mountain-099458',
+title: 'Autocross Summer Series #3'
+});
+google.maps.event.addListener(marker153, 'click', function() {
+window.location.href = marker153.url;
+});
+var marker154 = new google.maps.Marker({
+position: {lat: 47.5011550437, lng: -114.089191756},
+map: map,
+url: 'https://motorsportreg.com/events/big-sky-race-9-10-rocky-mountain-twist-scca-666304',
+title: 'Big Sky Race #9 and #10 @ Rocky Mountain Twist'
+});
+google.maps.event.addListener(marker154, 'click', function() {
+window.location.href = marker154.url;
+});
+var marker155 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-13-expo-idaho-scca-snake-river-394122',
+title: 'SRRSCCA Event 13'
+});
+google.maps.event.addListener(marker155, 'click', function() {
+window.location.href = marker155.url;
+});
+var marker156 = new google.maps.Marker({
+position: {lat: 41.6396437937, lng: -91.5417879151},
+map: map,
+url: 'https://motorsportreg.com/events/ia-2020-autox-4-ic-airport-jul-26-iowa-city-municipal-scca-575624',
+title: 'IA Region 2020 Autox #4 - IC Airport - Jul 26'
+});
+google.maps.event.addListener(marker156, 'click', function() {
+window.location.href = marker156.url;
+});
+var marker157 = new google.maps.Marker({
+position: {lat: 41.7285626114, lng: -86.3517047509},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-pca-autocross-2-tire-rack-977089',
+title: 'Michiana PCA Autocross #2'
+});
+google.maps.event.addListener(marker157, 'click', function() {
+window.location.href = marker157.url;
+});
+var marker158 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-6-expo-idaho-scca-snake-river-904298',
+title: 'SRRSCCA Event 6'
+});
+google.maps.event.addListener(marker158, 'click', function() {
+window.location.href = marker158.url;
+});
+var marker159 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-060441',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker159, 'click', function() {
+window.location.href = marker159.url;
+});
+var marker160 = new google.maps.Marker({
+position: {lat: 45.0151130355, lng: -122.99388013},
+map: map,
+url: 'https://motorsportreg.com/events/wmc-ax-3-cars-stripes-keizer-volcanoes-stadium-willamette-motor-club-571245',
+title: 'WMC AX #3 - Summer Eruption'
+});
+google.maps.event.addListener(marker160, 'click', function() {
+window.location.href = marker160.url;
+});
+var marker161 = new google.maps.Marker({
+position: {lat: 43.0045000047, lng: -88.9366444832},
+map: map,
+url: 'https://motorsportreg.com/events/mscc-autocross-5-jefferson-speedway-madison-sports-car-club-parking-lot-967875',
+title: 'MSCC Autocross #5'
+});
+google.maps.event.addListener(marker161, 'click', function() {
+window.location.href = marker161.url;
+});
+var marker162 = new google.maps.Marker({
+position: {lat: 33.6471271835, lng: -88.4549249016},
+map: map,
+url: 'https://motorsportreg.com/events/msscca-columbus-autocross-3-air-force-base-scca-mississippi-645765',
+title: 'MSSCCA Columbus Autocross 3'
+});
+google.maps.event.addListener(marker162, 'click', function() {
+window.location.href = marker162.url;
+});
+var marker163 = new google.maps.Marker({
+position: {lat: 43.3501451427, lng: -76.3877359995},
+map: map,
+url: 'https://motorsportreg.com/events/cny-solo-2-oswego-county-airport-evoc-scca-central-new-york-190645',
+title: 'CNY Solo # 2'
+});
+google.maps.event.addListener(marker163, 'click', function() {
+window.location.href = marker163.url;
+});
+var marker164 = new google.maps.Marker({
+position: {lat: 42.2156131557, lng: -79.834215303},
+map: map,
+url: 'https://motorsportreg.com/events/mbr-scca-2020-points-event-3-lake-erie-speedway-misery-bay-382700',
+title: 'MBR SCCA 2020 Points Event 3'
+});
+google.maps.event.addListener(marker164, 'click', function() {
+window.location.href = marker164.url;
+});
+var marker165 = new google.maps.Marker({
+position: {lat: 36.5951051305, lng: -82.1887454339},
+map: map,
+url: 'https://motorsportreg.com/events/etrscca-solo-points-7-bristol-motor-speedway-scca-east-tennessee-310207',
+title: 'ETRSCCA Solo Points #7'
+});
+google.maps.event.addListener(marker165, 'click', function() {
+window.location.href = marker165.url;
+});
+var marker166 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-870662',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker166, 'click', function() {
+window.location.href = marker166.url;
+});
+var marker167 = new google.maps.Marker({
+position: {lat: 32.7743724418, lng: -96.9880304939},
+map: map,
+url: 'https://motorsportreg.com/events/txr-scca-solo-e3-cone-zone-lone-star-park-texas-779489',
+title: 'TXR SCCA Solo E3 - Cone Zone - RESCHEDULED'
+});
+google.maps.event.addListener(marker167, 'click', function() {
+window.location.href = marker167.url;
+});
+var marker168 = new google.maps.Marker({
+position: {lat: 42.4220522083, lng: -92.3373137079},
+map: map,
+url: 'https://motorsportreg.com/events/ia-2020-autox-9-hawkeye-tech-oct-18-transportation-center-scca-iowa-858823',
+title: 'IA Region 2020 Autox #8 - Hawkeye Tech - Oct 18'
+});
+google.maps.event.addListener(marker168, 'click', function() {
+window.location.href = marker168.url;
+});
+var marker169 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/trscca-2020-points-event-5-ncm-motorsport-park-scca-tennessee-072730',
+title: 'TRSCCA 2020 Points Event 5 - NCM'
+});
+google.maps.event.addListener(marker169, 'click', function() {
+window.location.href = marker169.url;
+});
+var marker170 = new google.maps.Marker({
+position: {lat: 41.7267082151, lng: -86.3510285622},
+map: map,
+url: 'https://motorsportreg.com/events/sbr-points-8-one-more-time-tire-rack-test-facility-scca-south-bend-solo-709544',
+title: 'SBR Points 8, One More Time'
+});
+google.maps.event.addListener(marker170, 'click', function() {
+window.location.href = marker170.url;
+});
+var marker171 = new google.maps.Marker({
+position: {lat: 34.5974489686, lng: -91.5751055779},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-points-event-13-stuttgart-municipal-airport-scca-arkansas-090206',
+title: 'ARSCCA Solo II Points event 13'
+});
+google.maps.event.addListener(marker171, 'click', function() {
+window.location.href = marker171.url;
+});
+var marker172 = new google.maps.Marker({
+position: {lat: 34.9074166134, lng: -76.8959293944},
+map: map,
+url: 'https://motorsportreg.com/events/forza-motorsports-at-cherry-point-ncr-autox-mcas-scca-north-carolina-solo-539680',
+title: 'Forza Motorsports at Cherry Point NCR Autox'
+});
+google.maps.event.addListener(marker172, 'click', function() {
+window.location.href = marker172.url;
+});
+var marker173 = new google.maps.Marker({
+position: {lat: 38.7292148117, lng: -87.6816928462},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-7-mid-american-air-center-scca-southern-indiana-108269',
+title: 'Autocross #7'
+});
+google.maps.event.addListener(marker173, 'click', function() {
+window.location.href = marker173.url;
+});
+var marker174 = new google.maps.Marker({
+position: {lat: 40.9870806904, lng: -82.095342597},
+map: map,
+url: 'https://motorsportreg.com/events/ascc-autocross-event-09-dragway-42-akron-sports-car-club-915305',
+title: 'ASCC Autocross: Event 09'
+});
+google.maps.event.addListener(marker174, 'click', function() {
+window.location.href = marker174.url;
+});
+var marker175 = new google.maps.Marker({
+position: {lat: 40.9870806904, lng: -82.095342597},
+map: map,
+url: 'https://motorsportreg.com/events/ascc-autocross-event-06-dragway-42-akron-sports-car-club-963108',
+title: 'ASCC Autocross: Event 06'
+});
+google.maps.event.addListener(marker175, 'click', function() {
+window.location.href = marker175.url;
+});
+var marker176 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/ner-stirling-moss-runoff-devens-airfield-scca-new-england-solo-062226',
+title: 'NER-Stirling Moss Runoff'
+});
+google.maps.event.addListener(marker176, 'click', function() {
+window.location.href = marker176.url;
+});
+var marker177 = new google.maps.Marker({
+position: {lat: 42.0924033733, lng: -72.6190971636},
+map: map,
+url: 'https://motorsportreg.com/events/cart-autocross-at-eastern-states-exposition-connecticut-rally-team-903557',
+title: 'CART Autocross at Eastern States Exposition'
+});
+google.maps.event.addListener(marker177, 'click', function() {
+window.location.href = marker177.url;
+});
+var marker178 = new google.maps.Marker({
+position: {lat: 40.6600000066, lng: -86.1500024346},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-peru-cam-challenge-grissom-aeroplex-national-solo-987075',
+title: '2020 Tire Rack SCCA Peru CAM Challenge'
+});
+google.maps.event.addListener(marker178, 'click', function() {
+window.location.href = marker178.url;
+});
+var marker179 = new google.maps.Marker({
+position: {lat: 41.7285626114, lng: -86.3517047509},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-pca-autocross-5-tire-rack-539526',
+title: 'Michiana PCA Autocross #5'
+});
+google.maps.event.addListener(marker179, 'click', function() {
+window.location.href = marker179.url;
+});
+var marker180 = new google.maps.Marker({
+position: {lat: 40.7536521454, lng: -86.0688802778},
+map: map,
+url: 'https://motorsportreg.com/events/indy-solo-final-event-swap-drive-grissom-aeroplex-scca-indianapolis-831735',
+title: 'Indy Solo Final Event - Swap and Drive'
+});
+google.maps.event.addListener(marker180, 'click', function() {
+window.location.href = marker180.url;
+});
+var marker181 = new google.maps.Marker({
+position: {lat: 41.6404258504, lng: -87.4314142245},
+map: map,
+url: 'https://motorsportreg.com/events/inr-autocross-7-majestic-star-casino-scca-indiana-northwest-285841',
+title: 'INR Autocross #7'
+});
+google.maps.event.addListener(marker181, 'click', function() {
+window.location.href = marker181.url;
+});
+var marker182 = new google.maps.Marker({
+position: {lat: 39.4461831838, lng: -84.3266766059},
+map: map,
+url: 'https://motorsportreg.com/events/wor-pe5-cincy-pe1-sat-sun-traders-world-scca-cincinnati-solo-052616',
+title: 'WOR-PE5/Cincy-PE1 (Sat), Cincy-PE5(Sun)'
+});
+google.maps.event.addListener(marker182, 'click', function() {
+window.location.href = marker182.url;
+});
+var marker183 = new google.maps.Marker({
+position: {lat: 34.9074166134, lng: -76.8959293944},
+map: map,
+url: 'https://motorsportreg.com/events/gran-tursimo-at-cherry-point-ncr-autox-mcas-scca-north-carolina-solo-879353',
+title: 'Gran Tursimo at Cherry Point NCR Autox'
+});
+google.maps.event.addListener(marker183, 'click', function() {
+window.location.href = marker183.url;
+});
+var marker184 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-points-event-11-walesboro-airport-scca-columbus-sports-car-club-246296',
+title: 'CSCC Points Event #11'
+});
+google.maps.event.addListener(marker184, 'click', function() {
+window.location.href = marker184.url;
+});
+var marker185 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/az-solo-autocross-fall-series-event-2-arizona-motorsports-park-scca-815752',
+title: 'AZ Solo Autocross Fall Series Event 2'
+});
+google.maps.event.addListener(marker185, 'click', function() {
+window.location.href = marker185.url;
+});
+var marker186 = new google.maps.Marker({
+position: {lat: 39.3596515172, lng: -74.461909522},
+map: map,
+url: 'https://motorsportreg.com/events/sjr-scca-2020-solo-event-9-bader-field-south-jersey-315656',
+title: 'SJR SCCA 2020 Solo Event 9'
+});
+google.maps.event.addListener(marker186, 'click', function() {
+window.location.href = marker186.url;
+});
+var marker187 = new google.maps.Marker({
+position: {lat: 36.450984724, lng: -77.5588675551},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncac-thscc-events-9-10-nccar-tarheel-sports-car-club-820686',
+title: '2020 NCAC and THSCC Events #9 and #10'
+});
+google.maps.event.addListener(marker187, 'click', function() {
+window.location.href = marker187.url;
+});
+var marker188 = new google.maps.Marker({
+position: {lat: 37.5923912963, lng: -77.419456564},
+map: map,
+url: 'https://motorsportreg.com/events/vmsc-autocross-8-richmond-intl-raceway-infield-virginia-motor-sports-club-483790',
+title: 'VMSC Autocross #4'
+});
+google.maps.event.addListener(marker188, 'click', function() {
+window.location.href = marker188.url;
+});
+var marker189 = new google.maps.Marker({
+position: {lat: 35.9477158955, lng: -84.1667135756},
+map: map,
+url: 'https://motorsportreg.com/events/etrscca-solo-points-10-pellissippi-state-scca-east-tennessee-282788',
+title: 'ETRSCCA Solo Points #10'
+});
+google.maps.event.addListener(marker189, 'click', function() {
+window.location.href = marker189.url;
+});
+var marker190 = new google.maps.Marker({
+position: {lat: 39.2998088148, lng: -81.5526362562},
+map: map,
+url: 'https://motorsportreg.com/events/southern-wv-points-event-8-grand-central-mall-scca-west-virginia-148279',
+title: 'Southern WV Region Points Event #8'
+});
+google.maps.event.addListener(marker190, 'click', function() {
+window.location.href = marker190.url;
+});
+var marker191 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/trscca-2020-points-event-6-ncm-motorsport-park-scca-tennessee-365952',
+title: 'TRSCCA 2020 Points Event 6 - NCM'
+});
+google.maps.event.addListener(marker191, 'click', function() {
+window.location.href = marker191.url;
+});
+var marker192 = new google.maps.Marker({
+position: {lat: 40.9870806904, lng: -82.095342597},
+map: map,
+url: 'https://motorsportreg.com/events/ascc-autocross-event-10-summit-motorsports-park-akron-sports-car-club-529972',
+title: 'ASCC Autocross: Event 10'
+});
+google.maps.event.addListener(marker192, 'click', function() {
+window.location.href = marker192.url;
+});
+var marker193 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-oct-az-pca-amp-arizona-motorsports-park-123009',
+title: 'Autocross Oct AZ PCA AMP'
+});
+google.maps.event.addListener(marker193, 'click', function() {
+window.location.href = marker193.url;
+});
+var marker194 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-pca-ner-autocross-5-devens-airfield-northeast-506450',
+title: '2020 PCA NER Autocross #5'
+});
+google.maps.event.addListener(marker194, 'click', function() {
+window.location.href = marker194.url;
+});
+var marker195 = new google.maps.Marker({
+position: {lat: 35.3609514195, lng: -80.6872376282},
+map: map,
+url: 'https://motorsportreg.com/events/ccr-autocross-8-zmax-dragway-scca-central-carolinas-828406',
+title: 'CCR Autocross #9'
+});
+google.maps.event.addListener(marker195, 'click', function() {
+window.location.href = marker195.url;
+});
+var marker196 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/boston-bmw-cca-autocross-points-event-8-devens-airfield-426550',
+title: 'Boston BMW CCA Autocross Points Event 8'
+});
+google.maps.event.addListener(marker196, 'click', function() {
+window.location.href = marker196.url;
+});
+var marker197 = new google.maps.Marker({
+position: {lat: 35.1837421615, lng: -101.928108244},
+map: map,
+url: 'https://motorsportreg.com/events/west-texas-scca-october-18th-2020-finale-westgate-mall-508410',
+title: 'West Texas Region SCCA - October 18th, 2020 Finale'
+});
+google.maps.event.addListener(marker197, 'click', function() {
+window.location.href = marker197.url;
+});
+var marker198 = new google.maps.Marker({
+position: {lat: 33.3859783158, lng: -84.3162742278},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-atlanta-motor-speedway-scca-national-starting-line-759516',
+title: 'TBD - Starting Line - Atlanta'
+});
+google.maps.event.addListener(marker198, 'click', function() {
+window.location.href = marker198.url;
+});
+var marker199 = new google.maps.Marker({
+position: {lat: 42.7350319665, lng: -76.8605626749},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-new-york-seneca-army-depot-scca-national-starting-line-303216',
+title: 'CANCELLED - Starting Line - New York'
+});
+google.maps.event.addListener(marker199, 'click', function() {
+window.location.href = marker199.url;
+});
+var marker200 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/boston-bmw-cca-autocross-points-event-7-devens-airfield-651935',
+title: 'Boston BMW CCA Autocross Points Event 7'
+});
+google.maps.event.addListener(marker200, 'click', function() {
+window.location.href = marker200.url;
+});
+var marker201 = new google.maps.Marker({
+position: {lat: 41.7217119317, lng: -86.3173898805},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-bmwcca-autocross-7-tire-rack-bmw-cca-670659',
+title: 'Michiana BMWCCA Autocross #7'
+});
+google.maps.event.addListener(marker201, 'click', function() {
+window.location.href = marker201.url;
+});
+var marker202 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/nbca-ttc-auto-x-87-88-thunderhill-raceway-park-wscc-north-bay-corvette-531495',
+title: 'NBCA-TTC-- Auto-x 87 & 88'
+});
+google.maps.event.addListener(marker202, 'click', function() {
+window.location.href = marker202.url;
+});
+var marker203 = new google.maps.Marker({
+position: {lat: 35.4301241603, lng: -82.5330552699},
+map: map,
+url: 'https://motorsportreg.com/events/2020-hscc-night-series-6-wnc-agricultural-center-highlands-sports-car-club-572215',
+title: '2020 HSCC Night Series #6'
+});
+google.maps.event.addListener(marker203, 'click', function() {
+window.location.href = marker203.url;
+});
+var marker204 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/pitt-race-low-key-autox-5-pittsburgh-international-compl-423713',
+title: 'Pitt Race Low-Key AutoX #6'
+});
+google.maps.event.addListener(marker204, 'click', function() {
+window.location.href = marker204.url;
+});
+var marker205 = new google.maps.Marker({
+position: {lat: 38.9302136185, lng: -95.6761628905},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-solo-event-9-10-october-3-4-heartland-motorsports-park-kansas-014977',
+title: 'KS SCCA SOLO Event #9 & 10 October 3-4'
+});
+google.maps.event.addListener(marker205, 'click', function() {
+window.location.href = marker205.url;
+});
+var marker206 = new google.maps.Marker({
+position: {lat: 43.6673015616, lng: -79.7076518977},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-trillium-pca-ucr-autoslalom-sept-27-2020-caa-centre-brampton-on-bmw-cca-286790',
+title: 'BMWCCA Trillium/PCA-UCR Autoslalom - Sept 27, 2020'
+});
+google.maps.event.addListener(marker206, 'click', function() {
+window.location.href = marker206.url;
+});
+var marker207 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/orpca-ax-7-09-27-2020-south-paddock-portland-intl-raceway-pca-oregon-687799',
+title: 'ORPCA AX #7- 09/27/2020 (South Paddock)'
+});
+google.maps.event.addListener(marker207, 'click', function() {
+window.location.href = marker207.url;
+});
+var marker208 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-11-remington-park-oklahoma-077757',
+title: '2020 OK SCCA Autocross Event 11'
+});
+google.maps.event.addListener(marker208, 'click', function() {
+window.location.href = marker208.url;
+});
+var marker209 = new google.maps.Marker({
+position: {lat: 39.0838894597, lng: -94.3394948702},
+map: map,
+url: 'https://motorsportreg.com/events/kcr-2020-event-11-halloweenie-mcc-blue-river-prec-driving-ctr-scca-kansas-455875',
+title: 'KCR 2020 Event #11 - Halloweenie'
+});
+google.maps.event.addListener(marker209, 'click', function() {
+window.location.href = marker209.url;
+});
+var marker210 = new google.maps.Marker({
+position: {lat: 31.1340888526, lng: -83.7107847882},
+map: map,
+url: 'https://motorsportreg.com/events/dixie-scca-solo-2020-event-09-spence-field-513551',
+title: 'Dixie Region SCCA 2020 Solo #09'
+});
+google.maps.event.addListener(marker210, 'click', function() {
+window.location.href = marker210.url;
+});
+var marker211 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/orpca-ax-8-10-4-2020-south-paddock-portland-intl-raceway-pca-oregon-711368',
+title: 'ORPCA AX #8- 10/4/2020 (South Paddock)'
+});
+google.maps.event.addListener(marker211, 'click', function() {
+window.location.href = marker211.url;
+});
+var marker212 = new google.maps.Marker({
+position: {lat: 42.3798587147, lng: -83.3580055176},
+map: map,
+url: 'https://motorsportreg.com/events/drscca-solo-8-autumn-colors-schoolcraft-pstc-scca-detroit-383692',
+title: 'DRSCCA Solo #8: Autumn Colors Solo'
+});
+google.maps.event.addListener(marker212, 'click', function() {
+window.location.href = marker212.url;
+});
+var marker213 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/boston-bmw-cca-autocross-points-event-6-devens-airfield-351332',
+title: 'Boston BMW CCA Autocross Points Event 6'
+});
+google.maps.event.addListener(marker213, 'click', function() {
+window.location.href = marker213.url;
+});
+var marker214 = new google.maps.Marker({
+position: {lat: 28.0748215108, lng: -81.950843115},
+map: map,
+url: 'https://motorsportreg.com/events/fast-lakeland-marchant-stadium-autocross-solo-051309',
+title: 'FAST @ Lakeland - Marchant Stadium'
+});
+google.maps.event.addListener(marker214, 'click', function() {
+window.location.href = marker214.url;
+});
+var marker215 = new google.maps.Marker({
+position: {lat: 41.7285626114, lng: -86.3517047509},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-pca-autocross-4-tire-rack-021037',
+title: 'Michiana PCA Autocross #4'
+});
+google.maps.event.addListener(marker215, 'click', function() {
+window.location.href = marker215.url;
+});
+var marker216 = new google.maps.Marker({
+position: {lat: 35.3609514195, lng: -80.6872376282},
+map: map,
+url: 'https://motorsportreg.com/events/ccr-autocross-7-zmax-dragway-scca-central-carolinas-212137',
+title: 'CCR Autocross #8'
+});
+google.maps.event.addListener(marker216, 'click', function() {
+window.location.href = marker216.url;
+});
+var marker217 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-481897',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker217, 'click', function() {
+window.location.href = marker217.url;
+});
+var marker218 = new google.maps.Marker({
+position: {lat: 34.9074166134, lng: -76.8959293944},
+map: map,
+url: 'https://motorsportreg.com/events/crazy-taxi-at-cherry-point-ncr-autox-mcas-scca-north-carolina-solo-725435',
+title: 'Crazy Taxi at Cherry Point NCR Autox'
+});
+google.maps.event.addListener(marker218, 'click', function() {
+window.location.href = marker218.url;
+});
+var marker219 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-superweekend-points-event-8-walesboro-airport-scca-columbus-sports-car-club-167467',
+title: 'CSCC SuperWeekend Points Event #8'
+});
+google.maps.event.addListener(marker219, 'click', function() {
+window.location.href = marker219.url;
+});
+var marker220 = new google.maps.Marker({
+position: {lat: 39.2167537145, lng: -81.505726517},
+map: map,
+url: 'https://motorsportreg.com/events/southern-wv-points-event-7-wvu-parkersburg-scca-west-virginia-200809',
+title: 'Southern WV Region Points Event #7'
+});
+google.maps.event.addListener(marker220, 'click', function() {
+window.location.href = marker220.url;
+});
+var marker221 = new google.maps.Marker({
+position: {lat: 34.89953116, lng: -120.44800908},
+map: map,
+url: 'https://motorsportreg.com/events/pca-california-central-coast-santa-maria-ca-airport-autocross-solo-393938',
+title: 'PCA - California Central Coast Region @ Santa Maria, CA Airport'
+});
+google.maps.event.addListener(marker221, 'click', function() {
+window.location.href = marker221.url;
+});
+var marker222 = new google.maps.Marker({
+position: {lat: 48.44664447, lng: -101.723919739},
+map: map,
+url: 'https://motorsportreg.com/events/badlands-scca-carpio-6-farmers-union-oil-819793',
+title: 'Badlands SCCA Carpio # 6'
+});
+google.maps.event.addListener(marker222, 'click', function() {
+window.location.href = marker222.url;
+});
+var marker223 = new google.maps.Marker({
+position: {lat: 31.1340888526, lng: -83.7107847882},
+map: map,
+url: 'https://motorsportreg.com/events/dixie-scca-solo-2020-event-10-spence-field-389470',
+title: 'Dixie Region SCCA 2020 Solo #10 - Turkey Shootout'
+});
+google.maps.event.addListener(marker223, 'click', function() {
+window.location.href = marker223.url;
+});
+var marker224 = new google.maps.Marker({
+position: {lat: 38.0604334242, lng: -84.538371489},
+map: map,
+url: 'https://motorsportreg.com/events/ckrscca-2020-points-9-lfucg-training-pad-scca-central-kentucky-solo-229662',
+title: 'CKRSCCA 2020 Points #9'
+});
+google.maps.event.addListener(marker224, 'click', function() {
+window.location.href = marker224.url;
+});
+var marker225 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-9-motor-speedway-solo-212083',
+title: '2020 Atlanta Region SCCA Autocross Points 9'
+});
+google.maps.event.addListener(marker225, 'click', function() {
+window.location.href = marker225.url;
+});
+var marker226 = new google.maps.Marker({
+position: {lat: 33.3386280294, lng: -86.8499533904},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-10-hoover-metropolitan-stadium-scca-alabama-786943',
+title: 'ALSCCA Points 10'
+});
+google.maps.event.addListener(marker226, 'click', function() {
+window.location.href = marker226.url;
+});
+var marker227 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-13-remington-park-oklahoma-856228',
+title: '2020 OK SCCA Autocross Event 13'
+});
+google.maps.event.addListener(marker227, 'click', function() {
+window.location.href = marker227.url;
+});
+var marker228 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/boston-bmw-cca-autocross-points-event-9-devens-airfield-218754',
+title: 'Boston BMW CCA Autocross Points Event 9'
+});
+google.maps.event.addListener(marker228, 'click', function() {
+window.location.href = marker228.url;
+});
+var marker229 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-14-remington-park-oklahoma-281342',
+title: '2020 OK SCCA Autocross Event 14'
+});
+google.maps.event.addListener(marker229, 'click', function() {
+window.location.href = marker229.url;
+});
+var marker230 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-10-motor-speedway-solo-409453',
+title: '2020 Atlanta Region SCCA Autocross Points 10'
+});
+google.maps.event.addListener(marker230, 'click', function() {
+window.location.href = marker230.url;
+});
+var marker231 = new google.maps.Marker({
+position: {lat: 41.6727872867, lng: -93.0113167751},
+map: map,
+url: 'https://motorsportreg.com/events/2020-solo-points-event-6-iowa-speedway-scca-des-moines-valley-477906',
+title: '2020 Solo Points Event #6 - Iowa Speedway'
+});
+google.maps.event.addListener(marker231, 'click', function() {
+window.location.href = marker231.url;
+});
+var marker232 = new google.maps.Marker({
+position: {lat: 41.6396437937, lng: -91.5417879151},
+map: map,
+url: 'https://motorsportreg.com/events/ia-2020-autox-7-ic-airport-sep-20-iowa-city-municipal-scca-548914',
+title: 'IA Region 2020 Autox #6 - IC Airport - Sep 20'
+});
+google.maps.event.addListener(marker232, 'click', function() {
+window.location.href = marker232.url;
+});
+var marker233 = new google.maps.Marker({
+position: {lat: 22.116082518, lng: -159.502293085},
+map: map,
+url: 'https://motorsportreg.com/events/kauai-autocross-s5-9-vidinha-stadium-parking-lot-scca-382886',
+title: 'Kauai Autocross S5-#9'
+});
+google.maps.event.addListener(marker233, 'click', function() {
+window.location.href = marker233.url;
+});
+var marker234 = new google.maps.Marker({
+position: {lat: 31.1340888526, lng: -83.7107847882},
+map: map,
+url: 'https://motorsportreg.com/events/dixie-scca-solo-2020-event-11-spence-field-045617',
+title: 'Dixie Region SCCA 2020 Solo #11 - 33rd AvA'
+});
+google.maps.event.addListener(marker234, 'click', function() {
+window.location.href = marker234.url;
+});
+var marker235 = new google.maps.Marker({
+position: {lat: 34.9074166134, lng: -76.8959293944},
+map: map,
+url: 'https://motorsportreg.com/events/driver-novice-school-at-cherry-point-ncr-mcas-scca-north-carolina-solo-877403',
+title: 'Driver Novice School at Cherry Point NCR'
+});
+google.maps.event.addListener(marker235, 'click', function() {
+window.location.href = marker235.url;
+});
+var marker236 = new google.maps.Marker({
+position: {lat: 40.7536521454, lng: -86.0688802778},
+map: map,
+url: 'https://motorsportreg.com/events/fort-wayne-scca-points-event-6-hoosier-challenge-grissom-aeroplex-107539',
+title: 'Fort Wayne Solo Points #6/7 HOOSIER CHALLENGE'
+});
+google.maps.event.addListener(marker236, 'click', function() {
+window.location.href = marker236.url;
+});
+var marker237 = new google.maps.Marker({
+position: {lat: 38.7292148117, lng: -87.6816928462},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-5-mid-american-air-center-scca-southern-indiana-178762',
+title: 'Autocross #5'
+});
+google.maps.event.addListener(marker237, 'click', function() {
+window.location.href = marker237.url;
+});
+var marker238 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-superweekend-points-event-9-walesboro-airport-scca-columbus-sports-car-club-595771',
+title: 'CSCC SuperWeekend Points Event #9'
+});
+google.maps.event.addListener(marker238, 'click', function() {
+window.location.href = marker238.url;
+});
+var marker239 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/az-solo-autocross-fall-series-event-1-arizona-motorsports-park-scca-622659',
+title: 'AZ Solo Autocross Fall Series Event 1'
+});
+google.maps.event.addListener(marker239, 'click', function() {
+window.location.href = marker239.url;
+});
+var marker240 = new google.maps.Marker({
+position: {lat: 39.7896836424, lng: -104.550265677},
+map: map,
+url: 'https://motorsportreg.com/events/womens-autocross-event-front-range-airport-denver-bmw-cca-rocky-mountain-024843',
+title: 'Womens Autocross event'
+});
+google.maps.event.addListener(marker240, 'click', function() {
+window.location.href = marker240.url;
+});
+var marker241 = new google.maps.Marker({
+position: {lat: 38.7476563224, lng: -90.5096643695},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-solo-points-event-8-family-arena-scca-st-louis-817453',
+title: '2020 Stl Solo Points Event #6'
+});
+google.maps.event.addListener(marker241, 'click', function() {
+window.location.href = marker241.url;
+});
+var marker242 = new google.maps.Marker({
+position: {lat: 40.9870806904, lng: -82.095342597},
+map: map,
+url: 'https://motorsportreg.com/events/ascc-autocross-event-08-dragway-42-akron-sports-car-club-135287',
+title: 'ASCC Autocross: Event 08'
+});
+google.maps.event.addListener(marker242, 'click', function() {
+window.location.href = marker242.url;
+});
+var marker243 = new google.maps.Marker({
+position: {lat: 40.9870806904, lng: -82.095342597},
+map: map,
+url: 'https://motorsportreg.com/events/ascc-super-challenge-dragway-42-akron-sports-car-club-512924',
+title: 'ASCC Super Challenge'
+});
+google.maps.event.addListener(marker243, 'click', function() {
+window.location.href = marker243.url;
+});
+var marker244 = new google.maps.Marker({
+position: {lat: 44.4509155045, lng: -83.3692684996},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-oscoda-prosolo-wurtsmith-airport-national-solo-562966',
+title: '2020 Tire Rack SCCA Oscoda ProSolo'
+});
+google.maps.event.addListener(marker244, 'click', function() {
+window.location.href = marker244.url;
+});
+var marker245 = new google.maps.Marker({
+position: {lat: 41.5067966144, lng: -90.5214805968},
+map: map,
+url: 'https://motorsportreg.com/events/great-river-scca-event-9-taxslayer-center-480860',
+title: 'Great River Region SCCA Event #7'
+});
+google.maps.event.addListener(marker245, 'click', function() {
+window.location.href = marker245.url;
+});
+var marker246 = new google.maps.Marker({
+position: {lat: 39.2403315275, lng: -77.9394456956},
+map: map,
+url: 'https://motorsportreg.com/events/summit-point-trackcross-series-rounds-3-4-raceway-jefferson-get-fast-events-282524',
+title: 'Summit Point Trackcross Series - Rounds 3 & 4'
+});
+google.maps.event.addListener(marker246, 'click', function() {
+window.location.href = marker246.url;
+});
+var marker247 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/milwaukee-pca-september-20th-autocross-road-america-100887',
+title: 'Milwaukee Region PCA September 20th Autocross'
+});
+google.maps.event.addListener(marker247, 'click', function() {
+window.location.href = marker247.url;
+});
+var marker248 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/steel-cities-solo-event-9-pittsburgh-international-race-compl-scca-252514',
+title: 'Steel Cities - Solo Event #9'
+});
+google.maps.event.addListener(marker248, 'click', function() {
+window.location.href = marker248.url;
+});
+var marker249 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-594156',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker249, 'click', function() {
+window.location.href = marker249.url;
+});
+var marker250 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/cvr-pca-autox-2-lime-rock-park-b-paddock-connecticut-valley-857135',
+title: 'CVR PCA AutoX 2 (Lime Rock Park B Paddock)'
+});
+google.maps.event.addListener(marker250, 'click', function() {
+window.location.href = marker250.url;
+});
+var marker251 = new google.maps.Marker({
+position: {lat: 39.3596515172, lng: -74.461909522},
+map: map,
+url: 'https://motorsportreg.com/events/sjr-scca-2020-solo-event-8-bader-field-south-jersey-718263',
+title: 'SJR SCCA 2020 Solo Event 8'
+});
+google.maps.event.addListener(marker251, 'click', function() {
+window.location.href = marker251.url;
+});
+var marker252 = new google.maps.Marker({
+position: {lat: 42.9069751487, lng: -89.3266141338},
+map: map,
+url: 'https://motorsportreg.com/events/mscc-autocross-6-featuring-badger-bimmers-madison-international-speedway-349431',
+title: 'MSCC Autocross #6 featuring Badger Bimmers'
+});
+google.maps.event.addListener(marker252, 'click', function() {
+window.location.href = marker252.url;
+});
+var marker253 = new google.maps.Marker({
+position: {lat: 42.7350319665, lng: -76.8605626749},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-finger-lakes-champ-tour-seneca-army-depot-national-solo-622117',
+title: '2020 Tire Rack SCCA Finger Lakes Champ Tour'
+});
+google.maps.event.addListener(marker253, 'click', function() {
+window.location.href = marker253.url;
+});
+var marker254 = new google.maps.Marker({
+position: {lat: 41.7267082151, lng: -86.3510285622},
+map: map,
+url: 'https://motorsportreg.com/events/sbr-points-7-dont-stop-now-tire-rack-test-facility-scca-south-bend-solo-342927',
+title: 'SBR Points 7, Dont Stop Now'
+});
+google.maps.event.addListener(marker254, 'click', function() {
+window.location.href = marker254.url;
+});
+var marker255 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/ner-points-9-orange-crush-devens-airfield-scca-new-england-solo-546670',
+title: 'NER Points #9 Orange Crush	'
+});
+google.maps.event.addListener(marker255, 'click', function() {
+window.location.href = marker255.url;
+});
+var marker256 = new google.maps.Marker({
+position: {lat: 43.6673015616, lng: -79.7076518977},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-trillium-pca-ucr-autoslalom-sept-20-2020-caa-centre-brampton-on-bmw-cca-706904',
+title: 'BMWCCA Trillium/PCA-UCR Autoslalom - Sept 20, 2020'
+});
+google.maps.event.addListener(marker256, 'click', function() {
+window.location.href = marker256.url;
+});
+var marker257 = new google.maps.Marker({
+position: {lat: 44.7380771477, lng: -93.0788127044},
+map: map,
+url: 'https://motorsportreg.com/events/mowog-7-autocross-august-2nd-dakota-county-technical-college-minnesota-626496',
+title: 'MOWOG #5 Autocross August 2nd'
+});
+google.maps.event.addListener(marker257, 'click', function() {
+window.location.href = marker257.url;
+});
+var marker258 = new google.maps.Marker({
+position: {lat: 34.5974489686, lng: -91.5751055779},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-points-event-11-special-scored-even-stuttgart-municipal-906901',
+title: 'ARSCCA Solo II Points event 11 special scored even'
+});
+google.maps.event.addListener(marker258, 'click', function() {
+window.location.href = marker258.url;
+});
+var marker259 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-sept-az-pca-amp-arizona-motorsports-park-515064',
+title: 'Autocross Sept AZ PCA AMP'
+});
+google.maps.event.addListener(marker259, 'click', function() {
+window.location.href = marker259.url;
+});
+var marker260 = new google.maps.Marker({
+position: {lat: 35.1632891601, lng: -83.43355424},
+map: map,
+url: 'https://motorsportreg.com/events/2020-hscc-day-series-5-jerry-sutton-training-center-highlands-sports-car-club-201122',
+title: '2020 HSCC Day Series #5'
+});
+google.maps.event.addListener(marker260, 'click', function() {
+window.location.href = marker260.url;
+});
+var marker261 = new google.maps.Marker({
+position: {lat: 40.5612593769, lng: -74.5541443965},
+map: map,
+url: 'https://motorsportreg.com/events/april-26th-auto-x-at-td-bank-ballpark-bmw-cca-new-jersey-998260',
+title: 'October 11th Auto-X at TD Bank Ballpark'
+});
+google.maps.event.addListener(marker261, 'click', function() {
+window.location.href = marker261.url;
+});
+var marker262 = new google.maps.Marker({
+position: {lat: 41.7285626114, lng: -86.3517047509},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-pca-autocross-3-tire-rack-120748',
+title: 'Michiana PCA Autocross #3'
+});
+google.maps.event.addListener(marker262, 'click', function() {
+window.location.href = marker262.url;
+});
+var marker263 = new google.maps.Marker({
+position: {lat: 39.9264479352, lng: -104.709538858},
+map: map,
+url: 'https://motorsportreg.com/events/rmsolo-test-tune-flatrock-training-center-scca-rocky-mountain-solo-colorado-373347',
+title: 'RMSolo Test and Tune'
+});
+google.maps.event.addListener(marker263, 'click', function() {
+window.location.href = marker263.url;
+});
+var marker264 = new google.maps.Marker({
+position: {lat: 42.2156131557, lng: -79.834215303},
+map: map,
+url: 'https://motorsportreg.com/events/mbr-scca-2020-points-event-4-lake-erie-speedway-misery-bay-783183',
+title: 'MBR SCCA 2020 Points Event 4'
+});
+google.maps.event.addListener(marker264, 'click', function() {
+window.location.href = marker264.url;
+});
+var marker265 = new google.maps.Marker({
+position: {lat: 41.7267082151, lng: -86.3510285622},
+map: map,
+url: 'https://motorsportreg.com/events/sbr-points-6-go-tire-rack-test-facility-scca-south-bend-solo-298558',
+title: 'SBR Points 6, Go! Go! Go!'
+});
+google.maps.event.addListener(marker265, 'click', function() {
+window.location.href = marker265.url;
+});
+var marker266 = new google.maps.Marker({
+position: {lat: 39.2998088148, lng: -81.5526362562},
+map: map,
+url: 'https://motorsportreg.com/events/southern-wv-points-event-6-grand-central-mall-scca-west-virginia-536616',
+title: 'Southern WV Region Points Event #6'
+});
+google.maps.event.addListener(marker266, 'click', function() {
+window.location.href = marker266.url;
+});
+var marker267 = new google.maps.Marker({
+position: {lat: 36.1291837764, lng: -95.9488991742},
+map: map,
+url: 'https://motorsportreg.com/events/neokla-2020-autocross-event-5-fair-meadows-tulsa-fairgrounds-meadow-scca-346748',
+title: 'NeOkla 2020 Autocross Event #5 @ Fair Meadows'
+});
+google.maps.event.addListener(marker267, 'click', function() {
+window.location.href = marker267.url;
+});
+var marker268 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/ner-points-8-attack-of-cones-devens-airfield-scca-new-england-solo-478278',
+title: 'NER Points #8 Attack of the Cones'
+});
+google.maps.event.addListener(marker268, 'click', function() {
+window.location.href = marker268.url;
+});
+var marker269 = new google.maps.Marker({
+position: {lat: 48.44664447, lng: -101.723919739},
+map: map,
+url: 'https://motorsportreg.com/events/badlands-scca-carpio-5-farmers-union-oil-280632',
+title: 'Badlands SCCA Carpio Members Only Testing Event'
+});
+google.maps.event.addListener(marker269, 'click', function() {
+window.location.href = marker269.url;
+});
+var marker270 = new google.maps.Marker({
+position: {lat: 38.7292148117, lng: -87.6816928462},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-4-tri-something-mid-american-air-center-scca-southern-indiana-330891',
+title: 'Autocross #4 “Tri-Something”'
+});
+google.maps.event.addListener(marker270, 'click', function() {
+window.location.href = marker270.url;
+});
+var marker271 = new google.maps.Marker({
+position: {lat: 38.0604334242, lng: -84.538371489},
+map: map,
+url: 'https://motorsportreg.com/events/ckrscca-2020-points-8-lfucg-training-pad-scca-central-kentucky-solo-491352',
+title: 'CKRSCCA 2020 Points #8'
+});
+google.maps.event.addListener(marker271, 'click', function() {
+window.location.href = marker271.url;
+});
+var marker272 = new google.maps.Marker({
+position: {lat: 43.3501451427, lng: -76.3877359995},
+map: map,
+url: 'https://motorsportreg.com/events/cny-solo-3-oswego-county-airport-evoc-scca-central-new-york-636777',
+title: 'CNY Solo # 3'
+});
+google.maps.event.addListener(marker272, 'click', function() {
+window.location.href = marker272.url;
+});
+var marker273 = new google.maps.Marker({
+position: {lat: 38.7476563224, lng: -90.5096643695},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-solo-points-event-7-family-arena-scca-st-louis-698649',
+title: '2020 Stl Solo Points Event #5'
+});
+google.maps.event.addListener(marker273, 'click', function() {
+window.location.href = marker273.url;
+});
+var marker274 = new google.maps.Marker({
+position: {lat: 35.1837421615, lng: -101.928108244},
+map: map,
+url: 'https://motorsportreg.com/events/west-texas-scca-august-16th-day-westgate-mall-050779',
+title: 'West Texas Region SCCA - August 16th - Day'
+});
+google.maps.event.addListener(marker274, 'click', function() {
+window.location.href = marker274.url;
+});
+var marker275 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-817373',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker275, 'click', function() {
+window.location.href = marker275.url;
+});
+var marker276 = new google.maps.Marker({
+position: {lat: 40.7536521454, lng: -86.0688802778},
+map: map,
+url: 'https://motorsportreg.com/events/test-n-tune-road-2-nationals-grissom-aeroplex-scca-indianapolis-215418',
+title: 'Test N Tune - Road 2 Nationals'
+});
+google.maps.event.addListener(marker276, 'click', function() {
+window.location.href = marker276.url;
+});
+var marker277 = new google.maps.Marker({
+position: {lat: 38.9140465608, lng: -76.8778635441},
+map: map,
+url: 'https://motorsportreg.com/events/scca-washington-dc-fedexfield-autocross-solo-717601',
+title: 'SCCA - Washington DC Region @ FedExField'
+});
+google.maps.event.addListener(marker277, 'click', function() {
+window.location.href = marker277.url;
+});
+var marker278 = new google.maps.Marker({
+position: {lat: 33.7051872066, lng: -89.7624416745},
+map: map,
+url: 'https://motorsportreg.com/events/msscca-grenada-autocross-3-municipal-airport-scca-mississippi-106529',
+title: 'MSSCCA Grenada Autocross 3'
+});
+google.maps.event.addListener(marker278, 'click', function() {
+window.location.href = marker278.url;
+});
+var marker279 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/scca-reno-regional-public-safety-training-cen-autocross-solo-172238',
+title: 'SCCA - Reno Region @ Regional Public Safety Training Cen'
+});
+google.maps.event.addListener(marker279, 'click', function() {
+window.location.href = marker279.url;
+});
+var marker280 = new google.maps.Marker({
+position: {lat: 48.44664447, lng: -101.723919739},
+map: map,
+url: 'https://motorsportreg.com/events/badlands-scca-carpio-5-farmers-union-oil-850246',
+title: 'Badlands SCCA Carpio # 5'
+});
+google.maps.event.addListener(marker280, 'click', function() {
+window.location.href = marker280.url;
+});
+var marker281 = new google.maps.Marker({
+position: {lat: 40.2958962824, lng: -88.14832454},
+map: map,
+url: 'https://motorsportreg.com/events/champaign-county-sports-car-club-rantoul-aviation-center-autocross-solo-087022',
+title: 'Champaign County Sports Car Club @ Rantoul Aviation Center'
+});
+google.maps.event.addListener(marker281, 'click', function() {
+window.location.href = marker281.url;
+});
+var marker282 = new google.maps.Marker({
+position: {lat: 41.6404258504, lng: -87.4314142245},
+map: map,
+url: 'https://motorsportreg.com/events/inr-autocross-5-portage-high-school-scca-indiana-northwest-976807',
+title: 'INR Autocross #5'
+});
+google.maps.event.addListener(marker282, 'click', function() {
+window.location.href = marker282.url;
+});
+var marker283 = new google.maps.Marker({
+position: {lat: 39.7900763782, lng: -104.549726092},
+map: map,
+url: 'https://motorsportreg.com/events/rmsolo-championship-series-1-rescheduled-colorado-air-space-port-scca-149526',
+title: 'RMSolo Championship Series #1 (rescheduled)'
+});
+google.maps.event.addListener(marker283, 'click', function() {
+window.location.href = marker283.url;
+});
+var marker284 = new google.maps.Marker({
+position: {lat: 41.1785650437, lng: -92.6337029367},
+map: map,
+url: 'https://motorsportreg.com/events/2020-solo-points-event-5-eddyville-raceway-park-scca-des-moines-valley-981549',
+title: '2020 Solo Points Event #5 - Eddyville Raceway Park'
+});
+google.maps.event.addListener(marker284, 'click', function() {
+window.location.href = marker284.url;
+});
+var marker285 = new google.maps.Marker({
+position: {lat: 40.8501456428, lng: -96.7700381764},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-lincoln-champ-tour-airpark-national-solo-865398',
+title: '2020 Tire Rack SCCA Lincoln Champ Tour'
+});
+google.maps.event.addListener(marker285, 'click', function() {
+window.location.href = marker285.url;
+});
+var marker286 = new google.maps.Marker({
+position: {lat: 41.6165201883, lng: -90.5815862614},
+map: map,
+url: 'https://motorsportreg.com/events/great-river-scca-event-8-iowa-air-national-guard-378472',
+title: 'Great River Region SCCA Event #6'
+});
+google.maps.event.addListener(marker286, 'click', function() {
+window.location.href = marker286.url;
+});
+var marker287 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/steel-cities-solo-event-8-pittsburgh-international-race-compl-scca-799109',
+title: 'Steel Cities - Solo Event #8'
+});
+google.maps.event.addListener(marker287, 'click', function() {
+window.location.href = marker287.url;
+});
+var marker288 = new google.maps.Marker({
+position: {lat: 37.7068277007, lng: -122.418737221},
+map: map,
+url: 'https://motorsportreg.com/events/lpr-pca-ax-1-zone-7-weekend-w-ggr-day-2-cow-palace-loma-prieta-autocross-172249',
+title: 'LPR-PCA AX #1  Zone 7 Weekend w/GGR (Day 2)'
+});
+google.maps.event.addListener(marker288, 'click', function() {
+window.location.href = marker288.url;
+});
+var marker289 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-points-event-7-walesboro-airport-scca-columbus-sports-car-club-919553',
+title: 'CSCC Points Event #7'
+});
+google.maps.event.addListener(marker289, 'click', function() {
+window.location.href = marker289.url;
+});
+var marker290 = new google.maps.Marker({
+position: {lat: 41.6165201883, lng: -90.5815862614},
+map: map,
+url: 'https://motorsportreg.com/events/great-river-scca-event-7-iowa-air-national-guard-947946',
+title: 'Great River Region SCCA Event #5'
+});
+google.maps.event.addListener(marker290, 'click', function() {
+window.location.href = marker290.url;
+});
+var marker291 = new google.maps.Marker({
+position: {lat: 40.0874935505, lng: -74.9616198219},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2019-summer-series-event-7-philadelphia-mills-mall-scca-474803',
+title: 'Philly Region 2019 Summer Series Event #7'
+});
+google.maps.event.addListener(marker291, 'click', function() {
+window.location.href = marker291.url;
+});
+var marker292 = new google.maps.Marker({
+position: {lat: 36.5951051305, lng: -82.1887454339},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-bristol-motor-speedway-scca-national-starting-line-293182',
+title: 'Starting Line - Bristol'
+});
+google.maps.event.addListener(marker292, 'click', function() {
+window.location.href = marker292.url;
+});
+var marker293 = new google.maps.Marker({
+position: {lat: 39.7893045669, lng: -104.550258847},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-denver-colorado-air-space-port-scca-national-starting-line-882632',
+title: 'Starting Line - Denver'
+});
+google.maps.event.addListener(marker293, 'click', function() {
+window.location.href = marker293.url;
+});
+var marker294 = new google.maps.Marker({
+position: {lat: 42.1058656762, lng: -84.2482865248},
+map: map,
+url: 'https://motorsportreg.com/events/drscca-solo-9-season-ender-autocross-michigan-international-speedway-scca-785482',
+title: 'DRSCCA Solo #9: Season Ender Autocross'
+});
+google.maps.event.addListener(marker294, 'click', function() {
+window.location.href = marker294.url;
+});
+var marker295 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-12-remington-park-oklahoma-873321',
+title: '2020 OK SCCA Autocross Event 12'
+});
+google.maps.event.addListener(marker295, 'click', function() {
+window.location.href = marker295.url;
+});
+var marker296 = new google.maps.Marker({
+position: {lat: 40.2013323134, lng: -75.0492648093},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2020-summer-series-event-9-warminster-community-park-scca-philadelphia-948746',
+title: 'Philly Region 2020 Summer Series Event #9'
+});
+google.maps.event.addListener(marker296, 'click', function() {
+window.location.href = marker296.url;
+});
+var marker297 = new google.maps.Marker({
+position: {lat: 40.1651459711, lng: -75.1933408196},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2020-summer-series-event-8-temple-ambler-scca-philadelphia-836458',
+title: 'Philly Region 2020 Summer Series Event #8'
+});
+google.maps.event.addListener(marker297, 'click', function() {
+window.location.href = marker297.url;
+});
+var marker298 = new google.maps.Marker({
+position: {lat: 21.3462911704, lng: -157.930639236},
+map: map,
+url: 'https://motorsportreg.com/events/2020-curtis-lee-memorial-t-shirt-orders-aloha-stadium-lower-halawa-lot-906286',
+title: '2020 Curtis Lee Memorial T-Shirt Orders'
+});
+google.maps.event.addListener(marker298, 'click', function() {
+window.location.href = marker298.url;
+});
+var marker299 = new google.maps.Marker({
+position: {lat: 49.7216802783, lng: -113.40003933},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-fort-macleod-event-11-airport-southern-alberta-solosport-club-921089',
+title: 'SASC - Fort Macleod - Event #11'
+});
+google.maps.event.addListener(marker299, 'click', function() {
+window.location.href = marker299.url;
+});
+var marker300 = new google.maps.Marker({
+position: {lat: 37.393721584, lng: -121.072069804},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-san-francisco-crows-landing-scca-national-starting-line-271258',
+title: 'Starting Line - San Francisco'
+});
+google.maps.event.addListener(marker300, 'click', function() {
+window.location.href = marker300.url;
+});
+var marker301 = new google.maps.Marker({
+position: {lat: 38.8619253872, lng: -97.6548140511},
+map: map,
+url: 'https://motorsportreg.com/events/salina-solo-oct-25th-octoberfast-east-crawford-recreation-area-scca-523242',
+title: 'Salina Solo Oct 25th Octoberfast'
+});
+google.maps.event.addListener(marker301, 'click', function() {
+window.location.href = marker301.url;
+});
+var marker302 = new google.maps.Marker({
+position: {lat: 38.8619253872, lng: -97.6548140511},
+map: map,
+url: 'https://motorsportreg.com/events/salina-solo-nov-8th-finale-east-crawford-recreation-area-scca-756324',
+title: 'Salina Solo Nov 8th Finale'
+});
+google.maps.event.addListener(marker302, 'click', function() {
+window.location.href = marker302.url;
+});
+var marker303 = new google.maps.Marker({
+position: {lat: 38.0604334242, lng: -84.538371489},
+map: map,
+url: 'https://motorsportreg.com/events/ckrscca-2020-points-7-lfucg-training-pad-scca-central-kentucky-solo-836846',
+title: 'CKRSCCA 2020 Points #7'
+});
+google.maps.event.addListener(marker303, 'click', function() {
+window.location.href = marker303.url;
+});
+var marker304 = new google.maps.Marker({
+position: {lat: 46.8218790706, lng: -100.821084844},
+map: map,
+url: 'https://motorsportreg.com/events/badlands-scca-bismarck-3-community-bowl-096864',
+title: 'Badlands SCCA Bismarck # 3'
+});
+google.maps.event.addListener(marker304, 'click', function() {
+window.location.href = marker304.url;
+});
+var marker305 = new google.maps.Marker({
+position: {lat: 37.1651424733, lng: -77.5224899676},
+map: map,
+url: 'https://motorsportreg.com/events/vmsc-autocross-6-virginia-motorsports-park-motor-sports-club-868517',
+title: 'VMSC Autocross #2'
+});
+google.maps.event.addListener(marker305, 'click', function() {
+window.location.href = marker305.url;
+});
+var marker306 = new google.maps.Marker({
+position: {lat: 34.5974489686, lng: -91.5751055779},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-points-event-10-stuttgart-municipal-airport-scca-arkansas-569932',
+title: 'ARSCCA Solo II Points event 10'
+});
+google.maps.event.addListener(marker306, 'click', function() {
+window.location.href = marker306.url;
+});
+var marker307 = new google.maps.Marker({
+position: {lat: 38.9140465608, lng: -76.8778635441},
+map: map,
+url: 'https://motorsportreg.com/events/scca-washington-dc-fedexfield-autocross-solo-098473',
+title: 'SCCA - Washington DC Region @ FedExField'
+});
+google.maps.event.addListener(marker307, 'click', function() {
+window.location.href = marker307.url;
+});
+var marker308 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/kyscca-points-event-3-border-war-ncm-motorsport-park-scca-kentucky-684685',
+title: 'KYSCCA Points Event 3 \ Border War'
+});
+google.maps.event.addListener(marker308, 'click', function() {
+window.location.href = marker308.url;
+});
+var marker309 = new google.maps.Marker({
+position: {lat: 30.6174430986, lng: -81.4600667024},
+map: map,
+url: 'https://motorsportreg.com/events/scca-buccaneer-jax-solo-fernandina-beach-municipal-airport-autocross-652995',
+title: 'SCCA - Buccaneer Region - Jax Solo @ Fernandina Beach Municipal Airport'
+});
+google.maps.event.addListener(marker309, 'click', function() {
+window.location.href = marker309.url;
+});
+var marker310 = new google.maps.Marker({
+position: {lat: 34.8605888365, lng: -85.5078212188},
+map: map,
+url: 'https://motorsportreg.com/events/crscca-autocross-7-dade-county-high-school-scca-chattanooga-557143',
+title: 'CRSCCA Autocross #7'
+});
+google.maps.event.addListener(marker310, 'click', function() {
+window.location.href = marker310.url;
+});
+var marker311 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-8-expo-idaho-scca-snake-river-513795',
+title: 'SRRSCCA Event 8'
+});
+google.maps.event.addListener(marker311, 'click', function() {
+window.location.href = marker311.url;
+});
+var marker312 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/ner-points-7-racing-against-leukemia-devens-airfield-scca-new-england-solo-210019',
+title: 'NER Points #7 - Racing Against Leukemia'
+});
+google.maps.event.addListener(marker312, 'click', function() {
+window.location.href = marker312.url;
+});
+var marker313 = new google.maps.Marker({
+position: {lat: 32.0812585053, lng: -81.0809843734},
+map: map,
+url: 'https://motorsportreg.com/events/savannah-solo-event-8-hutchinson-island-paddock-scca-buccaneer-coastal-409915',
+title: 'Savannah Solo Event 8'
+});
+google.maps.event.addListener(marker313, 'click', function() {
+window.location.href = marker313.url;
+});
+var marker314 = new google.maps.Marker({
+position: {lat: 47.2462216481, lng: -123.147723311},
+map: map,
+url: 'https://motorsportreg.com/events/august-viper-autocross-sanderson-field-wa-club-733990',
+title: 'August Viper Autocross'
+});
+google.maps.event.addListener(marker314, 'click', function() {
+window.location.href = marker314.url;
+});
+var marker315 = new google.maps.Marker({
+position: {lat: 42.4220522083, lng: -92.3373137079},
+map: map,
+url: 'https://motorsportreg.com/events/ia-2020-autox-6-hawkeye-tech-aug-16-transportation-center-scca-iowa-408877',
+title: 'IA Region 2020 Autox #5 - Hawkeye Tech - Aug 16'
+});
+google.maps.event.addListener(marker315, 'click', function() {
+window.location.href = marker315.url;
+});
+var marker316 = new google.maps.Marker({
+position: {lat: 39.5311404918, lng: -76.1862522492},
+map: map,
+url: 'https://motorsportreg.com/events/bmc-autocross-ii-ripken-stadium-brandywine-motorsport-club-366244',
+title: 'BMC Autocross II'
+});
+google.maps.event.addListener(marker316, 'click', function() {
+window.location.href = marker316.url;
+});
+var marker317 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-autocross-vir-kart-track-3292',
+title: 'NASA at VIR Kart Track'
+});
+google.maps.event.addListener(marker317, 'click', function() {
+window.location.href = marker317.url;
+});
+var marker318 = new google.maps.Marker({
+position: {lat: 38.9140465608, lng: -76.8778635441},
+map: map,
+url: 'https://motorsportreg.com/events/scca-washington-dc-fedexfield-autocross-solo-366048',
+title: 'SCCA - Washington DC Region @ FedExField'
+});
+google.maps.event.addListener(marker318, 'click', function() {
+window.location.href = marker318.url;
+});
+var marker319 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-pca-ner-autocross-3-devens-airfield-northeast-072232',
+title: '2020 PCA NER Autocross #3'
+});
+google.maps.event.addListener(marker319, 'click', function() {
+window.location.href = marker319.url;
+});
+var marker320 = new google.maps.Marker({
+position: {lat: 38.9140465608, lng: -76.8778635441},
+map: map,
+url: 'https://motorsportreg.com/events/scca-washington-dc-fedexfield-autocross-solo-408978',
+title: 'SCCA - Washington DC Region @ FedExField'
+});
+google.maps.event.addListener(marker320, 'click', function() {
+window.location.href = marker320.url;
+});
+var marker321 = new google.maps.Marker({
+position: {lat: 43.6673015616, lng: -79.7076518977},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-trillium-pca-ucr-autoslalom-aug-9-2020-caa-centre-brampton-on-bmw-cca-414691',
+title: 'BMWCCA Trillium/PCA-UCR Autoslalom - Aug 9, 2020'
+});
+google.maps.event.addListener(marker321, 'click', function() {
+window.location.href = marker321.url;
+});
+var marker322 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-7-expo-idaho-scca-snake-river-047768',
+title: 'SRRSCCA Event 7'
+});
+google.maps.event.addListener(marker322, 'click', function() {
+window.location.href = marker322.url;
+});
+var marker323 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-autocross-vir-kart-track-3293',
+title: 'NASA at VIR Kart Track'
+});
+google.maps.event.addListener(marker323, 'click', function() {
+window.location.href = marker323.url;
+});
+var marker324 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/kyscca-test-n-tune-south-ncm-motorsport-park-scca-kentucky-314471',
+title: 'KYSCCA Test N Tune South'
+});
+google.maps.event.addListener(marker324, 'click', function() {
+window.location.href = marker324.url;
+});
+var marker325 = new google.maps.Marker({
+position: {lat: 41.5547206367, lng: -90.5689504115},
+map: map,
+url: 'https://motorsportreg.com/events/great-river-scca-event-6-brady-street-stadium-parking-lot-461592',
+title: 'Great River Region SCCA Event #4'
+});
+google.maps.event.addListener(marker325, 'click', function() {
+window.location.href = marker325.url;
+});
+var marker326 = new google.maps.Marker({
+position: {lat: 47.2462216481, lng: -123.147723311},
+map: map,
+url: 'https://motorsportreg.com/events/ax4-sanderson-field-nwaa-802675',
+title: 'AX4 @ Sanderson Field'
+});
+google.maps.event.addListener(marker326, 'click', function() {
+window.location.href = marker326.url;
+});
+var marker327 = new google.maps.Marker({
+position: {lat: 39.0838894597, lng: -94.3394948702},
+map: map,
+url: 'https://motorsportreg.com/events/kcr-2020-event-7-mcc-blue-river-prec-driving-ctr-scca-kansas-city-solo-352913',
+title: 'KCR 2020 Event #7'
+});
+google.maps.event.addListener(marker327, 'click', function() {
+window.location.href = marker327.url;
+});
+var marker328 = new google.maps.Marker({
+position: {lat: 36.5748843555, lng: -79.3362603617},
+map: map,
+url: 'https://motorsportreg.com/events/thscc-test-tune-july-2020-danville-regional-airport-tarheel-sports-car-club-820599',
+title: 'THSCC Test and Tune July 2020'
+});
+google.maps.event.addListener(marker328, 'click', function() {
+window.location.href = marker328.url;
+});
+var marker329 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-test-tune-motor-speedway-solo-805248',
+title: '2020 Atlanta Region SCCA Autocross Test and Tune'
+});
+google.maps.event.addListener(marker329, 'click', function() {
+window.location.href = marker329.url;
+});
+var marker330 = new google.maps.Marker({
+position: {lat: 45.2043024453, lng: -123.145428367},
+map: map,
+url: 'https://motorsportreg.com/events/bca-autocross-7-evergreen-2-days-3-courses-aviation-space-museum-bridge-360187',
+title: 'BCA - Autocross #5 - Evergreen (2 Days/3 Courses)'
+});
+google.maps.event.addListener(marker330, 'click', function() {
+window.location.href = marker330.url;
+});
+var marker331 = new google.maps.Marker({
+position: {lat: 38.202074472, lng: -79.0083634702},
+map: map,
+url: 'https://motorsportreg.com/events/brr-scca-2020-solo-event-2-augusta-county-government-center-blue-ridge-134379',
+title: 'BRR SCCA 2020 Solo Event #2'
+});
+google.maps.event.addListener(marker331, 'click', function() {
+window.location.href = marker331.url;
+});
+var marker332 = new google.maps.Marker({
+position: {lat: 35.9848004076, lng: -83.6135570454},
+map: map,
+url: 'https://motorsportreg.com/events/etrscca-solo-points-8-smokies-stadium-scca-east-tennessee-706504',
+title: 'ETRSCCA Solo Points #8'
+});
+google.maps.event.addListener(marker332, 'click', function() {
+window.location.href = marker332.url;
+});
+var marker333 = new google.maps.Marker({
+position: {lat: 38.5904765942, lng: -76.8836282237},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncc-autocross-points-event-4-regency-furniture-stadium-bmw-cca-466703',
+title: '2020 NCC Autocross Points Event #4'
+});
+google.maps.event.addListener(marker333, 'click', function() {
+window.location.href = marker333.url;
+});
+var marker334 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/august-2nd-pocono-autocross-nnjr-rtr-cpa-raceway-pca-northern-new-jersey-events-189163',
+title: 'August 2nd Pocono Autocross - NNJR, RTR, CPA'
+});
+google.maps.event.addListener(marker334, 'click', function() {
+window.location.href = marker334.url;
+});
+var marker335 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/trscca-2020-points-event-3-ncm-motorsport-park-scca-tennessee-664073',
+title: 'TRSCCA 2020 Points Event 3 - NCM'
+});
+google.maps.event.addListener(marker335, 'click', function() {
+window.location.href = marker335.url;
+});
+var marker336 = new google.maps.Marker({
+position: {lat: 44.4509155045, lng: -83.3692684996},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-holeshot-school-oscodo-oscoda-wurtsmith-airport-scca-962476',
+title: 'Starting Line ProLaunch - Oscoda'
+});
+google.maps.event.addListener(marker336, 'click', function() {
+window.location.href = marker336.url;
+});
+var marker337 = new google.maps.Marker({
+position: {lat: 41.7217119317, lng: -86.3173898805},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-bmwcca-autocross-4-tire-rack-bmw-cca-564567',
+title: 'Michiana BMWCCA Autocross #4'
+});
+google.maps.event.addListener(marker337, 'click', function() {
+window.location.href = marker337.url;
+});
+var marker338 = new google.maps.Marker({
+position: {lat: 39.0838894597, lng: -94.3394948702},
+map: map,
+url: 'https://motorsportreg.com/events/kcr-2020-event-10-mcc-blue-river-prec-driving-ctr-scca-kansas-city-solo-369165',
+title: 'KCR 2020 Event #10'
+});
+google.maps.event.addListener(marker338, 'click', function() {
+window.location.href = marker338.url;
+});
+var marker339 = new google.maps.Marker({
+position: {lat: 35.4301241603, lng: -82.5330552699},
+map: map,
+url: 'https://motorsportreg.com/events/2020-hscc-night-series-5-wnc-agricultural-center-highlands-sports-car-club-177616',
+title: '2020 HSCC Night Series #5'
+});
+google.maps.event.addListener(marker339, 'click', function() {
+window.location.href = marker339.url;
+});
+var marker340 = new google.maps.Marker({
+position: {lat: 39.0838894597, lng: -94.3394948702},
+map: map,
+url: 'https://motorsportreg.com/events/kcr-2020-event-8-mcc-blue-river-prec-driving-ctr-scca-kansas-city-solo-451197',
+title: 'KCR 2020 Event #8'
+});
+google.maps.event.addListener(marker340, 'click', function() {
+window.location.href = marker340.url;
+});
+var marker341 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-8-barber-motorsports-park-scca-alabama-249434',
+title: 'ALSCCA Points 8'
+});
+google.maps.event.addListener(marker341, 'click', function() {
+window.location.href = marker341.url;
+});
+var marker342 = new google.maps.Marker({
+position: {lat: 29.301487627, lng: -94.9974469928},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-texas-champ-tour-grandsport-speedway-national-solo-909837',
+title: '2020 Tire Rack SCCA Texas Champ Tour'
+});
+google.maps.event.addListener(marker342, 'click', function() {
+window.location.href = marker342.url;
+});
+var marker343 = new google.maps.Marker({
+position: {lat: 40.8964679858, lng: -78.2207743572},
+map: map,
+url: 'https://motorsportreg.com/events/scca-cpr-2019-solo-events-11-12-mid-state-airport-central-pennsylvania-195001',
+title: 'SCCA-CPR 2020 Solo Events 11 & 12'
+});
+google.maps.event.addListener(marker343, 'click', function() {
+window.location.href = marker343.url;
+});
+var marker344 = new google.maps.Marker({
+position: {lat: 27.077045279, lng: -82.4318865079},
+map: map,
+url: 'https://motorsportreg.com/events/fast-venice-airport-festival-grounds-autocross-solo-514690',
+title: 'FAST @ Venice Airport Festival Grounds'
+});
+google.maps.event.addListener(marker344, 'click', function() {
+window.location.href = marker344.url;
+});
+var marker345 = new google.maps.Marker({
+position: {lat: 31.1340888526, lng: -83.7107847882},
+map: map,
+url: 'https://motorsportreg.com/events/dixie-scca-solo-2020-event-08-spence-field-068117',
+title: 'Dixie Region SCCA 2020 Solo #08'
+});
+google.maps.event.addListener(marker345, 'click', function() {
+window.location.href = marker345.url;
+});
+var marker346 = new google.maps.Marker({
+position: {lat: 46.5337577858, lng: -121.91789311},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-advantage-driving-school-packwood-hampton-mills-old-lumber-175194',
+title: 'Starting Line Drivers Edge - Packwood'
+});
+google.maps.event.addListener(marker346, 'click', function() {
+window.location.href = marker346.url;
+});
+var marker347 = new google.maps.Marker({
+position: {lat: 46.6181925843, lng: -121.497057834},
+map: map,
+url: 'https://motorsportreg.com/events/canceled-2020-tire-rack-scca-packwood-champ-tour-hampton-mills-national-solo-458896',
+title: '2020 Tire Rack SCCA Packwood Champ Tour'
+});
+google.maps.event.addListener(marker347, 'click', function() {
+window.location.href = marker347.url;
+});
+var marker348 = new google.maps.Marker({
+position: {lat: 40.4546367089, lng: -122.310765591},
+map: map,
+url: 'https://motorsportreg.com/events/2020-shasta-autox-challenge-series-1-speedway-trinity-touring-club-060214',
+title: '2020 Shasta AutoX Challenge Series #1'
+});
+google.maps.event.addListener(marker348, 'click', function() {
+window.location.href = marker348.url;
+});
+var marker349 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-points-event-5-walesboro-airport-scca-columbus-sports-car-club-143812',
+title: 'CSCC Points Event #1 - 2020 Restart'
+});
+google.maps.event.addListener(marker349, 'click', function() {
+window.location.href = marker349.url;
+});
+var marker350 = new google.maps.Marker({
+position: {lat: 48.44664447, lng: -101.723919739},
+map: map,
+url: 'https://motorsportreg.com/events/test-member-non-abingdon-airfield-scca-badlands-441013',
+title: 'Badlands SCCA Carpio # 4'
+});
+google.maps.event.addListener(marker350, 'click', function() {
+window.location.href = marker350.url;
+});
+var marker351 = new google.maps.Marker({
+position: {lat: 42.7525445716, lng: -76.8340410504},
+map: map,
+url: 'https://motorsportreg.com/events/flr-2020-scca-test-tune-3-seneca-army-depot-finger-lakes-solo-263754',
+title: 'FLR 2020 SCCA Test & Tune #3'
+});
+google.maps.event.addListener(marker351, 'click', function() {
+window.location.href = marker351.url;
+});
+var marker352 = new google.maps.Marker({
+position: {lat: 34.5974489686, lng: -91.5751055779},
+map: map,
+url: 'https://motorsportreg.com/events/arscca-solo-ii-points-event-8-over-steer-stuttgart-municipal-airport-766576',
+title: 'ARSCCA Solo II Points event 8 “Over steer”'
+});
+google.maps.event.addListener(marker352, 'click', function() {
+window.location.href = marker352.url;
+});
+var marker353 = new google.maps.Marker({
+position: {lat: 43.5520796854, lng: -96.7719574595},
+map: map,
+url: 'https://motorsportreg.com/events/sports-car-club-of-siouxland-points-weekend-4-sioux-empire-fairgrounds-564839',
+title: 'Sports Car Club of Siouxland Points Weekend #4'
+});
+google.maps.event.addListener(marker353, 'click', function() {
+window.location.href = marker353.url;
+});
+var marker354 = new google.maps.Marker({
+position: {lat: 17.9701047588, lng: -66.2668368218},
+map: map,
+url: 'https://motorsportreg.com/events/cccpr-scca-autocross-july-12-2020-salinas-speedway-club-de-corredores-560428',
+title: 'CCCPR/SCCA AUTOCROSS JULY 12 2020'
+});
+google.maps.event.addListener(marker354, 'click', function() {
+window.location.href = marker354.url;
+});
+var marker355 = new google.maps.Marker({
+position: {lat: 46.6083468666, lng: -111.965699604},
+map: map,
+url: 'https://motorsportreg.com/events/montana-challenge-3-rocky-mountain-emergency-services-scca-yellowstone-solo-493632',
+title: 'Montana Challenge 3'
+});
+google.maps.event.addListener(marker355, 'click', function() {
+window.location.href = marker355.url;
+});
+var marker356 = new google.maps.Marker({
+position: {lat: 43.3501451427, lng: -76.3877359995},
+map: map,
+url: 'https://motorsportreg.com/events/cny-solo-1-oswego-county-airport-evoc-scca-central-new-york-787145',
+title: 'CNY Solo # 1'
+});
+google.maps.event.addListener(marker356, 'click', function() {
+window.location.href = marker356.url;
+});
+var marker357 = new google.maps.Marker({
+position: {lat: 43.6498333528, lng: -72.0001454211},
+map: map,
+url: 'https://motorsportreg.com/events/commencing-at-canaan-motor-club-cumberland-382307',
+title: 'Commencing at Canaan'
+});
+google.maps.event.addListener(marker357, 'click', function() {
+window.location.href = marker357.url;
+});
+var marker358 = new google.maps.Marker({
+position: {lat: 47.2462216481, lng: -123.147723311},
+map: map,
+url: 'https://motorsportreg.com/events/july-viper-autocross-sanderson-field-wa-club-366101',
+title: 'July Viper Autocross'
+});
+google.maps.event.addListener(marker358, 'click', function() {
+window.location.href = marker358.url;
+});
+var marker359 = new google.maps.Marker({
+position: {lat: 40.2958962824, lng: -88.14832454},
+map: map,
+url: 'https://motorsportreg.com/events/champaign-county-sports-car-club-rantoul-aviation-center-autocross-solo-263047',
+title: 'Champaign County Sports Car Club @ Rantoul Aviation Center'
+});
+google.maps.event.addListener(marker359, 'click', function() {
+window.location.href = marker359.url;
+});
+var marker360 = new google.maps.Marker({
+position: {lat: 49.2109665436, lng: -122.703638072},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-car-club-of-b-c-pitt-meadows-training-centre-autocross-solo-254583',
+title: 'BMW Car Club of B.C. @ Pitt Meadows Training Centre'
+});
+google.maps.event.addListener(marker360, 'click', function() {
+window.location.href = marker360.url;
+});
+var marker361 = new google.maps.Marker({
+position: {lat: 38.7292148117, lng: -87.6816928462},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-3-mid-american-air-center-scca-southern-indiana-871715',
+title: 'Autocross #3 “Quick & Dirty Ver. 7.12”'
+});
+google.maps.event.addListener(marker361, 'click', function() {
+window.location.href = marker361.url;
+});
+var marker362 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-4-expo-idaho-scca-snake-river-302117',
+title: 'SRRSCCA Event 4'
+});
+google.maps.event.addListener(marker362, 'click', function() {
+window.location.href = marker362.url;
+});
+var marker363 = new google.maps.Marker({
+position: {lat: 39.5311404918, lng: -76.1862522492},
+map: map,
+url: 'https://motorsportreg.com/events/bmc-autocross-i-ripken-stadium-brandywine-motorsport-club-263293',
+title: 'BMC Autocross I'
+});
+google.maps.event.addListener(marker363, 'click', function() {
+window.location.href = marker363.url;
+});
+var marker364 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/steel-cities-solo-event-2-pittsburgh-international-race-compl-scca-820738',
+title: 'Steel Cities - Solo Event #2 (SUPER DUPER TOUR)'
+});
+google.maps.event.addListener(marker364, 'click', function() {
+window.location.href = marker364.url;
+});
+var marker365 = new google.maps.Marker({
+position: {lat: 34.8605888365, lng: -85.5078212188},
+map: map,
+url: 'https://motorsportreg.com/events/crscca-autocross-6-dade-county-high-school-scca-chattanooga-067933',
+title: 'CRSCCA Autocross #6'
+});
+google.maps.event.addListener(marker365, 'click', function() {
+window.location.href = marker365.url;
+});
+var marker366 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/boston-bmw-cca-autocross-points-event-3-devens-airfield-499160',
+title: 'Boston BMW CCA Autocross Points Event 3'
+});
+google.maps.event.addListener(marker366, 'click', function() {
+window.location.href = marker366.url;
+});
+var marker367 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/pitt-race-low-key-autox-3-pittsburgh-international-compl-880554',
+title: 'Pitt Race Low-Key AutoX #3'
+});
+google.maps.event.addListener(marker367, 'click', function() {
+window.location.href = marker367.url;
+});
+var marker368 = new google.maps.Marker({
+position: {lat: 40.6600000066, lng: -86.1500024346},
+map: map,
+url: 'https://motorsportreg.com/events/tsscc-autocross-2020-4-grissom-aeroplex-scca-chicago-tri-state-sports-car-215426',
+title: 'TSSCC Autocross 2020 #4'
+});
+google.maps.event.addListener(marker368, 'click', function() {
+window.location.href = marker368.url;
+});
+var marker369 = new google.maps.Marker({
+position: {lat: 39.8932395554, lng: -76.6520779807},
+map: map,
+url: 'https://motorsportreg.com/events/susq-20-autocross-test-tune-dallastown-asd-area-high-school-scca-susquehanna-000882',
+title: 'Susq 20 Autocross Test & Tune - Dallastown ASD'
+});
+google.maps.event.addListener(marker369, 'click', function() {
+window.location.href = marker369.url;
+});
+var marker370 = new google.maps.Marker({
+position: {lat: 36.5748843555, lng: -79.3362603617},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-phase-one-danville-regional-airport-evo-366589',
+title: 'Evolution Performance Driving School Phase One'
+});
+google.maps.event.addListener(marker370, 'click', function() {
+window.location.href = marker370.url;
+});
+var marker371 = new google.maps.Marker({
+position: {lat: 27.077045279, lng: -82.4318865079},
+map: map,
+url: 'https://motorsportreg.com/events/fast-venice-airport-festival-grounds-autocross-solo-353792',
+title: 'FAST @ Venice Airport Festival Grounds'
+});
+google.maps.event.addListener(marker371, 'click', function() {
+window.location.href = marker371.url;
+});
+var marker372 = new google.maps.Marker({
+position: {lat: 41.788808295, lng: -72.671286639},
+map: map,
+url: 'https://motorsportreg.com/events/cvr-pca-autox-1-sunday-event-laz-lot-hartford-connecticut-valley-821195',
+title: 'CVR PCA AutoX 1 (SUNDAY EVENT)'
+});
+google.maps.event.addListener(marker372, 'click', function() {
+window.location.href = marker372.url;
+});
+var marker373 = new google.maps.Marker({
+position: {lat: 40.8135494893, lng: -74.0744602112},
+map: map,
+url: 'https://motorsportreg.com/events/nnjr-autocross-event-2-lot-l-metlife-stadium-scca-northern-new-jersey-solo-908149',
+title: 'NNJR Autocross Event #2 - Lot L'
+});
+google.maps.event.addListener(marker373, 'click', function() {
+window.location.href = marker373.url;
+});
+var marker374 = new google.maps.Marker({
+position: {lat: 36.5748843555, lng: -79.3362603617},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-phase-two-danville-regional-airport-evo-217799',
+title: 'Evolution Performance Driving School Phase Two'
+});
+google.maps.event.addListener(marker374, 'click', function() {
+window.location.href = marker374.url;
+});
+var marker375 = new google.maps.Marker({
+position: {lat: 31.1340888526, lng: -83.7107847882},
+map: map,
+url: 'https://motorsportreg.com/events/dixie-scca-2020-solo-07-spence-field-804305',
+title: 'Dixie Region SCCA 2020 Solo #07'
+});
+google.maps.event.addListener(marker375, 'click', function() {
+window.location.href = marker375.url;
+});
+var marker376 = new google.maps.Marker({
+position: {lat: 39.7900763782, lng: -104.549726092},
+map: map,
+url: 'https://motorsportreg.com/events/rmsolo-championship-series-7-front-range-airport-scca-rocky-mountain-solo-483896',
+title: 'RMSolo Championship Series #9'
+});
+google.maps.event.addListener(marker376, 'click', function() {
+window.location.href = marker376.url;
+});
+var marker377 = new google.maps.Marker({
+position: {lat: 35.1632891601, lng: -83.43355424},
+map: map,
+url: 'https://motorsportreg.com/events/2020-hscc-day-series-4-jerry-sutton-training-center-highlands-sports-car-club-168775',
+title: '2020 HSCC Day Series #4'
+});
+google.maps.event.addListener(marker377, 'click', function() {
+window.location.href = marker377.url;
+});
+var marker378 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/reno-solo-round-5-regional-public-safety-training-cen-scca-107325',
+title: 'Reno Region Solo Round #5'
+});
+google.maps.event.addListener(marker378, 'click', function() {
+window.location.href = marker378.url;
+});
+var marker379 = new google.maps.Marker({
+position: {lat: 50.0569469438, lng: -97.0302820441},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wscc-winnipeg-autoslalom-autocross-6-st-andrews-airport-sports-car-club-905020',
+title: '2020 WSCC Winnipeg Autoslalom / Autocross 6'
+});
+google.maps.event.addListener(marker379, 'click', function() {
+window.location.href = marker379.url;
+});
+var marker380 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-7-remington-park-oklahoma-672166',
+title: '2020 OK SCCA Autocross Event 7'
+});
+google.maps.event.addListener(marker380, 'click', function() {
+window.location.href = marker380.url;
+});
+var marker381 = new google.maps.Marker({
+position: {lat: 45.6804349322, lng: -74.0301596042},
+map: map,
+url: 'https://motorsportreg.com/events/autoslalom-1-icar-short-track-b-club-autosport-des-laurentides-003069',
+title: 'Autoslalom #1 - Icar Short Track B'
+});
+google.maps.event.addListener(marker381, 'click', function() {
+window.location.href = marker381.url;
+});
+var marker382 = new google.maps.Marker({
+position: {lat: 39.7896836424, lng: -104.550265677},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-summer-series-2-front-range-airport-denver-bmw-cca-rocky-mountain-149476',
+title: 'Autocross Summer Series #2'
+});
+google.maps.event.addListener(marker382, 'click', function() {
+window.location.href = marker382.url;
+});
+var marker383 = new google.maps.Marker({
+position: {lat: 43.2894315911, lng: -81.5027758753},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wosca-summer-series-event-3-centralia-airport-western-ontario-sports-571911',
+title: '2020 WOSCA Summer Series | Event #3'
+});
+google.maps.event.addListener(marker383, 'click', function() {
+window.location.href = marker383.url;
+});
+var marker384 = new google.maps.Marker({
+position: {lat: 44.4087561619, lng: -121.871379521},
+map: map,
+url: 'https://motorsportreg.com/events/acco-autocross-5-6-hoodoo-ski-area-club-of-central-oregon-598503',
+title: 'ACCO Autocross 5-6'
+});
+google.maps.event.addListener(marker384, 'click', function() {
+window.location.href = marker384.url;
+});
+var marker385 = new google.maps.Marker({
+position: {lat: 43.361674502, lng: -71.4650274205},
+map: map,
+url: 'https://motorsportreg.com/events/2020-autocross-series-1-nhms-autox-sports-car-club-of-new-hampshire-232678',
+title: '2020 Autocross Series #1'
+});
+google.maps.event.addListener(marker385, 'click', function() {
+window.location.href = marker385.url;
+});
+var marker386 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/track-club-usa-autocross-1-july-11-2020-devens-airfield-svt-cobra-195654',
+title: 'Track Club USA Autocross #1, July 11, 2020'
+});
+google.maps.event.addListener(marker386, 'click', function() {
+window.location.href = marker386.url;
+});
+var marker387 = new google.maps.Marker({
+position: {lat: 36.5750141291, lng: -79.3399828148},
+map: map,
+url: 'https://motorsportreg.com/events/tscc-2020-cross-trial-danville-airport-triad-sports-car-club-116651',
+title: 'TSCC 2020 Cross Trial @ Danville Airport'
+});
+google.maps.event.addListener(marker387, 'click', function() {
+window.location.href = marker387.url;
+});
+var marker388 = new google.maps.Marker({
+position: {lat: 40.8964679858, lng: -78.2207743572},
+map: map,
+url: 'https://motorsportreg.com/events/scca-cpr-2020-solo-events-6-7-mid-state-airport-central-pennsylvania-180759',
+title: 'SCCA-CPR 2020 Solo Events 6 & 7'
+});
+google.maps.event.addListener(marker388, 'click', function() {
+window.location.href = marker388.url;
+});
+var marker389 = new google.maps.Marker({
+position: {lat: 41.1785650437, lng: -92.6337029367},
+map: map,
+url: 'https://motorsportreg.com/events/2020-solo-points-event-4-eddyville-raceway-park-scca-des-moines-valley-732148',
+title: '2020 Solo Points Event #4 - Eddyville Raceway Park'
+});
+google.maps.event.addListener(marker389, 'click', function() {
+window.location.href = marker389.url;
+});
+var marker390 = new google.maps.Marker({
+position: {lat: 37.7068277007, lng: -122.418737221},
+map: map,
+url: 'https://motorsportreg.com/events/2020-gglc-autocross-event-2-cow-palace-golden-gate-lotus-club-autox-026841',
+title: '2020 GGLC Autocross Event 2'
+});
+google.maps.event.addListener(marker390, 'click', function() {
+window.location.href = marker390.url;
+});
+var marker391 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-trackcross-1-4-5-20-dominion-raceway-961939',
+title: 'DR TrackCross #1 - 7/12/20'
+});
+google.maps.event.addListener(marker391, 'click', function() {
+window.location.href = marker391.url;
+});
+var marker392 = new google.maps.Marker({
+position: {lat: 43.635073314, lng: -79.4123623294},
+map: map,
+url: 'https://motorsportreg.com/events/2020-pitl-autoslalom-series-event-3-exhibition-place-push-it-to-limit-503806',
+title: '2020 PITL Autoslalom Series Event #3'
+});
+google.maps.event.addListener(marker392, 'click', function() {
+window.location.href = marker392.url;
+});
+var marker393 = new google.maps.Marker({
+position: {lat: 40.4546367089, lng: -122.310765591},
+map: map,
+url: 'https://motorsportreg.com/events/2020-shasta-autox-challenge-series-2-speedway-trinity-touring-club-569529',
+title: '2020 Shasta AutoX Challenge Series #2'
+});
+google.maps.event.addListener(marker393, 'click', function() {
+window.location.href = marker393.url;
+});
+var marker394 = new google.maps.Marker({
+position: {lat: 44.654465387, lng: -90.256250691},
+map: map,
+url: 'https://motorsportreg.com/events/2020-cwscc-autox-2-marshfield-motor-speedway-central-wisconsin-sports-car-club-774439',
+title: '2020 CWSCC AutoX #2 - Marshfield Motor Speedway'
+});
+google.maps.event.addListener(marker394, 'click', function() {
+window.location.href = marker394.url;
+});
+var marker395 = new google.maps.Marker({
+position: {lat: 38.9302136185, lng: -95.6761628905},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-solo-event-3-4-july-11-12-cohosted-kcr-heartland-motorsports-park-kansas-319210',
+title: 'KS SCCA SOLO Event #3 & 4 July 11-12 CoHosted KCR'
+});
+google.maps.event.addListener(marker395, 'click', function() {
+window.location.href = marker395.url;
+});
+var marker396 = new google.maps.Marker({
+position: {lat: 38.1495571475, lng: -84.5346968472},
+map: map,
+url: 'https://motorsportreg.com/events/ckrscca-2020-points-6-bluegrass-stockyards-scca-central-kentucky-solo-623912',
+title: 'CKRSCCA 2020 Points #6'
+});
+google.maps.event.addListener(marker396, 'click', function() {
+window.location.href = marker396.url;
+});
+var marker397 = new google.maps.Marker({
+position: {lat: 44.0554680422, lng: -78.6785677862},
+map: map,
+url: 'https://motorsportreg.com/events/omsc-autox-round-2-canadian-tire-motorsport-park-oshawa-motor-sport-club-550855',
+title: 'OMSC AutoX - Round #2'
+});
+google.maps.event.addListener(marker397, 'click', function() {
+window.location.href = marker397.url;
+});
+var marker398 = new google.maps.Marker({
+position: {lat: 41.588564224, lng: -83.5278723223},
+map: map,
+url: 'https://motorsportreg.com/events/2020-nwor-event-2-occ-cntr-for-emergency-preparedness-scca-northwestern-ohio-837969',
+title: '2020 NWOR Event #2'
+});
+google.maps.event.addListener(marker398, 'click', function() {
+window.location.href = marker398.url;
+});
+var marker399 = new google.maps.Marker({
+position: {lat: 39.7027933909, lng: -83.973849524},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wor-scca-solo-pe4-kil-kare-raceway-western-ohio-483889',
+title: '2020 WOR SCCA Solo - PE4 '
+});
+google.maps.event.addListener(marker399, 'click', function() {
+window.location.href = marker399.url;
+});
+var marker400 = new google.maps.Marker({
+position: {lat: 43.6673015616, lng: -79.7076518977},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-trillium-pca-ucr-autoslalom-july-12-2020-caa-centre-brampton-on-bmw-cca-515214',
+title: 'BMWCCA Trillium/PCA-UCR Autoslalom - July 12, 2020'
+});
+google.maps.event.addListener(marker400, 'click', function() {
+window.location.href = marker400.url;
+});
+var marker401 = new google.maps.Marker({
+position: {lat: 45.800373054, lng: -108.477576638},
+map: map,
+url: 'https://motorsportreg.com/events/metra-park-2-metrapark-upper-lot-scca-yellowstone-solo-745064',
+title: 'Metra Park 2'
+});
+google.maps.event.addListener(marker401, 'click', function() {
+window.location.href = marker401.url;
+});
+var marker402 = new google.maps.Marker({
+position: {lat: 44.7394090346, lng: -93.125770255},
+map: map,
+url: 'https://motorsportreg.com/events/com-supersunday-autocross-july-12-dakota-county-technical-college-715892',
+title: 'COM SUPERSUNDAY AUTOCROSS JULY 12 '
+});
+google.maps.event.addListener(marker402, 'click', function() {
+window.location.href = marker402.url;
+});
+var marker403 = new google.maps.Marker({
+position: {lat: 42.0924033733, lng: -72.6190971636},
+map: map,
+url: 'https://motorsportreg.com/events/cart-autocross-at-eastern-states-exposition-connecticut-rally-team-840000',
+title: 'CART Autocross at Eastern States Exposition'
+});
+google.maps.event.addListener(marker403, 'click', function() {
+window.location.href = marker403.url;
+});
+var marker404 = new google.maps.Marker({
+position: {lat: 29.301487627, lng: -94.9974469928},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-advantage-driving-school-texas-grandsport-speedway-scca-110266',
+title: 'Starting Line Drivers Edge - Texas'
+});
+google.maps.event.addListener(marker404, 'click', function() {
+window.location.href = marker404.url;
+});
+var marker405 = new google.maps.Marker({
+position: {lat: 39.2415233956, lng: -77.9757003397},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncc-autocross-points-event-6-summit-point-raceway-washington-bmw-cca-313559',
+title: '2020 NCC Autocross Points Event #6'
+});
+google.maps.event.addListener(marker405, 'click', function() {
+window.location.href = marker405.url;
+});
+var marker406 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-trackcross-2-10-18-20-dominion-raceway-818413',
+title: 'DR TrackCross #2 - 10/18/20'
+});
+google.maps.event.addListener(marker406, 'click', function() {
+window.location.href = marker406.url;
+});
+var marker407 = new google.maps.Marker({
+position: {lat: 35.4301241603, lng: -82.5330552699},
+map: map,
+url: 'https://motorsportreg.com/events/2020-hscc-night-series-7-wnc-agricultural-center-highlands-sports-car-club-419891',
+title: '2020 HSCC Night Series #7'
+});
+google.maps.event.addListener(marker407, 'click', function() {
+window.location.href = marker407.url;
+});
+var marker408 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-9-barber-motorsports-park-scca-alabama-447498',
+title: 'ALSCCA Points 9'
+});
+google.maps.event.addListener(marker408, 'click', function() {
+window.location.href = marker408.url;
+});
+var marker409 = new google.maps.Marker({
+position: {lat: 32.4101867553, lng: -111.218545211},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-tucson-champ-tour-marana-regional-airport-national-solo-419185',
+title: '2020 Tire Rack SCCA Tucson Champ Tour'
+});
+google.maps.event.addListener(marker409, 'click', function() {
+window.location.href = marker409.url;
+});
+var marker410 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-8-motor-speedway-solo-076542',
+title: '2020 Atlanta Region SCCA Autocross Points 8'
+});
+google.maps.event.addListener(marker410, 'click', function() {
+window.location.href = marker410.url;
+});
+var marker411 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/bca-autocross-9-pir-south-2-days-3-courses-portland-intl-raceway-bridge-373868',
+title: 'BCA - Autocross #7 - PIR South (2 Days/3 Courses)'
+});
+google.maps.event.addListener(marker411, 'click', function() {
+window.location.href = marker411.url;
+});
+var marker412 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/pitt-race-low-key-autox-4-pittsburgh-international-compl-206584',
+title: 'Pitt Race Low-Key AutoX #5'
+});
+google.maps.event.addListener(marker412, 'click', function() {
+window.location.href = marker412.url;
+});
+var marker413 = new google.maps.Marker({
+position: {lat: 39.7896836424, lng: -104.550265677},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-summer-series-6-front-range-airport-denver-bmw-cca-rocky-mountain-581722',
+title: 'Autocross Summer Series #6'
+});
+google.maps.event.addListener(marker413, 'click', function() {
+window.location.href = marker413.url;
+});
+var marker414 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-10-remington-park-oklahoma-316881',
+title: '2020 OK SCCA Autocross Event 10'
+});
+google.maps.event.addListener(marker414, 'click', function() {
+window.location.href = marker414.url;
+});
+var marker415 = new google.maps.Marker({
+position: {lat: 35.1837421615, lng: -101.928108244},
+map: map,
+url: 'https://motorsportreg.com/events/west-texas-scca-september-20th-day-westgate-mall-758575',
+title: 'West Texas Region SCCA - September 20th - Day'
+});
+google.maps.event.addListener(marker415, 'click', function() {
+window.location.href = marker415.url;
+});
+var marker416 = new google.maps.Marker({
+position: {lat: 41.788808295, lng: -72.671286639},
+map: map,
+url: 'https://motorsportreg.com/events/cvr-pca-autox-5-laz-lot-hartford-connecticut-valley-619907',
+title: 'CVR PCA AutoX 5'
+});
+google.maps.event.addListener(marker416, 'click', function() {
+window.location.href = marker416.url;
+});
+var marker417 = new google.maps.Marker({
+position: {lat: 39.7896836424, lng: -104.550265677},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-summer-series-7-front-range-airport-denver-bmw-cca-rocky-mountain-235504',
+title: 'Autocross Summer Series #7'
+});
+google.maps.event.addListener(marker417, 'click', function() {
+window.location.href = marker417.url;
+});
+var marker418 = new google.maps.Marker({
+position: {lat: 42.3798587147, lng: -83.3580055176},
+map: map,
+url: 'https://motorsportreg.com/events/drscca-solo-7-fall-into-autumn-schoolcraft-pstc-scca-detroit-646730',
+title: 'DRSCCA Solo #7: Fall into Autumn'
+});
+google.maps.event.addListener(marker418, 'click', function() {
+window.location.href = marker418.url;
+});
+var marker419 = new google.maps.Marker({
+position: {lat: 42.7350319665, lng: -76.8605626749},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-advantage-driving-school-fingerlakes-seneca-army-depot-scca-754992',
+title: 'Starting Line Drivers Edge - FingerLakes'
+});
+google.maps.event.addListener(marker419, 'click', function() {
+window.location.href = marker419.url;
+});
+var marker420 = new google.maps.Marker({
+position: {lat: 39.2403281125, lng: -77.9395959597},
+map: map,
+url: 'https://motorsportreg.com/events/summit-point-trackcross-series-rounds-5-6-raceway-shenandoah-get-fast-events-269331',
+title: 'Summit Point Trackcross Series - Rounds 5 & 6'
+});
+google.maps.event.addListener(marker420, 'click', function() {
+window.location.href = marker420.url;
+});
+var marker421 = new google.maps.Marker({
+position: {lat: 39.0838894597, lng: -94.3394948702},
+map: map,
+url: 'https://motorsportreg.com/events/kcr-2020-event-9-mcc-blue-river-prec-driving-ctr-scca-kansas-city-solo-614206',
+title: 'KCR 2020 Event #9'
+});
+google.maps.event.addListener(marker421, 'click', function() {
+window.location.href = marker421.url;
+});
+var marker422 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncr-loaves-fishes-autocross-devens-airfield-pca-north-country-855110',
+title: '2020 NCR Loaves & Fishes Autocross'
+});
+google.maps.event.addListener(marker422, 'click', function() {
+window.location.href = marker422.url;
+});
+var marker423 = new google.maps.Marker({
+position: {lat: 40.5612593769, lng: -74.5541443965},
+map: map,
+url: 'https://motorsportreg.com/events/april-26th-auto-x-at-td-bank-ballpark-bmw-cca-new-jersey-804436',
+title: 'August 30th Auto-X at TD Bank Ballpark'
+});
+google.maps.event.addListener(marker423, 'click', function() {
+window.location.href = marker423.url;
+});
+var marker424 = new google.maps.Marker({
+position: {lat: 39.7896836424, lng: -104.550265677},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-summer-series-5-front-range-airport-denver-bmw-cca-rocky-mountain-731320',
+title: 'Autocross Summer Series #5'
+});
+google.maps.event.addListener(marker424, 'click', function() {
+window.location.href = marker424.url;
+});
+var marker425 = new google.maps.Marker({
+position: {lat: 49.7216802783, lng: -113.40003933},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-fort-macleod-event-5-airport-southern-alberta-solosport-club-632765',
+title: 'SASC - Fort Macleod - Event #5'
+});
+google.maps.event.addListener(marker425, 'click', function() {
+window.location.href = marker425.url;
+});
+var marker426 = new google.maps.Marker({
+position: {lat: 33.3386280294, lng: -86.8499533904},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-7-hoover-metropolitan-stadium-scca-alabama-285210',
+title: 'ALSCCA Points 7'
+});
+google.maps.event.addListener(marker426, 'click', function() {
+window.location.href = marker426.url;
+});
+var marker427 = new google.maps.Marker({
+position: {lat: 43.5520796854, lng: -96.7719574595},
+map: map,
+url: 'https://motorsportreg.com/events/sports-car-club-of-siouxland-points-weekend-6-sioux-empire-fairgrounds-569471',
+title: 'Sports Car Club of Siouxland Points Weekend #6'
+});
+google.maps.event.addListener(marker427, 'click', function() {
+window.location.href = marker427.url;
+});
+var marker428 = new google.maps.Marker({
+position: {lat: 37.1651424733, lng: -77.5224899676},
+map: map,
+url: 'https://motorsportreg.com/events/vmsc-autocross-7-virginia-motorsports-park-motor-sports-club-475165',
+title: 'VMSC Autocross #3'
+});
+google.maps.event.addListener(marker428, 'click', function() {
+window.location.href = marker428.url;
+});
+var marker429 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/2020-pca-ner-autocross-4-devens-airfield-northeast-461286',
+title: '2020 PCA NER Autocross #4'
+});
+google.maps.event.addListener(marker429, 'click', function() {
+window.location.href = marker429.url;
+});
+var marker430 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-10-expo-idaho-scca-snake-river-017555',
+title: 'SRRSCCA Event 10'
+});
+google.maps.event.addListener(marker430, 'click', function() {
+window.location.href = marker430.url;
+});
+var marker431 = new google.maps.Marker({
+position: {lat: 47.2462216481, lng: -123.147723311},
+map: map,
+url: 'https://motorsportreg.com/events/september-viper-autocross-sanderson-field-wa-club-061436',
+title: 'September Viper Autocross'
+});
+google.maps.event.addListener(marker431, 'click', function() {
+window.location.href = marker431.url;
+});
+var marker432 = new google.maps.Marker({
+position: {lat: 32.0812585053, lng: -81.0809843734},
+map: map,
+url: 'https://motorsportreg.com/events/savannah-solo-event-9-hutchinson-island-paddock-scca-buccaneer-coastal-540011',
+title: 'Savannah Solo Event 9'
+});
+google.maps.event.addListener(marker432, 'click', function() {
+window.location.href = marker432.url;
+});
+var marker433 = new google.maps.Marker({
+position: {lat: 43.6187115959, lng: -116.214603192},
+map: map,
+url: 'https://motorsportreg.com/events/srrscca-event-9-expo-idaho-scca-snake-river-485459',
+title: 'SRRSCCA Event 9'
+});
+google.maps.event.addListener(marker433, 'click', function() {
+window.location.href = marker433.url;
+});
+var marker434 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/auto-x-by-ncm-motorsport-park-motorsports-257766',
+title: 'Auto-X by NCM '
+});
+google.maps.event.addListener(marker434, 'click', function() {
+window.location.href = marker434.url;
+});
+var marker435 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/boston-bmw-cca-autocross-points-event-4-devens-airfield-919874',
+title: 'Boston BMW CCA Autocross Points Event 4'
+});
+google.maps.event.addListener(marker435, 'click', function() {
+window.location.href = marker435.url;
+});
+var marker436 = new google.maps.Marker({
+position: {lat: 40.8964679858, lng: -78.2207743572},
+map: map,
+url: 'https://motorsportreg.com/events/scca-cpr-2019-solo-event-8-mid-state-airport-central-pennsylvania-507441',
+title: 'SCCA-CPR 2020 Solo Event 8'
+});
+google.maps.event.addListener(marker436, 'click', function() {
+window.location.href = marker436.url;
+});
+var marker437 = new google.maps.Marker({
+position: {lat: 40.8681056253, lng: -77.7469368139},
+map: map,
+url: 'https://motorsportreg.com/events/scca-cpr-2019-makeup-event-1-centre-county-public-safety-center-central-582950',
+title: 'SCCA-CPR 2020 MAKEUP Event 1'
+});
+google.maps.event.addListener(marker437, 'click', function() {
+window.location.href = marker437.url;
+});
+var marker438 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/orpca-ax-6-08-16-2020-south-paddock-portland-intl-raceway-pca-oregon-842917',
+title: 'ORPCA AX #6- 08/16/2020 (South Paddock)'
+});
+google.maps.event.addListener(marker438, 'click', function() {
+window.location.href = marker438.url;
+});
+var marker439 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-6-motor-speedway-solo-471316',
+title: '2020 Atlanta Region SCCA Autocross Points 6'
+});
+google.maps.event.addListener(marker439, 'click', function() {
+window.location.href = marker439.url;
+});
+var marker440 = new google.maps.Marker({
+position: {lat: 45.2967456406, lng: -75.9270260797},
+map: map,
+url: 'https://motorsportreg.com/events/2020-mco-autocross-series-test-tune-lot-9-canadian-tire-centre-motorsport-792184',
+title: '2020 MCO Autocross Series - Test and Tune'
+});
+google.maps.event.addListener(marker440, 'click', function() {
+window.location.href = marker440.url;
+});
+var marker441 = new google.maps.Marker({
+position: {lat: 39.9617292773, lng: -82.4912681725},
+map: map,
+url: 'https://motorsportreg.com/events/ovr-solo-2020-stanberry-cup-pe6-national-trail-raceway-scca-ohio-valley-360188',
+title: 'OVR Solo 2020 Stanberry Cup - PE7'
+});
+google.maps.event.addListener(marker441, 'click', function() {
+window.location.href = marker441.url;
+});
+var marker442 = new google.maps.Marker({
+position: {lat: 33.3386280294, lng: -86.8499533904},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-5-hoover-metropolitan-stadium-scca-alabama-432902',
+title: 'ALSCCA Points 5'
+});
+google.maps.event.addListener(marker442, 'click', function() {
+window.location.href = marker442.url;
+});
+var marker443 = new google.maps.Marker({
+position: {lat: 41.1128073975, lng: -85.1254399084},
+map: map,
+url: 'https://motorsportreg.com/events/fort-wayne-solo-points-event-8-allen-county-war-memorial-coliseum-scca-611386',
+title: 'Fort Wayne Solo Points Event #8'
+});
+google.maps.event.addListener(marker443, 'click', function() {
+window.location.href = marker443.url;
+});
+var marker444 = new google.maps.Marker({
+position: {lat: 39.9264479352, lng: -104.709538858},
+map: map,
+url: 'https://motorsportreg.com/events/autocross-summer-series-4-flatrock-training-center-bmw-cca-rocky-mountain-347963',
+title: 'Autocross Summer Series #4'
+});
+google.maps.event.addListener(marker444, 'click', function() {
+window.location.href = marker444.url;
+});
+var marker445 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-5-motor-speedway-solo-428195',
+title: '2020 Atlanta Region SCCA Autocross Points 5'
+});
+google.maps.event.addListener(marker445, 'click', function() {
+window.location.href = marker445.url;
+});
+var marker446 = new google.maps.Marker({
+position: {lat: 38.5906644244, lng: -104.67891229},
+map: map,
+url: 'https://motorsportreg.com/events/safe-distancing-from-cones-amr-autocross-pikes-peak-intl-raceway-pca-070564',
+title: '"Safe Distancing from Cones" AMR Autocross '
+});
+google.maps.event.addListener(marker446, 'click', function() {
+window.location.href = marker446.url;
+});
+var marker447 = new google.maps.Marker({
+position: {lat: 42.2156131557, lng: -79.834215303},
+map: map,
+url: 'https://motorsportreg.com/events/mbr-scca-2020-points-event-5-lake-erie-speedway-misery-bay-469308',
+title: 'MBR SCCA 2020 Points Event 5'
+});
+google.maps.event.addListener(marker447, 'click', function() {
+window.location.href = marker447.url;
+});
+var marker448 = new google.maps.Marker({
+position: {lat: 42.3798587147, lng: -83.3580055176},
+map: map,
+url: 'https://motorsportreg.com/events/drscca-solo-5-dog-daze-schoolcraft-pstc-scca-detroit-849921',
+title: 'DRSCCA Solo #5: Dog Daze Solo'
+});
+google.maps.event.addListener(marker448, 'click', function() {
+window.location.href = marker448.url;
+});
+var marker449 = new google.maps.Marker({
+position: {lat: 40.3790572506, lng: -79.6060323432},
+map: map,
+url: 'https://motorsportreg.com/events/ahr-scca-auto-x-greensburg-jeannette-airport-allegheny-highlands-autocross-905513',
+title: 'AHR-SCCA Auto X'
+});
+google.maps.event.addListener(marker449, 'click', function() {
+window.location.href = marker449.url;
+});
+var marker450 = new google.maps.Marker({
+position: {lat: 38.8619253872, lng: -97.6548140511},
+map: map,
+url: 'https://motorsportreg.com/events/salina-solo-oct-11th-east-crawford-recreation-area-scca-040090',
+title: 'Salina Solo Oct 11th'
+});
+google.maps.event.addListener(marker450, 'click', function() {
+window.location.href = marker450.url;
+});
+var marker451 = new google.maps.Marker({
+position: {lat: 29.9441298806, lng: -82.1098294282},
+map: map,
+url: 'https://motorsportreg.com/events/scca-buccaneer-jax-solo-fernandina-beach-municipal-airport-autocross-434249',
+title: 'SCCA - Buccaneer Region - Jax Solo @ Florida Intl Rally & Msport Park'
+});
+google.maps.event.addListener(marker451, 'click', function() {
+window.location.href = marker451.url;
+});
+var marker452 = new google.maps.Marker({
+position: {lat: 51.2683834457, lng: -113.935573972},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-airdrie-air-park-event-10-southern-alberta-solosport-club-658379',
+title: 'SASC - Airdrie Air Park - Event #10'
+});
+google.maps.event.addListener(marker452, 'click', function() {
+window.location.href = marker452.url;
+});
+var marker453 = new google.maps.Marker({
+position: {lat: 22.116082518, lng: -159.502293085},
+map: map,
+url: 'https://motorsportreg.com/events/kauai-autocross-s5-8-vidinha-stadium-parking-lot-scca-063145',
+title: 'Kauai Autocross S5-#8'
+});
+google.maps.event.addListener(marker453, 'click', function() {
+window.location.href = marker453.url;
+});
+var marker454 = new google.maps.Marker({
+position: {lat: 39.1452792, lng: -85.9203304936},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-points-event-6-walesboro-airport-scca-columbus-sports-car-club-829962',
+title: 'CSCC Points Event #6'
+});
+google.maps.event.addListener(marker454, 'click', function() {
+window.location.href = marker454.url;
+});
+var marker455 = new google.maps.Marker({
+position: {lat: 39.0838894597, lng: -94.3394948702},
+map: map,
+url: 'https://motorsportreg.com/events/kcr-2020-solo-autocross-school-mcc-blue-river-prec-driving-ctr-scca-kansas-city-645586',
+title: 'KCR 2020 Solo/Autocross School'
+});
+google.maps.event.addListener(marker455, 'click', function() {
+window.location.href = marker455.url;
+});
+var marker456 = new google.maps.Marker({
+position: {lat: 39.9617292773, lng: -82.4912681725},
+map: map,
+url: 'https://motorsportreg.com/events/ovr-solo-2020-points-event-5-national-trail-raceway-scca-ohio-valley-328151',
+title: 'OVR Solo 2020 Points Event 6'
+});
+google.maps.event.addListener(marker456, 'click', function() {
+window.location.href = marker456.url;
+});
+var marker457 = new google.maps.Marker({
+position: {lat: 40.8681056253, lng: -77.7469368139},
+map: map,
+url: 'https://motorsportreg.com/events/scca-cpr-2020-makeup-event-2-centre-county-public-safety-center-central-401707',
+title: 'SCCA-CPR 2020 MAKEUP Event 2'
+});
+google.maps.event.addListener(marker457, 'click', function() {
+window.location.href = marker457.url;
+});
+var marker458 = new google.maps.Marker({
+position: {lat: 41.788808295, lng: -72.671286639},
+map: map,
+url: 'https://motorsportreg.com/events/cvr-pca-autox-3-laz-lot-hartford-connecticut-valley-016980',
+title: 'CVR PCA AutoX 3'
+});
+google.maps.event.addListener(marker458, 'click', function() {
+window.location.href = marker458.url;
+});
+var marker459 = new google.maps.Marker({
+position: {lat: 51.2683834457, lng: -113.935573972},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-airdrie-air-park-event-7-southern-alberta-solosport-club-054737',
+title: 'SASC - Airdrie Air Park - Event #7'
+});
+google.maps.event.addListener(marker459, 'click', function() {
+window.location.href = marker459.url;
+});
+var marker460 = new google.maps.Marker({
+position: {lat: 43.0177915528, lng: -88.0095146055},
+map: map,
+url: 'https://motorsportreg.com/events/midwestern-council-hpde-autocross-2-3-milwaukee-mile-great-lakes-sports-car-club-977680',
+title: 'Midwestern Council HPDE/Autocross 2 and 3'
+});
+google.maps.event.addListener(marker460, 'click', function() {
+window.location.href = marker460.url;
+});
+var marker461 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-9-remington-park-oklahoma-762923',
+title: '2020 OK SCCA Autocross Event 9'
+});
+google.maps.event.addListener(marker461, 'click', function() {
+window.location.href = marker461.url;
+});
+var marker462 = new google.maps.Marker({
+position: {lat: 39.9013264994, lng: -75.1719145162},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2020-summer-series-event-5-wells-fargo-center-scca-philadelphia-201822',
+title: 'Philly Region 2020 Summer Series Event #5'
+});
+google.maps.event.addListener(marker462, 'click', function() {
+window.location.href = marker462.url;
+});
+var marker463 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/boston-bmw-cca-autocross-points-event-5-devens-airfield-898136',
+title: 'Boston BMW CCA Autocross Points Event 5'
+});
+google.maps.event.addListener(marker463, 'click', function() {
+window.location.href = marker463.url;
+});
+var marker464 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-8-remington-park-oklahoma-045379',
+title: '2020 OK SCCA Autocross Event 8'
+});
+google.maps.event.addListener(marker464, 'click', function() {
+window.location.href = marker464.url;
+});
+var marker465 = new google.maps.Marker({
+position: {lat: 40.8492167371, lng: -96.7700381764},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-holeshot-school-spring-nats-lincoln-airpark-scca-national-600297',
+title: 'Starting Line ProLaunch - Spring Nats'
+});
+google.maps.event.addListener(marker465, 'click', function() {
+window.location.href = marker465.url;
+});
+var marker466 = new google.maps.Marker({
+position: {lat: 44.4509155045, lng: -83.3692684996},
+map: map,
+url: 'https://motorsportreg.com/events/drscca-solo-6-before-nationals-oscoda-wurtsmith-airport-scca-detroit-194890',
+title: 'DRSCCA Solo #6: Before Nationals'
+});
+google.maps.event.addListener(marker466, 'click', function() {
+window.location.href = marker466.url;
+});
+var marker467 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/steel-cities-solo-event-7-pittsburgh-international-race-compl-scca-200040',
+title: 'Steel Cities - Solo Event #7'
+});
+google.maps.event.addListener(marker467, 'click', function() {
+window.location.href = marker467.url;
+});
+var marker468 = new google.maps.Marker({
+position: {lat: 40.8501456428, lng: -96.7700381764},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-lincoln-prosolo-airpark-national-solo-277466',
+title: '2020 Tire Rack SCCA Lincoln ProSolo'
+});
+google.maps.event.addListener(marker468, 'click', function() {
+window.location.href = marker468.url;
+});
+var marker469 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/pitt-race-low-key-autox-3-pittsburgh-international-compl-532577',
+title: 'Pitt Race Low-Key AutoX #4'
+});
+google.maps.event.addListener(marker469, 'click', function() {
+window.location.href = marker469.url;
+});
+var marker470 = new google.maps.Marker({
+position: {lat: 38.8619253872, lng: -97.6548140511},
+map: map,
+url: 'https://motorsportreg.com/events/salina-solo-august-23-sunflower-showdown-3-east-crawford-recreation-area-scca-881545',
+title: 'Salina Solo August 23 Sunflower Solo Showdown #3'
+});
+google.maps.event.addListener(marker470, 'click', function() {
+window.location.href = marker470.url;
+});
+var marker471 = new google.maps.Marker({
+position: {lat: 41.7217119317, lng: -86.3173898805},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-bmwcca-autocross-5-tire-rack-bmw-cca-804258',
+title: 'Michiana BMWCCA Autocross #5'
+});
+google.maps.event.addListener(marker471, 'click', function() {
+window.location.href = marker471.url;
+});
+var marker472 = new google.maps.Marker({
+position: {lat: 39.9617292773, lng: -82.4912681725},
+map: map,
+url: 'https://motorsportreg.com/events/ovr-solo-2020-points-event-7-national-trail-raceway-scca-ohio-valley-978280',
+title: 'OVR Solo 2020 Points Event 8'
+});
+google.maps.event.addListener(marker472, 'click', function() {
+window.location.href = marker472.url;
+});
+var marker473 = new google.maps.Marker({
+position: {lat: 40.8681056253, lng: -77.7469368139},
+map: map,
+url: 'https://motorsportreg.com/events/scca-cpr-2019-solo-event-9-centre-county-public-safety-center-central-961170',
+title: 'SCCA-CPR 2020 Solo Event 9'
+});
+google.maps.event.addListener(marker473, 'click', function() {
+window.location.href = marker473.url;
+});
+var marker474 = new google.maps.Marker({
+position: {lat: 49.7216802783, lng: -113.40003933},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-fort-macleod-practice-1-airport-southern-alberta-solosport-club-210456',
+title: 'SASC - Fort Macleod - Practice #1'
+});
+google.maps.event.addListener(marker474, 'click', function() {
+window.location.href = marker474.url;
+});
+var marker475 = new google.maps.Marker({
+position: {lat: 45.700105877, lng: -111.148009848},
+map: map,
+url: 'https://motorsportreg.com/events/swmt-solo-at-commons-scca-southwest-montana-291934',
+title: 'SWMT Solo at The Commons'
+});
+google.maps.event.addListener(marker475, 'click', function() {
+window.location.href = marker475.url;
+});
+var marker476 = new google.maps.Marker({
+position: {lat: 49.7216802783, lng: -113.40003933},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-fort-macleod-event-6-airport-southern-alberta-solosport-club-243365',
+title: 'SASC - Fort Macleod - Event #6'
+});
+google.maps.event.addListener(marker476, 'click', function() {
+window.location.href = marker476.url;
+});
+var marker477 = new google.maps.Marker({
+position: {lat: 40.2013323134, lng: -75.0492648093},
+map: map,
+url: 'https://motorsportreg.com/events/al-holbert-memorial-2020-points-event-3-4-warminster-community-park-scca-737797',
+title: 'The Al Holbert Memorial (2020 Points Event #3 & 4)'
+});
+google.maps.event.addListener(marker477, 'click', function() {
+window.location.href = marker477.url;
+});
+var marker478 = new google.maps.Marker({
+position: {lat: 35.4964316367, lng: -97.4827684161},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ok-scca-autocross-event-7-adder-remington-park-oklahoma-580616',
+title: '2020 OK SCCA Autocross Event 7 Adder'
+});
+google.maps.event.addListener(marker478, 'click', function() {
+window.location.href = marker478.url;
+});
+var marker479 = new google.maps.Marker({
+position: {lat: 40.2013323134, lng: -75.0492648093},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2020-solo-summer-series-rust-off-warminster-community-park-scca-006241',
+title: 'Philly Region 2020 SOLO Summer Series Rust-Off'
+});
+google.maps.event.addListener(marker479, 'click', function() {
+window.location.href = marker479.url;
+});
+var marker480 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/nepa-scca-solo-event-2-pocono-raceway-northeastern-penna-198522',
+title: 'NEPA SCCA Solo Event #2'
+});
+google.maps.event.addListener(marker480, 'click', function() {
+window.location.href = marker480.url;
+});
+var marker481 = new google.maps.Marker({
+position: {lat: 40.2013323134, lng: -75.0492648093},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2020-summer-series-event-1-warminster-community-park-scca-philadelphia-762758',
+title: 'Philly Region 2020 Summer Series Event #1'
+});
+google.maps.event.addListener(marker481, 'click', function() {
+window.location.href = marker481.url;
+});
+var marker482 = new google.maps.Marker({
+position: {lat: 49.7216802783, lng: -113.40003933},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-fort-macleod-event-4-airport-southern-alberta-solosport-club-470865',
+title: 'SASC - Fort Macleod - Event #4'
+});
+google.maps.event.addListener(marker482, 'click', function() {
+window.location.href = marker482.url;
+});
+var marker483 = new google.maps.Marker({
+position: {lat: 34.89953116, lng: -120.44800908},
+map: map,
+url: 'https://motorsportreg.com/events/cccr-pca-autocross-santa-maria-ca-airport-california-central-coast-618218',
+title: 'CCCR-PCA Autocross '
+});
+google.maps.event.addListener(marker483, 'click', function() {
+window.location.href = marker483.url;
+});
+var marker484 = new google.maps.Marker({
+position: {lat: 34.089665385, lng: -117.502640265},
+map: map,
+url: 'https://motorsportreg.com/events/cal-club-autocross-event-test-n-tune-july-11-12-auto-speedway-scca-939600',
+title: 'CAL CLUB Autocross Event & Test n Tune July 11-12'
+});
+google.maps.event.addListener(marker484, 'click', function() {
+window.location.href = marker484.url;
+});
+var marker485 = new google.maps.Marker({
+position: {lat: 46.5337577858, lng: -121.91789311},
+map: map,
+url: 'https://motorsportreg.com/events/startingline-holeshot-school-packwood-hampton-mills-old-lumber-yard-scca-695428',
+title: 'Starting Line ProLaunch - Packwood'
+});
+google.maps.event.addListener(marker485, 'click', function() {
+window.location.href = marker485.url;
+});
+var marker486 = new google.maps.Marker({
+position: {lat: 46.1549554945, lng: -123.885192496},
+map: map,
+url: 'https://motorsportreg.com/events/ax3-astoria-airport-nwaa-796023',
+title: 'AX3 @ Astoria Airport'
+});
+google.maps.event.addListener(marker486, 'click', function() {
+window.location.href = marker486.url;
+});
+var marker487 = new google.maps.Marker({
+position: {lat: 42.4867238544, lng: -74.7808247146},
+map: map,
+url: 'https://motorsportreg.com/events/s2k-takeover-w-azp-installs-new-york-safety-track-nyst-053911',
+title: 'S2K TakeOver W/AZP Installs'
+});
+google.maps.event.addListener(marker487, 'click', function() {
+window.location.href = marker487.url;
+});
+var marker488 = new google.maps.Marker({
+position: {lat: 40.8692291914, lng: -96.8029460278},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-solo-nationals-vendor-lincoln-airpark-natl-780157',
+title: '2020 Tire Rack SCCA Solo Nationals Vendor'
+});
+google.maps.event.addListener(marker488, 'click', function() {
+window.location.href = marker488.url;
+});
+var marker489 = new google.maps.Marker({
+position: {lat: 49.7216802783, lng: -113.40003933},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-fort-macleod-event-8-airport-southern-alberta-solosport-club-546149',
+title: 'SASC - Fort Macleod - Event #8'
+});
+google.maps.event.addListener(marker489, 'click', function() {
+window.location.href = marker489.url;
+});
+var marker490 = new google.maps.Marker({
+position: {lat: 40.8692291914, lng: -96.8029460278},
+map: map,
+url: 'https://motorsportreg.com/events/2019-tire-rack-scca-solo-nationals-test-n-tune-lincoln-airpark-national-131326',
+title: '2020 Tire Rack SCCA Solo Nationals Test N Tune'
+});
+google.maps.event.addListener(marker490, 'click', function() {
+window.location.href = marker490.url;
+});
+var marker491 = new google.maps.Marker({
+position: {lat: 35.1632891601, lng: -83.43355424},
+map: map,
+url: 'https://motorsportreg.com/events/2020-hscc-day-series-6-jerry-sutton-training-center-highlands-sports-car-club-891247',
+title: '2020 HSCC Day Series #6'
+});
+google.maps.event.addListener(marker491, 'click', function() {
+window.location.href = marker491.url;
+});
+var marker492 = new google.maps.Marker({
+position: {lat: 40.8475365106, lng: -96.7702567424},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-nationals-tnt-lincoln-airpark-evo-725077',
+title: 'Evolution Performance Driving School Nationals TnT'
+});
+google.maps.event.addListener(marker492, 'click', function() {
+window.location.href = marker492.url;
+});
+var marker493 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/ascc-autocross-event-07-at-carfest-pittsburgh-international-race-compl-466340',
+title: 'ASCC Autocross: Event 07 at CARFEST'
+});
+google.maps.event.addListener(marker493, 'click', function() {
+window.location.href = marker493.url;
+});
+var marker494 = new google.maps.Marker({
+position: {lat: 33.3855855799, lng: -84.3130981898},
+map: map,
+url: 'https://motorsportreg.com/events/2020-atlanta-scca-autocross-points-7-motor-speedway-solo-365748',
+title: '2020 Atlanta Region SCCA Autocross Points 7'
+});
+google.maps.event.addListener(marker494, 'click', function() {
+window.location.href = marker494.url;
+});
+var marker495 = new google.maps.Marker({
+position: {lat: 41.6165201883, lng: -90.5815862614},
+map: map,
+url: 'https://motorsportreg.com/events/grr-autocross-mid-season-test-n-tune-iowa-air-national-guard-scca-great-river-913519',
+title: 'GRR Autocross Test-n-Tune'
+});
+google.maps.event.addListener(marker495, 'click', function() {
+window.location.href = marker495.url;
+});
+var marker496 = new google.maps.Marker({
+position: {lat: 40.8475365106, lng: -96.7702567424},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-nationals-tnt-lincoln-airpark-evo-425745',
+title: 'Evolution Performance Driving School Nationals TnT'
+});
+google.maps.event.addListener(marker496, 'click', function() {
+window.location.href = marker496.url;
+});
+var marker497 = new google.maps.Marker({
+position: {lat: 40.8475365106, lng: -96.7702567424},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-nationals-tnt-lincoln-airpark-evo-096240',
+title: 'Evolution Performance Driving School Nationals TnT'
+});
+google.maps.event.addListener(marker497, 'click', function() {
+window.location.href = marker497.url;
+});
+var marker498 = new google.maps.Marker({
+position: {lat: 39.3596515172, lng: -74.461909522},
+map: map,
+url: 'https://motorsportreg.com/events/sjr-scca-2020-solo-event-7-bader-field-south-jersey-207833',
+title: 'SJR SCCA 2020 Solo Event 7'
+});
+google.maps.event.addListener(marker498, 'click', function() {
+window.location.href = marker498.url;
+});
+var marker499 = new google.maps.Marker({
+position: {lat: 34.8605888365, lng: -85.5078212188},
+map: map,
+url: 'https://motorsportreg.com/events/crscca-autocross-8-dade-county-high-school-scca-chattanooga-905162',
+title: 'CRSCCA Autocross #8'
+});
+google.maps.event.addListener(marker499, 'click', function() {
+window.location.href = marker499.url;
+});
+var marker500 = new google.maps.Marker({
+position: {lat: 46.4208410984, lng: -94.287564942},
+map: map,
+url: 'https://motorsportreg.com/events/mowog-8-brainerd-international-raceway-june-7th-intl-minnesota-autosports-club-939382',
+title: 'MOWOG #6 Brainerd International Raceway Sep 13th'
+});
+google.maps.event.addListener(marker500, 'click', function() {
+window.location.href = marker500.url;
+});
+var marker501 = new google.maps.Marker({
+position: {lat: 49.7216802783, lng: -113.40003933},
+map: map,
+url: 'https://motorsportreg.com/events/sasc-fort-macleod-event-9-airport-southern-alberta-solosport-club-891391',
+title: 'SASC - Fort Macleod - Event #9'
+});
+google.maps.event.addListener(marker501, 'click', function() {
+window.location.href = marker501.url;
+});
+var marker502 = new google.maps.Marker({
+position: {lat: 39.9617292773, lng: -82.4912681725},
+map: map,
+url: 'https://motorsportreg.com/events/ovr-solo-2020-points-event-9-national-trail-raceway-scca-ohio-valley-861652',
+title: 'OVR Solo 2020 Points Event 9'
+});
+google.maps.event.addListener(marker502, 'click', function() {
+window.location.href = marker502.url;
+});
+var marker503 = new google.maps.Marker({
+position: {lat: 41.7217119317, lng: -86.3173898805},
+map: map,
+url: 'https://motorsportreg.com/events/michiana-bmwcca-autocross-6-tire-rack-bmw-cca-297819',
+title: 'Michiana BMWCCA Autocross #6'
+});
+google.maps.event.addListener(marker503, 'click', function() {
+window.location.href = marker503.url;
+});
+var marker504 = new google.maps.Marker({
+position: {lat: 40.8501456428, lng: -96.7700381764},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-solo-nationals-group-tent-rental-lincoln-airpark-scca-national-645562',
+title: '2020 Tire Rack Solo Nationals Group Tent Rental'
+});
+google.maps.event.addListener(marker504, 'click', function() {
+window.location.href = marker504.url;
+});
+var marker505 = new google.maps.Marker({
+position: {lat: 47.5011550437, lng: -114.089191756},
+map: map,
+url: 'https://motorsportreg.com/events/big-sky-race-7-8-rocky-mountain-twist-scca-344859',
+title: 'Big Sky Race #7 and #8 @ Rocky Mountain Twist'
+});
+google.maps.event.addListener(marker505, 'click', function() {
+window.location.href = marker505.url;
+});
+var marker506 = new google.maps.Marker({
+position: {lat: 40.8501456428, lng: -96.7700381764},
+map: map,
+url: 'https://motorsportreg.com/events/2020-tire-rack-scca-solo-nationals-lincoln-airpark-national-447526',
+title: '2020 Tire Rack SCCA Solo Nationals'
+});
+google.maps.event.addListener(marker506, 'click', function() {
+window.location.href = marker506.url;
+});
+var marker507 = new google.maps.Marker({
+position: {lat: 40.8475365106, lng: -96.7702567424},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-nationals-tnt-lincoln-airpark-evo-262037',
+title: 'Evolution Performance Driving School Nationals TnT'
+});
+google.maps.event.addListener(marker507, 'click', function() {
+window.location.href = marker507.url;
+});
+var marker508 = new google.maps.Marker({
+position: {lat: 38.8619253872, lng: -97.6548140511},
+map: map,
+url: 'https://motorsportreg.com/events/salina-solo-sept-13th-east-crawford-recreation-area-scca-042428',
+title: 'Salina Solo Sept 13th'
+});
+google.maps.event.addListener(marker508, 'click', function() {
+window.location.href = marker508.url;
+});
+var marker509 = new google.maps.Marker({
+position: {lat: 40.8475365106, lng: -96.7702567424},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-nationals-tnt-lincoln-airpark-evo-976625',
+title: 'Evolution Performance Driving School Nationals TnT'
+});
+google.maps.event.addListener(marker509, 'click', function() {
+window.location.href = marker509.url;
+});
+var marker510 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/alscca-points-6-barber-motorsports-park-scca-alabama-857393',
+title: 'ALSCCA Points 6'
+});
+google.maps.event.addListener(marker510, 'click', function() {
+window.location.href = marker510.url;
+});
+var marker511 = new google.maps.Marker({
+position: {lat: 40.8475365106, lng: -96.7702567424},
+map: map,
+url: 'https://motorsportreg.com/events/evolution-performance-driving-school-nationals-tnt-lincoln-airpark-evo-369472',
+title: 'Evolution Performance Driving School Nationals TnT'
+});
+google.maps.event.addListener(marker511, 'click', function() {
+window.location.href = marker511.url;
+});
+var marker512 = new google.maps.Marker({
+position: {lat: 40.8681056253, lng: -77.7469368139},
+map: map,
+url: 'https://motorsportreg.com/events/scca-cpr-2019-solo-event-10-centre-county-public-safety-center-central-498473',
+title: 'SCCA-CPR 2020 Solo Event 10'
+});
+google.maps.event.addListener(marker512, 'click', function() {
+window.location.href = marker512.url;
+});
+var marker513 = new google.maps.Marker({
+position: {lat: 36.1291837764, lng: -95.9488991742},
+map: map,
+url: 'https://motorsportreg.com/events/neokla-2020-autocross-event-6-fair-meadows-tulsa-fairgrounds-meadow-scca-452934',
+title: 'NeOkla 2020 Autocross Event #6 @ Fair Meadows'
+});
+google.maps.event.addListener(marker513, 'click', function() {
+window.location.href = marker513.url;
+});
+var marker514 = new google.maps.Marker({
+position: {lat: 39.8267954752, lng: -86.1375305092},
+map: map,
+url: 'https://motorsportreg.com/events/indy-solo-points-event-6-indianapolis-state-fairgrounds-scca-751540',
+title: 'Indy Solo Points Event #6'
+});
+google.maps.event.addListener(marker514, 'click', function() {
+window.location.href = marker514.url;
+});
+var marker515 = new google.maps.Marker({
+position: {lat: 37.7068277007, lng: -122.418737221},
+map: map,
+url: 'https://motorsportreg.com/events/lpr-pca-ax-2-cow-palace-loma-prieta-autocross-199015',
+title: 'LPR-PCA AX #2 '
+});
+google.maps.event.addListener(marker515, 'click', function() {
+window.location.href = marker515.url;
+});
+var marker516 = new google.maps.Marker({
+position: {lat: 40.2013323134, lng: -75.0492648093},
+map: map,
+url: 'https://motorsportreg.com/events/philly-2020-summer-series-event-6-warminster-community-park-scca-philadelphia-525483',
+title: 'Philly Region 2020 Summer Series Event #6'
+});
+google.maps.event.addListener(marker516, 'click', function() {
+window.location.href = marker516.url;
+});
+var marker517 = new google.maps.Marker({
+position: {lat: 41.1128073975, lng: -85.1254399084},
+map: map,
+url: 'https://motorsportreg.com/events/fort-wayne-solo-points-event-9-allen-county-war-memorial-coliseum-scca-764024',
+title: 'Fort Wayne Solo Points Event #9'
+});
+google.maps.event.addListener(marker517, 'click', function() {
+window.location.href = marker517.url;
+});
+var marker518 = new google.maps.Marker({
+position: {lat: 47.2462216481, lng: -123.147723311},
+map: map,
+url: 'https://motorsportreg.com/events/bca-test-new-sanderson-field-bridge-city-autosports-323246',
+title: 'BCA - AX6 / Cone Challenge Weekend - Sanderson'
+});
+google.maps.event.addListener(marker518, 'click', function() {
+window.location.href = marker518.url;
+});
+var marker519 = new google.maps.Marker({
+position: {lat: 41.788808295, lng: -72.671286639},
+map: map,
+url: 'https://motorsportreg.com/events/cvr-pca-autox-4-laz-lot-hartford-connecticut-valley-998006',
+title: 'CVR PCA AutoX 4'
+});
+google.maps.event.addListener(marker519, 'click', function() {
+window.location.href = marker519.url;
+});
+var marker520 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/trscca-2020-points-event-4-ncm-motorsport-park-scca-tennessee-357246',
+title: 'TRSCCA 2020 Points Event 4 - NCM'
+});
+google.maps.event.addListener(marker520, 'click', function() {
+window.location.href = marker520.url;
+});
+var marker521 = new google.maps.Marker({
+position: {lat: 46.4208410984, lng: -94.287564942},
+map: map,
+url: 'https://motorsportreg.com/events/mac-members-only-practice-autocross-september-12th-brainerd-intl-raceway-420146',
+title: 'MAC Members-Only Practice Autocross September 12th'
+});
+google.maps.event.addListener(marker521, 'click', function() {
+window.location.href = marker521.url;
+});
+var marker522 = new google.maps.Marker({
+position: {lat: 39.7900763782, lng: -104.549726092},
+map: map,
+url: 'https://motorsportreg.com/events/rmsolo-championship-series-11-colorado-air-space-port-scca-rocky-mountain-solo-136041',
+title: 'RMSolo Championship Series #11'
+});
+google.maps.event.addListener(marker522, 'click', function() {
+window.location.href = marker522.url;
+});
+var marker523 = new google.maps.Marker({
+position: {lat: 39.5311404918, lng: -76.1862522492},
+map: map,
+url: 'https://motorsportreg.com/events/bmc-autocross-iii-ripken-stadium-brandywine-motorsport-club-041632',
+title: 'BMC Autocross III'
+});
+google.maps.event.addListener(marker523, 'click', function() {
+window.location.href = marker523.url;
+});
+var marker524 = new google.maps.Marker({
+position: {lat: 38.5904765942, lng: -76.8836282237},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncc-autocross-points-event-5-regency-furniture-stadium-bmw-cca-473003',
+title: '2020 NCC Autocross Points Event #5'
+});
+google.maps.event.addListener(marker524, 'click', function() {
+window.location.href = marker524.url;
+});
+var marker525 = new google.maps.Marker({
+position: {lat: 32.0812585053, lng: -81.0809843734},
+map: map,
+url: 'https://motorsportreg.com/events/savannah-solo-event-7-hutchinson-island-paddock-scca-buccaneer-coastal-028105',
+title: 'Savannah Solo Event 7'
+});
+google.maps.event.addListener(marker525, 'click', function() {
+window.location.href = marker525.url;
+});
+var marker526 = new google.maps.Marker({
+position: {lat: 42.5402930281, lng: -71.6115691291},
+map: map,
+url: 'https://motorsportreg.com/events/ner-2020-team-challenge-devens-airfield-scca-new-england-solo-803378',
+title: 'NER 2020 Team Challenge'
+});
+google.maps.event.addListener(marker526, 'click', function() {
+window.location.href = marker526.url;
+});
+var marker527 = new google.maps.Marker({
+position: {lat: 39.5311404918, lng: -76.1862522492},
+map: map,
+url: 'https://motorsportreg.com/events/2020-chesapeake-autocross-6-rumble-iv-ripken-stadium-pca-813196',
+title: '2020 Chesapeake Region Autocross #6/Rumble IV'
+});
+google.maps.event.addListener(marker527, 'click', function() {
+window.location.href = marker527.url;
+});
+var marker528 = new google.maps.Marker({
+position: {lat: 38.9469339216, lng: -76.7177502496},
+map: map,
+url: 'https://motorsportreg.com/events/2020-chesapeake-autocross-7-prince-georges-stadium-bowie-pca-713741',
+title: '2020 Chesapeake Region Autocross #7'
+});
+google.maps.event.addListener(marker528, 'click', function() {
+window.location.href = marker528.url;
+});
+var marker529 = new google.maps.Marker({
+position: {lat: 38.9469339216, lng: -76.7177502496},
+map: map,
+url: 'https://motorsportreg.com/events/2020-chesapeake-autocross-5-sunday-prince-georges-stadium-bowie-pca-318885',
+title: '2020 Chesapeake Region Autocross #5 (SUNDAY)'
+});
+google.maps.event.addListener(marker529, 'click', function() {
+window.location.href = marker529.url;
+});
+var marker530 = new google.maps.Marker({
+position: {lat: 39.3596515172, lng: -74.461909522},
+map: map,
+url: 'https://motorsportreg.com/events/sjr-scca-2020-solo-event-10-bader-field-south-jersey-426542',
+title: 'SJR SCCA 2020 Solo Event 10'
+});
+google.maps.event.addListener(marker530, 'click', function() {
+window.location.href = marker530.url;
+});
+var marker531 = new google.maps.Marker({
+position: {lat: 43.5520796854, lng: -96.7719574595},
+map: map,
+url: 'https://motorsportreg.com/events/sports-car-club-of-siouxland-points-weekend-5-sioux-empire-fairgrounds-464269',
+title: 'Sports Car Club of Siouxland Points Weekend #5'
+});
+google.maps.event.addListener(marker531, 'click', function() {
+window.location.href = marker531.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

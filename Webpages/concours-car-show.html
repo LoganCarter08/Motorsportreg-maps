@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 42.8876183926, lng: -78.6614786529},
+map: map,
+url: 'https://motorsportreg.com/events/buffalo-octagon-association-como-park-casino-car-show-concours-328894',
+title: 'Buffalo Octagon Association @ Como Park Casino'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 34.2981569094, lng: -83.8249445699},
+map: map,
+url: 'https://motorsportreg.com/events/concours-d-elegance-2020-gainsville-square-mbca-peachtree-489356',
+title: 'Concours dElegance '
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 38.6932914318, lng: -77.2557574202},
+map: map,
+url: 'https://motorsportreg.com/events/37th-annual-deutsche-marque-concours-d-elegance-occoquan-regional-park-381337',
+title: '37th Annual Deutsche Marque Concours dElegance'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 44.0263167949, lng: -121.313626274},
+map: map,
+url: 'https://motorsportreg.com/events/2nd-annual-porsche-corvette-show-bend-factory-stores-pca-high-desert-836490',
+title: '2nd Annual Porsche and Corvette Show'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 35.2000014268, lng: -79.4700022958},
+map: map,
+url: 'https://motorsportreg.com/events/2020-mbca-sandhills-motoring-festival-pinehurst-triangle-548100',
+title: '2020 MBCA SANDHILLS MOTORING FESTIVAL'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 43.583945933, lng: -79.7165174832},
+map: map,
+url: 'https://motorsportreg.com/events/glory-days-classic-motorsport-117-queen-street-car-show-concours-040805',
+title: 'Glory Days Classic Motorsport @ BRITS ON THE LAKE Classic Revival'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 38.6932914318, lng: -77.2557574202},
+map: map,
+url: 'https://motorsportreg.com/events/2020-deutsche-marque-concours-d-elegance-mbca-occoquan-regional-park-536536',
+title: '2020 Deutsche Marque Concours dElegance - MBCA'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

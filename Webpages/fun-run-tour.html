@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 45.3722807026, lng: -75.7677187476},
+map: map,
+url: 'https://motorsportreg.com/events/2020-bmwcco-fall-drive-bmw-car-club-of-ottawa-774493',
+title: '2020 BMWcco Fall Drive'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-sunday-afternoon-11-15-20-dominion-raceway-006591',
+title: 'DR Track Attack Sunday Afternoon 11/15/20'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-sunday-afternoon-11-29-20-dominion-raceway-009067',
+title: 'DR Track Attack Sunday Afternoon 11/29/20'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/supercar-experience-june-21st-calabogie-motorsports-park-1morelap-ca-969949',
+title: 'Supercar Experience October 10th'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 45.8649183416, lng: -122.656714672},
+map: map,
+url: 'https://motorsportreg.com/events/ts-pnwr-backcountry-bash-2020-la-center-team-shelby-pnw-441607',
+title: 'Team Shelby PNW Region BackCountry Bash 2020'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 48.6294203321, lng: -123.420889897},
+map: map,
+url: 'https://motorsportreg.com/events/2020-saanich-peninsula-tour-mary-winspear-centre-pca-vancouver-island-287931',
+title: '2020 Saanich Peninsula Tour'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/supercar-experience-july-12th-calabogie-motorsports-park-1morelap-ca-627565',
+title: 'Supercar Experience July 12th'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-saturday-evening-8-20-dominion-raceway-120307',
+title: 'DR Track Attack Saturday Evening 8/8/20'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-saturday-evening-9-12-20-dominion-raceway-351552',
+title: 'DR Track Attack Saturday Evening 9/12/20'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 48.4776057175, lng: -120.256599859},
+map: map,
+url: 'https://motorsportreg.com/events/sun-mountain-lodge-tour-bmw-cca-puget-sound-238939',
+title: 'Sun Mountain Lodge Tour'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 47.5105772897, lng: -122.191264601},
+map: map,
+url: 'https://motorsportreg.com/events/mid-week-tour-to-roslyn-revisted-pnwr-pca-pacific-northwest-tours-social-events-721485',
+title: 'Mid-Week Tour to Roslyn Revisted'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-saturday-evening-9-26-20-dominion-raceway-659153',
+title: 'DR Track Attack Saturday Evening 9/26/20'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 34.2374296975, lng: -118.189060616},
+map: map,
+url: 'https://motorsportreg.com/events/road-trip-to-monterey-angeles-crest-highway-pca-los-101700',
+title: 'Road Trip to Northern California'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/mustang-quick-fix-october-2020-calabogie-motorsports-park-708539',
+title: 'Mustang Quick Fix - October 2020'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-saturday-evening-7-18-20-dominion-raceway-625918',
+title: 'DR Track Attack Saturday Evening 7/18/20'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 38.7695265882, lng: -104.857139246},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-gooseberry-pie-pickup-colorado-scenic-roads-pca-alpine-mountain-456858',
+title: 'Porsche Gooseberry Pie Pickup'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 47.5105772897, lng: -122.191264601},
+map: map,
+url: 'https://motorsportreg.com/events/olympic-lowlands-redux-2020-pnwr-tour-pca-pacific-northwest-tours-social-events-416329',
+title: 'Olympic Lowlands Redux 2020'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 36.1337702484, lng: -81.6754293971},
+map: map,
+url: 'https://motorsportreg.com/events/audi-treffen-2020-meadowbrook-inn-club-na-carolinas-545344',
+title: 'Audi Treffen 2020'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 47.5105772897, lng: -122.191264601},
+map: map,
+url: 'https://motorsportreg.com/events/more-smiles-to-mile-2020-pnwr-tour-pca-pacific-northwest-tours-social-events-012970',
+title: 'More Smiles to the Mile Redux 2020'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/mustang-quick-fix-september-2020-calabogie-motorsports-park-647988',
+title: 'Mustang Quick Fix - September 2020'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 45.3722807026, lng: -75.7677187476},
+map: map,
+url: 'https://motorsportreg.com/events/summer-x-drive-bmw-car-club-of-ottawa-907934',
+title: 'Summer X Drive'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 44.7497328655, lng: -93.1980541469},
+map: map,
+url: 'https://motorsportreg.com/events/trip-to-paradise-kohls-parking-lot-cottage-grove-bmw-cca-north-star-411256',
+title: 'Trip to Paradise'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 43.8182897234, lng: -91.2556644607},
+map: map,
+url: 'https://motorsportreg.com/events/driftless-area-tour-to-lacrosse-wi-pca-milwaukee-430875',
+title: 'Driftless Area Tour to LaCrosse, WI'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/supercar-experience-september-6-calabogie-motorsports-park-1morelap-ca-517697',
+title: 'Supercar Experience September 6'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 39.8052223227, lng: -76.67913236},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncc-north-of-border-tour-shrewsbury-amish-market-bmw-cca-national-844509',
+title: '2020 NCC North of the Border Tour'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-sunday-evening-10-4-20-dominion-raceway-807546',
+title: 'DR Track Attack Sunday Evening 10/4/20'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 38.7695265882, lng: -104.857139246},
+map: map,
+url: 'https://motorsportreg.com/events/breckinridge-porsche-tour-colorado-scenic-roads-pca-alpine-mountain-728007',
+title: 'Breckenridge Porsche Tour'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 38.3240992166, lng: -76.2308738751},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncc-eastern-shore-tour-old-saltys-bmw-cca-national-capital-tours-325749',
+title: '2020 NCC Eastern Shore Tour'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 43.1665120918, lng: -88.1337352559},
+map: map,
+url: 'https://motorsportreg.com/events/elkhart-lake-street-concours-tour-pca-milwaukee-682906',
+title: 'Elkhart Lake Street Concours Tour'
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/supercar-experience-july-26th-calabogie-motorsports-park-1morelap-ca-026707',
+title: 'Supercar Experience July 26th'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 39.693770711, lng: -78.1464755595},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncc-dust-off-tour-blue-goose-farm-market-bakery-bmw-cca-national-959397',
+title: '2020 NCC Dust Off Tour'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 39.3767713864, lng: -77.154506696},
+map: map,
+url: 'https://motorsportreg.com/events/shakes-n-brakes-food-lion-audi-club-na-potomac-chesapeake-777428',
+title: 'Shakes N Brakes'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-saturday-evening-8-29-20-dominion-raceway-686936',
+title: 'DR Track Attack Saturday Evening 8/29/20'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 37.3419077689, lng: -77.2610098357},
+map: map,
+url: 'https://motorsportreg.com/events/fsr-shirley-plantation-fun-run-pca-first-settlers-084621',
+title: 'FSR Shirley Plantation Fun Run'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/mustang-quick-fix-august-2020-calabogie-motorsports-park-647861',
+title: 'Mustang Quick Fix - August 2020'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 38.0484601026, lng: -78.5418888708},
+map: map,
+url: 'https://motorsportreg.com/events/charlottesville-piedmont-tour-boars-head-resort-pca-potomac-founders-drive-dine-791997',
+title: 'Charlottesville - Piedmont Tour'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 43.454179169, lng: -71.5678968996},
+map: map,
+url: 'https://motorsportreg.com/events/2020-covered-bridge-tour-supporting-best-buddies-mcdonalds-tilton-nh-audi-804202',
+title: 'NAAC Covered Bridge Tour - Supporting Best Buddies'
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 36.759729765, lng: -76.132915302},
+map: map,
+url: 'https://motorsportreg.com/events/fsr-eastern-breakfast-with-a-twist-hillcrest-farms-pca-first-settlers-919182',
+title: 'FSR Eastern Breakfast with a Twist'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 49.7011794655, lng: -112.796202796},
+map: map,
+url: 'https://motorsportreg.com/events/great-beater-challenge-gb-starting-point-648024',
+title: 'The Great Beater Challenge'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 47.5105772897, lng: -122.191264601},
+map: map,
+url: 'https://motorsportreg.com/events/pnwr-mt-baker-to-artist-point-tour-pca-pacific-northwest-tours-social-events-853960',
+title: 'Rescheduled PNWR Mt Baker to Artist Point Tour'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 36.4011823997, lng: -93.7379737705},
+map: map,
+url: 'https://motorsportreg.com/events/nw-arkansas-drive-eureka-spring-ar-pca-schones-land-944197',
+title: 'NW Arkansas Drive'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/supercar-experience-aug-9th-calabogie-motorsports-park-1morelap-ca-867955',
+title: 'Supercar Experience Aug 9th'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 47.5105772897, lng: -122.191264601},
+map: map,
+url: 'https://motorsportreg.com/events/maryhill-loops-tour-2020-pnwr-pca-pacific-northwest-tours-social-events-963351',
+title: 'Maryhill Loops Tour 2020'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/supercar-experience-sept-12th-calabogie-motorsports-park-1morelap-ca-676132',
+title: 'Supercar Experience Sept. 12th'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 47.5105772897, lng: -122.191264601},
+map: map,
+url: 'https://motorsportreg.com/events/2020-womens-tour-to-jm-cellars-maltby-pnwr-pca-pacific-northwest-tours-725718',
+title: '2020 Womens Tour to JM Cellars@Maltby'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 47.5105772897, lng: -122.191264601},
+map: map,
+url: 'https://motorsportreg.com/events/pnwr-hurricane-ridge-olympic-peninsula-tour-pca-pacific-northwest-tours-286222',
+title: 'PNWR Hurricane Ridge & Olympic Peninsula Tour'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 34.2133942618, lng: -118.194183258},
+map: map,
+url: 'https://motorsportreg.com/events/gpx-angeles-crest-highway-tour-pca-grand-prix-941341',
+title: 'GPX Angeles Crest Highway Tour'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 48.2881670058, lng: -122.654597313},
+map: map,
+url: 'https://motorsportreg.com/events/whidbey-island-tour-bmw-cca-puget-sound-200590',
+title: 'Whidbey Island Tour'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 48.7588694923, lng: -123.598515796},
+map: map,
+url: 'https://motorsportreg.com/events/2020-presidents-breakfast-drive-2-genoa-bay-cafe-pca-vancouver-island-082241',
+title: '2020 Presidents Breakfast Drive 2'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 44.7497328655, lng: -93.1980541469},
+map: map,
+url: 'https://motorsportreg.com/events/9th-annual-river-road-pizza-run-kohls-parking-lot-cottage-grove-bmw-cca-272017',
+title: '9th Annual River Road Pizza Run'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+var marker50 = new google.maps.Marker({
+position: {lat: 34.2804906251, lng: -119.294513073},
+map: map,
+url: 'https://motorsportreg.com/events/gpx-tour-to-central-coast-sensorio-carrows-restaurant-pca-grand-prix-659442',
+title: 'GPX Tour to the Central Coast and Sensorio'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+window.location.href = marker50.url;
+});
+var marker51 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/dr-track-attack-sunday-afternoon-12-13-20-dominion-raceway-935136',
+title: 'DR Track Attack Sunday Afternoon 12/13/20'
+});
+google.maps.event.addListener(marker51, 'click', function() {
+window.location.href = marker51.url;
+});
+var marker52 = new google.maps.Marker({
+position: {lat: 44.3728430272, lng: -78.7299922805},
+map: map,
+url: 'https://motorsportreg.com/events/glory-days-classic-motorsport-lindsay-to-brighton-run-fun-tour-961775',
+title: 'Glory Days Classic Motorsport @ LINDSAY TO BRIGHTON RUN'
+});
+google.maps.event.addListener(marker52, 'click', function() {
+window.location.href = marker52.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

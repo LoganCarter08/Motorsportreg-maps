@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 44.8030322467, lng: -86.0596595225},
+map: map,
+url: 'https://motorsportreg.com/events/empire-hill-climb-volunteer-registration-wilco-road-scca-detroit-532743',
+title: 'Empire Hill Climb - Volunteer Registration'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 35.3228662847, lng: -83.807397814},
+map: map,
+url: 'https://motorsportreg.com/events/chasing-dragon-xiv-hillclimb-robbinsville-north-carolina-scca-central-carolinas-167710',
+title: 'Chasing the Dragon XIV  Hillclimb'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 44.2893166439, lng: -71.2248233278},
+map: map,
+url: 'https://motorsportreg.com/events/2020-mt-washington-hillclimb-volunteer-sign-up-auto-road-sports-car-club-079187',
+title: '2021 Mt. Washington Hillclimb Volunteer Sign up'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 33.0439429328, lng: -109.292144998},
+map: map,
+url: 'https://motorsportreg.com/events/arizona-scca-clifton-hill-climb-602403',
+title: 'Arizona SCCA Clifton Hill Climb'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 43.117163975, lng: -73.1132067084},
+map: map,
+url: 'https://motorsportreg.com/events/mount-equinox-annual-hillclimb-vscca-276704',
+title: 'Mount Equinox Annual Hillclimb'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 44.8030322467, lng: -86.0596595225},
+map: map,
+url: 'https://motorsportreg.com/events/empire-hill-climb-competitor-registration-wilco-road-scca-detroit-137141',
+title: 'Empire Hill Climb - Competitor Registration'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 38.8746773504, lng: -104.869085247},
+map: map,
+url: 'https://motorsportreg.com/events/monarch-hill-climb-forest-road-228-colorado-association-151469',
+title: 'Monarch Hill Climb'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

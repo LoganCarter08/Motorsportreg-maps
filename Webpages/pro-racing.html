@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/f4-u-s-fr-americas-vir-virginia-international-raceway-scca-pro-215096',
+title: 'F4 U.S. & FR Americas - VIR'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/imsa-hsih-sebring-intl-raceway-scca-central-florida-pro-race-643791',
+title: 'IMSA - HSIH'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/f4-u-s-fr-americas-barber-motorsports-park-scca-pro-628481',
+title: 'F4 U.S. & FR Americas - Barber'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/ferrari-challenge-limited-needs-weathertech-raceway-laguna-seca-scca-san-248651',
+title: 'Ferrari Challenge (limited needs)'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/monterey-pre-reunion-races-weathertech-raceway-laguna-seca-scca-san-964785',
+title: 'Monterey Pre-Reunion Races'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/imsa-weathertech-sportscar-championship-raceway-laguna-seca-scca-san-954214',
+title: 'IMSA WeatherTech SportsCar Championship'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/formula-race-promotions-summit-point-circuit-252981',
+title: 'Formula Race Promotions @ Summit Point'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/indycar-firestone-grand-prix-of-monterey-weathertech-raceway-laguna-seca-383743',
+title: 'IndyCar Firestone Grand Prix of Monterey'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-njmp-thunderbolt-motoamerica-volunteers-317571',
+title: '2020 Marshal/Volunteer - NJMP'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/rolex-monterey-motorsports-reunion-weathertech-raceway-laguna-seca-scca-548969',
+title: 'Rolex Monterey Motorsports Reunion'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 46.3453538478, lng: -123.107425195},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-rmp-ridge-motorsports-park-road-course-motoamerica-630384',
+title: '2020 Marshal/Volunteer - RMP'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/scca-atlanta-club-racing-michelin-raceway-road-race-754417',
+title: 'SCCA - Atlanta Region - Club Racing @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-laguna-seca-weathertech-raceway-motoamerica-volunteers-755410',
+title: '2020 Marshal/Volunteer - Laguna Seca'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-cota-circuit-of-americas-motoamerica-volunteers-995678',
+title: '2020 Marshal/Volunteer - COTA'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/indycar-worker-registration-chicago-road-america-scca-club-racing-198018',
+title: 'IndyCar Worker Registration - Chicago Region'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/formula-race-promotions-barber-motorsports-park-325859',
+title: 'Formula Race Promotions @ Barber Motorsports Park'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/2020-corner-marshals-road-atlanta-michelin-raceway-motoamerica-volunteers-636355',
+title: '2020 Corner Marshals - Road Atlanta'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/imsa-worker-registration-chicago-road-america-scca-club-racing-522401',
+title: 'IMSA Worker Registration - Chicago Region'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-pirc-pittsburgh-international-race-compl-502071',
+title: '2020 Marshal/Volunteer - PIRC'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-barber-motorsports-park-motoamerica-volunteers-093198',
+title: '2020 Marshal/Volunteer - Barber'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/imsa-sahlen-s-six-hours-of-glen-rsi-workers-watkins-international-race-services-264489',
+title: 'IMSA Sahlen’s Six Hours of The Glen - RSI Workers'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/road-to-indy-mid-week-triple-header-f-c-ohio-sports-car-course-lake-erie-471654',
+title: 'Road to Indy (mid-week) Triple Header-(F&C)'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-road-atlanta-michelin-raceway-motoamerica-volunteers-917964',
+title: '2020 Marshal/Volunteer - Road Atlanta'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/formula-race-promotions-vir-virginia-international-raceway-845168',
+title: 'Formula Race Promotions @ VIR'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/honda-indy-200-indycar-f-c-mid-ohio-sports-car-course-lake-erie-communications-488948',
+title: 'Honda Indy 200-IndyCar-(F&C)'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/formula-race-promotions-pirc-2-pittsburgh-international-compl-263129',
+title: 'Formula Race Promotions @ PIRC (#2)'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/imsa-weathertech-sportscar-f-c-mid-ohio-sports-car-course-lake-erie-116359',
+title: 'IMSA WeatherTech SportsCar-(F&C)'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 39.8070152474, lng: -86.2260156098},
+map: map,
+url: 'https://motorsportreg.com/events/2020-marshal-volunteer-ims-indianapolis-motor-speedway-motoamerica-volunteers-809119',
+title: '2020 Marshal/Volunteer - IMS'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

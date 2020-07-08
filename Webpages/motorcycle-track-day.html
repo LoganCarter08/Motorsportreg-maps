@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-saturday-aug-8th-2020-thunderbolt-raceway-new-jersey-038827',
+title: 'The Riders Club - Saturday, Aug 8th, 2020'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-monday-oct-27th-2020-thunderbolt-raceway-new-jersey-motorsports-park-763077',
+title: 'The Riders Club - Monday, Oct 27th, 2020'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-wed-sept-9th-gold-member-vip-lightning-raceway-at-njmp-new-786555',
+title: 'The Riders Club- Wed Sept 9th Gold Member  VIP'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/ncm-motorsports-park-oct-31-nov-1-2020-motorsport-track-day-winner-701169',
+title: 'NCM Motorsports Park Oct. 31-Nov. 1, 2020'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-monday-aug-24th-2020-lightning-raceway-at-njmp-new-jersey-178738',
+title: 'The Riders Club - Monday, Aug 24th, 2020'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 38.6507530136, lng: -90.1353563427},
+map: map,
+url: 'https://motorsportreg.com/events/mcra-at-gateway-motorsports-park-sept-19-20-2020-676051',
+title: 'MCRA at Gateway Motorsports Park-SEPT 19-20, 2020'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 47.2548686676, lng: -123.191436522},
+map: map,
+url: 'https://motorsportreg.com/events/motovixens-cc-trackevents-ridge-motorsports-park-track-events-532935',
+title: 'MotoVixens/CC TrackEvents Track Day'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-sunday-aug-30th-2020-thunderbolt-raceway-new-jersey-motorsports-park-330266',
+title: 'The Riders Club - Sunday, Aug 30th, 2020'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/penguin-roadracing-school-new-hampshire-motor-speedway-motorcycle-305268',
+title: 'Penguin Roadracing School @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/mtd-at-ncm-motorsports-park-midwest-track-day-569572',
+title: 'MTD at NCM Motorsports Park'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/ncm-motorsports-park-july-11-12-2020-motorsport-track-day-winner-765087',
+title: 'NCM Motorsports Park July 11 & 12, 2020'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/penguin-roadracing-school-new-hampshire-motor-speedway-motorcycle-994270',
+title: 'Penguin Roadracing School @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-sunday-oct-11th-2020-thunderbolt-raceway-new-jersey-motorsports-park-837126',
+title: 'The Riders Club - Sunday, Oct 11th, 2020'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/mini-bike-friday-july-ncm-motorsports-park-midwest-track-day-474531',
+title: 'Mini Bike Friday - July '
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-monday-sept-14th-2020-thunderbolt-raceway-new-jersey-876846',
+title: 'The Riders Club - Monday, Sept 14th, 2020'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-sunday-sept-20th-2020-thunderbolt-raceway-new-jersey-147219',
+title: 'The Riders Club - Sunday, Sept 20th, 2020'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/penguin-roadracing-school-new-hampshire-motor-speedway-motorcycle-307664',
+title: 'Penguin Roadracing School @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/ncm-motorsports-park-august-15-16-2020-motorsport-track-day-winner-852458',
+title: 'NCM Motorsports Park August 15 & 16, 2020'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-sunday-aug-9th-2020-thunderbolt-raceway-new-jersey-motorsports-park-464916',
+title: 'The Riders Club - Sunday, Aug 9th, 2020'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-monday-sept-28th-2020-thunderbolt-raceway-new-jersey-509407',
+title: 'The Riders Club - Monday, Sept 28th, 2020'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-ccs-practice-july-24th-2020-thunderbolt-raceway-new-jersey-939860',
+title: 'The Riders Club/ CCS Practice July 24th, 2020'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 30.6041003241, lng: -83.0979187443},
+map: map,
+url: 'https://motorsportreg.com/events/jennings-gp-november-28-29-2020-track-day-winner-556112',
+title: 'Jennings GP November 28 & 29, 2020'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-sunday-oct-26th-2020-lightning-raceway-at-njmp-new-jersey-850353',
+title: 'The Riders Club - Sunday, Oct 26th, 2020'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-monday-oct-12th-2020-thunderbolt-raceway-new-jersey-motorsports-park-414189',
+title: 'The Riders Club - Monday, Oct 12th, 2020'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-saturday-sept-19th-2020-thunderbolt-raceway-new-jersey-677248',
+title: 'The Riders Club - Saturday, Sept 19th, 2020'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/penguin-roadracing-school-new-hampshire-motor-speedway-motorcycle-307907',
+title: 'Penguin Roadracing School @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-friday-sept-18th-2020-lightning-raceway-at-njmp-new-jersey-907140',
+title: 'The Riders Club - Friday Sept 18th, 2020'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-sunday-aug-23rd-2020-lightning-raceway-at-njmp-new-jersey-030907',
+title: 'The Riders Club - Sunday, Aug 23rd, 2020'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-monday-oct-1st-gold-member-vip-thunderbolt-raceway-new-jersey-058132',
+title: 'The Riders Club- Thursday Oct 1st,Gold Member  VIP'
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/midwest-track-day-at-putnam-park-road-course-091489',
+title: 'Midwest Track Day at Putnam Park Road Course'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/season-closer-at-ncm-motorsports-park-midwest-track-day-307445',
+title: 'Season Closer at NCM Motorsports Park'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-monday-oct-5th-2020-lightning-raceway-at-njmp-new-jersey-103557',
+title: 'The Riders Club - Monday, Oct 5th, 2020'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 38.6507530136, lng: -90.1353563427},
+map: map,
+url: 'https://motorsportreg.com/events/mcra-at-gateway-motorsports-park-july-18-19-2020-031322',
+title: 'MCRA at Gateway Motorsports Park-JULY 18-19, 2020'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/putnam-park-road-course-midwest-track-day-863250',
+title: 'Putnam Park Road Course'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/mini-bike-friday-september-ncm-motorsports-park-midwest-track-day-951544',
+title: 'Mini Bike Friday - September'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-ccs-practice-fri-sept-4th-2020-thunderbolt-raceway-new-jersey-673737',
+title: 'The Riders Club/ CCS Practice-Fri Sept 4th, 2020'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-saturday-aug-29th-2020-thunderbolt-raceway-new-jersey-506791',
+title: 'The Riders Club - Saturday, Aug 29th, 2020'
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-advanced-rider-training-art-aug-15th-utah-motorsports-campus-653628',
+title: 'UtahSBA Advanced Rider Training (ART) | Aug 15th'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-thursday-july-30th-2020-thunderbolt-raceway-new-jersey-474133',
+title: 'The Riders Club - Thursday July 30th, 2020'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/nola-motorsports-park-september-12-13-2020-track-day-winner-637349',
+title: 'NOLA Motorsports Park September 12 &13, 2020'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/mini-bike-friday-september-ncm-motorsports-park-midwest-track-day-941960',
+title: 'Mini Bike Friday - September'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 47.2548686676, lng: -123.191436522},
+map: map,
+url: 'https://motorsportreg.com/events/motovixens-cc-trackevents-track-day-ridge-motorsports-park-events-147738',
+title: 'MotoVixens/CC TrackEvents Track Day'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-saturday-july-11th-2020-thunderbolt-raceway-new-jersey-388735',
+title: 'The Riders Club - Monday July 13th, 2020'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-friday-july-31th-2020-thunderbolt-raceway-new-jersey-392620',
+title: 'The Riders Club - Friday July 31th, 2020'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 33.5029316449, lng: -86.0048472544},
+map: map,
+url: 'https://motorsportreg.com/events/talladega-gp-raceway-oct-10-11-2020-gran-prix-track-day-winner-480845',
+title: 'Talladega GP Raceway Oct. 10 & 11, 2020'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 47.2548686676, lng: -123.191436522},
+map: map,
+url: 'https://motorsportreg.com/events/motovixens-cc-trackevents-with-jp43-training-ridge-motorsports-park-track-events-754555',
+title: 'MotoVixens/CC TrackEvents with JP43 Training'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 34.4906282251, lng: -80.5974001501},
+map: map,
+url: 'https://motorsportreg.com/events/cmp-september-26-27-2020-carolina-motorsports-park-track-day-winner-867098',
+title: 'CMP September 26 & 27, 2020'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/riders-club-friday-july-10th-2020-thunderbolt-raceway-new-jersey-626743',
+title: 'The Riders Club - Sunday July 12th, 2020'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/nola-motorsports-park-october-24-25-2020-track-day-winner-570416',
+title: 'NOLA Motorsports Park October 24 & 25, 2020'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/mtd-chili-cook-off-weekend-ncm-motorsports-park-midwest-track-day-067540',
+title: 'MTD Chili Cook Off Weekend'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

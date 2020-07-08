@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 32.7724565737, lng: -94.3382722664},
+map: map,
+url: 'https://motorsportreg.com/events/cc-diamond-dons-18th-annual-hagerty-don-empire-ahrma-367232',
+title: 'CC - Diamond Dons 18th Annual - Hagerty'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 49.4645646372, lng: -120.50577882},
+map: map,
+url: 'https://motorsportreg.com/events/horizons-unlimited-pty-ltd-princeton-district-arena-cross-country-833467',
+title: 'Horizons Unlimited Pty Ltd @ Princeton & District Arena'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 39.5959350813, lng: -79.3848025161},
+map: map,
+url: 'https://motorsportreg.com/events/cc-shady-acres-sat-hagerty-motocross-ahrma-733932',
+title: 'CC -Shady Acres-Sat- Hagerty'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/cc-barber-motorsports-park-sun-hagerty-ahrma-279224',
+title: 'CC -Barber Motorsports Park-Sun- Hagerty'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/cc-barber-motorsports-park-sat-hagerty-ahrma-382360',
+title: 'CC -Barber Motorsports Park-SAT- Hagerty'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 39.144486898, lng: -89.108683288},
+map: map,
+url: 'https://motorsportreg.com/events/cc-hayes-farm-sat-hagerty-ahrma-067181',
+title: 'CC -Hayes Farm-Sat- Hagerty'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 35.7981928093, lng: -93.8393610985},
+map: map,
+url: 'https://motorsportreg.com/events/cc-arkansas-razorback-isdt-sun-hagerty-mill-creek-motorsports-park-ahrma-126486',
+title: 'CC -Arkansas Razorback ISDT-SUN- Hagerty'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 35.7981928093, lng: -93.8393610985},
+map: map,
+url: 'https://motorsportreg.com/events/cc-arkansas-razorback-isdt-sat-hagerty-mill-creek-motorsports-park-ahrma-633629',
+title: 'CC -Arkansas Razorback ISDT-SAT- Hagerty'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 41.8338943737, lng: -80.6968750251},
+map: map,
+url: 'https://motorsportreg.com/events/cc-pine-lake-raceway-ashtabula-oh-sun-hagerty-mx-trails-ahrma-958427',
+title: 'CC - Pine Lake Raceway-Ashtabula, OH-Sun - Hagerty'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 39.5959350813, lng: -79.3848025161},
+map: map,
+url: 'https://motorsportreg.com/events/cc-shady-acres-sun-hagerty-motocross-ahrma-208964',
+title: 'CC -Shady Acres-Sun- Hagerty'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 41.4160746268, lng: -120.9932221},
+map: map,
+url: 'https://motorsportreg.com/events/cc-bushey-ranch-hagerty-ahrma-024017',
+title: 'CC -Bushey Ranch - Hagerty'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 39.144486898, lng: -89.108683288},
+map: map,
+url: 'https://motorsportreg.com/events/cc-hayes-farm-sun-hagerty-ahrma-574520',
+title: 'CC -Hayes Farm-Sun- Hagerty'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 41.8338943737, lng: -80.6968750251},
+map: map,
+url: 'https://motorsportreg.com/events/cc-pine-lake-raceway-ashtabula-oh-sat-hagerty-mx-trails-ahrma-457596',
+title: 'CC - Pine Lake Raceway-Ashtabula, OH-Sat - Hagerty'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

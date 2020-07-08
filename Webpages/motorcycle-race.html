@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 39.4020601618, lng: -75.0393405445},
+map: map,
+url: 'https://motorsportreg.com/events/new-jersey-motorsports-park-ccs-july-24-26-2020-motorcycle-race-172731',
+title: 'New Jersey Motorsports Park @ CCS - July 24-26, 2020'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/loudon-road-racing-series-new-hampshire-motor-speedway-motorcycle-race-066618',
+title: 'Loudon Road Racing Series @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/loudon-road-racing-series-new-hampshire-motor-speedway-motorcycle-race-089715',
+title: 'Loudon Road Racing Series @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/loudon-road-racing-series-new-hampshire-motor-speedway-motorcycle-race-798191',
+title: 'Loudon Road Racing Series @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 44.2303926019, lng: -77.1648066212},
+map: map,
+url: 'https://motorsportreg.com/events/shannonville-motorsport-park-motorcycle-race-233871',
+title: 'Shannonville Motorsport Park @ Shannonville Motorsport Park'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/loudon-road-racing-series-new-hampshire-motor-speedway-motorcycle-race-033467',
+title: 'Loudon Road Racing Series @ New Hampshire Motor Speedway'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/round-3-2020-pacific-raceways-wmrra-364313',
+title: 'Round 3 2020 Pacific Raceways'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 53.3329174048, lng: -113.59899591},
+map: map,
+url: 'https://motorsportreg.com/events/emra-round-3-4-spectator-passes-castrol-raceway-edmonton-motorcycle-108067',
+title: 'EMRA Round 3/4 Spectator Passes'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 53.3329174048, lng: -113.59899591},
+map: map,
+url: 'https://motorsportreg.com/events/emra-race-school-2020-castrol-raceway-edmonton-motorcycle-roadracing-assn-296935',
+title: 'EMRA Race School 2020'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-uml-streetgp-aug-15th-utah-motorsports-campus-417958',
+title: 'UtahSBA UML StreetGP | Aug 15th'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-uml-supermoto-rd7-sept-20th-startrek-utah-motorsports-campus-647187',
+title: 'UtahSBA SuperMoto RD7 UML | Sept 20th | Startrek'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-uml-supermoto-rd4-july-5th-outer-loop-utah-motorsports-campus-196495',
+title: 'UtahSBA SuperMoto RD5 UML | Aug 9th | Nuts'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 42.4066945279, lng: -86.1399347358},
+map: map,
+url: 'https://motorsportreg.com/events/rr-gingerman-raceway-ahrma-806013',
+title: 'RR - Rehv Moto RR @ Gingerman Raceway'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 33.5067838716, lng: -85.999164537},
+map: map,
+url: 'https://motorsportreg.com/events/rr-talladega-gran-prix-raceway-ahrma-102421',
+title: 'RR - Rehv Moto RR @ Talladega Gran Prix Raceway'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-mom-rd-4-uml-july-25th-west-utah-motorsports-campus-746478',
+title: 'UtahSBA MoM RD 4 UML | July 25th | West'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-uml-supermoto-rd6-aug-30th-snake-utah-motorsports-campus-117682',
+title: 'UtahSBA SuperMoto RD6 UML | Aug 30th | The Snake'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 34.4906282251, lng: -80.5974001501},
+map: map,
+url: 'https://motorsportreg.com/events/rr-rehv-moto-carolina-motorsports-park-ahrma-359451',
+title: 'RR - Rehv Moto RR @ Carolina Motorsports Park'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 42.4897496282, lng: -89.1144206469},
+map: map,
+url: 'https://motorsportreg.com/events/rr-blackhawk-farms-raceway-ahrma-885585',
+title: 'RR - Rehv Moto RR @ Blackhawk Farms Raceway'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-uml-streetgp-sept-5th-utah-motorsports-campus-707899',
+title: 'UtahSBA UML StreetGP | Sept 5th'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/utahsba-uml-streetgp-july-25th-utah-motorsports-campus-627918',
+title: 'UtahSBA UML StreetGP | July 25th'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/motogp-2020-circuit-of-americas-cota-volunteers-516184',
+title: 'MotoGP 2020'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 50.6320796076, lng: -96.9886725317},
+map: map,
+url: 'https://motorsportreg.com/events/mra-2020-round-3-gimli-motorsports-park-manitoba-roadracing-association-678473',
+title: 'MRA 2020 Round #3'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/round-1-buttonwillow-july-18-19-raceway-afm-american-fed-of-motorcyclist-857506',
+title: 'Round 1 Buttonwillow - July 18-19'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

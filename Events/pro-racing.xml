@@ -1,0 +1,170 @@
+<pro-racing>
+<event>
+	<name>F4 U.S. &amp; FR Americas - VIR</name>
+	<link>/events/f4-u-s-fr-americas-vir-virginia-international-raceway-scca-pro-215096</link>
+	<longitude>-79.2085494846</longitude>
+	<latitude>36.5637033358</latitude>
+</event>
+<event>
+	<name>IMSA - HSIH</name>
+	<link>/events/imsa-hsih-sebring-intl-raceway-scca-central-florida-pro-race-643791</link>
+	<longitude>-81.3502645814</longitude>
+	<latitude>27.459575146</latitude>
+</event>
+<event>
+	<name>F4 U.S. &amp; FR Americas - Barber</name>
+	<link>/events/f4-u-s-fr-americas-barber-motorsports-park-scca-pro-628481</link>
+	<longitude>-86.6209029966</longitude>
+	<latitude>33.5322399866</latitude>
+</event>
+<event>
+	<name>Ferrari Challenge &#x28;limited needs&#x29;</name>
+	<link>/events/ferrari-challenge-limited-needs-weathertech-raceway-laguna-seca-scca-san-248651</link>
+	<longitude>-121.756400117</longitude>
+	<latitude>36.5832991486</latitude>
+</event>
+<event>
+	<name>Monterey Pre-Reunion Races</name>
+	<link>/events/monterey-pre-reunion-races-weathertech-raceway-laguna-seca-scca-san-964785</link>
+	<longitude>-121.756400117</longitude>
+	<latitude>36.5832991486</latitude>
+</event>
+<event>
+	<name>IMSA WeatherTech SportsCar Championship</name>
+	<link>/events/imsa-weathertech-sportscar-championship-raceway-laguna-seca-scca-san-954214</link>
+	<longitude>-121.756400117</longitude>
+	<latitude>36.5832991486</latitude>
+</event>
+<event>
+	<name>Formula Race Promotions &#x40; Summit Point</name>
+	<link>/events/formula-race-promotions-summit-point-circuit-252981</link>
+	<longitude>-77.9761169812</longitude>
+	<latitude>39.2431387353</latitude>
+</event>
+<event>
+	<name>IndyCar Firestone Grand Prix of Monterey</name>
+	<link>/events/indycar-firestone-grand-prix-of-monterey-weathertech-raceway-laguna-seca-383743</link>
+	<longitude>-121.756400117</longitude>
+	<latitude>36.5832991486</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - NJMP</name>
+	<link>/events/2020-marshal-volunteer-njmp-thunderbolt-motoamerica-volunteers-317571</link>
+	<longitude>-75.0574337156</longitude>
+	<latitude>39.3549079508</latitude>
+</event>
+<event>
+	<name>Rolex Monterey Motorsports Reunion</name>
+	<link>/events/rolex-monterey-motorsports-reunion-weathertech-raceway-laguna-seca-scca-548969</link>
+	<longitude>-121.756400117</longitude>
+	<latitude>36.5832991486</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - RMP</name>
+	<link>/events/2020-marshal-volunteer-rmp-ridge-motorsports-park-road-course-motoamerica-630384</link>
+	<longitude>-123.107425195</longitude>
+	<latitude>46.3453538478</latitude>
+</event>
+<event>
+	<name>SCCA - Atlanta Region - Club Racing &#x40; Michelin Raceway Road Atlanta</name>
+	<link>/events/scca-atlanta-club-racing-michelin-raceway-road-race-754417</link>
+	<longitude>-83.8143782673</longitude>
+	<latitude>34.1483401251</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - Laguna Seca</name>
+	<link>/events/2020-marshal-volunteer-laguna-seca-weathertech-raceway-motoamerica-volunteers-755410</link>
+	<longitude>-121.756400117</longitude>
+	<latitude>36.5832991486</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - COTA</name>
+	<link>/events/2020-marshal-volunteer-cota-circuit-of-americas-motoamerica-volunteers-995678</link>
+	<longitude>-97.6406004274</longitude>
+	<latitude>30.1329402149</latitude>
+</event>
+<event>
+	<name>IndyCar Worker Registration - Chicago Region</name>
+	<link>/events/indycar-worker-registration-chicago-road-america-scca-club-racing-198018</link>
+	<longitude>-88.0000138124</longitude>
+	<latitude>43.8001009296</latitude>
+</event>
+<event>
+	<name>Formula Race Promotions &#x40; Barber Motorsports Park</name>
+	<link>/events/formula-race-promotions-barber-motorsports-park-325859</link>
+	<longitude>-86.6209029966</longitude>
+	<latitude>33.5322399866</latitude>
+</event>
+<event>
+	<name>2020 Corner Marshals - Road Atlanta</name>
+	<link>/events/2020-corner-marshals-road-atlanta-michelin-raceway-motoamerica-volunteers-636355</link>
+	<longitude>-83.8143782673</longitude>
+	<latitude>34.1483401251</latitude>
+</event>
+<event>
+	<name>IMSA Worker Registration - Chicago Region</name>
+	<link>/events/imsa-worker-registration-chicago-road-america-scca-club-racing-522401</link>
+	<longitude>-88.0000138124</longitude>
+	<latitude>43.8001009296</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - PIRC</name>
+	<link>/events/2020-marshal-volunteer-pirc-pittsburgh-international-race-compl-502071</link>
+	<longitude>-80.3430097545</longitude>
+	<latitude>40.8468500766</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - Barber</name>
+	<link>/events/2020-marshal-volunteer-barber-motorsports-park-motoamerica-volunteers-093198</link>
+	<longitude>-86.6209029966</longitude>
+	<latitude>33.5322399866</latitude>
+</event>
+<event>
+	<name>IMSA Sahlen&rsquo;s Six Hours of The Glen - RSI Workers</name>
+	<link>/events/imsa-sahlen-s-six-hours-of-glen-rsi-workers-watkins-international-race-services-264489</link>
+	<longitude>-76.9300393591</longitude>
+	<latitude>42.3430474102</latitude>
+</event>
+<event>
+	<name>Road to Indy &#x28;mid-week&#x29; Triple Header-&#x28;F&amp;C&#x29;</name>
+	<link>/events/road-to-indy-mid-week-triple-header-f-c-ohio-sports-car-course-lake-erie-471654</link>
+	<longitude>-82.640910787</longitude>
+	<latitude>40.690414839</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - Road Atlanta</name>
+	<link>/events/2020-marshal-volunteer-road-atlanta-michelin-raceway-motoamerica-volunteers-917964</link>
+	<longitude>-83.8143782673</longitude>
+	<latitude>34.1483401251</latitude>
+</event>
+<event>
+	<name>Formula Race Promotions &#x40; VIR</name>
+	<link>/events/formula-race-promotions-vir-virginia-international-raceway-845168</link>
+	<longitude>-79.2085494846</longitude>
+	<latitude>36.5637033358</latitude>
+</event>
+<event>
+	<name>Honda Indy 200-IndyCar-&#x28;F&amp;C&#x29;</name>
+	<link>/events/honda-indy-200-indycar-f-c-mid-ohio-sports-car-course-lake-erie-communications-488948</link>
+	<longitude>-82.640910787</longitude>
+	<latitude>40.690414839</latitude>
+</event>
+<event>
+	<name>Formula Race Promotions &#x40; PIRC &#x28;&#x23;2&#x29;</name>
+	<link>/events/formula-race-promotions-pirc-2-pittsburgh-international-compl-263129</link>
+	<longitude>-80.3430097545</longitude>
+	<latitude>40.8468500766</latitude>
+</event>
+<event>
+	<name>IMSA WeatherTech SportsCar-&#x28;F&amp;C&#x29;</name>
+	<link>/events/imsa-weathertech-sportscar-f-c-mid-ohio-sports-car-course-lake-erie-116359</link>
+	<longitude>-82.640910787</longitude>
+	<latitude>40.690414839</latitude>
+</event>
+<event>
+	<name>2020 Marshal&#x2f;Volunteer - IMS</name>
+	<link>/events/2020-marshal-volunteer-ims-indianapolis-motor-speedway-motoamerica-volunteers-809119</link>
+	<longitude>-86.2260156098</longitude>
+	<latitude>39.8070152474</latitude>
+</event>
+</pro-racing>

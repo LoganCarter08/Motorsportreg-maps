@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 33.7133526977, lng: -115.400581247},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-owners-club-chuckwalla-valley-raceway-combined-080361',
+title: 'Porsche Owners Club @ Chuckwalla Valley Raceway'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 34.8711448938, lng: -118.264001452},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-owners-club-willow-springs-intl-raceway-combined-195435',
+title: 'Porsche Owners Club @ Willow Springs Intl Raceway'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/emras-autumn-blitz-at-limerock-park-lime-rock-emra-eastern-motor-racing-assoc-101444',
+title: 'EMRAS Autumn Blitz at Limerock Park '
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 35.0574075676, lng: -106.742250966},
+map: map,
+url: 'https://motorsportreg.com/events/sandia-supercup-ii-speedway-southwest-motorsport-588875',
+title: 'Sandia Supercup II'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 36.1725452323, lng: -115.908788302},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-owners-club-spring-mountain-combined-857184',
+title: 'Porsche Owners Club @ Spring Mountain'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 39.2403281125, lng: -77.9395959597},
+map: map,
+url: 'https://motorsportreg.com/events/emras-sizzling-summer-at-shenandoah-summit-point-raceway-emra-eastern-569398',
+title: 'EMRAS Sizzling Summer at Shenandoah'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/2020-issca-national-ncm-motorsport-park-impala-ss-clubs-of-america-158307',
+title: '2020 ISSCA National'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 34.089665385, lng: -117.502640265},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-owners-club-auto-speedway-combined-099438',
+title: 'Porsche Owners Club @ Auto Club Speedway'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 38.2805772513, lng: -95.2419199537},
+map: map,
+url: 'https://motorsportreg.com/events/lake-garnett-grand-prix-revival-505533',
+title: 'Lake Garnett Grand Prix Revival'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 35.0574075676, lng: -106.742250966},
+map: map,
+url: 'https://motorsportreg.com/events/miata-mayhem-iii-sandia-speedway-southwest-motorsport-465586',
+title: 'Miata Mayhem III'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 41.022918693, lng: -95.8226089764},
+map: map,
+url: 'https://motorsportreg.com/events/high-rev-track-day-school-raceway-park-of-midlands-hrmotorsports-831741',
+title: 'High Rev Track Day and School'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/emras-mid-summer-blast-at-njmps-lightning-new-jersey-motorsports-park-059770',
+title: 'EMRAS Mid Summer Blast at NJMPs Lightning'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/laps-track-day-event-7-abcc-full-july-13-autobahn-country-club-incorporated-187107',
+title: 'LAPS TRACK DAY EVENT #7 ABCC Full Track July 13  '
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/pca-ggr-de-5-thunderhill-raceway-park-golden-gate-track-events-810185',
+title: 'PCA-GGR DE #5'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 35.1628998393, lng: -83.4332742023},
+map: map,
+url: 'https://motorsportreg.com/events/motorsport-on-mountain-j-sutton-pub-safety-ctr-scde-4the-masses-928588',
+title: 'Motorsport on the Mountain'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 29.7576281502, lng: -82.2736310249},
+map: map,
+url: 'https://motorsportreg.com/events/grassroots-motorsports-2000-challenge-gainesville-raceway-455541',
+title: 'Grassroots Motorsports $2000 Challenge'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/wow-wednesday-track-laps-autocross-rd-5-070820-utah-motorsports-campus-300922',
+title: 'WOW Wednesday Track Laps & Autocross Rd 5/ 070820'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/pca-ggr-de-4-weathertech-raceway-laguna-seca-golden-gate-track-events-064219',
+title: 'PCA-GGR DE #4'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 38.1576714123, lng: -122.45082545},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-owners-club-sonoma-raceway-046571',
+title: 'Porsche Owners Club @ Sonoma Raceway'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/laps-track-day-event-13-abcc-full-oct-12-autobahn-country-club-incorporated-918647',
+title: 'LAPS TRACK DAY EVENT #13 ABCC Full Track Oct. 12 '
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/laps-track-day-event-12-abcc-full-sept-14-autobahn-country-club-incorporated-635556',
+title: 'LAPS TRACK DAY EVENT #12 ABCC Full Track Sept 14  '
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/laps-track-days-event-9-10-ra-sunday-monday-road-america-incorporated-991525',
+title: 'LAPS TRACK DAYS EVENT 9 & 10 RA Sunday & Monday '
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

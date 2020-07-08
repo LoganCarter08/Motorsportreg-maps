@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 41.7285626114, lng: -86.3517047509},
+map: map,
+url: 'https://motorsportreg.com/events/instructor-summit-tire-rack-skid-pad-certification-south-bend-125917',
+title: 'Instructor Summit Tire Rack Skid Pad Certification'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 41.7285626114, lng: -86.3517047509},
+map: map,
+url: 'https://motorsportreg.com/events/instructor-summit-tire-rack-skid-pad-certification-south-bend-168569',
+title: 'Instructor Summit Tire Rack Skid Pad Certification'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 36.7318830837, lng: -119.75117952},
+map: map,
+url: 'https://motorsportreg.com/events/central-california-bmw-cca-20-1-fresno-fairgrounds-tire-rack-street-survival-574428',
+title: 'Central California Chapter BMW CCA 20 #1'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 33.4053862983, lng: -86.811376482},
+map: map,
+url: 'https://motorsportreg.com/events/heart-of-dixie-20-4-hoover-metropolitan-stadium-tire-rack-street-survival-695515',
+title: 'Heart of Dixie Chapter 20 #4'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/northwest-scca-20-2-pacific-raceways-tire-rack-street-survival-345927',
+title: 'Northwest Region SCCA 20 #2'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 36.450984724, lng: -77.5588675551},
+map: map,
+url: 'https://motorsportreg.com/events/tidewater-street-survival-school-20-1-nccar-tire-rack-bmw-cca-454604',
+title: 'Tidewater Street Survival School 20 #1'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/dead-rally-to-remember-utah-motorsports-campus-car-control-clinic-151531',
+title: 'DEAD_Rally To Remember @ Utah Motorsports Campus'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/dead-rally-to-remember-utah-motorsports-campus-car-control-clinic-221543',
+title: 'DEAD_Rally To Remember @ Utah Motorsports Campus'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 40.1827098026, lng: -74.8818910237},
+map: map,
+url: 'https://motorsportreg.com/events/philly-scca-20-1-oxford-valley-mall-tire-rack-street-survival-105290',
+title: 'Philly SCCA Region  20 #1'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 39.58072425, lng: -119.811394468},
+map: map,
+url: 'https://motorsportreg.com/events/volunteer-tire-rack-street-survival-regional-public-safety-training-cen-429905',
+title: '"Rescheduled"  TRSS Volunteer '
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 34.9051216699, lng: -82.1787870181},
+map: map,
+url: 'https://motorsportreg.com/events/tidewater-bmw-cca-m-performance-school-center-578345',
+title: 'Tidewater BMW CCA M Performance School'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 39.5801778349, lng: -119.811872581},
+map: map,
+url: 'https://motorsportreg.com/events/reno-scca-20-1r-regional-public-safety-training-ctr-tire-rack-street-survival-624011',
+title: 'Reno Region SCCA 20 #1R'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 42.9252424896, lng: -87.9104085607},
+map: map,
+url: 'https://motorsportreg.com/events/milwaukee-scca-20-1-area-technical-college-tire-rack-street-survival-645881',
+title: 'Milwaukee Region SCCA  20 #1'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 40.8575222471, lng: -96.784647951},
+map: map,
+url: 'https://motorsportreg.com/events/nebraska-scca-20-1-lincoln-air-park-tire-rack-street-survival-946095',
+title: 'Nebraska Region SCCA 20 #1'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 41.575672242, lng: -72.3320038222},
+map: map,
+url: 'https://motorsportreg.com/events/cvc-street-survival-september-2020-coach-staff-consumer-reports-test-130820',
+title: 'CVC Street Survival September 2020 - Coach/Staff'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 44.7394090346, lng: -93.125770255},
+map: map,
+url: 'https://motorsportreg.com/events/north-star-mini-summer-schnell-2020-dakota-county-technical-college-bmw-cca-942455',
+title: 'North Star Mini Summer Schnell 2020!'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-psr-ccc-pacific-august-21-2020-raceways-bmw-cca-puget-sound-543454',
+title: 'BMWCCA PSR CCC @ PACIFIC August 21, 2020'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 47.54037399, lng: -122.636251425},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-driver-skills-jul-25-2020-bremerton-motorsports-park-pacific-northwest-229967',
+title: 'PCA/PNWR Driver Skills - Jul 25, 2020'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/tennessee-scca-20-2-ncm-motorsport-park-tire-rack-street-survival-384905',
+title: 'Tennessee SCCA Region 20 #2'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 38.5906644244, lng: -104.67891229},
+map: map,
+url: 'https://motorsportreg.com/events/continental-divide-scca-20-1-pikes-peak-intl-raceway-tire-rack-street-survival-420443',
+title: 'Continental Divide Region SCCA 20 #1'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/tvc-car-control-clinic-pittsburgh-international-race-compl-pitt-757904',
+title: 'TVC: Car Control Clinic '
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/white-mountain-bmw-cca-20-1-new-hampshire-motor-speedway-tire-rack-street-320959',
+title: 'White Mountain Chapter BMW CCA 20 #1'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-car-control-clinic-lime-rock-july-27th-park-sports-driving-association-126030',
+title: 'SCDA- Car Control Clinic- Lime Rock- July 27th'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 37.2839399535, lng: -80.0408763367},
+map: map,
+url: 'https://motorsportreg.com/events/brr-pca-trss-volunteer-registration-salem-civic-center-blue-ridge-473348',
+title: 'BRR-PCA TRSS Volunteer Registration'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 40.1827098026, lng: -74.8818910237},
+map: map,
+url: 'https://motorsportreg.com/events/philly-scca-20-2-oxford-valley-mall-tire-rack-street-survival-606091',
+title: 'Philly SCCA Region  20 #2'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 38.5626469884, lng: -76.9036201874},
+map: map,
+url: 'https://motorsportreg.com/events/national-capital-bmw-cca-20-1-regency-furniture-stadium-tire-rack-street-327569',
+title: 'National Capital Chapter BMW CCA 20 #1'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 41.5213585777, lng: -72.3610389564},
+map: map,
+url: 'https://motorsportreg.com/events/connecticut-valley-bmw-cca-20-2-consumer-reports-testing-facility-tire-079097',
+title: 'Connecticut Valley BMW CCA 20 #2'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 38.5626469884, lng: -76.9036201874},
+map: map,
+url: 'https://motorsportreg.com/events/trss-coach-volunteer-signup-october-10-2020-regency-furniture-stadium-bmw-573417',
+title: 'TRSS Coach & Volunteer SignUp - October 10, 2020'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/adv-driving-skills-saturday-october-3-2020-new-hampshire-motor-speedway-330920',
+title: 'Adv Driving Skills Saturday October 3, 2020'
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 43.0572188198, lng: -73.8047360409},
+map: map,
+url: 'https://motorsportreg.com/events/mohawk-hudson-scca-20-2-saratoga-automobile-museum-tire-rack-street-survival-606749',
+title: 'Mohawk Hudson Region SCCA 20 #2'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 41.7267082151, lng: -86.3510285622},
+map: map,
+url: 'https://motorsportreg.com/events/south-bend-scca-20-1-tire-rack-street-survival-837578',
+title: 'South Bend Region SCCA 20 #1'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 45.5994152283, lng: -122.695223279},
+map: map,
+url: 'https://motorsportreg.com/events/oregon-scca-20-2-portland-international-raceway-tire-rack-street-survival-317748',
+title: 'Oregon Region SCCA 20 #2'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 38.5626469884, lng: -76.9036201874},
+map: map,
+url: 'https://motorsportreg.com/events/national-capital-bmw-cca-20-1-regency-furniture-stadium-tire-rack-street-684002',
+title: 'National Capital Chapter BMW CCA 20 #2'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 40.2000892189, lng: -75.059653527},
+map: map,
+url: 'https://motorsportreg.com/events/delaware-valley-bmw-cca-20-1-executive-education-academy-tire-rack-street-366110',
+title: 'Delaware Valley BMW CCA 20 #1'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 43.2213516806, lng: -75.4085600803},
+map: map,
+url: 'https://motorsportreg.com/events/central-new-york-scca-20-2-air-force-research-laboratory-tire-rack-street-173041',
+title: 'Central New York SCCA 20 #2'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 33.3859783158, lng: -84.3162742278},
+map: map,
+url: 'https://motorsportreg.com/events/atlanta-scca-20-1-motor-speedway-tire-rack-street-survival-044058',
+title: 'Atlanta Region SCCA 20 #1'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 44.7355636381, lng: -93.0780408931},
+map: map,
+url: 'https://motorsportreg.com/events/teen-car-control-clinic-8-9-20-dakota-county-technical-college-audi-club-565101',
+title: 'Teen Car Control Clinic 8/9/20'
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-car-control-clinic-lime-rock-aug-17th-park-sports-driving-association-394490',
+title: 'SCDA- Car Control Clinic- Lime Rock- Aug 17th'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/tvc-car-control-clinic-pittsburgh-international-race-compl-pitt-873530',
+title: 'TVC: Car Control Clinic '
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-car-control-clinic-lime-rock-october-24th-park-sports-driving-association-196452',
+title: 'SCDA- Car Control Clinic- Lime Rock- October 24th'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-car-control-clinic-lime-rock-nov-6th-park-sports-driving-association-499941',
+title: 'SCDA- Car Control Clinic- Lime Rock- Nov 6th'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 33.4053862983, lng: -86.811376482},
+map: map,
+url: 'https://motorsportreg.com/events/heart-of-dixie-20-3-hoover-metropolitan-stadium-tire-rack-street-survival-998218',
+title: 'Heart of Dixie Chapter 20 #3'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 36.450984724, lng: -77.5588675551},
+map: map,
+url: 'https://motorsportreg.com/events/tidewater-bmw-street-survival-support-volunteers-nccar-cca-184160',
+title: 'Tidewater BMW Street Survival Support Volunteers'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 38.5626469884, lng: -76.9036201874},
+map: map,
+url: 'https://motorsportreg.com/events/trss-coach-volunteer-signup-october-11-2020-regency-furniture-stadium-bmw-715221',
+title: 'TRSS Coach & Volunteer SignUp - October 11, 2020'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 29.968264354, lng: -95.3613731321},
+map: map,
+url: 'https://motorsportreg.com/events/houston-bmw-cca-20-1-police-academy-tire-rack-street-survival-613469',
+title: 'Houston Chapter BMW CCA 20 #1R'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 47.54037399, lng: -122.636251425},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-driver-skills-oct-10-2020-bremerton-motorsports-park-pacific-northwest-102849',
+title: 'PCA/PNWR Driver Skills - Oct 10, 2020'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 41.7267082151, lng: -86.3510285622},
+map: map,
+url: 'https://motorsportreg.com/events/south-bend-scca-20-1-tire-rack-street-survival-379063',
+title: 'South Bend Region SCCA 20 #1'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/tvc-car-control-clinic-pittsburgh-international-race-compl-pitt-907846',
+title: 'TVC: Car Control Clinic '
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 47.54037399, lng: -122.636251425},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-driver-skills-sep-5-2020-bremerton-motorsports-park-pacific-northwest-758479',
+title: 'PCA/PNWR Driver Skills - Sep 5, 2020'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 35.9477158955, lng: -84.1667135756},
+map: map,
+url: 'https://motorsportreg.com/events/smoky-mountain-bmw-cca-20-1-pellissippi-state-community-college-tire-rack-016844',
+title: 'Smoky Mountain BMW CCA 20 #1R'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+var marker50 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-car-control-clinic-lime-rock-october-12th-park-sports-driving-association-098095',
+title: 'SCDA- Car Control Clinic- Lime Rock- October 12th'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+window.location.href = marker50.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 21.9286109008, lng: -159.5302832},
+map: map,
+url: 'https://motorsportreg.com/events/haruki-ranch-rallycross-10-20-scca-kauai-250103',
+title: 'Haruki Ranch Rallycross 10/10/20'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 27.3684023659, lng: -80.4852962553},
+map: map,
+url: 'https://motorsportreg.com/events/cfr-rallycross-2020-night-event-10-saint-lucie-county-fairgrounds-scca-889279',
+title: 'CFR RallyCross 2020 NIGHT Event #10'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 42.0873626937, lng: -89.2881123575},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-event-8-milwaukee-scca-byron-motorsports-park-641416',
+title: 'RallyCross Event #8 - Milwaukee Region SCCA'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 38.8049821001, lng: -95.6954581749},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-rx-candy-van-express-santa-fe-trail-cycle-park-kansas-558831',
+title: 'KS SCCA RX: Candy Van Express'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 39.1385548787, lng: -78.998568979},
+map: map,
+url: 'https://motorsportreg.com/events/dc-rallycross-5-6-panthera-training-ctr-scca-washington-rally-cross-366708',
+title: 'DC RallyCross 5 & 6'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 29.9441298806, lng: -82.1098294282},
+map: map,
+url: 'https://motorsportreg.com/events/cfr-rallycross-2020-event-09-florida-intl-rally-msport-park-scca-central-cross-275079',
+title: 'CFR RallyCross 2020 Event #09'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 37.8234668412, lng: -97.3374766321},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wichita-scca-rallycross-event-5-81-speedway-674714',
+title: '2020 Wichita Region SCCA Rallycross Event##5'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 34.816377022, lng: -86.2666484052},
+map: map,
+url: 'https://motorsportreg.com/events/tvr-rallycross-9-holly-tree-off-road-scca-tennessee-valley-rally-cross-352353',
+title: 'TVR RallyCross #9'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 38.8049821001, lng: -95.6954581749},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-rx-cars-of-corn-santa-fe-trail-cycle-park-kansas-068264',
+title: 'KS SCCA RX: Cars of the Corn'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 53.3547979158, lng: -113.723387315},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-11-bills-field-edmonton-rally-club-975054',
+title: 'Rallycross Championship #11'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 39.015007002, lng: -94.1985607469},
+map: map,
+url: 'https://motorsportreg.com/events/kcrx-event-6-thunder-valley-sand-drags-scca-kansas-city-rallyx-820584',
+title: 'KCRX Event #6'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 39.7245748641, lng: -104.215955238},
+map: map,
+url: 'https://motorsportreg.com/events/colorado-rallycross-2020-event-9-quint-valley-fairgrounds-scca-009549',
+title: 'Colorado RallyCross 2020 - Event #9'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 33.6749738648, lng: -83.0049257188},
+map: map,
+url: 'https://motorsportreg.com/events/scca-atlanta-rallycross-2020-points-6-motor-speedway-303088',
+title: 'SCCA Atlanta Rallycross 2020 Points #6'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 47.1952103803, lng: -121.963163603},
+map: map,
+url: 'https://motorsportreg.com/events/rainier-rumble-rallycross-enumclaw-expo-event-center-north-west-rally-940066',
+title: 'Rainier Rumble Rallycross'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 53.3547979158, lng: -113.723387315},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-14-bills-field-edmonton-rally-club-735924',
+title: 'Rallycross Championship #14'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 38.8049821001, lng: -95.6954581749},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-rx-gobbler-500-santa-fe-trail-cycle-park-kansas-237852',
+title: 'KS SCCA RX: Gobbler 500'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 34.816377022, lng: -86.2666484052},
+map: map,
+url: 'https://motorsportreg.com/events/tvr-rallycro-10-talkin-turkey-holly-tree-off-road-scca-tennessee-valley-881889',
+title: 'TVR RallyCro$$ #10 Talkin Turkey'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 39.8700032519, lng: -94.1399440635},
+map: map,
+url: 'https://motorsportreg.com/events/kcrx-event-7-i-35-speedway-scca-kansas-city-rallyx-263055',
+title: 'KCRX Event #7'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 53.3547979158, lng: -113.723387315},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-13-bills-field-edmonton-rally-club-317652',
+title: 'Rallycross Championship #13'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 38.6825509593, lng: -90.1570558537},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-scca-rx9-rally-kuruma-madison-il-near-gmp-route-203n-st-louis-268476',
+title: '2020 STL Region SCCA RX8 "Rally Kuruma"'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 38.8049821001, lng: -95.6954581749},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-rx-lucky-13-santa-fe-trail-cycle-park-kansas-894002',
+title: 'KS SCCA RX: Lucky 13'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 34.816377022, lng: -86.2666484052},
+map: map,
+url: 'https://motorsportreg.com/events/tvr-rallycross-11-reindeer-holly-tree-off-road-scca-tennessee-valley-rally-cross-794255',
+title: 'TVR RallyCross #11 Reindeer RallyCross'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 53.3547979158, lng: -113.723387315},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-12-bills-field-edmonton-rally-club-181665',
+title: 'Rallycross Championship #12'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 38.5445879683, lng: -104.642159042},
+map: map,
+url: 'https://motorsportreg.com/events/colorado-rallycross-2020-event-8-united-states-truck-driving-school-scca-799750',
+title: 'Colorado RallyCross 2020 - Event #8'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 39.2415233956, lng: -77.9757003397},
+map: map,
+url: 'https://motorsportreg.com/events/dc-rallycross-7-8-summit-point-arena-scca-washington-rally-cross-302422',
+title: 'DC RallyCross 7 & 8'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 38.6825509593, lng: -90.1570558537},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-scca-rx5-rally-juu-ya-crest-madison-il-near-gmp-route-203n-st-868847',
+title: '2020 STL Region SCCA RX4 "Rally Juu Ya Crest"'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 42.0873626937, lng: -89.2881123575},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-event-6-milwaukee-scca-byron-motorsports-park-936457',
+title: 'RallyCross Event #6 - Milwaukee Region SCCA'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 35.6401217414, lng: -92.586451688},
+map: map,
+url: 'https://motorsportreg.com/events/2020-arscca-rallyx-championship-round-4-jackson-farm-site-scca-arkansas-909263',
+title: '2020 ARSCCA RallyX 1'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 21.9286109008, lng: -159.5302832},
+map: map,
+url: 'https://motorsportreg.com/events/haruki-ranch-rallycross-7-18-20-scca-kauai-323140',
+title: 'Haruki Ranch Rallycross 7/18/20'
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 39.7245748641, lng: -104.215955238},
+map: map,
+url: 'https://motorsportreg.com/events/colorado-rallycross-2020-school-test-tune-quint-valley-fairgrounds-scca-240345',
+title: 'Colorado RallyCross 2020 - School/Test&Tune'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 36.4943086139, lng: -83.5528571542},
+map: map,
+url: 'https://motorsportreg.com/events/etr-scca-rallycross-event-7-clayton-reece-ln-tazewell-east-tennessee-891954',
+title: 'ETR SCCA RallyCross Event #7'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 34.816377022, lng: -86.2666484052},
+map: map,
+url: 'https://motorsportreg.com/events/tvr-rallycross-6-holly-tree-off-road-scca-tennessee-valley-rally-cross-969441',
+title: 'TVR RallyCross #6'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 39.7245748641, lng: -104.215955238},
+map: map,
+url: 'https://motorsportreg.com/events/colorado-rallycross-2020-event-4-quint-valley-fairgrounds-scca-929041',
+title: 'Colorado RallyCross 2020 - Event #4'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 39.2415233956, lng: -77.9757003397},
+map: map,
+url: 'https://motorsportreg.com/events/dc-rallycross-3-4-summit-point-arena-scca-washington-rally-cross-313878',
+title: 'DC RallyCross 3 & 4'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 53.3379375939, lng: -113.545399416},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-8-bills-field-edmonton-rally-club-911249',
+title: 'Rallycross Championship #8'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 42.7478932127, lng: -92.7950866464},
+map: map,
+url: 'https://motorsportreg.com/events/ia-july-2020-rallycross-at-butler-co-fair-fairgrounds-scca-iowa-961787',
+title: 'IA Region July 2020 Rallycross at Butler Co Fair'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 39.2415233956, lng: -77.9757003397},
+map: map,
+url: 'https://motorsportreg.com/events/dc-rallycross-1-2-panthera-training-ctr-scca-washington-rally-cross-932883',
+title: 'DC RallyCross 1 & 2'
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 37.8234668412, lng: -97.3374766321},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wichita-scca-rallycross-event-2-howard-rallyx-site-931371',
+title: '2020 Wichita Region SCCA Rallycross event#2'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 34.816377022, lng: -86.2666484052},
+map: map,
+url: 'https://motorsportreg.com/events/tvr-rallycross-7-holly-tree-off-road-scca-tennessee-valley-rally-cross-830625',
+title: 'TVR RallyCross #7'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 47.5379731785, lng: -121.811560725},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-fest-2020-dirtfish-rally-school-north-west-association-992703',
+title: 'RallyCross Fest 2020'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 36.5062136336, lng: -97.3899871264},
+map: map,
+url: 'https://motorsportreg.com/events/neokla-sps-midiv-rallyx-billy-bobs-divisional-billings-farm-scca-215814',
+title: 'NEOkla SPS Midiv RallyX -Billy Bobs Divisional'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 21.9286109008, lng: -159.5302832},
+map: map,
+url: 'https://motorsportreg.com/events/haruki-ranch-rallycross-8-20-scca-kauai-957256',
+title: 'Haruki Ranch Rallycross 8/8/20'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 53.3379375939, lng: -113.545399416},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-9-bills-field-edmonton-rally-club-262944',
+title: 'Rallycross Championship #9'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 40.5705381889, lng: -112.369602841},
+map: map,
+url: 'https://motorsportreg.com/events/utah-rallycross-pe-3-deseret-peak-complex-scca-331188',
+title: 'Utah RallyCross PE #3'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 41.3011259582, lng: -92.6580730517},
+map: map,
+url: 'https://motorsportreg.com/events/ia-august-2020-rallycross-at-oskaloosa-southern-iowa-speedway-scca-386082',
+title: 'IA Region August 2020 Rallycross at Oskaloosa'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 27.3684023659, lng: -80.4852962553},
+map: map,
+url: 'https://motorsportreg.com/events/cfr-rallycross-2020-event-08-saint-lucie-county-fairgrounds-scca-central-334059',
+title: 'CFR RallyCross 2020 Event #08'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 27.3684023659, lng: -80.4852962553},
+map: map,
+url: 'https://motorsportreg.com/events/cfr-rallycross-2020-event-07-saint-lucie-county-fairgrounds-scca-central-235755',
+title: 'CFR RallyCross 2020 Event #07'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 53.3379375939, lng: -113.545399416},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-6-castrol-raceway-edmonton-rally-club-289017',
+title: 'Rallycross Championship #6'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 47.5379731785, lng: -121.811560725},
+map: map,
+url: 'https://motorsportreg.com/events/welcome-back-rallycross-part-deux-dirtfish-rally-school-north-west-association-213694',
+title: 'The Welcome Back Rallycross - Part Deux'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 21.3252302821, lng: -158.064633887},
+map: map,
+url: 'https://motorsportreg.com/events/yay-independence-hrsa-nasa-hawaii-night-rally-x-coral-crater-adventure-952685',
+title: 'YAY INDEPENDENCE! HRSA-NASA Hawaii NIGHT Rally-X'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+var marker50 = new google.maps.Marker({
+position: {lat: 42.8695764479, lng: -85.1508891932},
+map: map,
+url: 'https://motorsportreg.com/events/great-lakes-division-rxc-round-2-i-96-speedway-scca-detroit-767102',
+title: 'Great Lakes Division RxC Round #2'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+window.location.href = marker50.url;
+});
+var marker51 = new google.maps.Marker({
+position: {lat: 40.699550217, lng: -95.8985470196},
+map: map,
+url: 'https://motorsportreg.com/events/nrscca-rallycross-5-nebraska-city-rally-bowl-scca-211232',
+title: 'NRSCCA RallyCross #5'
+});
+google.maps.event.addListener(marker51, 'click', function() {
+window.location.href = marker51.url;
+});
+var marker52 = new google.maps.Marker({
+position: {lat: 44.6821652192, lng: -123.052073342},
+map: map,
+url: 'https://motorsportreg.com/events/july-jamboree-day-2-sunday-albany-motorsports-park-north-west-rally-association-652794',
+title: 'July Jamboree - Day 2 (Sunday)'
+});
+google.maps.event.addListener(marker52, 'click', function() {
+window.location.href = marker52.url;
+});
+var marker53 = new google.maps.Marker({
+position: {lat: 33.6749738648, lng: -83.0049257188},
+map: map,
+url: 'https://motorsportreg.com/events/scca-atlanta-rallycross-2020-points-5-motor-speedway-120511',
+title: 'SCCA Atlanta Rallycross 2020 Points #5'
+});
+google.maps.event.addListener(marker53, 'click', function() {
+window.location.href = marker53.url;
+});
+var marker54 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/2020-dirtfish-scca-rx-national-championship-road-america-rallycross-919093',
+title: '2020 DirtFish SCCA RX National Championship'
+});
+google.maps.event.addListener(marker54, 'click', function() {
+window.location.href = marker54.url;
+});
+var marker55 = new google.maps.Marker({
+position: {lat: 38.8049821001, lng: -95.6954581749},
+map: map,
+url: 'https://motorsportreg.com/events/ks-scca-rx-dude-wheres-my-car-santa-fe-trail-cycle-park-kansas-528922',
+title: 'KS SCCA RX: Dude Wheres My Car'
+});
+google.maps.event.addListener(marker55, 'click', function() {
+window.location.href = marker55.url;
+});
+var marker56 = new google.maps.Marker({
+position: {lat: 38.6825509593, lng: -90.1570558537},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-scca-rx6-laiska-koira-madison-il-near-gmp-route-203n-st-louis-451929',
+title: '2020 STL Region SCCA RX5 "Rally Laiska Koira"'
+});
+google.maps.event.addListener(marker56, 'click', function() {
+window.location.href = marker56.url;
+});
+var marker57 = new google.maps.Marker({
+position: {lat: 44.6821652192, lng: -123.052073342},
+map: map,
+url: 'https://motorsportreg.com/events/july-jamboree-day-1-saturday-albany-motorsports-park-north-west-rally-411295',
+title: 'July Jamboree - Day 1 (Saturday)'
+});
+google.maps.event.addListener(marker57, 'click', function() {
+window.location.href = marker57.url;
+});
+var marker58 = new google.maps.Marker({
+position: {lat: 27.3684023659, lng: -80.4852962553},
+map: map,
+url: 'https://motorsportreg.com/events/cfr-rallycross-2020-event-06-saint-lucie-county-fairgrounds-scca-central-363748',
+title: 'CFR RallyCross 2020 Event #06'
+});
+google.maps.event.addListener(marker58, 'click', function() {
+window.location.href = marker58.url;
+});
+var marker59 = new google.maps.Marker({
+position: {lat: 39.7245748641, lng: -104.215955238},
+map: map,
+url: 'https://motorsportreg.com/events/colorado-rallycross-2020-event-7-quint-valley-fairgrounds-scca-313188',
+title: 'Colorado RallyCross 2020 - Event #7'
+});
+google.maps.event.addListener(marker59, 'click', function() {
+window.location.href = marker59.url;
+});
+var marker60 = new google.maps.Marker({
+position: {lat: 39.8700032519, lng: -94.1399440635},
+map: map,
+url: 'https://motorsportreg.com/events/kcrx-event-5-i-35-speedway-scca-kansas-city-rallyx-206775',
+title: 'KCRX Event #5'
+});
+google.maps.event.addListener(marker60, 'click', function() {
+window.location.href = marker60.url;
+});
+var marker61 = new google.maps.Marker({
+position: {lat: 48.7944377024, lng: -122.440675789},
+map: map,
+url: 'https://motorsportreg.com/events/labor-day-dirtcross-rx-hannegan-speedway-north-west-rally-association-530304',
+title: 'Labor Day Dirtcross (RX)'
+});
+google.maps.event.addListener(marker61, 'click', function() {
+window.location.href = marker61.url;
+});
+var marker62 = new google.maps.Marker({
+position: {lat: 39.6334362349, lng: -104.689478593},
+map: map,
+url: 'https://motorsportreg.com/events/colorado-rallycross-2020-event-6-quint-valley-fairgrounds-scca-322281',
+title: 'Colorado RallyCross 2020 - Event #6'
+});
+google.maps.event.addListener(marker62, 'click', function() {
+window.location.href = marker62.url;
+});
+var marker63 = new google.maps.Marker({
+position: {lat: 38.6825509593, lng: -90.1570558537},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-scca-rx7-rooster-tail-rally-madison-il-near-gmp-route-203n-st-786794',
+title: '2020 STL Region SCCA RX6 "Rooster Tail Rally"'
+});
+google.maps.event.addListener(marker63, 'click', function() {
+window.location.href = marker63.url;
+});
+var marker64 = new google.maps.Marker({
+position: {lat: 53.3379375939, lng: -113.545399416},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-7-bills-field-edmonton-rally-club-864707',
+title: 'Rallycross Championship #7'
+});
+google.maps.event.addListener(marker64, 'click', function() {
+window.location.href = marker64.url;
+});
+var marker65 = new google.maps.Marker({
+position: {lat: 21.9286109008, lng: -159.5302832},
+map: map,
+url: 'https://motorsportreg.com/events/haruki-ranch-rallycross-9-12-20-scca-kauai-463816',
+title: 'Haruki Ranch Rallycross 9/12/20'
+});
+google.maps.event.addListener(marker65, 'click', function() {
+window.location.href = marker65.url;
+});
+var marker66 = new google.maps.Marker({
+position: {lat: 33.6749738648, lng: -83.0049257188},
+map: map,
+url: 'https://motorsportreg.com/events/scca-atlanta-rallycross-2020-points-4-motor-speedway-914000',
+title: 'SCCA Atlanta Rallycross 2020 Points #4'
+});
+google.maps.event.addListener(marker66, 'click', function() {
+window.location.href = marker66.url;
+});
+var marker67 = new google.maps.Marker({
+position: {lat: 40.5705381889, lng: -112.369602841},
+map: map,
+url: 'https://motorsportreg.com/events/utah-rallycross-pe-4-deseret-peak-complex-scca-386773',
+title: 'Utah RallyCross PE #4'
+});
+google.maps.event.addListener(marker67, 'click', function() {
+window.location.href = marker67.url;
+});
+var marker68 = new google.maps.Marker({
+position: {lat: 38.6825509593, lng: -90.1570558537},
+map: map,
+url: 'https://motorsportreg.com/events/2020-stl-scca-rx8-turkey-feather-rally-madison-il-near-gmp-route-203n-st-959651',
+title: '2020 STL Region SCCA RX7 "Turkey Feather Rally"'
+});
+google.maps.event.addListener(marker68, 'click', function() {
+window.location.href = marker68.url;
+});
+var marker69 = new google.maps.Marker({
+position: {lat: 53.3547979158, lng: -113.723387315},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-championship-10-bills-field-edmonton-rally-club-969716',
+title: 'Rallycross Championship #10'
+});
+google.maps.event.addListener(marker69, 'click', function() {
+window.location.href = marker69.url;
+});
+var marker70 = new google.maps.Marker({
+position: {lat: 42.7478932127, lng: -92.7950866464},
+map: map,
+url: 'https://motorsportreg.com/events/ia-sept-2020-rallycross-at-butler-co-fair-fairgrounds-scca-iowa-551399',
+title: 'IA Region Sept 2020 Rallycross at Butler Co Fair'
+});
+google.maps.event.addListener(marker70, 'click', function() {
+window.location.href = marker70.url;
+});
+var marker71 = new google.maps.Marker({
+position: {lat: 37.4703119102, lng: -96.2636069703},
+map: map,
+url: 'https://motorsportreg.com/events/2020-wichita-scca-rallycross-event-4-howard-rallyx-site-207438',
+title: '2020 Wichita Region SCCA Rallycross event#4'
+});
+google.maps.event.addListener(marker71, 'click', function() {
+window.location.href = marker71.url;
+});
+var marker72 = new google.maps.Marker({
+position: {lat: 34.816377022, lng: -86.2666484052},
+map: map,
+url: 'https://motorsportreg.com/events/tvr-rallycross-8-holly-tree-off-road-scca-tennessee-valley-rally-cross-742578',
+title: 'TVR RallyCross #8'
+});
+google.maps.event.addListener(marker72, 'click', function() {
+window.location.href = marker72.url;
+});
+var marker73 = new google.maps.Marker({
+position: {lat: 42.0873626937, lng: -89.2881123575},
+map: map,
+url: 'https://motorsportreg.com/events/rallycross-event-7-milwaukee-scca-byron-motorsports-park-794472',
+title: 'RallyCross Event #7 - Milwaukee Region SCCA'
+});
+google.maps.event.addListener(marker73, 'click', function() {
+window.location.href = marker73.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

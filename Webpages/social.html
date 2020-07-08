@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 35.8805341548, lng: -78.8495274211},
+map: map,
+url: 'https://motorsportreg.com/events/tarheel-sports-car-club-randys-pizza-festival-social-419841',
+title: 'Tarheel Sports Car Club @ Randys Pizza'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-pca-october-16-17-18-high-plains-raceway-carport-reservations-430928',
+title: 'RV/Carports for PCA October 16/17/18'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 20.0390715108, lng: -155.83009652},
+map: map,
+url: 'https://motorsportreg.com/events/bih-oktober-fest-big-island-hawaii-660804',
+title: 'BIH Oktober Fest'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 39.9060564054, lng: -75.1664981762},
+map: map,
+url: 'https://motorsportreg.com/events/phil-a-trunk-citizens-bank-park-pca-riesentoter-614176',
+title: 'Phil-a-Trunk'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 34.6991846363, lng: -118.1740342},
+map: map,
+url: 'https://motorsportreg.com/events/installation-dinner-for-2020-21-officers-ginos-italian-restaurant-pca-843124',
+title: 'Installation Dinner for 2020-21 Officers'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 20.0390715108, lng: -155.83009652},
+map: map,
+url: 'https://motorsportreg.com/events/bih-christmas-party-big-island-hawaii-568752',
+title: 'BIH Christmas Party'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 37.1695889264, lng: -121.750813022},
+map: map,
+url: 'https://motorsportreg.com/events/lpr-s-50th-anniversary-celebration-cinnabar-hills-golf-country-club-pca-514734',
+title: 'LPR’s 50th Anniversary Celebration'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-nasa-october-9-10-11-high-plains-raceway-carport-reservations-025135',
+title: 'RV/Carports for NASA October 9/10/11'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 32.7686316678, lng: -117.168138581},
+map: map,
+url: 'https://motorsportreg.com/events/pca-sdr-porsches-parks-great-tour-2021-tbd-san-diego-520539',
+title: 'PCA-SDR Porsches and Parks Great Tour 2021'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 42.4114824905, lng: -86.1419154906},
+map: map,
+url: 'https://motorsportreg.com/events/gridlife-gingerman-raceway-festival-social-900117',
+title: '#GRIDLIFE @ GingerMan Raceway'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 35.8005219038, lng: -78.6797698995},
+map: map,
+url: 'https://motorsportreg.com/events/2020-thscc-awards-banquet-unitarian-universalist-of-raleigh-tarheel-930672',
+title: '2020 THSCC Awards Banquet'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/carports-for-motorcycles-lapping-october-12-high-plains-raceway-rv-574236',
+title: 'Carports for Motorcycles Lapping October 12'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 32.7686316678, lng: -117.168138581},
+map: map,
+url: 'https://motorsportreg.com/events/pca-sdr-mystery-weekend-cancelled-tbd-san-diego-059517',
+title: 'PCA-SDR Mystery Weekend! '
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 35.8805341548, lng: -78.8495274211},
+map: map,
+url: 'https://motorsportreg.com/events/tarheel-sports-car-club-randys-pizza-festival-social-706549',
+title: 'Tarheel Sports Car Club @ Randys Pizza'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 45.0155433374, lng: -93.3768001975},
+map: map,
+url: 'https://motorsportreg.com/events/2020-annual-member-appreciation-picnic-cancelled-brookview-park-bmw-cca-024010',
+title: '2020 Annual Member Appreciation Picnic - CANCELLED'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 35.8805341548, lng: -78.8495274211},
+map: map,
+url: 'https://motorsportreg.com/events/tarheel-sports-car-club-randys-pizza-festival-social-824468',
+title: 'Tarheel Sports Car Club @ Randys Pizza'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-pca-july-23-24-25-26-high-plains-raceway-carport-reservations-567521',
+title: 'RV/Carports for PCA July 23/24/25/26'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-bmw-september-4-5-6-high-plains-raceway-carport-reservations-580556',
+title: 'RV/Carports for BMW September 4/5/6'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 40.1587734046, lng: -79.0721232861},
+map: map,
+url: 'https://motorsportreg.com/events/jennerstown-speedway-gathering-pca-allegheny-576769',
+title: 'Jennerstown Speedway Gathering'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-nasa-august-13-14-15-16-high-plains-raceway-carport-reservations-492665',
+title: 'RV/Carports for NASA August 13/14/15/16'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-pca-september-17-18-19-20-high-plains-raceway-carport-031371',
+title: 'RV/Carports for PCA September 17/18/19/20'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 41.4377912132, lng: -93.0456043247},
+map: map,
+url: 'https://motorsportreg.com/events/new-member-welcome-45th-anniversary-picnic-otley-pca-schones-land-875637',
+title: 'New Member Welcome and 45th Anniversary Picnic!'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 37.6948407187, lng: -122.407084918},
+map: map,
+url: 'https://motorsportreg.com/events/bay-area-02-swap-show-20-city-of-brisbane-marina-group-450739',
+title: 'Bay Area 02 Swap & Show 20'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-mra-august-27-28-29-30-high-plains-raceway-carport-reservations-345568',
+title: 'RV/Carports for MRA August 27/28/29/30'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-wrl-august-6-7-8-9-high-plains-raceway-carport-reservations-600213',
+title: 'RV/Carports for WRL August 6/7/8/9'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 40.2747807526, lng: -80.6133281512},
+map: map,
+url: 'https://motorsportreg.com/events/arpca-ptc-crooked-dock-pca-allegheny-799200',
+title: 'ARPCA - PTC @ Crooked Dock'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-mra-july-16-17-18-19-high-plains-raceway-carport-reservations-722808',
+title: 'RV/Carports for MRA July 16/17/18/19'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 35.8805341548, lng: -78.8495274211},
+map: map,
+url: 'https://motorsportreg.com/events/tarheel-sports-car-club-randys-pizza-festival-social-690802',
+title: 'Tarheel Sports Car Club @ Randys Pizza'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/carports-for-motorcycles-lapping-august-10-high-plains-raceway-rv-carport-118503',
+title: 'Carports for Motorcycles Lapping August 10'
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/carports-for-motorcycles-lapping-september-14-high-plains-raceway-rv-954243',
+title: 'Carports for Motorcycles Lapping September 14'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 34.5773204011, lng: -83.3323854781},
+map: map,
+url: 'https://motorsportreg.com/events/historic-toccoa-military-museum-golf-outing-ga-mbca-peachtree-649294',
+title: 'Historic Toccoa Military Museum and Golf Outing'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 44.0557378347, lng: -121.315183557},
+map: map,
+url: 'https://motorsportreg.com/events/hdrpca-july-11-register-drive-at-8-30-10-am-tba-pca-high-desert-898209',
+title: 'HDRPCA July 11 Register and Drive at 8:30 -10 am'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-scca-august-21-22-23-high-plains-raceway-carport-reservations-875771',
+title: 'RV/Carports for SCCA August 21/22/23'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 35.4666861629, lng: -83.9202598598},
+map: map,
+url: 'https://motorsportreg.com/events/audi-club-carolinas-tail-of-dragon-no-problem-raceway-park-na-995460',
+title: 'Audi Club Carolinas Tail of the Dragon'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-pony-express-july-10-11-12-high-plains-raceway-carport-010851',
+title: 'RV/Carports for Pony Express July 10/11/12'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-mra-september-24-25-26-27-high-plains-raceway-carport-549410',
+title: 'RV/Carports for MRA September 24/25/26/27'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 35.8805341548, lng: -78.8495274211},
+map: map,
+url: 'https://motorsportreg.com/events/tarheel-sports-car-club-randys-pizza-festival-social-669683',
+title: 'Tarheel Sports Car Club @ Randys Pizza'
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 48.7754736822, lng: -123.766784336},
+map: map,
+url: 'https://motorsportreg.com/events/2020-gold-river-charity-lunch-drive-vancouver-island-pca-743879',
+title: '2020 Gold River Charity Lunch & Drive'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 32.7630650636, lng: -117.107923633},
+map: map,
+url: 'https://motorsportreg.com/events/porsches-pours-kensington-brewing-company-pca-san-diego-641250',
+title: 'Porsches & Pours - Kensington Brewing Company'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 33.8543346323, lng: -112.12513671},
+map: map,
+url: 'https://motorsportreg.com/events/porsches-n-pancakes-at-anthem-country-club-ironwood-grille-golf-cc-pca-arizona-652023',
+title: 'Porsches n Pancakes at Anthem Country Club'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 34.5855405338, lng: -84.0590288131},
+map: map,
+url: 'https://motorsportreg.com/events/jun-2020-pcar-cherohala-tod-overnight-ga-nc-sc-tn-mountain-roads-touring-group-078407',
+title: 'July 11-12, 2020 - PCAR Cherohala/TOD Overnight'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 39.2053302232, lng: -77.5362323082},
+map: map,
+url: 'https://motorsportreg.com/events/display-dine-at-roots-657-cafe-mbca-greater-washington-171022',
+title: 'Display & Dine at Roots 657 Cafe'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 35.7287058798, lng: -78.7512614896},
+map: map,
+url: 'https://motorsportreg.com/events/outside-bbq-car-show-redwine-ranch-mbca-triangle-181581',
+title: 'Outside BBQ and Car Show'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 48.7754736822, lng: -123.766784336},
+map: map,
+url: 'https://motorsportreg.com/events/2020-chemainus-blue-grouse-winery-drive-vancouver-island-pca-342924',
+title: '2020 Chemainus - Blue Grouse Winery - Drive'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/badger-bimmers-imsa-bmw-turn-14-car-corral-road-america-cca-507167',
+title: 'Badger Bimmers IMSA BMW Turn 14 Car Corral '
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-lemons-september-10-11-12-13-high-plains-raceway-carport-785921',
+title: 'RV/Carports for LeMons September 10/11/12/13'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/carports-for-motorcycles-lapping-october-5-high-plains-raceway-rv-carport-090755',
+title: 'Carports for Motorcycles Lapping October 5'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 41.0637666393, lng: -80.0557183377},
+map: map,
+url: 'https://motorsportreg.com/events/arpca-ptc-north-country-brew-pub-brewing-pca-allegheny-587671',
+title: 'ARPCA - PTC @ North Country Brew Pub'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/carports-for-motorcycles-lapping-august-24-high-plains-raceway-rv-carport-358607',
+title: 'Carports for Motorcycles Lapping August 24'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 38.5906644244, lng: -104.67891229},
+map: map,
+url: 'https://motorsportreg.com/events/gridlife-pikes-peak-intl-raceway-festival-social-375061',
+title: '#GRIDLIFE @ Pikes Peak Intl Raceway'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+var marker50 = new google.maps.Marker({
+position: {lat: 43.1157262202, lng: -87.9201620708},
+map: map,
+url: 'https://motorsportreg.com/events/cheers-to-sixty-years-picnic-bavarian-bierhaus-pca-milwaukee-992325',
+title: 'Cheers to Sixty Years Picnic'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+window.location.href = marker50.url;
+});
+var marker51 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-rmvr-july-30-31-august-1-2-high-plains-raceway-carport-167350',
+title: 'RV/Carports for RMVR July 30/31 August 1/2'
+});
+google.maps.event.addListener(marker51, 'click', function() {
+window.location.href = marker51.url;
+});
+var marker52 = new google.maps.Marker({
+position: {lat: 39.160227069, lng: -77.5628905365},
+map: map,
+url: 'https://motorsportreg.com/events/2020-ncc-golf-outing-raspberry-falls-course-bmw-cca-national-capital-882408',
+title: '2020 NCC Golf Outing'
+});
+google.maps.event.addListener(marker52, 'click', function() {
+window.location.href = marker52.url;
+});
+var marker53 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/rv-carports-for-saac-emich-october-3-4-high-plains-raceway-carport-reservations-892708',
+title: 'RV/Carports for SAAC/Emich October 3/4'
+});
+google.maps.event.addListener(marker53, 'click', function() {
+window.location.href = marker53.url;
+});
+var marker54 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/acnw-indycar-pir-2020-portland-intl-raceway-audi-club-na-northwest-109400',
+title: 'ACNW IndyCar @ PIR 2020'
+});
+google.maps.event.addListener(marker54, 'click', function() {
+window.location.href = marker54.url;
+});
+var marker55 = new google.maps.Marker({
+position: {lat: 44.7836242642, lng: -117.812881118},
+map: map,
+url: 'https://motorsportreg.com/events/t-r-a-p-baker-city-rally-quality-inn-sunridge-cascade-moto-classics-040743',
+title: 'T.R.A.P. Baker City Rally'
+});
+google.maps.event.addListener(marker55, 'click', function() {
+window.location.href = marker55.url;
+});
+var marker56 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/alfa-s-at-glen-2015-watkins-international-alfas-548476',
+title: 'Alfas at The Glen 2020'
+});
+google.maps.event.addListener(marker56, 'click', function() {
+window.location.href = marker56.url;
+});
+var marker57 = new google.maps.Marker({
+position: {lat: 45.8206792064, lng: -120.82172971},
+map: map,
+url: 'https://motorsportreg.com/events/acnw-maryhill-loops-road-tour-wine-tasting-audi-club-na-northwest-179271',
+title: 'ACNW Maryhill Loops Road Tour and Wine Tasting'
+});
+google.maps.event.addListener(marker57, 'click', function() {
+window.location.href = marker57.url;
+});
+var marker58 = new google.maps.Marker({
+position: {lat: 48.7754736822, lng: -123.766784336},
+map: map,
+url: 'https://motorsportreg.com/events/2020-fairwinds-golf-club-sept-lunch-drive-vancouver-island-pca-504495',
+title: '2020 Fairwinds Golf Club Sept Lunch & Drive'
+});
+google.maps.event.addListener(marker58, 'click', function() {
+window.location.href = marker58.url;
+});
+var marker59 = new google.maps.Marker({
+position: {lat: 40.4397264059, lng: -79.9360944046},
+map: map,
+url: 'https://motorsportreg.com/events/2020-arpca-pittsburgh-vintage-grand-prix-schenley-park-golf-course-pca-allegheny-645284',
+title: '2020 ARPCA Pittsburgh Vintage Grand Prix'
+});
+google.maps.event.addListener(marker59, 'click', function() {
+window.location.href = marker59.url;
+});
+var marker60 = new google.maps.Marker({
+position: {lat: 46.4162717019, lng: -117.045154195},
+map: map,
+url: 'https://motorsportreg.com/events/snake-river-rally-dinner-cruise-audi-club-na-northwest-439151',
+title: 'Snake River Rally and Dinner Cruise'
+});
+google.maps.event.addListener(marker60, 'click', function() {
+window.location.href = marker60.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>

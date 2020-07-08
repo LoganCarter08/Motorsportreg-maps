@@ -1,0 +1,4440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"
+defer
+></script>
+<style type="text/css">
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+</style>
+<script>
+(function(exports) {
+
+function initMap() {
+exports.map = new google.maps.Map(document.getElementById("map"), {
+center: {lat: 40, lng: -96},
+zoom: 4.5
+});var marker0 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-thunderhill-raceway-park-driver-school-766563',
+title: 'Hooked On Driving - California @ Thunderhill Raceway Park'
+});
+google.maps.event.addListener(marker0, 'click', function() {
+window.location.href = marker0.url;
+});
+var marker1 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-174242',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+window.location.href = marker1.url;
+});
+var marker2 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/pca-maverick-motorsport-ranch-cresson-driver-school-008538',
+title: 'PCA - Maverick @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+window.location.href = marker2.url;
+});
+var marker3 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/rtr-advanced-de-njmp-thunderbolt-november-2020-pca-riesentoter-885769',
+title: 'RTR ADVANCED DE @NJMP Thunderbolt November 2020'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+window.location.href = marker3.url;
+});
+var marker4 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-119031',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker4, 'click', function() {
+window.location.href = marker4.url;
+});
+var marker5 = new google.maps.Marker({
+position: {lat: 29.1844967318, lng: -81.0703702594},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-daytona-intl-speedway-driver-school-910606',
+title: 'Chin Track Days @ Daytona Intl Speedway'
+});
+google.maps.event.addListener(marker5, 'click', function() {
+window.location.href = marker5.url;
+});
+var marker6 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-sebring-intl-raceway-driver-school-182402',
+title: 'Performance Driving Group @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker6, 'click', function() {
+window.location.href = marker6.url;
+});
+var marker7 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-492273',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker7, 'click', function() {
+window.location.href = marker7.url;
+});
+var marker8 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-motorsport-ranch-cresson-driver-school-909920',
+title: 'The Drivers Edge @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker8, 'click', function() {
+window.location.href = marker8.url;
+});
+var marker9 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-homestead-miami-speedway-driver-school-567213',
+title: 'Chin Track Days @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker9, 'click', function() {
+window.location.href = marker9.url;
+});
+var marker10 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-sebring-intl-raceway-driver-131491',
+title: 'Lucas Oil School of Racing @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker10, 'click', function() {
+window.location.href = marker10.url;
+});
+var marker11 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/audi-club-na-southern-california-buttonwillow-raceway-driver-school-445985',
+title: 'Audi Club NA - Southern California Chapter @ Buttonwillow Raceway'
+});
+google.maps.event.addListener(marker11, 'click', function() {
+window.location.href = marker11.url;
+});
+var marker12 = new google.maps.Marker({
+position: {lat: 29.1844967318, lng: -81.0703702594},
+map: map,
+url: 'https://motorsportreg.com/events/flat-out-motorsports-daytona-intl-speedway-driver-school-421052',
+title: 'Flat Out Motorsports @ Daytona Intl Speedway'
+});
+google.maps.event.addListener(marker12, 'click', function() {
+window.location.href = marker12.url;
+});
+var marker13 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/friday-at-track-summit-point-circuit-034151',
+title: 'Friday at the Track'
+});
+google.maps.event.addListener(marker13, 'click', function() {
+window.location.href = marker13.url;
+});
+var marker14 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-school-arizona-motorsports-park-scca-solo-060813',
+title: 'Drivers School'
+});
+google.maps.event.addListener(marker14, 'click', function() {
+window.location.href = marker14.url;
+});
+var marker15 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-sebring-intl-raceway-driver-school-309647',
+title: 'Performance Driving Group @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker15, 'click', function() {
+window.location.href = marker15.url;
+});
+var marker16 = new google.maps.Marker({
+position: {lat: 39.240688, lng: -77.977996},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-summit-point-motorsports-park-hpde-3274',
+title: 'NASA at Summit Point Motorsports Park'
+});
+google.maps.event.addListener(marker16, 'click', function() {
+window.location.href = marker16.url;
+});
+var marker17 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/potomacs-last-de-of-season-summit-point-circuit-pca-potomac-founders-482363',
+title: 'Potomacs Last DE of the Season'
+});
+google.maps.event.addListener(marker17, 'click', function() {
+window.location.href = marker17.url;
+});
+var marker18 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/msr-houston-competition-license-school-301424',
+title: 'MSR Houston Competition License School'
+});
+google.maps.event.addListener(marker18, 'click', function() {
+window.location.href = marker18.url;
+});
+var marker19 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-homestead-miami-speedway-driver-school-621771',
+title: 'Performance Driving Group @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker19, 'click', function() {
+window.location.href = marker19.url;
+});
+var marker20 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-msr-houston-driver-school-086907',
+title: 'The Drivers Edge @ MSR Houston'
+});
+google.maps.event.addListener(marker20, 'click', function() {
+window.location.href = marker20.url;
+});
+var marker21 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-barber-motorsports-park-driver-school-045470',
+title: 'Chin Track Days @ Barber Motorsports Park'
+});
+google.maps.event.addListener(marker21, 'click', function() {
+window.location.href = marker21.url;
+});
+var marker22 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/just-track-it-roebling-road-raceway-driver-school-754410',
+title: 'Just Track It @ Roebling Road Raceway'
+});
+google.maps.event.addListener(marker22, 'click', function() {
+window.location.href = marker22.url;
+});
+var marker23 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/pca-metro-new-york-summit-point-circuit-driver-school-646799',
+title: 'PCA - Metro New York @ Summit Point - Summit Point Circuit'
+});
+google.maps.event.addListener(marker23, 'click', function() {
+window.location.href = marker23.url;
+});
+var marker24 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/apex-driving-academy-hpde-fri1-7mi-2way-on-nov13-motorsport-ranch-cresson-857159',
+title: 'APEX DRIVING ACADEMY HPDE Fri1.7mi 2way on NOV13'
+});
+google.maps.event.addListener(marker24, 'click', function() {
+window.location.href = marker24.url;
+});
+var marker25 = new google.maps.Marker({
+position: {lat: 42.4867238544, lng: -74.7808247146},
+map: map,
+url: 'https://motorsportreg.com/events/may-azp-track-event-new-york-safety-nyst-events-300470',
+title: 'July AZP Track Event'
+});
+google.maps.event.addListener(marker25, 'click', function() {
+window.location.href = marker25.url;
+});
+var marker26 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-northeast-watkins-glen-international-driver-school-251044',
+title: 'Hooked On Driving - Northeast @ Watkins Glen International'
+});
+google.maps.event.addListener(marker26, 'click', function() {
+window.location.href = marker26.url;
+});
+var marker27 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/watkins-glen-1-garage-sign-up-international-pca-northern-new-jersey-524824',
+title: 'Watkins Glen 1 Garage Sign-Up'
+});
+google.maps.event.addListener(marker27, 'click', function() {
+window.location.href = marker27.url;
+});
+var marker28 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-watkins-glen-international-driver-school-892616',
+title: 'Chin Track Days @ Watkins Glen International'
+});
+google.maps.event.addListener(marker28, 'click', function() {
+window.location.href = marker28.url;
+});
+var marker29 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-homestead-miami-speedway-driver-school-599888',
+title: 'Performance Driving Group @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker29, 'click', function() {
+window.location.href = marker29.url;
+});
+var marker30 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/edge-addicts-motorsport-ranch-cresson-driver-school-740821',
+title: 'Edge Addicts @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker30, 'click', function() {
+window.location.href = marker30.url;
+});
+var marker31 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-7-24-pineview-run-889836',
+title: 'Rookie Fridays (7/24)'
+});
+google.maps.event.addListener(marker31, 'click', function() {
+window.location.href = marker31.url;
+});
+var marker32 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/racing-school-portland-intl-raceway-pro-drive-675980',
+title: 'Racing School'
+});
+google.maps.event.addListener(marker32, 'click', function() {
+window.location.href = marker32.url;
+});
+var marker33 = new google.maps.Marker({
+position: {lat: 47.5379356124, lng: -121.811519744},
+map: map,
+url: 'https://motorsportreg.com/events/dirtfish-rally-school-driver-654681',
+title: 'DirtFish @ DirtFish Rally School'
+});
+google.maps.event.addListener(marker33, 'click', function() {
+window.location.href = marker33.url;
+});
+var marker34 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-weathertech-raceway-laguna-seca-driver-school-493474',
+title: 'Hooked On Driving - California @ WeatherTech Raceway Laguna Seca'
+});
+google.maps.event.addListener(marker34, 'click', function() {
+window.location.href = marker34.url;
+});
+var marker35 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-7-31-pineview-run-990263',
+title: 'Rookie Fridays (7/31)'
+});
+google.maps.event.addListener(marker35, 'click', function() {
+window.location.href = marker35.url;
+});
+var marker36 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/dafanz-tracktime-4-cars-tt4c-pocono-north-5-30-31-raceway-track-time-389002',
+title: 'DafanZ TrackTime4Cars (TT4C) Pocono North 7/25-26'
+});
+google.maps.event.addListener(marker36, 'click', function() {
+window.location.href = marker36.url;
+});
+var marker37 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-nola-motorsports-park-driver-256819',
+title: 'Lucas Oil School of Racing @ NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+window.location.href = marker37.url;
+});
+var marker38 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-nola-motorsports-park-driver-556349',
+title: 'Lucas Oil School of Racing @ NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+window.location.href = marker38.url;
+});
+var marker39 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-nola-motorsports-park-driver-150674',
+title: 'Lucas Oil School of Racing @ NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+window.location.href = marker39.url;
+});
+var marker40 = new google.maps.Marker({
+position: {lat: 40.848183, lng: -80.346326},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-pittsburgh-international-race-complex-hpde-3271',
+title: 'NASA at Pittsburgh International Race Complex'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+window.location.href = marker40.url;
+});
+var marker41 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/apex-hpde-at-eagles-canyon-friday-july-31st-raceway-driving-academy-870794',
+title: 'APEX HPDE at Eagles Canyon! FRIDAY JULY 31st'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+window.location.href = marker41.url;
+});
+var marker42 = new google.maps.Marker({
+position: {lat: 39.2403315275, lng: -77.9394456956},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-summit-point-raceway-jefferson-driver-school-720669',
+title: 'AutoInterests @ Summit Point  Raceway - Jefferson'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+window.location.href = marker42.url;
+});
+var marker43 = new google.maps.Marker({
+position: {lat: 41.054344, lng: -75.511279},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-pocono-raceway-hpde-3400',
+title: 'NASA at Pocono Raceway'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+window.location.href = marker43.url;
+});
+var marker44 = new google.maps.Marker({
+position: {lat: 38.1576714123, lng: -122.45082545},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-sonoma-raceway-driver-school-367398',
+title: 'Hooked On Driving - California @ Sonoma Raceway'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+window.location.href = marker44.url;
+});
+var marker45 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-688027',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+window.location.href = marker45.url;
+});
+var marker46 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-driving-course-portland-intl-raceway-pro-drive-839633',
+title: 'High Performance Driving Course'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+window.location.href = marker46.url;
+});
+var marker47 = new google.maps.Marker({
+position: {lat: 42.4114824905, lng: -86.1419154906},
+map: map,
+url: 'https://motorsportreg.com/events/cgi-motorsports-gingerman-raceway-driver-school-376367',
+title: 'CGI Motorsports @ GingerMan Raceway'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+window.location.href = marker47.url;
+});
+var marker48 = new google.maps.Marker({
+position: {lat: 46.1224164733, lng: -74.5836371533},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-auto-club-quebec-mont-tremblant-driver-school-922275',
+title: 'BMW Auto Club Quebec @ Mont Tremblant'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+window.location.href = marker48.url;
+});
+var marker49 = new google.maps.Marker({
+position: {lat: 29.1844967318, lng: -81.0703702594},
+map: map,
+url: 'https://motorsportreg.com/events/daytona-drivers-school-driver-registration-intl-speedway-scca-central-046086',
+title: 'Daytona Drivers School - Driver Registration'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+window.location.href = marker49.url;
+});
+var marker50 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-michelin-raceway-road-atlanta-driver-school-944329',
+title: 'Chin Track Days @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+window.location.href = marker50.url;
+});
+var marker51 = new google.maps.Marker({
+position: {lat: 49.1344547645, lng: -122.305287779},
+map: map,
+url: 'https://motorsportreg.com/events/aug-17-high-performance-driving-day-mission-raceway-velocity-autosports-459195',
+title: 'Aug 17 High Performance Driving Day'
+});
+google.maps.event.addListener(marker51, 'click', function() {
+window.location.href = marker51.url;
+});
+var marker52 = new google.maps.Marker({
+position: {lat: 36.561576, lng: -79.207046},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-virginia-international-raceway-hpde-3307',
+title: 'NASA at VIRginia International Raceway'
+});
+google.maps.event.addListener(marker52, 'click', function() {
+window.location.href = marker52.url;
+});
+var marker53 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/pca-metro-new-york-watkins-glen-international-driver-school-563826',
+title: 'PCA - Metro New York @ Watkins Glen International'
+});
+google.maps.event.addListener(marker53, 'click', function() {
+window.location.href = marker53.url;
+});
+var marker54 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/msr-houston-competition-license-school-431087',
+title: 'MSR Houston Competition License School'
+});
+google.maps.event.addListener(marker54, 'click', function() {
+window.location.href = marker54.url;
+});
+var marker55 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/racing-school-portland-intl-raceway-pro-drive-305226',
+title: 'Racing School'
+});
+google.maps.event.addListener(marker55, 'click', function() {
+window.location.href = marker55.url;
+});
+var marker56 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-barber-motorsports-park-driver-school-535670',
+title: 'Chin Track Days @ Barber Motorsports Park'
+});
+google.maps.event.addListener(marker56, 'click', function() {
+window.location.href = marker56.url;
+});
+var marker57 = new google.maps.Marker({
+position: {lat: 41.3064842416, lng: -81.0176138783},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-nelson-ledges-driver-school-157981',
+title: 'AutoInterests @ Nelson Ledges'
+});
+google.maps.event.addListener(marker57, 'click', function() {
+window.location.href = marker57.url;
+});
+var marker58 = new google.maps.Marker({
+position: {lat: 42.2079087024, lng: -72.3021763861},
+map: map,
+url: 'https://motorsportreg.com/events/rtr-de-palmer-august-2020-motorsports-park-pca-riesentoter-039105',
+title: 'RTR ADVANCED DE @Palmer August 2020'
+});
+google.maps.event.addListener(marker58, 'click', function() {
+window.location.href = marker58.url;
+});
+var marker59 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-8-21-pineview-run-190589',
+title: 'Rookie Fridays (8/21)'
+});
+google.maps.event.addListener(marker59, 'click', function() {
+window.location.href = marker59.url;
+});
+var marker60 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/list-hpde-motorsport-ranch-cresson-driver-school-526363',
+title: 'THE LIST HPDE @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker60, 'click', function() {
+window.location.href = marker60.url;
+});
+var marker61 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/summit-point-main-advanced-solo-circuit-pca-northern-new-jersey-drivers-587923',
+title: 'Summit Point (main)  Advanced/solo'
+});
+google.maps.event.addListener(marker61, 'click', function() {
+window.location.href = marker61.url;
+});
+var marker62 = new google.maps.Marker({
+position: {lat: 0, lng: 0},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-arizona-bondurant-school-main-track-club-race-3303',
+title: 'NASA at Bondurant - School/Main Track'
+});
+google.maps.event.addListener(marker62, 'click', function() {
+window.location.href = marker62.url;
+});
+var marker63 = new google.maps.Marker({
+position: {lat: 42.7048664361, lng: -83.3938845013},
+map: map,
+url: 'https://motorsportreg.com/events/rsr-waterford-hills-drivers-ed-august-21-22nd-pca-rally-sport-038835',
+title: 'RSR Waterford Hills Drivers Ed August 21 & 22nd'
+});
+google.maps.event.addListener(marker63, 'click', function() {
+window.location.href = marker63.url;
+});
+var marker64 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-mid-ohio-sports-car-course-driver-school-854976',
+title: 'AutoInterests @ Mid-Ohio Sports Car Course'
+});
+google.maps.event.addListener(marker64, 'click', function() {
+window.location.href = marker64.url;
+});
+var marker65 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/dafanz-tracktime-4-cars-tt4c-pocono-north-8-23-raceway-track-time-564454',
+title: 'DafanZ TrackTime 4 Cars(TT4C) Pocono North 8/23'
+});
+google.maps.event.addListener(marker65, 'click', function() {
+window.location.href = marker65.url;
+});
+var marker66 = new google.maps.Marker({
+position: {lat: 38.159946, lng: -122.454874},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-california-northern-sonoma-raceway-hpde-3320',
+title: 'NASA at Sonoma Raceway'
+});
+google.maps.event.addListener(marker66, 'click', function() {
+window.location.href = marker66.url;
+});
+var marker67 = new google.maps.Marker({
+position: {lat: 46.3453538478, lng: -123.107425195},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-pacific-northwest-ridge-motorsports-park-road-course-045290',
+title: 'Hooked On Driving - Pacific Northwest Region @ Ridge Motorsports Park, Road Course'
+});
+google.maps.event.addListener(marker67, 'click', function() {
+window.location.href = marker67.url;
+});
+var marker68 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/just-track-it-michelin-raceway-road-atlanta-driver-school-726323',
+title: 'Just Track It @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker68, 'click', function() {
+window.location.href = marker68.url;
+});
+var marker69 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-autobahn-country-club-driver-147519',
+title: 'Lucas Oil School of Racing @ Autobahn Country Club'
+});
+google.maps.event.addListener(marker69, 'click', function() {
+window.location.href = marker69.url;
+});
+var marker70 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-autobahn-country-club-driver-832781',
+title: 'Lucas Oil School of Racing @ Autobahn Country Club'
+});
+google.maps.event.addListener(marker70, 'click', function() {
+window.location.href = marker70.url;
+});
+var marker71 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-pocono-raceway-160008',
+title: 'Xtreme Xperience Pocono Raceway'
+});
+google.maps.event.addListener(marker71, 'click', function() {
+window.location.href = marker71.url;
+});
+var marker72 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-track-day-august-event-502203',
+title: 'Road America Track Day August 24, 2020 #310'
+});
+google.maps.event.addListener(marker72, 'click', function() {
+window.location.href = marker72.url;
+});
+var marker73 = new google.maps.Marker({
+position: {lat: 41.454908, lng: -88.118872},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-central-autobahn-country-club-hpde-3265',
+title: 'NASA at Autobahn Country Club'
+});
+google.maps.event.addListener(marker73, 'click', function() {
+window.location.href = marker73.url;
+});
+var marker74 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/trillium-de-at-calabogie-motorsports-park-bmw-cca-745150',
+title: 'Trillium DE at Calabogie'
+});
+google.maps.event.addListener(marker74, 'click', function() {
+window.location.href = marker74.url;
+});
+var marker75 = new google.maps.Marker({
+position: {lat: 43.6498333528, lng: -72.0001454211},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-july-18-19-2020-canaan-motor-club-141031',
+title: 'MassTuning TrackFest (July 18-19, 2020)'
+});
+google.maps.event.addListener(marker75, 'click', function() {
+window.location.href = marker75.url;
+});
+var marker76 = new google.maps.Marker({
+position: {lat: 49.1344547645, lng: -122.305287779},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-car-club-of-b-c-mission-raceway-driver-school-449452',
+title: 'BMW Car Club of B.C. @ Mission Raceway'
+});
+google.maps.event.addListener(marker76, 'click', function() {
+window.location.href = marker76.url;
+});
+var marker77 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-pineview-run-681812',
+title: 'Rookie Fridays (7/17)'
+});
+google.maps.event.addListener(marker77, 'click', function() {
+window.location.href = marker77.url;
+});
+var marker78 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/edge-addicts-circuit-of-americas-driver-school-218145',
+title: 'Edge Addicts @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker78, 'click', function() {
+window.location.href = marker78.url;
+});
+var marker79 = new google.maps.Marker({
+position: {lat: 34.8711448938, lng: -118.264001452},
+map: map,
+url: 'https://motorsportreg.com/events/streets-of-willow-clock-wise-springs-intl-raceway-extreme-speed-track-events-242928',
+title: 'Streets of Willow Clock Wise'
+});
+google.maps.event.addListener(marker79, 'click', function() {
+window.location.href = marker79.url;
+});
+var marker80 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-driving-course-portland-intl-raceway-pro-drive-543955',
+title: 'High Performance Driving Course'
+});
+google.maps.event.addListener(marker80, 'click', function() {
+window.location.href = marker80.url;
+});
+var marker81 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-new-jersey-motorsports-park-533544',
+title: 'Xtreme Xperience New Jersey Motorsports Park'
+});
+google.maps.event.addListener(marker81, 'click', function() {
+window.location.href = marker81.url;
+});
+var marker82 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/pca-coastal-empire-roebling-road-raceway-driver-school-488177',
+title: 'PCA - Coastal Empire @ Roebling Road Raceway'
+});
+google.maps.event.addListener(marker82, 'click', function() {
+window.location.href = marker82.url;
+});
+var marker83 = new google.maps.Marker({
+position: {lat: 46.1224164733, lng: -74.5836371533},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-auto-club-quebec-mont-tremblant-driver-school-393190',
+title: 'BMW Auto Club Quebec @ Mont Tremblant'
+});
+google.maps.event.addListener(marker83, 'click', function() {
+window.location.href = marker83.url;
+});
+var marker84 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-thunderhill-raceway-park-driver-school-910469',
+title: 'Hooked On Driving - California @ Thunderhill Raceway Park'
+});
+google.maps.event.addListener(marker84, 'click', function() {
+window.location.href = marker84.url;
+});
+var marker85 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/edge-addicts-motorsport-ranch-cresson-driver-school-956272',
+title: 'Edge Addicts @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker85, 'click', function() {
+window.location.href = marker85.url;
+});
+var marker86 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/friday-at-track-summit-point-circuit-172889',
+title: 'Friday at the Track'
+});
+google.maps.event.addListener(marker86, 'click', function() {
+window.location.href = marker86.url;
+});
+var marker87 = new google.maps.Marker({
+position: {lat: 42.4114824905, lng: -86.1419154906},
+map: map,
+url: 'https://motorsportreg.com/events/cgi-motorsports-gingerman-raceway-driver-school-655208',
+title: 'CGI Motorsports @ GingerMan Raceway'
+});
+google.maps.event.addListener(marker87, 'click', function() {
+window.location.href = marker87.url;
+});
+var marker88 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-730628',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker88, 'click', function() {
+window.location.href = marker88.url;
+});
+var marker89 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/edge-addicts-circuit-of-americas-driver-school-534440',
+title: 'Edge Addicts @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker89, 'click', function() {
+window.location.href = marker89.url;
+});
+var marker90 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-ncm-motorsport-park-driver-school-873449',
+title: 'Chin Track Days @ NCM Motorsport Park'
+});
+google.maps.event.addListener(marker90, 'click', function() {
+window.location.href = marker90.url;
+});
+var marker91 = new google.maps.Marker({
+position: {lat: 34.8719781769, lng: -118.26539481},
+map: map,
+url: 'https://motorsportreg.com/events/arosc-high-performance-driving-school-streets-of-willow-springs-racing-121079',
+title: 'AROSC High Performance Driving School'
+});
+google.maps.event.addListener(marker91, 'click', function() {
+window.location.href = marker91.url;
+});
+var marker92 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-pacific-northwest-portland-intl-raceway-driver-school-789716',
+title: 'Hooked On Driving - Pacific Northwest Region @ Portland Intl Raceway'
+});
+google.maps.event.addListener(marker92, 'click', function() {
+window.location.href = marker92.url;
+});
+var marker93 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-pittsburgh-international-race-compl-driver-school-646679',
+title: 'Chin Track Days @ Pittsburgh International Race Compl'
+});
+google.maps.event.addListener(marker93, 'click', function() {
+window.location.href = marker93.url;
+});
+var marker94 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-msr-houston-driver-school-074264',
+title: 'The Drivers Edge @ MSR Houston'
+});
+google.maps.event.addListener(marker94, 'click', function() {
+window.location.href = marker94.url;
+});
+var marker95 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-cca-tarheel-virginia-international-raceway-driver-school-293752',
+title: 'BMW CCA - Tarheel Chapter @ Virginia International Raceway'
+});
+google.maps.event.addListener(marker95, 'click', function() {
+window.location.href = marker95.url;
+});
+var marker96 = new google.maps.Marker({
+position: {lat: 35.4880305041, lng: -119.546492411},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-buttonwillow-raceway-driver-school-209439',
+title: 'Hooked On Driving - California @ Buttonwillow Raceway'
+});
+google.maps.event.addListener(marker96, 'click', function() {
+window.location.href = marker96.url;
+});
+var marker97 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/trillium-allegheny-de-at-pittrace-pittsburgh-international-race-compl-bmw-cca-us-671237',
+title: 'Trillium/Allegheny DE at PittRace'
+});
+google.maps.event.addListener(marker97, 'click', function() {
+window.location.href = marker97.url;
+});
+var marker98 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/1010ths-hpde-october-2020-putnam-park-road-course-motorsports-132975',
+title: '1010ths HPDE October 2020 Putnam Park'
+});
+google.maps.event.addListener(marker98, 'click', function() {
+window.location.href = marker98.url;
+});
+var marker99 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/watkins-glen-2-garage-sign-up-international-pca-northern-new-jersey-629055',
+title: 'Watkins Glen 2 Garage Sign-Up'
+});
+google.maps.event.addListener(marker99, 'click', function() {
+window.location.href = marker99.url;
+});
+var marker100 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-lime-rock-park-track-event-october-12th-sports-car-driving-association-577416',
+title: 'SCDA- Lime Rock Park- Track Event- October 12th'
+});
+google.maps.event.addListener(marker100, 'click', function() {
+window.location.href = marker100.url;
+});
+var marker101 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-751383',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker101, 'click', function() {
+window.location.href = marker101.url;
+});
+var marker102 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-september-13-2020-thompson-speedway-motorsports-park-223853',
+title: 'MassTuning TrackFest (September 13, 2020)'
+});
+google.maps.event.addListener(marker102, 'click', function() {
+window.location.href = marker102.url;
+});
+var marker103 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-vscda-test-day-september-17-2020-track-378189',
+title: 'Road America VSCDA Test Day September 17, 2020'
+});
+google.maps.event.addListener(marker103, 'click', function() {
+window.location.href = marker103.url;
+});
+var marker104 = new google.maps.Marker({
+position: {lat: 49.1344547645, lng: -122.305287779},
+map: map,
+url: 'https://motorsportreg.com/events/sept-21-women-in-motorsports-group-mission-raceway-velocity-autosports-537536',
+title: 'Sept 21 Women in Motorsports Group'
+});
+google.maps.event.addListener(marker104, 'click', function() {
+window.location.href = marker104.url;
+});
+var marker105 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/lightning-2-at-njmp-raceway-pca-northern-new-jersey-drivers-education-999391',
+title: 'Lightning 2 at NJMP'
+});
+google.maps.event.addListener(marker105, 'click', function() {
+window.location.href = marker105.url;
+});
+var marker106 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-homestead-miami-speedway-driver-855445',
+title: 'Lucas Oil School of Racing @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker106, 'click', function() {
+window.location.href = marker106.url;
+});
+var marker107 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-data-analysis-clinic-south-template-palm-beach-international-867208',
+title: 'Bertil Roos Data Analysis Clinic South Template'
+});
+google.maps.event.addListener(marker107, 'click', function() {
+window.location.href = marker107.url;
+});
+var marker108 = new google.maps.Marker({
+position: {lat: 45.3594843432, lng: -120.725902156},
+map: map,
+url: 'https://motorsportreg.com/events/acnw-belohnung-20-oregon-raceway-park-audi-club-na-northwest-658774',
+title: 'ACNW Belohnung 20'
+});
+google.maps.event.addListener(marker108, 'click', function() {
+window.location.href = marker108.url;
+});
+var marker109 = new google.maps.Marker({
+position: {lat: 38.159946, lng: -122.454874},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-california-northern-sonoma-raceway-hpde-3321',
+title: 'NASA at Sonoma Raceway'
+});
+google.maps.event.addListener(marker109, 'click', function() {
+window.location.href = marker109.url;
+});
+var marker110 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/pca-milwaukee-de-2020-road-america-884783',
+title: 'PCA-Milwaukee Region DE 2020'
+});
+google.maps.event.addListener(marker110, 'click', function() {
+window.location.href = marker110.url;
+});
+var marker111 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-driving-course-portland-intl-raceway-pro-drive-874238',
+title: 'High Performance Driving Course'
+});
+google.maps.event.addListener(marker111, 'click', function() {
+window.location.href = marker111.url;
+});
+var marker112 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-eagles-canyon-raceway-driver-school-889523',
+title: 'The Drivers Edge @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker112, 'click', function() {
+window.location.href = marker112.url;
+});
+var marker113 = new google.maps.Marker({
+position: {lat: 38.1576714123, lng: -122.45082545},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-sonoma-raceway-driver-school-349438',
+title: 'Hooked On Driving - California @ Sonoma Raceway'
+});
+google.maps.event.addListener(marker113, 'click', function() {
+window.location.href = marker113.url;
+});
+var marker114 = new google.maps.Marker({
+position: {lat: 39.2417863578, lng: -77.9755090944},
+map: map,
+url: 'https://motorsportreg.com/events/evasive-security-driving-course-bsr-training-center-147608',
+title: 'Evasive & Security Driving Course'
+});
+google.maps.event.addListener(marker114, 'click', function() {
+window.location.href = marker114.url;
+});
+var marker115 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-354823',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker115, 'click', function() {
+window.location.href = marker115.url;
+});
+var marker116 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-sebring-intl-raceway-driver-002810',
+title: 'Lucas Oil School of Racing @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker116, 'click', function() {
+window.location.href = marker116.url;
+});
+var marker117 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/edge-addicts-motorsport-ranch-cresson-driver-school-544260',
+title: 'Edge Addicts @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker117, 'click', function() {
+window.location.href = marker117.url;
+});
+var marker118 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-michelin-raceway-road-atlanta-driver-school-806700',
+title: 'Chin Track Days @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker118, 'click', function() {
+window.location.href = marker118.url;
+});
+var marker119 = new google.maps.Marker({
+position: {lat: 34.4906282251, lng: -80.5974001501},
+map: map,
+url: 'https://motorsportreg.com/events/crmc-20th-annual-performance-driving-school-carolina-motorsports-park-133711',
+title: 'CRMC 20th Annual Performance Driving School'
+});
+google.maps.event.addListener(marker119, 'click', function() {
+window.location.href = marker119.url;
+});
+var marker120 = new google.maps.Marker({
+position: {lat: 34.8711448938, lng: -118.264001452},
+map: map,
+url: 'https://motorsportreg.com/events/cccr-first-annual-laguna-seca-de-willow-springs-intl-raceway-pca-685245',
+title: 'CCCR Willow Springs Big Willow Raceway'
+});
+google.maps.event.addListener(marker120, 'click', function() {
+window.location.href = marker120.url;
+});
+var marker121 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/race-school-academy-calabogie-motorsports-park-348816',
+title: 'Race School Academy '
+});
+google.maps.event.addListener(marker121, 'click', function() {
+window.location.href = marker121.url;
+});
+var marker122 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/putnam-park-racecraft1-10-10ths-package-road-course-280019',
+title: 'Putnam Park RaceCraft1 10/10ths Package'
+});
+google.maps.event.addListener(marker122, 'click', function() {
+window.location.href = marker122.url;
+});
+var marker123 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-1-2-day-road-racing-adventure-palm-beach-international-315500',
+title: 'Bertil Roos 1/2 Day & 1 Day Road Racing Adventure'
+});
+google.maps.event.addListener(marker123, 'click', function() {
+window.location.href = marker123.url;
+});
+var marker124 = new google.maps.Marker({
+position: {lat: 37.004285, lng: -86.374602},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-south-national-corvette-museum-hpde-3296',
+title: 'NASA at National Corvette Museum'
+});
+google.maps.event.addListener(marker124, 'click', function() {
+window.location.href = marker124.url;
+});
+var marker125 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/edge-addicts-motorsport-ranch-cresson-driver-school-822551',
+title: 'Edge Addicts @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker125, 'click', function() {
+window.location.href = marker125.url;
+});
+var marker126 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-lime-rock-park-track-event-october-24th-sports-car-driving-association-096829',
+title: 'SCDA- Lime Rock Park- Track Event- October 24th'
+});
+google.maps.event.addListener(marker126, 'click', function() {
+window.location.href = marker126.url;
+});
+var marker127 = new google.maps.Marker({
+position: {lat: 34.9060881416, lng: -82.1772365651},
+map: map,
+url: 'https://motorsportreg.com/events/fall-2020-m-club-day-bmw-performance-center-cca-national-capital-driving-schools-697819',
+title: 'Fall 2020 ///M Club Day @ BMW Performance Center'
+});
+google.maps.event.addListener(marker127, 'click', function() {
+window.location.href = marker127.url;
+});
+var marker128 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/pca-maverick-eagles-canyon-raceway-driver-school-158708',
+title: 'PCA - Maverick @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker128, 'click', function() {
+window.location.href = marker128.url;
+});
+var marker129 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/ncc-october-2020-summit-point-main-circuit-hpde-bmw-cca-national-capital-492171',
+title: 'NCC October 2020 Summit Point, Main Circuit HPDE'
+});
+google.maps.event.addListener(marker129, 'click', function() {
+window.location.href = marker129.url;
+});
+var marker130 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-track-day-october-event-572913',
+title: 'Road America Track Day October 15, 2020 #312'
+});
+google.maps.event.addListener(marker130, 'click', function() {
+window.location.href = marker130.url;
+});
+var marker131 = new google.maps.Marker({
+position: {lat: 38.9302136185, lng: -95.6761628905},
+map: map,
+url: 'https://motorsportreg.com/events/mvp-track-time-heartland-motorsports-park-driver-school-991314',
+title: 'MVP Track Time @ Heartland Motorsports Park'
+});
+google.maps.event.addListener(marker131, 'click', function() {
+window.location.href = marker131.url;
+});
+var marker132 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-sebring-intl-raceway-driver-051021',
+title: 'Lucas Oil School of Racing @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker132, 'click', function() {
+window.location.href = marker132.url;
+});
+var marker133 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-am-practice-session-palm-beach-international-raceway-racing-school-108513',
+title: 'Bertil Roos AM Practice Session'
+});
+google.maps.event.addListener(marker133, 'click', function() {
+window.location.href = marker133.url;
+});
+var marker134 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/audi-club-njmp-2020-thunderbolt-lightning-new-jersey-motorsports-park-na-989345',
+title: 'Audi Club NJMP 2020: Lightning & Thunderbolt'
+});
+google.maps.event.addListener(marker134, 'click', function() {
+window.location.href = marker134.url;
+});
+var marker135 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/watkins-glen-hpde-time-trial-international-com-sports-car-club-336031',
+title: 'Watkins Glen HPDE and Time Trial'
+});
+google.maps.event.addListener(marker135, 'click', function() {
+window.location.href = marker135.url;
+});
+var marker136 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-sebring-intl-raceway-driver-597969',
+title: 'Lucas Oil School of Racing @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker136, 'click', function() {
+window.location.href = marker136.url;
+});
+var marker137 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-mid-ohio-sports-car-course-driver-school-314691',
+title: 'AutoInterests @ Mid-Ohio Sports Car Course'
+});
+google.maps.event.addListener(marker137, 'click', function() {
+window.location.href = marker137.url;
+});
+var marker138 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-circuit-of-americas-driver-school-747636',
+title: 'Chin Track Days @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker138, 'click', function() {
+window.location.href = marker138.url;
+});
+var marker139 = new google.maps.Marker({
+position: {lat: 38.6507530136, lng: -90.1353563427},
+map: map,
+url: 'https://motorsportreg.com/events/porsche-st-louis-fall-2020-hpde-world-wide-technology-raceway-pca-837804',
+title: 'Porsche St. Louis Fall 2020 HPDE'
+});
+google.maps.event.addListener(marker139, 'click', function() {
+window.location.href = marker139.url;
+});
+var marker140 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-86-cup-new-jersey-park-652250',
+title: 'Motorsports Enthusiasts HPDE & 86 Cup Event'
+});
+google.maps.event.addListener(marker140, 'click', function() {
+window.location.href = marker140.url;
+});
+var marker141 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/rtr-de-pocono-full-double-infield-september-2020-raceway-pca-riesentoter-908842',
+title: 'RTR DE @Pocono Full/Double Infield September 2020'
+});
+google.maps.event.addListener(marker141, 'click', function() {
+window.location.href = marker141.url;
+});
+var marker142 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-pacific-raceways-507575',
+title: 'Xtreme Xperience Pacific Raceways'
+});
+google.maps.event.addListener(marker142, 'click', function() {
+window.location.href = marker142.url;
+});
+var marker143 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/1010ths-hpde-september-2020-putnam-park-road-course-motorsports-111857',
+title: '1010ths HPDE September 2020 Putnam Park'
+});
+google.maps.event.addListener(marker143, 'click', function() {
+window.location.href = marker143.url;
+});
+var marker144 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-circuit-of-americas-driver-school-400209',
+title: 'Chin Track Days @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker144, 'click', function() {
+window.location.href = marker144.url;
+});
+var marker145 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-sebring-intl-raceway-driver-950735',
+title: 'Lucas Oil School of Racing @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker145, 'click', function() {
+window.location.href = marker145.url;
+});
+var marker146 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/putnam-park-racecraft1-10-10ths-package-road-course-493136',
+title: 'Putnam Park RaceCraft1 10/10ths Package'
+});
+google.maps.event.addListener(marker146, 'click', function() {
+window.location.href = marker146.url;
+});
+var marker147 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/scda-njmp-sept-21-lightning-raceway-at-sports-car-driving-association-367377',
+title: 'SCDA- NJMP Lightning- HPDE Track Day- Sept. 21'
+});
+google.maps.event.addListener(marker147, 'click', function() {
+window.location.href = marker147.url;
+});
+var marker148 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-sebring-intl-raceway-driver-school-070166',
+title: 'Performance Driving Group @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker148, 'click', function() {
+window.location.href = marker148.url;
+});
+var marker149 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/nhms-2-hpde-time-trial-new-hampshire-motor-speedway-com-sports-car-club-134748',
+title: 'NHMS-2 HPDE and Time Trial'
+});
+google.maps.event.addListener(marker149, 'click', function() {
+window.location.href = marker149.url;
+});
+var marker150 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/dafanz-tracktime-4-cars-tt4c-pocono-e-n-9-26-27-raceway-track-time-101536',
+title: 'DafanZ TrackTime 4 Cars(TT4C) Pocono E & N 9/26-27'
+});
+google.maps.event.addListener(marker150, 'click', function() {
+window.location.href = marker150.url;
+});
+var marker151 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-homestead-miami-speedway-driver-277961',
+title: 'Lucas Oil School of Racing @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker151, 'click', function() {
+window.location.href = marker151.url;
+});
+var marker152 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-michelin-raceway-road-atlanta-driver-school-628767',
+title: 'Chin Track Days @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker152, 'click', function() {
+window.location.href = marker152.url;
+});
+var marker153 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-champ-car-friday-test-day-10-23-20-track-676588',
+title: 'Road America Champ Car-Friday Test Day 10/23/20'
+});
+google.maps.event.addListener(marker153, 'click', function() {
+window.location.href = marker153.url;
+});
+var marker154 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/pca-metro-new-york-njmp-lightning-driver-school-331756',
+title: 'PCA - Metro New York @ NJMP Lightning'
+});
+google.maps.event.addListener(marker154, 'click', function() {
+window.location.href = marker154.url;
+});
+var marker155 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/2020-thscc-jessi-culbertson-memorial-hpde-virginia-international-raceway-029138',
+title: '2020 THSCC Jessi Culbertson Memorial HPDE'
+});
+google.maps.event.addListener(marker155, 'click', function() {
+window.location.href = marker155.url;
+});
+var marker156 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-motorsport-ranch-cresson-driver-school-008980',
+title: 'Chin Track Days @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker156, 'click', function() {
+window.location.href = marker156.url;
+});
+var marker157 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-005943',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker157, 'click', function() {
+window.location.href = marker157.url;
+});
+var marker158 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/usa-7s-event-october-9-10-thunderbolt-raceway-new-jersey-motorsports-park-220992',
+title: 'USA 7s Event - October 9-10'
+});
+google.maps.event.addListener(marker158, 'click', function() {
+window.location.href = marker158.url;
+});
+var marker159 = new google.maps.Marker({
+position: {lat: 38.5906644244, lng: -104.67891229},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-pikes-peak-international-raceway-intl-542333',
+title: 'Xtreme Xperience Pikes Peak International Raceway'
+});
+google.maps.event.addListener(marker159, 'click', function() {
+window.location.href = marker159.url;
+});
+var marker160 = new google.maps.Marker({
+position: {lat: 39.2417863578, lng: -77.9755090944},
+map: map,
+url: 'https://motorsportreg.com/events/evasive-security-driving-course-bsr-training-center-908952',
+title: 'Evasive & Security Driving Course'
+});
+google.maps.event.addListener(marker160, 'click', function() {
+window.location.href = marker160.url;
+});
+var marker161 = new google.maps.Marker({
+position: {lat: 46.1224164733, lng: -74.5836371533},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-auto-club-quebec-mont-tremblant-driver-school-251761',
+title: 'BMW Auto Club Quebec @ Mont Tremblant'
+});
+google.maps.event.addListener(marker161, 'click', function() {
+window.location.href = marker161.url;
+});
+var marker162 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-thunderhill-raceway-park-driver-school-489841',
+title: 'Hooked On Driving - California @ Thunderhill Raceway Park'
+});
+google.maps.event.addListener(marker162, 'click', function() {
+window.location.href = marker162.url;
+});
+var marker163 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-236008',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker163, 'click', function() {
+window.location.href = marker163.url;
+});
+var marker164 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/scda-virginia-intl-raceway-hpde-10-5-6-international-sports-car-driving-098206',
+title: 'SCDA- VIRginia Intl Raceway- HPDE- 10/5-6'
+});
+google.maps.event.addListener(marker164, 'click', function() {
+window.location.href = marker164.url;
+});
+var marker165 = new google.maps.Marker({
+position: {lat: 39.2403281125, lng: -77.9395959597},
+map: map,
+url: 'https://motorsportreg.com/events/mbca-gws-2020-shenandoah-circuit-track-event-summit-point-raceway-greater-767659',
+title: 'MBCA|GWS 2020 Shenandoah Circuit Track Event'
+});
+google.maps.event.addListener(marker165, 'click', function() {
+window.location.href = marker165.url;
+});
+var marker166 = new google.maps.Marker({
+position: {lat: 43.6498333528, lng: -72.0001454211},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-september-26-27-2020-canaan-motor-club-287516',
+title: 'MassTuning TrackFest (September 26-27, 2020)'
+});
+google.maps.event.addListener(marker166, 'click', function() {
+window.location.href = marker166.url;
+});
+var marker167 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/scda-thompson-speedway-track-event-september-26-motorsports-park-sports-199959',
+title: 'SCDA- Thompson Speedway- Track Event- September 26'
+});
+google.maps.event.addListener(marker167, 'click', function() {
+window.location.href = marker167.url;
+});
+var marker168 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/scda-watkins-glen-2-day-track-event-july-13-14-international-sports-car-996553',
+title: 'SCDA- Watkins Glen- 2 Day Track Event- JULY 13-14'
+});
+google.maps.event.addListener(marker168, 'click', function() {
+window.location.href = marker168.url;
+});
+var marker169 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/1010ths-hpde-july-2020-ncm-motorsport-park-motorsports-211959',
+title: '1010ths HPDE July 2020 NCM'
+});
+google.maps.event.addListener(marker169, 'click', function() {
+window.location.href = marker169.url;
+});
+var marker170 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/pca-riesentoter-rsi-workers-watkins-glen-international-race-services-962312',
+title: 'PCA Riesentoter Region - RSI Workers'
+});
+google.maps.event.addListener(marker170, 'click', function() {
+window.location.href = marker170.url;
+});
+var marker171 = new google.maps.Marker({
+position: {lat: 39.2403281125, lng: -77.9395959597},
+map: map,
+url: 'https://motorsportreg.com/events/friday-at-track-summit-point-raceway-shenandoah-520082',
+title: 'Friday at the Track on Saturday!'
+});
+google.maps.event.addListener(marker171, 'click', function() {
+window.location.href = marker171.url;
+});
+var marker172 = new google.maps.Marker({
+position: {lat: 39.3571584982, lng: -75.037988167},
+map: map,
+url: 'https://motorsportreg.com/events/schattenbaum-njmp-t-bolt-lightning-oct-thunderbolt-at-pca-332507',
+title: 'Schattenbaum NJMP Tbolt/Lightning-Oct'
+});
+google.maps.event.addListener(marker172, 'click', function() {
+window.location.href = marker172.url;
+});
+var marker173 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-njmp-thunderbolt-410764',
+title: 'Motorsports Enthusiasts HPDE'
+});
+google.maps.event.addListener(marker173, 'click', function() {
+window.location.href = marker173.url;
+});
+var marker174 = new google.maps.Marker({
+position: {lat: 38.659468335, lng: -90.1371458522},
+map: map,
+url: 'https://motorsportreg.com/events/st-louis-scca-pde-track-event-7-circuit-of-old-pdx-967167',
+title: 'St. Louis Region SCCA PDE Track Event #7'
+});
+google.maps.event.addListener(marker174, 'click', function() {
+window.location.href = marker174.url;
+});
+var marker175 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-nhms-event-16-new-hampshire-motor-speedway-233522',
+title: 'Xtreme Xperience NHMS Event #16'
+});
+google.maps.event.addListener(marker175, 'click', function() {
+window.location.href = marker175.url;
+});
+var marker176 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/summit-point-driver-school-circuit-bmw-cca-new-jersey-051758',
+title: 'Summit Point Driver School '
+});
+google.maps.event.addListener(marker176, 'click', function() {
+window.location.href = marker176.url;
+});
+var marker177 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/fsr-fall-2020-drivers-ed-at-vir-full-course-virginia-international-915849',
+title: 'FSR Fall 2020 Drivers Ed At VIR Full Course'
+});
+google.maps.event.addListener(marker177, 'click', function() {
+window.location.href = marker177.url;
+});
+var marker178 = new google.maps.Marker({
+position: {lat: 42.4867238544, lng: -74.7808247146},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-october-10-11-2020-new-york-safety-track-nyst-742356',
+title: 'MassTuning TrackFest (October 10-11, 2020)'
+});
+google.maps.event.addListener(marker178, 'click', function() {
+window.location.href = marker178.url;
+});
+var marker179 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-2020-oktoberfast-bmw-cca-badger-bimmers-384533',
+title: 'Road America - 2020 OktoberFAST'
+});
+google.maps.event.addListener(marker179, 'click', function() {
+window.location.href = marker179.url;
+});
+var marker180 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/natl-corvette-museum-racecraft1-10-10ths-package-ncm-motorsport-park-671031',
+title: 'Natl Corvette Museum RaceCraft1 10/10ths Package'
+});
+google.maps.event.addListener(marker180, 'click', function() {
+window.location.href = marker180.url;
+});
+var marker181 = new google.maps.Marker({
+position: {lat: 43.7923281743, lng: -71.1786444189},
+map: map,
+url: 'https://motorsportreg.com/events/schneller-motorsport-fall-foliage-spectacular-club-motorsports-bmw-cca-996628',
+title: 'Schneller Motorsport - Fall Foliage Spectacular '
+});
+google.maps.event.addListener(marker181, 'click', function() {
+window.location.href = marker181.url;
+});
+var marker182 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/rtr-de-summit-point-october-2020-circuit-pca-riesentoter-012910',
+title: 'RTR DE @Summit Point October 2020'
+});
+google.maps.event.addListener(marker182, 'click', function() {
+window.location.href = marker182.url;
+});
+var marker183 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/ncm-november-high-performance-drivers-introduction-motorsport-park-motorsports-939846',
+title: 'NCM November High Performance Drivers Introduction'
+});
+google.maps.event.addListener(marker183, 'click', function() {
+window.location.href = marker183.url;
+});
+var marker184 = new google.maps.Marker({
+position: {lat: 42.2079087024, lng: -72.3021763861},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-october-25-2020-palmer-motorsports-park-707364',
+title: 'MassTuning TrackFest (October 25, 2020)'
+});
+google.maps.event.addListener(marker184, 'click', function() {
+window.location.href = marker184.url;
+});
+var marker185 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-dr-education-hpdre-11-8-20-dominion-raceway-780226',
+title: 'High Performance DR Education (HPDRE) 11/8/20'
+});
+google.maps.event.addListener(marker185, 'click', function() {
+window.location.href = marker185.url;
+});
+var marker186 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/bimmerworld-bmw-cca-club-racing-school-watkins-glen-international-genesee-valley-878096',
+title: 'BimmerWorld BMW CCA Club Racing School'
+});
+google.maps.event.addListener(marker186, 'click', function() {
+window.location.href = marker186.url;
+});
+var marker187 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/delval-bmw-cca-lightning-de-sponsored-by-ottos-njmp-delaware-valley-675334',
+title: 'DelVal BMW CCA - Lightning DE sponsored by Ottos'
+});
+google.maps.event.addListener(marker187, 'click', function() {
+window.location.href = marker187.url;
+});
+var marker188 = new google.maps.Marker({
+position: {lat: 46.3453538478, lng: -123.107425195},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-solo-de-ridge-july-23rd-2020-motorsports-park-road-course-724715',
+title: 'PCA-PNWR Solo DE - The Ridge - July 23rd, 2020'
+});
+google.maps.event.addListener(marker188, 'click', function() {
+window.location.href = marker188.url;
+});
+var marker189 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-solo-de-pacific-rcwy-august-20-2020-raceways-northwest-559955',
+title: 'PCA-PNWR Solo DE - Pacific Rcwy - August 20, 2020'
+});
+google.maps.event.addListener(marker189, 'click', function() {
+window.location.href = marker189.url;
+});
+var marker190 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/acnw-quattrofest-20-portland-intl-raceway-audi-club-na-northwest-250904',
+title: 'ACNW QuattroFest 20'
+});
+google.maps.event.addListener(marker190, 'click', function() {
+window.location.href = marker190.url;
+});
+var marker191 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-lime-rock-park-season-finale-nov-6th-sports-car-driving-association-273787',
+title: 'SCDA- Lime Rock Park- Season Finale! Nov. 6th'
+});
+google.maps.event.addListener(marker191, 'click', function() {
+window.location.href = marker191.url;
+});
+var marker192 = new google.maps.Marker({
+position: {lat: 43.6498333528, lng: -72.0001454211},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-november-7-8-2020-canaan-motor-club-650777',
+title: 'MassTuning TrackFest (November 7-8, 2020)'
+});
+google.maps.event.addListener(marker192, 'click', function() {
+window.location.href = marker192.url;
+});
+var marker193 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/empire-ferrari-club-lrp-hpde-lime-rock-park-hpd-instructor-608452',
+title: 'Empire State Region Ferrari Club LRP HPDE'
+});
+google.maps.event.addListener(marker193, 'click', function() {
+window.location.href = marker193.url;
+});
+var marker194 = new google.maps.Marker({
+position: {lat: 39.240688, lng: -77.977996},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-atlantic-autocross-summit-point-motorsports-park-hpde-3228',
+title: 'NASA at Summit Point Motorsports Park'
+});
+google.maps.event.addListener(marker194, 'click', function() {
+window.location.href = marker194.url;
+});
+var marker195 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-dr-education-hpdre-5-10-20-dominion-raceway-530510',
+title: 'High Performance DR Education (HPDRE) 7/19/20'
+});
+google.maps.event.addListener(marker195, 'click', function() {
+window.location.href = marker195.url;
+});
+var marker196 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-psr-hpde-pacific-august-21-2020-raceways-bmw-cca-puget-sound-664757',
+title: 'BMWCCA PSR HPDE @ PACIFIC August 21, 2020'
+});
+google.maps.event.addListener(marker196, 'click', function() {
+window.location.href = marker196.url;
+});
+var marker197 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-3-day-road-racing-school-palm-beach-international-raceway-591563',
+title: 'Bertil Roos 3 Day Road Racing School'
+});
+google.maps.event.addListener(marker197, 'click', function() {
+window.location.href = marker197.url;
+});
+var marker198 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-489194',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker198, 'click', function() {
+window.location.href = marker198.url;
+});
+var marker199 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-2-day-advanced-road-racing-school-palm-beach-international-raceway-997715',
+title: 'Bertil Roos 2 Day Advanced Road Racing School'
+});
+google.maps.event.addListener(marker199, 'click', function() {
+window.location.href = marker199.url;
+});
+var marker200 = new google.maps.Marker({
+position: {lat: 46.3453538478, lng: -123.107425195},
+map: map,
+url: 'https://motorsportreg.com/events/acnw-strassenlage-20-ridge-motorsports-park-road-course-audi-club-na-northwest-492458',
+title: 'ACNW Strassenlage 20'
+});
+google.maps.event.addListener(marker200, 'click', function() {
+window.location.href = marker200.url;
+});
+var marker201 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-3-day-road-racing-school-roebling-raceway-745493',
+title: 'Bertil Roos 3 Day Road Racing School'
+});
+google.maps.event.addListener(marker201, 'click', function() {
+window.location.href = marker201.url;
+});
+var marker202 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/bimmerworld-bmw-cca-club-race-school-at-msr-motorsport-ranch-cresson-357708',
+title: 'Bimmerworld BMW CCA Club Race School at MSR'
+});
+google.maps.event.addListener(marker202, 'click', function() {
+window.location.href = marker202.url;
+});
+var marker203 = new google.maps.Marker({
+position: {lat: 34.4906282251, lng: -80.5974001501},
+map: map,
+url: 'https://motorsportreg.com/events/no-tricks-just-treats-sandlapper-hpde-at-cmp-carolina-motorsports-park-bmw-cca-560559',
+title: 'No Tricks, just Treats- Sandlapper HPDE at CMP'
+});
+google.maps.event.addListener(marker203, 'click', function() {
+window.location.href = marker203.url;
+});
+var marker204 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/vir-virginia-international-raceway-pca-northern-new-jersey-drivers-education-771428',
+title: 'VIR'
+});
+google.maps.event.addListener(marker204, 'click', function() {
+window.location.href = marker204.url;
+});
+var marker205 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-cca-buckeye-hpde-mid-ohio-sports-car-course-driving-events-558363',
+title: ' BMW CCA Buckeye Chapter HPDE'
+});
+google.maps.event.addListener(marker205, 'click', function() {
+window.location.href = marker205.url;
+});
+var marker206 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-2-day-advanced-road-racing-school-roebling-raceway-116649',
+title: 'Bertil Roos 2 Day Advanced Road Racing School'
+});
+google.maps.event.addListener(marker206, 'click', function() {
+window.location.href = marker206.url;
+});
+var marker207 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-lime-rock-park-track-event-august-17th-sports-car-driving-association-784177',
+title: 'SCDA- Lime Rock Park- Track Event- August 17th'
+});
+google.maps.event.addListener(marker207, 'click', function() {
+window.location.href = marker207.url;
+});
+var marker208 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-njmp-thunderbolt-422512',
+title: 'Motorsports Enthusiasts HPDE'
+});
+google.maps.event.addListener(marker208, 'click', function() {
+window.location.href = marker208.url;
+});
+var marker209 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/scda-thompson-speedway-track-event-july-20th-motorsports-park-sports-car-334799',
+title: 'SCDA- Thompson Speedway- Track Event- July 20th'
+});
+google.maps.event.addListener(marker209, 'click', function() {
+window.location.href = marker209.url;
+});
+var marker210 = new google.maps.Marker({
+position: {lat: 46.3453538478, lng: -123.107425195},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-solo-only-de-ridge-july-31-2020-motorsports-park-road-course-663371',
+title: 'PCA-PNWR Solo-only DE - The Ridge - July 31, 2020'
+});
+google.maps.event.addListener(marker210, 'click', function() {
+window.location.href = marker210.url;
+});
+var marker211 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-1-2-day-road-racing-adventure-palm-beach-international-584259',
+title: 'Bertil Roos 1/2 Day & 1 Day Road Racing Adventure'
+});
+google.maps.event.addListener(marker211, 'click', function() {
+window.location.href = marker211.url;
+});
+var marker212 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-2-day-grad-camp-pocono-raceway-racing-school-875989',
+title: 'Bertil Roos 2 Day Grad Camp'
+});
+google.maps.event.addListener(marker212, 'click', function() {
+window.location.href = marker212.url;
+});
+var marker213 = new google.maps.Marker({
+position: {lat: 37.0039397636, lng: -86.3741897337},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-ncm-motorsports-park-event-13-national-corvette-museum-687648',
+title: 'Xtreme Xperience NCM Motorsports Park Event #13'
+});
+google.maps.event.addListener(marker213, 'click', function() {
+window.location.href = marker213.url;
+});
+var marker214 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-am-practice-session-palm-beach-international-raceway-racing-school-397534',
+title: 'Bertil Roos AM Practice Session'
+});
+google.maps.event.addListener(marker214, 'click', function() {
+window.location.href = marker214.url;
+});
+var marker215 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/volunteer-for-flying-solo-on-plains-hpde-high-raceway-pca-rocky-mountain-665011',
+title: 'Volunteer for Flying Solo on the Plains HPDE'
+});
+google.maps.event.addListener(marker215, 'click', function() {
+window.location.href = marker215.url;
+});
+var marker216 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-portland-international-raceway-intl-331259',
+title: 'Xtreme Xperience Portland International Raceway'
+});
+google.maps.event.addListener(marker216, 'click', function() {
+window.location.href = marker216.url;
+});
+var marker217 = new google.maps.Marker({
+position: {lat: 43.8001009296, lng: -88.0000138124},
+map: map,
+url: 'https://motorsportreg.com/events/audi-club-wisconsin-road-america-2020-na-398800',
+title: 'Audi Club Wisconsin - Road America - 2020'
+});
+google.maps.event.addListener(marker217, 'click', function() {
+window.location.href = marker217.url;
+});
+var marker218 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/arpca-pittrace-high-perf-driver-education-pittsburgh-international-race-488254',
+title: 'ARPCA - Pitt Race - Advanced Solo-only HPDE'
+});
+google.maps.event.addListener(marker218, 'click', function() {
+window.location.href = marker218.url;
+});
+var marker219 = new google.maps.Marker({
+position: {lat: 39.2417863578, lng: -77.9755090944},
+map: map,
+url: 'https://motorsportreg.com/events/evasive-security-driving-course-bsr-training-center-034697',
+title: 'Evasive & Security Driving Course'
+});
+google.maps.event.addListener(marker219, 'click', function() {
+window.location.href = marker219.url;
+});
+var marker220 = new google.maps.Marker({
+position: {lat: 42.4897496282, lng: -89.1144206469},
+map: map,
+url: 'https://motorsportreg.com/events/blackhawk-farms-friday-august-21-2020-raceway-bmw-cca-badger-bimmers-531038',
+title: 'Blackhawk Farms Friday August 21, 2020'
+});
+google.maps.event.addListener(marker220, 'click', function() {
+window.location.href = marker220.url;
+});
+var marker221 = new google.maps.Marker({
+position: {lat: 39.3571584982, lng: -75.037988167},
+map: map,
+url: 'https://motorsportreg.com/events/schattenbaum-njmp-thunderbolt-july-raceway-pca-126879',
+title: 'Schattenbaum NJMP Tbolt-Light-July'
+});
+google.maps.event.addListener(marker221, 'click', function() {
+window.location.href = marker221.url;
+});
+var marker222 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-lime-rock-park-track-event-july-27th-sports-car-driving-association-988075',
+title: 'SCDA- Lime Rock Park- Track Event- July 27th'
+});
+google.maps.event.addListener(marker222, 'click', function() {
+window.location.href = marker222.url;
+});
+var marker223 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/stacked-on-track-poconos-mega-course-pocono-raceway-722825',
+title: 'Stacked On Track - Poconos Mega & North Course'
+});
+google.maps.event.addListener(marker223, 'click', function() {
+window.location.href = marker223.url;
+});
+var marker224 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/rezoom-motorsports-barber-full-course-de-park-054732',
+title: 'Rezoom Motorsports  -  Barber Full Course DE'
+});
+google.maps.event.addListener(marker224, 'click', function() {
+window.location.href = marker224.url;
+});
+var marker225 = new google.maps.Marker({
+position: {lat: 40.1838162932, lng: -74.8806274387},
+map: map,
+url: 'https://motorsportreg.com/events/trss-coach-volunteer-7-25-20-oxford-valley-mall-mid-atlantic-volunteers-151456',
+title: 'TRSS Coach/Volunteer - 7/25/20 Oxford Valley Mall'
+});
+google.maps.event.addListener(marker225, 'click', function() {
+window.location.href = marker225.url;
+});
+var marker226 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-track-day-fueled-by-scca-sebring-intl-raceway-170142',
+title: 'Hagerty Track Day Fueled by the SCCA'
+});
+google.maps.event.addListener(marker226, 'click', function() {
+window.location.href = marker226.url;
+});
+var marker227 = new google.maps.Marker({
+position: {lat: 42.2079087024, lng: -72.3021763861},
+map: map,
+url: 'https://motorsportreg.com/events/scda-palmer-motorsports-park-track-event-aug-24-sports-car-driving-association-210652',
+title: 'SCDA- Palmer Motorsports Park- Track Event Aug. 24'
+});
+google.maps.event.addListener(marker227, 'click', function() {
+window.location.href = marker227.url;
+});
+var marker228 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/pca-northern-new-jersey-rsi-workers-watkins-glen-international-race-services-759493',
+title: 'PCA Northern New Jersey Region - RSI Workers'
+});
+google.maps.event.addListener(marker228, 'click', function() {
+window.location.href = marker228.url;
+});
+var marker229 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/scda-thompson-speedway-track-event-august-15th-motorsports-park-sports-208016',
+title: 'SCDA- Thompson Speedway- Track Event- August 15th'
+});
+google.maps.event.addListener(marker229, 'click', function() {
+window.location.href = marker229.url;
+});
+var marker230 = new google.maps.Marker({
+position: {lat: 38.1323553161, lng: -77.5090754761},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-dr-education-hpdre-8-23-20-dominion-raceway-701235',
+title: 'High Performance DR Education (HPDRE) 8/23/20'
+});
+google.maps.event.addListener(marker230, 'click', function() {
+window.location.href = marker230.url;
+});
+var marker231 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/potomacs-porschefest-de-summit-point-circuit-pca-potomac-founders-091088',
+title: 'Potomacs PorscheFest DE'
+});
+google.maps.event.addListener(marker231, 'click', function() {
+window.location.href = marker231.url;
+});
+var marker232 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/watkins-glen-1-advanced-solo-drivers-international-pca-northern-new-693023',
+title: 'Watkins Glen 1 (advanced/solo drivers)'
+});
+google.maps.event.addListener(marker232, 'click', function() {
+window.location.href = marker232.url;
+});
+var marker233 = new google.maps.Marker({
+position: {lat: 43.6498333528, lng: -72.0001454211},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-august-22-23-2020-canaan-motor-club-888651',
+title: 'MassTuning TrackFest (August 22-23, 2020)'
+});
+google.maps.event.addListener(marker233, 'click', function() {
+window.location.href = marker233.url;
+});
+var marker234 = new google.maps.Marker({
+position: {lat: 39.7355953743, lng: -103.89720397},
+map: map,
+url: 'https://motorsportreg.com/events/flying-solo-on-plains-hpde-soloed-drivers-only-high-raceway-pca-rocky-mountain-161808',
+title: 'Flying Solo on the Plains HPDE SOLOED DRIVERS ONLY'
+});
+google.maps.event.addListener(marker234, 'click', function() {
+window.location.href = marker234.url;
+});
+var marker235 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-autobahn-country-club-july-129382',
+title: 'Xtreme Xperience Autobahn Country Club July'
+});
+google.maps.event.addListener(marker235, 'click', function() {
+window.location.href = marker235.url;
+});
+var marker236 = new google.maps.Marker({
+position: {lat: 39.2417863578, lng: -77.9755090944},
+map: map,
+url: 'https://motorsportreg.com/events/evasive-security-driving-course-bsr-training-center-410020',
+title: 'Evasive & Security Driving Course'
+});
+google.maps.event.addListener(marker236, 'click', function() {
+window.location.href = marker236.url;
+});
+var marker237 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-njmp-lightning-482048',
+title: 'Motorsports Enthusiasts HPDE'
+});
+google.maps.event.addListener(marker237, 'click', function() {
+window.location.href = marker237.url;
+});
+var marker238 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/schattenbaum-njmp-thunderbolt-november-pca-076261',
+title: 'Schattenbaum NJMP Thunderbolt-November'
+});
+google.maps.event.addListener(marker238, 'click', function() {
+window.location.href = marker238.url;
+});
+var marker239 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/edge-addicts-circuit-of-americas-driver-school-233357',
+title: 'Edge Addicts @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker239, 'click', function() {
+window.location.href = marker239.url;
+});
+var marker240 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-eagles-canyon-raceway-driver-school-599563',
+title: 'The Drivers Edge @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker240, 'click', function() {
+window.location.href = marker240.url;
+});
+var marker241 = new google.maps.Marker({
+position: {lat: 32.1730050214, lng: -81.3207581642},
+map: map,
+url: 'https://motorsportreg.com/events/pca-coastal-empire-roebling-road-raceway-driver-school-932618',
+title: 'PCA - Coastal Empire @ Roebling Road Raceway'
+});
+google.maps.event.addListener(marker241, 'click', function() {
+window.location.href = marker241.url;
+});
+var marker242 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-motorsport-ranch-cresson-driver-school-070902',
+title: 'The Drivers Edge @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker242, 'click', function() {
+window.location.href = marker242.url;
+});
+var marker243 = new google.maps.Marker({
+position: {lat: 38.1576714123, lng: -122.45082545},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-sonoma-raceway-driver-school-186594',
+title: 'Hooked On Driving - California @ Sonoma Raceway'
+});
+google.maps.event.addListener(marker243, 'click', function() {
+window.location.href = marker243.url;
+});
+var marker244 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/audi-club-pcc-vir-fall-finale-virginia-international-raceway-na-potomac-794134',
+title: 'Audi Club PCC VIR Fall Finale '
+});
+google.maps.event.addListener(marker244, 'click', function() {
+window.location.href = marker244.url;
+});
+var marker245 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/pca-metro-new-york-lime-rock-park-driver-school-249514',
+title: 'PCA - Metro New York @ Lime Rock Park'
+});
+google.maps.event.addListener(marker245, 'click', function() {
+window.location.href = marker245.url;
+});
+var marker246 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-test-tune-day-september-16-2020-644640',
+title: 'Road America Test & Tune Day September 11, 2020'
+});
+google.maps.event.addListener(marker246, 'click', function() {
+window.location.href = marker246.url;
+});
+var marker247 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-summit-point-circuit-driver-school-593437',
+title: 'Chin Track Days @ Summit Point - Summit Point Circuit'
+});
+google.maps.event.addListener(marker247, 'click', function() {
+window.location.href = marker247.url;
+});
+var marker248 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/eagles-canyon-raceway-driver-school-349549',
+title: 'Eagles Canyon Raceway @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker248, 'click', function() {
+window.location.href = marker248.url;
+});
+var marker249 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-weathertech-raceway-laguna-seca-driver-school-301992',
+title: 'Hooked On Driving - California @ WeatherTech Raceway Laguna Seca'
+});
+google.maps.event.addListener(marker249, 'click', function() {
+window.location.href = marker249.url;
+});
+var marker250 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/pitt-race-full-track-pde-group-1-2-instructed-pittsburgh-international-compl-164617',
+title: 'Pitt Race Full Track PDE Group 1 and 2 Instructed'
+});
+google.maps.event.addListener(marker250, 'click', function() {
+window.location.href = marker250.url;
+});
+var marker251 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/gvc-advanced-hpde-time-trial-race-school-watkins-glen-international-bmw-453672',
+title: 'GVC Advanced HPDE, Time Trial, Race School'
+});
+google.maps.event.addListener(marker251, 'click', function() {
+window.location.href = marker251.url;
+});
+var marker252 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/pca-diablo-de-event-laguna-seca-weathertech-raceway-523970',
+title: 'PCA Diablo DE Event - Laguna Seca '
+});
+google.maps.event.addListener(marker252, 'click', function() {
+window.location.href = marker252.url;
+});
+var marker253 = new google.maps.Marker({
+position: {lat: 38.1576714123, lng: -122.45082545},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-sonoma-raceway-driver-school-640719',
+title: 'Hooked On Driving - California @ Sonoma Raceway'
+});
+google.maps.event.addListener(marker253, 'click', function() {
+window.location.href = marker253.url;
+});
+var marker254 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/just-track-it-michelin-raceway-road-atlanta-driver-school-159848',
+title: 'Just Track It @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker254, 'click', function() {
+window.location.href = marker254.url;
+});
+var marker255 = new google.maps.Marker({
+position: {lat: 41.92835, lng: -73.381392},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-lime-rock-park-main-track-hpde-3399',
+title: 'NASA at Lime Rock Park (Main Track)'
+});
+google.maps.event.addListener(marker255, 'click', function() {
+window.location.href = marker255.url;
+});
+var marker256 = new google.maps.Marker({
+position: {lat: 46.1224164733, lng: -74.5836371533},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-auto-club-quebec-mont-tremblant-driver-school-789910',
+title: 'BMW Auto Club Quebec @ Mont Tremblant'
+});
+google.maps.event.addListener(marker256, 'click', function() {
+window.location.href = marker256.url;
+});
+var marker257 = new google.maps.Marker({
+position: {lat: 41.054344, lng: -75.511279},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-northeast-pocono-raceway-hpde-3281',
+title: 'NASA at Pocono Raceway'
+});
+google.maps.event.addListener(marker257, 'click', function() {
+window.location.href = marker257.url;
+});
+var marker258 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-njmp-thunderbolt-driver-478390',
+title: 'Lucas Oil School of Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker258, 'click', function() {
+window.location.href = marker258.url;
+});
+var marker259 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-njmp-thunderbolt-driver-849091',
+title: 'Lucas Oil School of Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker259, 'click', function() {
+window.location.href = marker259.url;
+});
+var marker260 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-motorsport-ranch-cresson-driver-school-150028',
+title: 'The Drivers Edge @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker260, 'click', function() {
+window.location.href = marker260.url;
+});
+var marker261 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/just-track-it-barber-motorsports-park-driver-school-055805',
+title: 'Just Track It @ Barber Motorsports Park'
+});
+google.maps.event.addListener(marker261, 'click', function() {
+window.location.href = marker261.url;
+});
+var marker262 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-njmp-thunderbolt-driver-532072',
+title: 'Lucas Oil School of Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker262, 'click', function() {
+window.location.href = marker262.url;
+});
+var marker263 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/just-track-it-michelin-raceway-road-atlanta-driver-school-257794',
+title: 'Just Track It @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker263, 'click', function() {
+window.location.href = marker263.url;
+});
+var marker264 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/apex-performance-weathertech-raceway-laguna-seca-driver-school-372092',
+title: 'Lexus Performance Driving School @ WeatherTech Raceway Laguna Seca'
+});
+google.maps.event.addListener(marker264, 'click', function() {
+window.location.href = marker264.url;
+});
+var marker265 = new google.maps.Marker({
+position: {lat: 35.282902, lng: -89.947386},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-mid-south-memphis-international-raceway-hpde-3357',
+title: 'NASA at Memphis International Raceway'
+});
+google.maps.event.addListener(marker265, 'click', function() {
+window.location.href = marker265.url;
+});
+var marker266 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-homestead-miami-speedway-driver-school-657010',
+title: 'Performance Driving Group @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker266, 'click', function() {
+window.location.href = marker266.url;
+});
+var marker267 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-michelin-raceway-road-atlanta-driver-school-663107',
+title: 'Chin Track Days @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker267, 'click', function() {
+window.location.href = marker267.url;
+});
+var marker268 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-sebring-intl-raceway-driver-school-780842',
+title: 'Performance Driving Group @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker268, 'click', function() {
+window.location.href = marker268.url;
+});
+var marker269 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/eagles-canyon-raceway-driver-school-453658',
+title: 'Eagles Canyon Raceway @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker269, 'click', function() {
+window.location.href = marker269.url;
+});
+var marker270 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-184074',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker270, 'click', function() {
+window.location.href = marker270.url;
+});
+var marker271 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/eagles-canyon-raceway-driver-school-845597',
+title: 'Eagles Canyon Raceway @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker271, 'click', function() {
+window.location.href = marker271.url;
+});
+var marker272 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/mvp-track-time-road-atlanta-driver-school-356235',
+title: 'MVP Track Time @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker272, 'click', function() {
+window.location.href = marker272.url;
+});
+var marker273 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-pittsburgh-international-race-compl-driver-school-139359',
+title: 'AutoInterests @ Pittsburgh International Race Compl'
+});
+google.maps.event.addListener(marker273, 'click', function() {
+window.location.href = marker273.url;
+});
+var marker274 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-njmp-thunderbolt-driver-503817',
+title: 'Lucas Oil School of Racing @ NJMP Thunderbolt'
+});
+google.maps.event.addListener(marker274, 'click', function() {
+window.location.href = marker274.url;
+});
+var marker275 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-thunderhill-raceway-park-driver-school-105157',
+title: 'Hooked On Driving - California @ Thunderhill Raceway Park'
+});
+google.maps.event.addListener(marker275, 'click', function() {
+window.location.href = marker275.url;
+});
+var marker276 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/mvp-track-time-autobahn-country-club-driver-school-375388',
+title: 'MVP Track Time @ Autobahn Country Club'
+});
+google.maps.event.addListener(marker276, 'click', function() {
+window.location.href = marker276.url;
+});
+var marker277 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-autobahn-country-club-driver-702522',
+title: 'Lucas Oil School of Racing @ Autobahn Country Club'
+});
+google.maps.event.addListener(marker277, 'click', function() {
+window.location.href = marker277.url;
+});
+var marker278 = new google.maps.Marker({
+position: {lat: 42.4867238544, lng: -74.7808247146},
+map: map,
+url: 'https://motorsportreg.com/events/august-azp-track-event-new-york-safety-nyst-events-451399',
+title: 'August AZP Track Event'
+});
+google.maps.event.addListener(marker278, 'click', function() {
+window.location.href = marker278.url;
+});
+var marker279 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-sebring-intl-raceway-driver-school-853176',
+title: 'Performance Driving Group @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker279, 'click', function() {
+window.location.href = marker279.url;
+});
+var marker280 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/lexus-performance-driving-school-weathertech-raceway-laguna-seca-driver-625511',
+title: 'Lexus Performance Driving School @ WeatherTech Raceway Laguna Seca'
+});
+google.maps.event.addListener(marker280, 'click', function() {
+window.location.href = marker280.url;
+});
+var marker281 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/lexus-performance-driving-school-circuit-of-americas-driver-701521',
+title: 'Lexus Performance Driving School @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker281, 'click', function() {
+window.location.href = marker281.url;
+});
+var marker282 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-watkins-glen-international-driver-school-903349',
+title: 'Chin Track Days @ Watkins Glen International'
+});
+google.maps.event.addListener(marker282, 'click', function() {
+window.location.href = marker282.url;
+});
+var marker283 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/mvp-track-time-circuit-of-americas-driver-school-302348',
+title: 'MVP Track Time @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker283, 'click', function() {
+window.location.href = marker283.url;
+});
+var marker284 = new google.maps.Marker({
+position: {lat: 29.1844967318, lng: -81.0703702594},
+map: map,
+url: 'https://motorsportreg.com/events/daytona-2020-with-audi-club-intl-speedway-na-ohio-valley-108799',
+title: 'Daytona 2020 with the Audi Club'
+});
+google.maps.event.addListener(marker284, 'click', function() {
+window.location.href = marker284.url;
+});
+var marker285 = new google.maps.Marker({
+position: {lat: 41.022918693, lng: -95.8226089764},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-raceway-park-of-midlands-402569',
+title: 'Xtreme Xperience Raceway Park of the Midlands'
+});
+google.maps.event.addListener(marker285, 'click', function() {
+window.location.href = marker285.url;
+});
+var marker286 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-823423',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker286, 'click', function() {
+window.location.href = marker286.url;
+});
+var marker287 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-de-portland-october-3-2020-intl-raceway-pacific-northwest-596115',
+title: 'PCA-PNWR DE - Portland - October 3, 2020'
+});
+google.maps.event.addListener(marker287, 'click', function() {
+window.location.href = marker287.url;
+});
+var marker288 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/pca-putnam-park-road-course-driver-school-538917',
+title: 'PCA @ Putnam Park Road Course'
+});
+google.maps.event.addListener(marker288, 'click', function() {
+window.location.href = marker288.url;
+});
+var marker289 = new google.maps.Marker({
+position: {lat: 33.5100726077, lng: -112.390564691},
+map: map,
+url: 'https://motorsportreg.com/events/az-pca-track-day-amp-arizona-motorsports-park-075873',
+title: 'AZ PCA Track Day @ AMP'
+});
+google.maps.event.addListener(marker289, 'click', function() {
+window.location.href = marker289.url;
+});
+var marker290 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/1010ths-hpde-october-2020-ncm-motorsport-park-motorsports-123228',
+title: '1010ths HPDE October 2020 NCM'
+});
+google.maps.event.addListener(marker290, 'click', function() {
+window.location.href = marker290.url;
+});
+var marker291 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/potomacs-vir-labor-day-weekend-de-virginia-international-raceway-pca-489312',
+title: 'Potomacs VIR DE'
+});
+google.maps.event.addListener(marker291, 'click', function() {
+window.location.href = marker291.url;
+});
+var marker292 = new google.maps.Marker({
+position: {lat: 41.4531523087, lng: -88.1266386894},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-autobahn-country-club-driver-270981',
+title: 'Lucas Oil School of Racing @ Autobahn Country Club'
+});
+google.maps.event.addListener(marker292, 'click', function() {
+window.location.href = marker292.url;
+});
+var marker293 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-8-28-pineview-run-760137',
+title: 'Rookie Fridays (8/28)'
+});
+google.maps.event.addListener(marker293, 'click', function() {
+window.location.href = marker293.url;
+});
+var marker294 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/friday-at-track-novice-only-summit-point-circuit-135839',
+title: 'Friday at the Track-Novice Only'
+});
+google.maps.event.addListener(marker294, 'click', function() {
+window.location.href = marker294.url;
+});
+var marker295 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/lime-rock-summerfest-advanced-solo-park-pca-northern-new-jersey-drivers-718291',
+title: 'Lime Rock Summerfest (Advanced/solo)'
+});
+google.maps.event.addListener(marker295, 'click', function() {
+window.location.href = marker295.url;
+});
+var marker296 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/eagles-canyon-raceway-driver-school-742875',
+title: 'Eagles Canyon Raceway @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker296, 'click', function() {
+window.location.href = marker296.url;
+});
+var marker297 = new google.maps.Marker({
+position: {lat: 39.540969, lng: -122.332381},
+map: map,
+url: 'https://motorsportreg.com/events/nasa-california-northern-thunderhill-raceway-park-hpde-3319',
+title: 'NASA at Thunderhill Raceway Park'
+});
+google.maps.event.addListener(marker297, 'click', function() {
+window.location.href = marker297.url;
+});
+var marker298 = new google.maps.Marker({
+position: {lat: 34.9051216699, lng: -82.1787870181},
+map: map,
+url: 'https://motorsportreg.com/events/m-day-at-performance-center-bmw-cca-new-jersey-299038',
+title: 'M-Day at the Performance Center'
+});
+google.maps.event.addListener(marker298, 'click', function() {
+window.location.href = marker298.url;
+});
+var marker299 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-homestead-miami-speedway-driver-school-233178',
+title: 'Performance Driving Group @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker299, 'click', function() {
+window.location.href = marker299.url;
+});
+var marker300 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/ncm-august-hpde-motorsport-park-motorsports-448758',
+title: 'NCM August HPDE '
+});
+google.maps.event.addListener(marker300, 'click', function() {
+window.location.href = marker300.url;
+});
+var marker301 = new google.maps.Marker({
+position: {lat: 33.2698992509, lng: -111.970890548},
+map: map,
+url: 'https://motorsportreg.com/events/az-pca-track-day-bondurant-bob-arizona-626033',
+title: 'AZ PCA Track Day @ Bondurant'
+});
+google.maps.event.addListener(marker301, 'click', function() {
+window.location.href = marker301.url;
+});
+var marker302 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/mvp-track-time-ncm-motorsport-park-driver-school-391857',
+title: 'MVP Track Time @ NCM Motorsport Park'
+});
+google.maps.event.addListener(marker302, 'click', function() {
+window.location.href = marker302.url;
+});
+var marker303 = new google.maps.Marker({
+position: {lat: 40.8468500766, lng: -80.3430097545},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-pittsburgh-international-race-compl-driver-school-043824',
+title: 'AutoInterests @ Pittsburgh International Race Compl'
+});
+google.maps.event.addListener(marker303, 'click', function() {
+window.location.href = marker303.url;
+});
+var marker304 = new google.maps.Marker({
+position: {lat: 40.2050172004, lng: -75.0614771876},
+map: map,
+url: 'https://motorsportreg.com/events/trss-coach-volunteer-8-29-2020-mccc-montgomery-county-community-college-674914',
+title: 'TRSS Coach/Volunteer - 8/29/2020 Warminster Park'
+});
+google.maps.event.addListener(marker304, 'click', function() {
+window.location.href = marker304.url;
+});
+var marker305 = new google.maps.Marker({
+position: {lat: 44.0554680422, lng: -78.6785677862},
+map: map,
+url: 'https://motorsportreg.com/events/trillium-de-at-ctmp-august-canadian-tire-motorsport-park-bmw-cca-457307',
+title: 'Trillium DE at CTMP (August 28-30)'
+});
+google.maps.event.addListener(marker305, 'click', function() {
+window.location.href = marker305.url;
+});
+var marker306 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-am-practice-session-palm-beach-international-raceway-racing-school-047803',
+title: 'Bertil Roos AM Practice Session'
+});
+google.maps.event.addListener(marker306, 'click', function() {
+window.location.href = marker306.url;
+});
+var marker307 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/pca-maverick-eagles-canyon-raceway-driver-school-902224',
+title: 'PCA - Maverick @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker307, 'click', function() {
+window.location.href = marker307.url;
+});
+var marker308 = new google.maps.Marker({
+position: {lat: 40.5840414728, lng: -112.373516539},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-utah-motorsports-campus-929362',
+title: 'Xtreme Xperience Utah Motorsports Campus'
+});
+google.maps.event.addListener(marker308, 'click', function() {
+window.location.href = marker308.url;
+});
+var marker309 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-9-4-pineview-run-160830',
+title: 'Rookie Fridays (9/4)'
+});
+google.maps.event.addListener(marker309, 'click', function() {
+window.location.href = marker309.url;
+});
+var marker310 = new google.maps.Marker({
+position: {lat: 38.6507530136, lng: -90.1353563427},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-world-wide-technology-raceway-tech-at-gateway-789947',
+title: 'Xtreme Xperience World Wide Technology Raceway'
+});
+google.maps.event.addListener(marker310, 'click', function() {
+window.location.href = marker310.url;
+});
+var marker311 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-putnam-park-road-course-676083',
+title: 'Xtreme Xperience Putnam Park'
+});
+google.maps.event.addListener(marker311, 'click', function() {
+window.location.href = marker311.url;
+});
+var marker312 = new google.maps.Marker({
+position: {lat: 29.9045523494, lng: -90.1682300431},
+map: map,
+url: 'https://motorsportreg.com/events/lucas-oil-school-of-racing-nola-motorsports-park-driver-075365',
+title: 'Lucas Oil School of Racing @ NOLA Motorsports Park'
+});
+google.maps.event.addListener(marker312, 'click', function() {
+window.location.href = marker312.url;
+});
+var marker313 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-163879',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker313, 'click', function() {
+window.location.href = marker313.url;
+});
+var marker314 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-149557',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker314, 'click', function() {
+window.location.href = marker314.url;
+});
+var marker315 = new google.maps.Marker({
+position: {lat: 46.3453538478, lng: -123.107425195},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-pacific-northwest-ridge-motorsports-park-road-course-704926',
+title: 'Hooked On Driving - Pacific Northwest Region @ Ridge Motorsports Park, Road Course'
+});
+google.maps.event.addListener(marker315, 'click', function() {
+window.location.href = marker315.url;
+});
+var marker316 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-solo-de-pacific-rcwy-sept-10-2020-raceways-northwest-270202',
+title: 'PCA-PNWR Solo DE - Pacific Rcwy - Sept 10, 2020'
+});
+google.maps.event.addListener(marker316, 'click', function() {
+window.location.href = marker316.url;
+});
+var marker317 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-njmp-lightning-211568',
+title: 'Motorsports Enthusiasts HPDE'
+});
+google.maps.event.addListener(marker317, 'click', function() {
+window.location.href = marker317.url;
+});
+var marker318 = new google.maps.Marker({
+position: {lat: 40.1838162932, lng: -74.8806274387},
+map: map,
+url: 'https://motorsportreg.com/events/trss-coach-volunteer-9-12-20-oxford-valley-mall-mid-atlantic-volunteers-652911',
+title: 'TRSS Coach/Volunteer - 9/12/20 Oxford Valley Mall'
+});
+google.maps.event.addListener(marker318, 'click', function() {
+window.location.href = marker318.url;
+});
+var marker319 = new google.maps.Marker({
+position: {lat: 29.2784289084, lng: -95.4221071742},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-msr-houston-driver-school-433221',
+title: 'Chin Track Days @ MSR Houston'
+});
+google.maps.event.addListener(marker319, 'click', function() {
+window.location.href = marker319.url;
+});
+var marker320 = new google.maps.Marker({
+position: {lat: 49.1634796534, lng: -119.516261994},
+map: map,
+url: 'https://motorsportreg.com/events/888-racing-area-27-september-9-10-2020-motorsports-park-velocity-autosports-639438',
+title: '888 Racing @ Area 27 -September 9-10, 2020'
+});
+google.maps.event.addListener(marker320, 'click', function() {
+window.location.href = marker320.url;
+});
+var marker321 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-am-practice-session-pocono-raceway-racing-school-216853',
+title: 'Bertil Roos AM Practice Session'
+});
+google.maps.event.addListener(marker321, 'click', function() {
+window.location.href = marker321.url;
+});
+var marker322 = new google.maps.Marker({
+position: {lat: 39.2403315275, lng: -77.9394456956},
+map: map,
+url: 'https://motorsportreg.com/events/friday-at-track-summit-point-circuit-352602',
+title: 'Friday at the Track'
+});
+google.maps.event.addListener(marker322, 'click', function() {
+window.location.href = marker322.url;
+});
+var marker323 = new google.maps.Marker({
+position: {lat: 39.2403281125, lng: -77.9395959597},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-summit-point-raceway-shenandoah-driver-school-402868',
+title: 'AutoInterests @ Summit Point Raceway - Shenandoah'
+});
+google.maps.event.addListener(marker323, 'click', function() {
+window.location.href = marker323.url;
+});
+var marker324 = new google.maps.Marker({
+position: {lat: 42.8989667519, lng: -79.8569666631},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-performance-driving-may-9th-2020-toronto-motorsports-park-tmp-456372',
+title: 'Intro to Performance Driving (May 8th, 2021)'
+});
+google.maps.event.addListener(marker324, 'click', function() {
+window.location.href = marker324.url;
+});
+var marker325 = new google.maps.Marker({
+position: {lat: 42.8989667519, lng: -79.8569666631},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-performance-driving-june-6th-2020-toronto-motorsports-park-tmp-701721',
+title: 'Intro to Performance Driving (June 5th, 2021)'
+});
+google.maps.event.addListener(marker325, 'click', function() {
+window.location.href = marker325.url;
+});
+var marker326 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/pca-northeast-rsi-workers-watkins-glen-international-race-services-410551',
+title: 'PCA Northeast Region - RSI Workers'
+});
+google.maps.event.addListener(marker326, 'click', function() {
+window.location.href = marker326.url;
+});
+var marker327 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-njmp-thunderbolt-272825',
+title: 'Motorsports Enthusiasts HPDE'
+});
+google.maps.event.addListener(marker327, 'click', function() {
+window.location.href = marker327.url;
+});
+var marker328 = new google.maps.Marker({
+position: {lat: 42.2079087024, lng: -72.3021763861},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-june-28-2020-palmer-motorsports-park-692069',
+title: 'MassTuning TrackFest (August 30, 2020)'
+});
+google.maps.event.addListener(marker328, 'click', function() {
+window.location.href = marker328.url;
+});
+var marker329 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-barber-motorsports-park-driver-school-753968',
+title: 'Chin Track Days @ Barber Motorsports Park'
+});
+google.maps.event.addListener(marker329, 'click', function() {
+window.location.href = marker329.url;
+});
+var marker330 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/apex-driving-academy-hpde-on-3-1-mi-ccw-sep-12-motorsport-ranch-cresson-389598',
+title: 'APEX DRIVING ACADEMY HPDE on 3.1 mi CCW on SEP 12'
+});
+google.maps.event.addListener(marker330, 'click', function() {
+window.location.href = marker330.url;
+});
+var marker331 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-7-10-pineview-run-472237',
+title: 'Rookie Fridays (7/10)'
+});
+google.maps.event.addListener(marker331, 'click', function() {
+window.location.href = marker331.url;
+});
+var marker332 = new google.maps.Marker({
+position: {lat: 35.2826842818, lng: -89.9360377624},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-memphis-international-event-6-raceway-514773',
+title: 'Xtreme Xperience Memphis International Event #6'
+});
+google.maps.event.addListener(marker332, 'click', function() {
+window.location.href = marker332.url;
+});
+var marker333 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-mid-ohio-sports-car-course-driver-school-654211',
+title: 'AutoInterests @ Mid-Ohio Sports Car Course'
+});
+google.maps.event.addListener(marker333, 'click', function() {
+window.location.href = marker333.url;
+});
+var marker334 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/dafanz-tracktime-4-cars-tt4c-pocono-east-8-9-raceway-track-time-594406',
+title: 'DafanZ TrackTime 4 Cars(TT4C) Pocono East 8/9'
+});
+google.maps.event.addListener(marker334, 'click', function() {
+window.location.href = marker334.url;
+});
+var marker335 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-northeast-pocono-raceway-driver-school-972153',
+title: 'Hooked On Driving - Northeast @ Pocono Raceway'
+});
+google.maps.event.addListener(marker335, 'click', function() {
+window.location.href = marker335.url;
+});
+var marker336 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-391046',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker336, 'click', function() {
+window.location.href = marker336.url;
+});
+var marker337 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-pacific-northwest-portland-intl-raceway-driver-school-838104',
+title: 'Hooked On Driving - Pacific Northwest Region @ Portland Intl Raceway'
+});
+google.maps.event.addListener(marker337, 'click', function() {
+window.location.href = marker337.url;
+});
+var marker338 = new google.maps.Marker({
+position: {lat: 38.659468335, lng: -90.1371458522},
+map: map,
+url: 'https://motorsportreg.com/events/st-louis-scca-pde-track-event-5-circuit-of-old-pdx-414132',
+title: 'St. Louis Region SCCA PDE Track Event #5'
+});
+google.maps.event.addListener(marker338, 'click', function() {
+window.location.href = marker338.url;
+});
+var marker339 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-8-14-pineview-run-047533',
+title: 'Rookie Fridays (8/14)'
+});
+google.maps.event.addListener(marker339, 'click', function() {
+window.location.href = marker339.url;
+});
+var marker340 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-sebring-intl-raceway-driver-school-145492',
+title: 'Performance Driving Group @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker340, 'click', function() {
+window.location.href = marker340.url;
+});
+var marker341 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/1morelap-novice-day-saturday-august-15th-calabogie-motorsports-park-751137',
+title: '1morelap Novice Day Saturday August 15th'
+});
+google.maps.event.addListener(marker341, 'click', function() {
+window.location.href = marker341.url;
+});
+var marker342 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-ncm-motorsport-park-driver-school-898788',
+title: 'AutoInterests @ NCM Motorsport Park'
+});
+google.maps.event.addListener(marker342, 'click', function() {
+window.location.href = marker342.url;
+});
+var marker343 = new google.maps.Marker({
+position: {lat: 42.8989667519, lng: -79.8569666631},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-performance-driving-july-4th-2020-toronto-motorsports-park-tmp-382163',
+title: 'Intro to Performance Driving (July 10th, 2021)'
+});
+google.maps.event.addListener(marker343, 'click', function() {
+window.location.href = marker343.url;
+});
+var marker344 = new google.maps.Marker({
+position: {lat: 38.659468335, lng: -90.1371458522},
+map: map,
+url: 'https://motorsportreg.com/events/st-louis-scca-pde-track-event-6-circuit-of-old-pdx-220240',
+title: 'St. Louis Region SCCA PDE Track Event #6'
+});
+google.maps.event.addListener(marker344, 'click', function() {
+window.location.href = marker344.url;
+});
+var marker345 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-sebring-intl-raceway-driver-school-453247',
+title: 'Performance Driving Group @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker345, 'click', function() {
+window.location.href = marker345.url;
+});
+var marker346 = new google.maps.Marker({
+position: {lat: 49.1554883321, lng: -119.52623407},
+map: map,
+url: 'https://motorsportreg.com/events/acnw-ausflug-20-area-27-audi-club-na-northwest-958673',
+title: 'ACNW Ausflug 21'
+});
+google.maps.event.addListener(marker346, 'click', function() {
+window.location.href = marker346.url;
+});
+var marker347 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-test-tune-day-august-12-2020-603228',
+title: 'Road America Test & Tune Day August 12, 2020'
+});
+google.maps.event.addListener(marker347, 'click', function() {
+window.location.href = marker347.url;
+});
+var marker348 = new google.maps.Marker({
+position: {lat: 43.7923281743, lng: -71.1786444189},
+map: map,
+url: 'https://motorsportreg.com/events/ncr-pca-mid-summer-tamworth-revised-club-motorsports-north-country-887835',
+title: 'NCR/PCA - Mid Summer Tamworth - REVISED'
+});
+google.maps.event.addListener(marker348, 'click', function() {
+window.location.href = marker348.url;
+});
+var marker349 = new google.maps.Marker({
+position: {lat: 45.3041222449, lng: -76.6726710011},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcco-mco-advanced-driving-school-lapping-calabogie-motorsports-park-bmw-940306',
+title: 'BMWCCO / MCO - Advanced Driving School / Lapping'
+});
+google.maps.event.addListener(marker349, 'click', function() {
+window.location.href = marker349.url;
+});
+var marker350 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/autointerests-summit-point-circuit-driver-school-913990',
+title: 'AutoInterests @ Summit Point - Summit Point Circuit'
+});
+google.maps.event.addListener(marker350, 'click', function() {
+window.location.href = marker350.url;
+});
+var marker351 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/dafanz-tracktime-4-cars-tt4c-pocono-north-9-6-raceway-track-time-085297',
+title: 'DafanZ TrackTime 4 Cars(TT4C) Pocono North 9/6'
+});
+google.maps.event.addListener(marker351, 'click', function() {
+window.location.href = marker351.url;
+});
+var marker352 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-driving-course-portland-intl-raceway-pro-drive-466524',
+title: 'High Performance Driving Course'
+});
+google.maps.event.addListener(marker352, 'click', function() {
+window.location.href = marker352.url;
+});
+var marker353 = new google.maps.Marker({
+position: {lat: 42.4114824905, lng: -86.1419154906},
+map: map,
+url: 'https://motorsportreg.com/events/cgi-motorsports-gingerman-raceway-driver-school-386629',
+title: 'CGI Motorsports @ GingerMan Raceway'
+});
+google.maps.event.addListener(marker353, 'click', function() {
+window.location.href = marker353.url;
+});
+var marker354 = new google.maps.Marker({
+position: {lat: 39.2403315275, lng: -77.9394456956},
+map: map,
+url: 'https://motorsportreg.com/events/high-performance-driving-clinic-summer-fall-summit-point-raceway-412298',
+title: 'High Performance Driving Clinic - Summer/Fall'
+});
+google.maps.event.addListener(marker354, 'click', function() {
+window.location.href = marker354.url;
+});
+var marker355 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-296382',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker355, 'click', function() {
+window.location.href = marker355.url;
+});
+var marker356 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/schattenbaum-njmp-t-bolt-adv-de-at-club-race-thunderbolt-raceway-pca-455133',
+title: 'Schattenbaum NJMP Tbolt Adv. DE at Club Race'
+});
+google.maps.event.addListener(marker356, 'click', function() {
+window.location.href = marker356.url;
+});
+var marker357 = new google.maps.Marker({
+position: {lat: 42.4867238544, lng: -74.7808247146},
+map: map,
+url: 'https://motorsportreg.com/events/bishs-run-new-york-safety-track-july-14-2020-nyst-hpd-instructor-515534',
+title: 'Bishs Run New York Safety Track July 14 2020'
+});
+google.maps.event.addListener(marker357, 'click', function() {
+window.location.href = marker357.url;
+});
+var marker358 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-036256',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker358, 'click', function() {
+window.location.href = marker358.url;
+});
+var marker359 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/apex-driving-academy-hpde-on-1-7-mi-cw-dec-5-motorsport-ranch-cresson-218106',
+title: 'APEX DRIVING ACADEMY HPDE on 1.7 mi CW on DEC 5'
+});
+google.maps.event.addListener(marker359, 'click', function() {
+window.location.href = marker359.url;
+});
+var marker360 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/scca-majors-test-day-august-14-2020-road-america-862826',
+title: 'SCCA Majors Test Day August 14, 2020'
+});
+google.maps.event.addListener(marker360, 'click', function() {
+window.location.href = marker360.url;
+});
+var marker361 = new google.maps.Marker({
+position: {lat: 43.6498333528, lng: -72.0001454211},
+map: map,
+url: 'https://motorsportreg.com/events/mr2-track-day-canaan-motor-club-masstuning-116421',
+title: 'MR2 Track Day'
+});
+google.maps.event.addListener(marker361, 'click', function() {
+window.location.href = marker361.url;
+});
+var marker362 = new google.maps.Marker({
+position: {lat: 39.5364953601, lng: -122.333359856},
+map: map,
+url: 'https://motorsportreg.com/events/hooked-on-driving-california-thunderhill-raceway-park-driver-school-427886',
+title: 'Hooked On Driving - California @ Thunderhill Raceway Park'
+});
+google.maps.event.addListener(marker362, 'click', function() {
+window.location.href = marker362.url;
+});
+var marker363 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/putnam-park-road-course-windy-city-bmw-hpde-2020-cca-860084',
+title: 'Putnam Park Road Course Windy City BMW HPDE 2020'
+});
+google.maps.event.addListener(marker363, 'click', function() {
+window.location.href = marker363.url;
+});
+var marker364 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/2019-mustangs-northwest-ride-drive-pacific-raceways-859575',
+title: '2020 Mustangs Northwest Ride and Drive'
+});
+google.maps.event.addListener(marker364, 'click', function() {
+window.location.href = marker364.url;
+});
+var marker365 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-roush-stage-3-lrp-lime-rock-park-skip-barber-school-292064',
+title: 'Intro to Racing - Roush Stage 3 - LRP'
+});
+google.maps.event.addListener(marker365, 'click', function() {
+window.location.href = marker365.url;
+});
+var marker366 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-njmp-lightning-011000',
+title: 'Motorsports Enthusiasts HPDE'
+});
+google.maps.event.addListener(marker366, 'click', function() {
+window.location.href = marker366.url;
+});
+var marker367 = new google.maps.Marker({
+position: {lat: 43.7923281743, lng: -71.1786444189},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-august-15-2020-club-motorsports-748182',
+title: 'MassTuning TrackFest (August 15, 2020)'
+});
+google.maps.event.addListener(marker367, 'click', function() {
+window.location.href = marker367.url;
+});
+var marker368 = new google.maps.Marker({
+position: {lat: 34.8711448938, lng: -118.264001452},
+map: map,
+url: 'https://motorsportreg.com/events/streets-of-willow-clock-wise-springs-intl-raceway-extreme-speed-track-events-109995',
+title: 'Streets of Willow Clock Wise'
+});
+google.maps.event.addListener(marker368, 'click', function() {
+window.location.href = marker368.url;
+});
+var marker369 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/pca-metro-ny-rsi-workers-watkins-glen-international-race-services-939231',
+title: 'PCA Metro NY Region - RSI Workers'
+});
+google.maps.event.addListener(marker369, 'click', function() {
+window.location.href = marker369.url;
+});
+var marker370 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-lime-rock-park-skip-barber-973126',
+title: '3 Day Racing School - Mustang GT  '
+});
+google.maps.event.addListener(marker370, 'click', function() {
+window.location.href = marker370.url;
+});
+var marker371 = new google.maps.Marker({
+position: {lat: 38.659468335, lng: -90.1371458522},
+map: map,
+url: 'https://motorsportreg.com/events/st-louis-scca-pde-track-event-4-circuit-of-old-pdx-024541',
+title: 'St. Louis Region SCCA PDE Track Event #4'
+});
+google.maps.event.addListener(marker371, 'click', function() {
+window.location.href = marker371.url;
+});
+var marker372 = new google.maps.Marker({
+position: {lat: 43.7923281743, lng: -71.1786444189},
+map: map,
+url: 'https://motorsportreg.com/events/ncr-pca-fall-tamworth-club-motorsports-north-country-drivers-education-788765',
+title: 'NCR/PCA - Fall Tamworth'
+});
+google.maps.event.addListener(marker372, 'click', function() {
+window.location.href = marker372.url;
+});
+var marker373 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-new-jersey-motorsports-park-skip-barber-racing-school-713990',
+title: 'Hagerty Driving Academy '
+});
+google.maps.event.addListener(marker373, 'click', function() {
+window.location.href = marker373.url;
+});
+var marker374 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-lime-rock-park-skip-barber-656748',
+title: '1 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker374, 'click', function() {
+window.location.href = marker374.url;
+});
+var marker375 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-njmp-new-jersey-motorsports-park-skip-barber-090248',
+title: '1 Day Racing School - Mustang GT - NJMP'
+});
+google.maps.event.addListener(marker375, 'click', function() {
+window.location.href = marker375.url;
+});
+var marker376 = new google.maps.Marker({
+position: {lat: 39.2403281125, lng: -77.9395959597},
+map: map,
+url: 'https://motorsportreg.com/events/friday-at-track-novice-only-summit-point-raceway-jefferson-286572',
+title: 'Friday at the Track-Novice Only'
+});
+google.maps.event.addListener(marker376, 'click', function() {
+window.location.href = marker376.url;
+});
+var marker377 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-lime-rock-park-skip-barber-413240',
+title: '3 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker377, 'click', function() {
+window.location.href = marker377.url;
+});
+var marker378 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-lime-rock-park-skip-barber-racing-school-373388',
+title: 'Hagerty Driving Academy '
+});
+google.maps.event.addListener(marker378, 'click', function() {
+window.location.href = marker378.url;
+});
+var marker379 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-lime-rock-park-skip-barber-396440',
+title: '1 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker379, 'click', function() {
+window.location.href = marker379.url;
+});
+var marker380 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-roush-stage-3-lrp-lime-rock-park-skip-barber-school-316783',
+title: 'Intro to Racing - Roush Stage 3 - LRP'
+});
+google.maps.event.addListener(marker380, 'click', function() {
+window.location.href = marker380.url;
+});
+var marker381 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/motorsports-enthusiasts-hpde-njmp-thunderbolt-461376',
+title: 'Motorsports Enthusiasts HPDE'
+});
+google.maps.event.addListener(marker381, 'click', function() {
+window.location.href = marker381.url;
+});
+var marker382 = new google.maps.Marker({
+position: {lat: 39.2403281125, lng: -77.9395959597},
+map: map,
+url: 'https://motorsportreg.com/events/shenandoah-driver-school-summit-point-raceway-bmw-cca-new-jersey-839682',
+title: 'Shenandoah Driver School'
+});
+google.maps.event.addListener(marker382, 'click', function() {
+window.location.href = marker382.url;
+});
+var marker383 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/scda-lime-rock-park-unmuffled-track-event-9-8-sports-car-driving-association-416706',
+title: 'SCDA- Lime Rock Park- UNMUFFLED Track Event- 9/8'
+});
+google.maps.event.addListener(marker383, 'click', function() {
+window.location.href = marker383.url;
+});
+var marker384 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-psr-hpde-pacific-sept-11-2020-raceways-bmw-cca-puget-sound-224497',
+title: 'BMWCCA PSR HPDE @ PACIFIC Sept 11, 2020'
+});
+google.maps.event.addListener(marker384, 'click', function() {
+window.location.href = marker384.url;
+});
+var marker385 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/fall-fastival-2020-putnam-park-road-course-pca-kentucky-460855',
+title: 'Fall Fastival 2020'
+});
+google.maps.event.addListener(marker385, 'click', function() {
+window.location.href = marker385.url;
+});
+var marker386 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-1-2-day-road-racing-adventure-pocono-raceway-school-577942',
+title: 'Bertil Roos 1/2 Day & 1 Day Road Racing Adventure'
+});
+google.maps.event.addListener(marker386, 'click', function() {
+window.location.href = marker386.url;
+});
+var marker387 = new google.maps.Marker({
+position: {lat: 38.5906644244, lng: -104.67891229},
+map: map,
+url: 'https://motorsportreg.com/events/2020-rmvr-drivers-school-pikes-peak-intl-raceway-rocky-mountain-vintage-racing-689855',
+title: '2020 RMVR Drivers School'
+});
+google.maps.event.addListener(marker387, 'click', function() {
+window.location.href = marker387.url;
+});
+var marker388 = new google.maps.Marker({
+position: {lat: 36.450984724, lng: -77.5588675551},
+map: map,
+url: 'https://motorsportreg.com/events/tscc-summer-2-day-hpde-at-nccar-tidewater-sports-car-club-619317',
+title: 'TSCC Summer 2-Day HPDE at NCCAR'
+});
+google.maps.event.addListener(marker388, 'click', function() {
+window.location.href = marker388.url;
+});
+var marker389 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-1-2-day-road-racing-adventure-pocono-raceway-school-081792',
+title: 'Bertil Roos 1/2 Day Road Racing Adventure'
+});
+google.maps.event.addListener(marker389, 'click', function() {
+window.location.href = marker389.url;
+});
+var marker390 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/arpca-mid-ohio-high-perf-driver-education-sports-car-course-pca-allegheny-358726',
+title: 'ARPCA - Mid-Ohio - High Perf. Driver Education'
+});
+google.maps.event.addListener(marker390, 'click', function() {
+window.location.href = marker390.url;
+});
+var marker391 = new google.maps.Marker({
+position: {lat: 34.9060881416, lng: -82.1772365651},
+map: map,
+url: 'https://motorsportreg.com/events/august-2020-m-club-day-bmw-performance-center-cca-national-capital-861008',
+title: 'August 2020 ///M Club Day @ BMW Performance Center'
+});
+google.maps.event.addListener(marker391, 'click', function() {
+window.location.href = marker391.url;
+});
+var marker392 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/august-2020-driving-school-michelin-raceway-road-atlanta-bmw-cca-569000',
+title: 'Fall 2020 Driving School'
+});
+google.maps.event.addListener(marker392, 'click', function() {
+window.location.href = marker392.url;
+});
+var marker393 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/scda-watkins-glen-2-day-track-event-aug-31-sep1-international-sports-car-921385',
+title: 'SCDA- Watkins Glen- 2 Day Track Event- Aug 31-Sep1'
+});
+google.maps.event.addListener(marker393, 'click', function() {
+window.location.href = marker393.url;
+});
+var marker394 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-car-control-clinic-pocono-raceway-racing-school-399650',
+title: 'Bertil Roos Car Control Clinic'
+});
+google.maps.event.addListener(marker394, 'click', function() {
+window.location.href = marker394.url;
+});
+var marker395 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-3-day-road-racing-school-palm-beach-international-raceway-120242',
+title: 'Bertil Roos 3 Day Road Racing School'
+});
+google.maps.event.addListener(marker395, 'click', function() {
+window.location.href = marker395.url;
+});
+var marker396 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-cvc-lime-rock-park-hpde-apr-17-2021-cca-connecticut-valley-090541',
+title: 'BMW CVC Lime Rock Park HPDE - Apr. 17, 2021'
+});
+google.maps.event.addListener(marker396, 'click', function() {
+window.location.href = marker396.url;
+});
+var marker397 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/cscc-hpde-gift-certificate-portland-intl-raceway-cascade-sports-car-club-984469',
+title: 'CSCC HPDE Gift Certificate'
+});
+google.maps.event.addListener(marker397, 'click', function() {
+window.location.href = marker397.url;
+});
+var marker398 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-2-advanced-5-road-racing-week-pocono-raceway-bertil-roos-school-387937',
+title: '3 Day, 2 Day Advanced, and 5 Day Road Racing Week'
+});
+google.maps.event.addListener(marker398, 'click', function() {
+window.location.href = marker398.url;
+});
+var marker399 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-psr-hpde-pacific-july-16-2020-raceways-bmw-cca-puget-sound-633025',
+title: 'BMWCCA PSR HPDE @ PACIFIC July 9, 2020'
+});
+google.maps.event.addListener(marker399, 'click', function() {
+window.location.href = marker399.url;
+});
+var marker400 = new google.maps.Marker({
+position: {lat: 42.8795621844, lng: -76.182270249},
+map: map,
+url: 'https://motorsportreg.com/events/rookie-fridays-8-7-pineview-run-624328',
+title: 'Rookie Fridays (8/7)'
+});
+google.maps.event.addListener(marker400, 'click', function() {
+window.location.href = marker400.url;
+});
+var marker401 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-cvc-lime-rock-park-autocross-skid-pad-clinic-cca-connecticut-valley-656069',
+title: 'BMW CVC Lime Rock Park Autocross & Skid Pad Clinic'
+});
+google.maps.event.addListener(marker401, 'click', function() {
+window.location.href = marker401.url;
+});
+var marker402 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-2-advanced-5-road-racing-week-new-jersey-motorsports-park-bertil-635806',
+title: '3 Day, 2 Day Advanced, and 5 Day Road Racing Week'
+});
+google.maps.event.addListener(marker402, 'click', function() {
+window.location.href = marker402.url;
+});
+var marker403 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/cascade-cscc-hpde-track-day-august-14th-2020-portland-intl-raceway-sports-264969',
+title: 'Cascade (CSCC) HPDE Track Day August 14th, 2020'
+});
+google.maps.event.addListener(marker403, 'click', function() {
+window.location.href = marker403.url;
+});
+var marker404 = new google.maps.Marker({
+position: {lat: 41.9831203466, lng: -71.8299234467},
+map: map,
+url: 'https://motorsportreg.com/events/thompson-hpde-time-trial-speedway-motorsports-park-com-sports-car-club-209941',
+title: 'Thompson HPDE and Time Trial'
+});
+google.maps.event.addListener(marker404, 'click', function() {
+window.location.href = marker404.url;
+});
+var marker405 = new google.maps.Marker({
+position: {lat: 43.3600523321, lng: -71.4636408921},
+map: map,
+url: 'https://motorsportreg.com/events/scda-new-hampshire-motor-speedway-track-event-8-7-sports-car-driving-association-551140',
+title: 'SCDA- New Hampshire Motor Speedway Track Event 8/7'
+});
+google.maps.event.addListener(marker405, 'click', function() {
+window.location.href = marker405.url;
+});
+var marker406 = new google.maps.Marker({
+position: {lat: 37.0036904617, lng: -86.3728988279},
+map: map,
+url: 'https://motorsportreg.com/events/natl-corvette-museum-racecraft1-10-10ths-package-ncm-motorsport-park-550244',
+title: 'Natl Corvette Museum RaceCraft1 10/10ths Package'
+});
+google.maps.event.addListener(marker406, 'click', function() {
+window.location.href = marker406.url;
+});
+var marker407 = new google.maps.Marker({
+position: {lat: 47.3204999553, lng: -122.137838861},
+map: map,
+url: 'https://motorsportreg.com/events/womens-track-day-at-pacific-raceways-accelerating-change-402192',
+title: 'Womens Track Day at Pacific Raceways'
+});
+google.maps.event.addListener(marker407, 'click', function() {
+window.location.href = marker407.url;
+});
+var marker408 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-1-2-day-road-racing-adventure-pocono-raceway-school-680452',
+title: 'Bertil Roos 1/2 Day & 1 Day Road Racing Adventure'
+});
+google.maps.event.addListener(marker408, 'click', function() {
+window.location.href = marker408.url;
+});
+var marker409 = new google.maps.Marker({
+position: {lat: 45.3594843432, lng: -120.725902156},
+map: map,
+url: 'https://motorsportreg.com/events/pca-pnwr-de-orp-july-11-12-2020-oregon-raceway-park-pacific-northwest-862793',
+title: 'PCA-PNWR Solo DE - ORP - July 11-12, 2020'
+});
+google.maps.event.addListener(marker409, 'click', function() {
+window.location.href = marker409.url;
+});
+var marker410 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/watkins-glen-2-advanced-solo-drivers-international-pca-northern-new-621765',
+title: 'Watkins Glen 2 (advanced/solo Drivers)'
+});
+google.maps.event.addListener(marker410, 'click', function() {
+window.location.href = marker410.url;
+});
+var marker411 = new google.maps.Marker({
+position: {lat: 43.0177915528, lng: -88.0095146055},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-milwaukee-mile-event-15-185668',
+title: 'Xtreme Xperience Milwaukee Mile Event Reschedule'
+});
+google.maps.event.addListener(marker411, 'click', function() {
+window.location.href = marker411.url;
+});
+var marker412 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/apex-driving-academy-hpde-on-1-3-mi-ccw-oct-10-motorsport-ranch-cresson-342958',
+title: 'APEX DRIVING ACADEMY HPDE on 1.3 mi CCW on OCT 10'
+});
+google.maps.event.addListener(marker412, 'click', function() {
+window.location.href = marker412.url;
+});
+var marker413 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-lime-rock-park-skip-barber-995509',
+title: '1 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker413, 'click', function() {
+window.location.href = marker413.url;
+});
+var marker414 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-weathertech-raceway-laguna-seca-skip-barber-751973',
+title: '1 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker414, 'click', function() {
+window.location.href = marker414.url;
+});
+var marker415 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/2-day-advanced-racing-school-formula-car-cota-circuit-of-americas-skip-barber-182887',
+title: '2 Day Advanced Racing School - Formula Car - COTA'
+});
+google.maps.event.addListener(marker415, 'click', function() {
+window.location.href = marker415.url;
+});
+var marker416 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-njmp-new-jersey-motorsports-park-skip-barber-886826',
+title: 'Hagerty Driving Academy - NJMP'
+});
+google.maps.event.addListener(marker416, 'click', function() {
+window.location.href = marker416.url;
+});
+var marker417 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-lime-rock-park-skip-barber-900674',
+title: '3 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker417, 'click', function() {
+window.location.href = marker417.url;
+});
+var marker418 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-formula-car-cota-circuit-of-americas-skip-barber-730774',
+title: '1 Day Racing School - Formula Car- COTA'
+});
+google.maps.event.addListener(marker418, 'click', function() {
+window.location.href = marker418.url;
+});
+var marker419 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-formula-car-cota-circuit-of-americas-skip-barber-556965',
+title: '3 Day Racing School - Formula Car - COTA'
+});
+google.maps.event.addListener(marker419, 'click', function() {
+window.location.href = marker419.url;
+});
+var marker420 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-roush-stage-3-weathertech-raceway-laguna-seca-skip-barber-school-051635',
+title: 'Intro to Racing - Roush Stage 3'
+});
+google.maps.event.addListener(marker420, 'click', function() {
+window.location.href = marker420.url;
+});
+var marker421 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/2-day-advanced-racing-school-mustang-gt-lime-rock-park-skip-barber-305276',
+title: '2 Day Advanced Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker421, 'click', function() {
+window.location.href = marker421.url;
+});
+var marker422 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-mustang-gt-lime-rock-park-skip-barber-school-207601',
+title: 'Intro to Racing - Mustang GT '
+});
+google.maps.event.addListener(marker422, 'click', function() {
+window.location.href = marker422.url;
+});
+var marker423 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-roush-stage-3-lrp-lime-rock-park-skip-barber-school-856536',
+title: 'Intro to Racing - Roush Stage 3 - LRP'
+});
+google.maps.event.addListener(marker423, 'click', function() {
+window.location.href = marker423.url;
+});
+var marker424 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-njmp-new-jersey-motorsports-park-skip-barber-360141',
+title: '3 Day Racing School - Mustang GT - NJMP '
+});
+google.maps.event.addListener(marker424, 'click', function() {
+window.location.href = marker424.url;
+});
+var marker425 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-weathertech-raceway-laguna-seca-skip-barber-939638',
+title: '3 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker425, 'click', function() {
+window.location.href = marker425.url;
+});
+var marker426 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-lime-rock-park-skip-barber-racing-school-018175',
+title: 'Hagerty Driving Academy '
+});
+google.maps.event.addListener(marker426, 'click', function() {
+window.location.href = marker426.url;
+});
+var marker427 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-njmp-new-jersey-motorsports-park-skip-barber-882863',
+title: '1 Day Racing School - Mustang GT - NJMP'
+});
+google.maps.event.addListener(marker427, 'click', function() {
+window.location.href = marker427.url;
+});
+var marker428 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/watkins-glen-ii-2019-international-audi-club-na-northeast-849287',
+title: 'Watkins Glen II  2020'
+});
+google.maps.event.addListener(marker428, 'click', function() {
+window.location.href = marker428.url;
+});
+var marker429 = new google.maps.Marker({
+position: {lat: 42.2079087024, lng: -72.3021763861},
+map: map,
+url: 'https://motorsportreg.com/events/neq-at-palmer-motorsports-park-2020-clockwise-audi-club-na-northeast-674256',
+title: 'NEQ at Palmer Motorsports Park 2020 (Clockwise!)'
+});
+google.maps.event.addListener(marker429, 'click', function() {
+window.location.href = marker429.url;
+});
+var marker430 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/stacked-on-track-poconos-north-course-pocono-raceway-821813',
+title: 'Stacked On Track - Poconos North Course'
+});
+google.maps.event.addListener(marker430, 'click', function() {
+window.location.href = marker430.url;
+});
+var marker431 = new google.maps.Marker({
+position: {lat: 43.8045064016, lng: -87.9868178869},
+map: map,
+url: 'https://motorsportreg.com/events/road-america-track-day-september-event-003122',
+title: 'Road America Track Day September 21, 2020 #311'
+});
+google.maps.event.addListener(marker431, 'click', function() {
+window.location.href = marker431.url;
+});
+var marker432 = new google.maps.Marker({
+position: {lat: 42.4867238544, lng: -74.7808247146},
+map: map,
+url: 'https://motorsportreg.com/events/masstuning-trackfest-july-11-12-2020-new-york-safety-track-nyst-271790',
+title: 'MassTuning TrackFest (July 11-12, 2020)'
+});
+google.maps.event.addListener(marker432, 'click', function() {
+window.location.href = marker432.url;
+});
+var marker433 = new google.maps.Marker({
+position: {lat: 34.1483401251, lng: -83.8143782673},
+map: map,
+url: 'https://motorsportreg.com/events/pca-peachstate-michelin-raceway-road-atlanta-driver-school-491005',
+title: 'PCA - Peachstate @ Michelin Raceway Road Atlanta'
+});
+google.maps.event.addListener(marker433, 'click', function() {
+window.location.href = marker433.url;
+});
+var marker434 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-weathertech-raceway-laguna-seca-skip-barber-345812',
+title: '3 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker434, 'click', function() {
+window.location.href = marker434.url;
+});
+var marker435 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/2-day-advanced-racing-school-mustang-gt-lime-rock-park-skip-barber-311665',
+title: '2 Day Advanced Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker435, 'click', function() {
+window.location.href = marker435.url;
+});
+var marker436 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-lime-rock-park-skip-barber-racing-school-209626',
+title: 'Hagerty Driving Academy '
+});
+google.maps.event.addListener(marker436, 'click', function() {
+window.location.href = marker436.url;
+});
+var marker437 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/2-day-advanced-racing-school-formula-car-njmp-lightning-skip-barber-079323',
+title: '2 Day Advanced Racing School - Formula Car - NJMP'
+});
+google.maps.event.addListener(marker437, 'click', function() {
+window.location.href = marker437.url;
+});
+var marker438 = new google.maps.Marker({
+position: {lat: 39.3549250263, lng: -75.0574678665},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-njmp-new-jersey-motorsports-park-skip-barber-969925',
+title: '3 Day Racing School - Mustang GT - NJMP'
+});
+google.maps.event.addListener(marker438, 'click', function() {
+window.location.href = marker438.url;
+});
+var marker439 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-weathertech-raceway-laguna-seca-skip-barber-644184',
+title: '3 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker439, 'click', function() {
+window.location.href = marker439.url;
+});
+var marker440 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-lime-rock-park-skip-barber-147826',
+title: '1 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker440, 'click', function() {
+window.location.href = marker440.url;
+});
+var marker441 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-formula-car-njmp-lightning-skip-barber-178333',
+title: '1 Day Racing School - Formula Car- NJMP'
+});
+google.maps.event.addListener(marker441, 'click', function() {
+window.location.href = marker441.url;
+});
+var marker442 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-weathertech-raceway-laguna-seca-skip-barber-166606',
+title: '1 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker442, 'click', function() {
+window.location.href = marker442.url;
+});
+var marker443 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/2-day-advanced-racing-school-mustang-gt-weathertech-raceway-laguna-seca-347725',
+title: '2 Day Advanced Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker443, 'click', function() {
+window.location.href = marker443.url;
+});
+var marker444 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-roush-stage-3-lrp-lime-rock-park-skip-barber-school-782940',
+title: 'Intro to Racing - Roush Stage 3'
+});
+google.maps.event.addListener(marker444, 'click', function() {
+window.location.href = marker444.url;
+});
+var marker445 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-roush-stage-3-lrp-weathertech-raceway-laguna-seca-skip-445839',
+title: 'Intro to Racing - Roush Stage 3'
+});
+google.maps.event.addListener(marker445, 'click', function() {
+window.location.href = marker445.url;
+});
+var marker446 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-weathertech-raceway-laguna-seca-skip-barber-972342',
+title: 'Hagerty Driving Academy '
+});
+google.maps.event.addListener(marker446, 'click', function() {
+window.location.href = marker446.url;
+});
+var marker447 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-weathertech-raceway-laguna-seca-skip-barber-936541',
+title: 'Hagerty Driving Academy '
+});
+google.maps.event.addListener(marker447, 'click', function() {
+window.location.href = marker447.url;
+});
+var marker448 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/intro-to-racing-roush-stage-3-lrp-weathertech-raceway-laguna-seca-skip-747206',
+title: 'Intro to Racing - Roush Stage 3'
+});
+google.maps.event.addListener(marker448, 'click', function() {
+window.location.href = marker448.url;
+});
+var marker449 = new google.maps.Marker({
+position: {lat: 39.3549079508, lng: -75.0574337156},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-formula-car-njmp-lightning-skip-barber-064830',
+title: '3 Day Racing School - Formula Car - NJMP'
+});
+google.maps.event.addListener(marker449, 'click', function() {
+window.location.href = marker449.url;
+});
+var marker450 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-ims-lime-rock-park-skip-barber-racing-school-537356',
+title: 'Hagerty Driving Academy - LRP'
+});
+google.maps.event.addListener(marker450, 'click', function() {
+window.location.href = marker450.url;
+});
+var marker451 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/1-day-racing-school-mustang-gt-weathertech-raceway-laguna-seca-skip-barber-113483',
+title: '1 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker451, 'click', function() {
+window.location.href = marker451.url;
+});
+var marker452 = new google.maps.Marker({
+position: {lat: 36.5832991486, lng: -121.756400117},
+map: map,
+url: 'https://motorsportreg.com/events/hagerty-driving-academy-weathertech-raceway-laguna-seca-skip-barber-825299',
+title: 'Hagerty Driving Academy '
+});
+google.maps.event.addListener(marker452, 'click', function() {
+window.location.href = marker452.url;
+});
+var marker453 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-racing-school-mustang-gt-lime-rock-park-skip-barber-605795',
+title: '3 Day Racing School - Mustang GT '
+});
+google.maps.event.addListener(marker453, 'click', function() {
+window.location.href = marker453.url;
+});
+var marker454 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/kart-racing-school-atlanta-motorsports-park-ks-399706',
+title: 'Kart Racing School'
+});
+google.maps.event.addListener(marker454, 'click', function() {
+window.location.href = marker454.url;
+});
+var marker455 = new google.maps.Marker({
+position: {lat: 39.2403315275, lng: -77.9394456956},
+map: map,
+url: 'https://motorsportreg.com/events/ncc-sept-2020-summit-point-jefferson-circuit-hpde-raceway-bmw-cca-978958',
+title: 'NCC Sept 2020 Summit Point, Jefferson Circuit HPDE'
+});
+google.maps.event.addListener(marker455, 'click', function() {
+window.location.href = marker455.url;
+});
+var marker456 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/patroon-bmwcca-track-day-hpde-lrp-aug-2020-lime-rock-park-bmw-cca-529608',
+title: 'Patroon BMWCCA, Track Day & HPDE @ LRP - Aug 2020'
+});
+google.maps.event.addListener(marker456, 'click', function() {
+window.location.href = marker456.url;
+});
+var marker457 = new google.maps.Marker({
+position: {lat: 48.7984060423, lng: -123.800320565},
+map: map,
+url: 'https://motorsportreg.com/events/2020-july-track-day-vancouver-island-motorsport-circuit-pca-225161',
+title: '2020 July Track Day'
+});
+google.maps.event.addListener(marker457, 'click', function() {
+window.location.href = marker457.url;
+});
+var marker458 = new google.maps.Marker({
+position: {lat: 46.4208410984, lng: -94.287564942},
+map: map,
+url: 'https://motorsportreg.com/events/audi-club-glacier-lakes-quattroberfest-2020-brainerd-intl-raceway-na-270899',
+title: 'Audi Club Glacier Lakes quattroberfest 2020'
+});
+google.maps.event.addListener(marker458, 'click', function() {
+window.location.href = marker458.url;
+});
+var marker459 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/potomacs-midsummer-de-summit-point-circuit-pca-potomac-founders-799416',
+title: 'Potomacs MidSummer DE'
+});
+google.maps.event.addListener(marker459, 'click', function() {
+window.location.href = marker459.url;
+});
+var marker460 = new google.maps.Marker({
+position: {lat: 45.5927148127, lng: -122.689745467},
+map: map,
+url: 'https://motorsportreg.com/events/portland-bmw-club-july-16th-hpde-thursday-intl-raceway-742442',
+title: 'Portland BMW Club - July 16th HPDE (Thursday)'
+});
+google.maps.event.addListener(marker460, 'click', function() {
+window.location.href = marker460.url;
+});
+var marker461 = new google.maps.Marker({
+position: {lat: 40.3345551531, lng: -74.3546277407},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-raceway-park-englishtown-2-old-bridge-township-657440',
+title: 'Xtreme Xperience Raceway Park Englishtown #2'
+});
+google.maps.event.addListener(marker461, 'click', function() {
+window.location.href = marker461.url;
+});
+var marker462 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/urban-survival-training-atlanta-motorsports-park-mbca-peachtree-292310',
+title: 'Urban Survival Training'
+});
+google.maps.event.addListener(marker462, 'click', function() {
+window.location.href = marker462.url;
+});
+var marker463 = new google.maps.Marker({
+position: {lat: 39.5854234202, lng: -86.7481016095},
+map: map,
+url: 'https://motorsportreg.com/events/1010ths-hpde-august-2020-putnam-park-road-course-motorsports-706889',
+title: '1010ths HPDE August 2020 Putnam Park'
+});
+google.maps.event.addListener(marker463, 'click', function() {
+window.location.href = marker463.url;
+});
+var marker464 = new google.maps.Marker({
+position: {lat: 42.3430474102, lng: -76.9300393591},
+map: map,
+url: 'https://motorsportreg.com/events/rtr-de-watkins-glen-july-2020-international-pca-riesentoter-163276',
+title: 'RTR ADVANCED DE @Watkins Glen July 2020'
+});
+google.maps.event.addListener(marker464, 'click', function() {
+window.location.href = marker464.url;
+});
+var marker465 = new google.maps.Marker({
+position: {lat: 34.4211856918, lng: -84.1187997985},
+map: map,
+url: 'https://motorsportreg.com/events/just-track-it-atlanta-motorsports-park-driver-school-942552',
+title: 'Just Track It @ Atlanta Motorsports Park'
+});
+google.maps.event.addListener(marker465, 'click', function() {
+window.location.href = marker465.url;
+});
+var marker466 = new google.maps.Marker({
+position: {lat: 43.0959938037, lng: -85.3890442291},
+map: map,
+url: 'https://motorsportreg.com/events/motorcity-bmw-cca-grattan-hpde-sept-18-20-2020-raceway-motor-city-989580',
+title: 'MotorCity BMW CCA Grattan HPDE; Sept. 18-20, 2020'
+});
+google.maps.event.addListener(marker466, 'click', function() {
+window.location.href = marker466.url;
+});
+var marker467 = new google.maps.Marker({
+position: {lat: 25.45491121, lng: -80.4111887028},
+map: map,
+url: 'https://motorsportreg.com/events/performance-driving-group-homestead-miami-speedway-driver-school-883292',
+title: 'Performance Driving Group @ Homestead Miami Speedway'
+});
+google.maps.event.addListener(marker467, 'click', function() {
+window.location.href = marker467.url;
+});
+var marker468 = new google.maps.Marker({
+position: {lat: 36.5637033358, lng: -79.2085494846},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-virginia-international-raceway-driver-school-782945',
+title: 'Chin Track Days @ Virginia International Raceway'
+});
+google.maps.event.addListener(marker468, 'click', function() {
+window.location.href = marker468.url;
+});
+var marker469 = new google.maps.Marker({
+position: {lat: 33.5322399866, lng: -86.6209029966},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-barber-motorsports-park-driver-school-059113',
+title: 'Chin Track Days @ Barber Motorsports Park'
+});
+google.maps.event.addListener(marker469, 'click', function() {
+window.location.href = marker469.url;
+});
+var marker470 = new google.maps.Marker({
+position: {lat: 36.2214630472, lng: -96.5953834091},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-hallett-event-20-motor-racing-circuit-477396',
+title: 'Xtreme Xperience Hallett Event #20'
+});
+google.maps.event.addListener(marker470, 'click', function() {
+window.location.href = marker470.url;
+});
+var marker471 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/apex-driving-academy-hpde-on-1-7-mi-ccw-oct-24-motorsport-ranch-cresson-706830',
+title: 'APEX DRIVING ACADEMY HPDE on 1.7 mi CCW on OCT 24'
+});
+google.maps.event.addListener(marker471, 'click', function() {
+window.location.href = marker471.url;
+});
+var marker472 = new google.maps.Marker({
+position: {lat: 33.359665012, lng: -97.3913668247},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-eagles-canyon-raceway-driver-school-373799',
+title: 'Chin Track Days @ Eagles Canyon Raceway'
+});
+google.maps.event.addListener(marker472, 'click', function() {
+window.location.href = marker472.url;
+});
+var marker473 = new google.maps.Marker({
+position: {lat: 40.690414839, lng: -82.640910787},
+map: map,
+url: 'https://motorsportreg.com/events/mvp-track-time-mid-ohio-sports-car-course-driver-school-662804',
+title: 'MVP Track Time @ Mid-Ohio Sports Car Course'
+});
+google.maps.event.addListener(marker473, 'click', function() {
+window.location.href = marker473.url;
+});
+var marker474 = new google.maps.Marker({
+position: {lat: 30.1329402149, lng: -97.6406004274},
+map: map,
+url: 'https://motorsportreg.com/events/pca-maverick-circuit-of-americas-driver-school-288499',
+title: 'PCA - Maverick @ Circuit of the Americas'
+});
+google.maps.event.addListener(marker474, 'click', function() {
+window.location.href = marker474.url;
+});
+var marker475 = new google.maps.Marker({
+position: {lat: 39.2431387353, lng: -77.9761169812},
+map: map,
+url: 'https://motorsportreg.com/events/time-trial-at-summit-point-circuit-bmw-cca-club-racing-national-capital-301018',
+title: 'Time Trial at Summit Point'
+});
+google.maps.event.addListener(marker475, 'click', function() {
+window.location.href = marker475.url;
+});
+var marker476 = new google.maps.Marker({
+position: {lat: 42.4114824905, lng: -86.1419154906},
+map: map,
+url: 'https://motorsportreg.com/events/cgi-motorsports-gingerman-raceway-driver-school-884696',
+title: 'CGI Motorsports @ GingerMan Raceway'
+});
+google.maps.event.addListener(marker476, 'click', function() {
+window.location.href = marker476.url;
+});
+var marker477 = new google.maps.Marker({
+position: {lat: 42.1058656762, lng: -84.2482865248},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-michigan-international-speedway-161049',
+title: 'Xtreme Xperience Michigan International Speedway'
+});
+google.maps.event.addListener(marker477, 'click', function() {
+window.location.href = marker477.url;
+});
+var marker478 = new google.maps.Marker({
+position: {lat: 42.7048664361, lng: -83.3938845013},
+map: map,
+url: 'https://motorsportreg.com/events/rsr-waterford-hills-drivers-ed-september-15th-pca-rally-sport-925260',
+title: 'RSR Waterford Hills Drivers Ed, September 15th'
+});
+google.maps.event.addListener(marker478, 'click', function() {
+window.location.href = marker478.url;
+});
+var marker479 = new google.maps.Marker({
+position: {lat: 32.5250363862, lng: -97.6125283499},
+map: map,
+url: 'https://motorsportreg.com/events/drivers-edge-motorsport-ranch-cresson-driver-school-497203',
+title: 'The Drivers Edge @ Motorsport Ranch - Cresson'
+});
+google.maps.event.addListener(marker479, 'click', function() {
+window.location.href = marker479.url;
+});
+var marker480 = new google.maps.Marker({
+position: {lat: 36.2214630472, lng: -96.5953834091},
+map: map,
+url: 'https://motorsportreg.com/events/no-excuses-xiii-hallett-motor-racing-circuit-bmw-cca-lone-star-100536',
+title: 'No Excuses XIII Hallett Motor Racing Circuit'
+});
+google.maps.event.addListener(marker480, 'click', function() {
+window.location.href = marker480.url;
+});
+var marker481 = new google.maps.Marker({
+position: {lat: 46.3453538478, lng: -123.107425195},
+map: map,
+url: 'https://motorsportreg.com/events/bmwcca-psr-hpde-ridge-sept-26-2020-motorsports-park-road-course-bmw-cca-320087',
+title: 'BMWCCA PSR HPDE @ RIDGE Sept 26, 2020'
+});
+google.maps.event.addListener(marker481, 'click', function() {
+window.location.href = marker481.url;
+});
+var marker482 = new google.maps.Marker({
+position: {lat: 44.0554680422, lng: -78.6785677862},
+map: map,
+url: 'https://motorsportreg.com/events/trillium-de-at-ctmp-october-canadian-tire-motorsport-park-bmw-cca-632483',
+title: 'Trillium DE at CTMP (October)'
+});
+google.maps.event.addListener(marker482, 'click', function() {
+window.location.href = marker482.url;
+});
+var marker483 = new google.maps.Marker({
+position: {lat: 41.0522543554, lng: -75.5118257104},
+map: map,
+url: 'https://motorsportreg.com/events/bertil-roos-1-2-day-road-racing-adventure-pocono-raceway-school-075588',
+title: 'Bertil Roos 1/2 Day & 1 Day Road Racing Adventure'
+});
+google.maps.event.addListener(marker483, 'click', function() {
+window.location.href = marker483.url;
+});
+var marker484 = new google.maps.Marker({
+position: {lat: 40.3345551531, lng: -74.3546277407},
+map: map,
+url: 'https://motorsportreg.com/events/xtreme-xperience-raceway-park-englishtown-3-old-bridge-township-991831',
+title: 'Xtreme Xperience Raceway Park Englishtown #3'
+});
+google.maps.event.addListener(marker484, 'click', function() {
+window.location.href = marker484.url;
+});
+var marker485 = new google.maps.Marker({
+position: {lat: 27.459575146, lng: -81.3502645814},
+map: map,
+url: 'https://motorsportreg.com/events/chin-track-days-sebring-intl-raceway-driver-school-005043',
+title: 'Chin Track Days @ Sebring Intl Raceway'
+});
+google.maps.event.addListener(marker485, 'click', function() {
+window.location.href = marker485.url;
+});
+var marker486 = new google.maps.Marker({
+position: {lat: 42.2244445903, lng: -72.2535386091},
+map: map,
+url: 'https://motorsportreg.com/events/scda-palmer-motorsports-park-track-event-oct-19-clockwise-sports-car-407323',
+title: 'SCDA- Palmer Motorsports Park- Track Event- Oct 19'
+});
+google.maps.event.addListener(marker486, 'click', function() {
+window.location.href = marker486.url;
+});
+var marker487 = new google.maps.Marker({
+position: {lat: 41.9323173996, lng: -73.3804241992},
+map: map,
+url: 'https://motorsportreg.com/events/bmw-cvc-lime-rock-park-hpde-sep-19-cca-connecticut-valley-672693',
+title: 'BMW CVC Lime Rock Park HPDE - Sep. 19'
+});
+google.maps.event.addListener(marker487, 'click', function() {
+window.location.href = marker487.url;
+});
+var marker488 = new google.maps.Marker({
+position: {lat: 26.9217421452, lng: -80.3037566574},
+map: map,
+url: 'https://motorsportreg.com/events/3-day-2-advanced-5-road-racing-week-palm-beach-international-raceway-144255',
+title: '3 Day, 2 Day Advanced, and 5 Day Road Racing Week'
+});
+google.maps.event.addListener(marker488, 'click', function() {
+window.location.href = marker488.url;
+});
+}
+exports.initMap = initMap;
+})((this.window = this.window || {}));
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>
