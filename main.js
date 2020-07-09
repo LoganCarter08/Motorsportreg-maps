@@ -95,13 +95,14 @@ function createWebPages() {
 	var parser = new xml2js.Parser();
 	
 	fs.readdirSync('./Events/').forEach(file => {
-		fs.writeFileSync('./Webpages/' + file.replace('xml', 'html'), '');
 		fs.readFile('./Events/' + file, 'ascii', function(err, data) {
 			if (markers) {
+				fs.writeFileSync('./Webpages/' + file.replace('xml', 'html'), '');
 				fs.appendFileSync('./Webpages/' + file.replace('xml', 'html'), '<!DOCTYPE html>\n<html>\n<head>\n<title>Simple Map</title>\n<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>\n<script\nsrc="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"\ndefer\n></script>\n<style type="text/css">\n/* Always set the map height explicitly to define the size of the div\n* element that contains the map. */\n#map {\nheight: 100%;\n}\n/* Optional: Makes the sample page fill the window. */\nhtml,\nbody {\nheight: 100%;\nmargin: 0;\npadding: 0;\n}\n</style>\n<script>\n(function(exports) {\n\nfunction initMap() {\nexports.map = new google.maps.Map(document.getElementById("map"), {\ncenter: {lat: 40, lng: -96},\nzoom: 4.5\n});');
 			}
 			
 			if (heat) {
+				fs.writeFileSync('./Heatmaps/' + file.replace('xml', 'html'), '');
 				fs.appendFileSync('./Heatmaps/' + file.replace('xml', 'html'), '<!DOCTYPE html>\n<html>\n<head>\n<title>Simple Map</title>\n<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>\n<script\nsrc="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbeBny3tv1AGy8IDMr4OQ8cxo-9dfryb4&callback=initMap&libraries=&v=weekly"\ndefer\n></script>\n<style type="text/css">\n/* Always set the map height explicitly to define the size of the div\n* element that contains the map. */\n#map {\nheight: 100%;\n}\n/* Optional: Makes the sample page fill the window. */\nhtml,\nbody {\nheight: 100%;\nmargin: 0;\npadding: 0;\n}\n</style>\n<script>\n(function(exports) {\n\nfunction initMap() {\nexports.map = new google.maps.Map(document.getElementById("map"), {\ncenter: {lat: 40, lng: -96},\nzoom: 4.5\n});');
 			}
 			parser.parseString(data.toString(), function (err, result) {
