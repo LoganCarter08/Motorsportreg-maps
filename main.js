@@ -31,7 +31,7 @@ function getInitLinks() {
 			if (k == 0) {
 				page = '';
 			}
-			// '/US/?country=US&radius=9999&lat=39.29&lng=-84.53&loc=Parkdale%2C+OH+45240%2C+USA'
+			
 			request('https://www.motorsportreg.com/calendar/' + field.replace('.xml','') + page, function (error, response, body) {
 				var links = [];
 				var names = [];
